@@ -1,10 +1,11 @@
 permalink: /:title 
-
+paginate: 100
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
-
-title : ŞÉßm¶øººõ´ıÔÕ
-tagline: ³ĞİdË¼ÏëÅcÎÄ×ÖÖ®ºñÖØ
+author:
+    name: å­˜ä¸­
+title : å¥šé©è€Œæƒ¡ä¹å¾…å“‰
+tagline: æ‰¿è¼‰æ€æƒ³èˆ‡æ–‡å­—ä¹‹åšé‡
 
 url : http://821.github.com
