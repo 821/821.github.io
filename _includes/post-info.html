@@ -1,10 +1,10 @@
-<div id="post-info">
-	發佈於：<br />{{ page.date }}<br /><br />
-	分類：
-	{{ page.categories }}
-	<br /><br />
-	標籤：
-	{% for tag in page.tags %}
-	<span class="tag"><a href="/tags.html#{{tag}}">{{tag}}</a></span>
-	{% endfor %}
-</div>
+發佈於：<br />{{ page.date }}<br /><br />
+分類：
+{% for category in page.categories %}
+<span class="tag"><a href="/categories.html#{{category}}">{{category}}</a></span>
+{% endfor %}
+<br /><br />
+標籤：
+{% for tag in page.tags %}
+<span class="tag"><a href="/tags.html#{{tag}}">{{tag}}</a></span>
+{% endfor %}
