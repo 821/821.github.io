@@ -13,6 +13,27 @@
 				}
 			}
 		});
+
+		if($('h2').length > 2 && !isMobile.any()){
+			var h2 = [],h3 = [],tmpl = '<ul>',h2index = 0;
+
+			var findScrollableElement = function(els) {
+				for (var i = 0, argLength = arguments.length; i < argLength; i++) {
+					var el = arguments[i],
+					$scrollElement = $(el);
+					if ($scrollElement.scrollTop() > 0) {
+						return $scrollElement;
+					} else {
+						$scrollElement.scrollTop(1);
+						var isScrollable = $scrollElement.scrollTop() > 0;
+						$scrollElement.scrollTop(0);
+						if (isScrollable) {
+							return $scrollElement;
+						}
+					}
+				}
+				return [];
+			};
 			$.each($('h2,h3'),function(index,item){
 				if(item.tagName.toLowerCase() == 'h2'){
 					var h2item = {};
