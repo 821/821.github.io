@@ -1,6 +1,18 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
+		$('.entry a').each(function(index,element){
+			var href = $(this).attr('href');
+			if(href){
+				if(href.indexOf('#') == 0){
+				}else if ( href.indexOf('/') == 0 || href.toLowerCase().indexOf('beiyuu.com')>-1 ){
+				}else if ($(element).has('img').length){
+				}else{
+					$(this).attr('target','_blank');
+					$(this).addClass('external');
+				}
+			}
+		});
 			$.each($('h2,h3'),function(index,item){
 				if(item.tagName.toLowerCase() == 'h2'){
 					var h2item = {};
