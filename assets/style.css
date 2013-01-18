@@ -21,6 +21,13 @@ a span{vertical-align:super;font-size:0.6em;color:#181;}
 /*Index*/
 #post-index{background:#e9f3ff;border:1px solid #39c;float:right;width:22%;padding:0.2em 2% 0.2em 2%;margin:0.2em 2% 0.2em 2%;}
 #index-ul li{list-style:none;}
+#menuIndex{position:fixed;top:60px;right:20px;width:200px;overflow:auto}
+#menuIndex a{display:block}
+#menuIndex a:hover{text-decoration:none;}
+#menuIndex ul li{font-size:12px;margin-bottom:5px;word-wrap:break-word;padding-left:10px;}
+#menuIndex ul li.on{background-color:#eee}
+#menuIndex li.h1{font-size:14px;font-weight:normal;padding-left:0;margin-bottom:10px;}
+#menuIndex li.h3{padding-left:25px;}
 /*Columns*/
 #two-colomuns{-moz-column-count:2;-moz-column-gap:2%;-moz-column-rule:none;-webkit-column-count:2;-webkit-column-gap:2%;-webkit-column-rule:none;column-count:2;column-gap:2%;column-rule:none;}
 #colomuns{-moz-column-count:3;-moz-column-gap:2%;-moz-column-rule:none;-webkit-column-count:3;-webkit-column-gap:2%;-webkit-column-rule:none;column-count:3;column-gap:2%;column-rule:none;}
