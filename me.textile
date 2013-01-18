@@ -1,0 +1,32 @@
+---
+title: 本人
+layout: indexed
+---
+先來聽聽本站主題曲：<audio src="{{ site.url }}/Music/Writing.mp3" controls preload></audio>
+
+h2. 神神叨叨
+
+
+h2. 無聊項目
+h3. vt
+本站主題，開源的
+h3. FlyIME
+碼表素材收集和製作
+h3. DxCxBats
+幾個用於處理讀秀/超星下載到的文件的批處理腳本（個人色彩太強，未公開）
+h3. TraDesign
+古籍排版模版（個人色彩太強，未公開）
+h3. YLP
+計畫中的某篇學位論文的模版（ TeX 水平太低，亂七八糟）
+h3. EgCheck
+古籍文本整理，作爲語料庫（找不到合適的數據庫軟件，未公開）
+h3. ChiVS
+Civilization 4 BTS 的一個 MOD ，中國主要民族領袖大混戰，不分時代（不會做美工，未公開）
+h3. Inrely
+一個還沒出正式版就被我太監的 Wordpress 主題，以功能多而外觀簡單爲特色
+h3. Thesis
+一個模仿期刊論文樣式的 Wordpress 主題，由於不玩 Wordpress 了，情況可想而知
+h3. TotalT
+批量註冊金山 T 盤和分享文件（該網盤已死，下架）
+h3. 115Invite
+115 邀請可獲得空間，這個會隨機生成用戶名，祇需要輸入驗證碼（ 115 改版，失效）
