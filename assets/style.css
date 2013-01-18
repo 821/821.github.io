@@ -22,13 +22,13 @@ a span{vertical-align:super;font-size:0.6em;color:#181;}
 #post-index{background:#e9f3ff;border:1px solid #39c;float:right;width:22%;padding:0.2em 2% 0.2em 2%;margin:0.2em 2% 0.2em 2%;}
 #index-ul li{list-style:none;}
 #indexedcontent{width:80%;}
-#menuIndex{position:fixed;top:60px;right:20px;width:18%;overflow:auto}
+#menuIndex{background:#e9f3ff;position:fixed;top:0;right:0;width:18%;overflow:auto;}
 #menuIndex a{display:block}
 #menuIndex a:hover{text-decoration:none;}
-#menuIndex ul li{font-size:1em;margin-bottom:0.2em;word-wrap:break-word;padding-left:10px;}
+#menuIndex ul li{margin-bottom:0.2em;word-wrap:break-word;padding-left:1em;}
 #menuIndex ul li.on{background-color:#eee}
 #menuIndex li.h1{font-size:1.2em;font-weight:normal;padding-left:0;margin-bottom:0.5em;}
-#menuIndex li.h3{padding-left:1em;}
+#menuIndex li.h3{padding-left:2em;font-size:0.8em;}
 /*Columns*/
 #two-colomuns{-moz-column-count:2;-moz-column-gap:2%;-moz-column-rule:none;-webkit-column-count:2;-webkit-column-gap:2%;-webkit-column-rule:none;column-count:2;column-gap:2%;column-rule:none;}
 #colomuns{-moz-column-count:3;-moz-column-gap:2%;-moz-column-rule:none;-webkit-column-count:3;-webkit-column-gap:2%;-webkit-column-rule:none;column-count:3;column-gap:2%;column-rule:none;}
