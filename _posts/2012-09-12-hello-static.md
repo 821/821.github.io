@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: horizontal
 title: 權力回收：新站小記
 tags:
 - 電腦
