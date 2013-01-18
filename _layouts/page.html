@@ -1,5 +1,13 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/twitter/page.html %}
+<script type="text/javascript" src="/assets/taketori.js"></script>
+<link href="/assets/taketori.css" type="text/css" rel="stylesheet">
+<script type="text/javascript">
+//<![CDATA[
+(new Taketori()).set({multiColumnEnabled:true,maxHeight:'900px',width:'100%'}).element('vt').toVertical();
+//]]>
+</script>
+<div id="vt">
+{{{ content }}}
+</div>
