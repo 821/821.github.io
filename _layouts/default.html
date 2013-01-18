@@ -3,9 +3,9 @@
 	<head>
 		<meta charset='utf-8'>
 		<title>{{ page.title }}</title>
-		<link rel="icon"href="/img/favicon.ico" type="image/x-icon" />
-		<link rel="shortcut icon" href="/img/favicon.ico"type="image/x-icon" />
-		<link rel="Bookmark" href="/img/favicon.ico" />
+		<link rel="icon"href="/assets/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="/assets/favicon.ico"type="image/x-icon" />
+		<link rel="Bookmark" href="/assets/favicon.ico" />
 		<link href="/assets/style.css" type="text/css" rel="stylesheet">
 		<script type="text/javascript">$(document).ready(function(){$("a[rel='external'],a[rel='external nofollow']").click(function(){window.open(this.href);return false})})</script>
 	<script type="text/javascript">
@@ -20,21 +20,13 @@
 	</head>
 	<body>
 		<div id="container">
-			<div id="head-nav">
-				<div id="header"><h1><a href="/">{{ site.title }}</a></h1><h5>{{ site.tagline }}</h5></div>
-				<div id="menu" >
-					<div id="nav">
-						<div id="cats"><ul class="tag_box inline">{{# categories }}{{> categories_list }} {{/ categories }}</ul></div>
-						<div id="pages">{{# site.navigation?to_pages }}{{> pages_list }}<br />{{/ site.navigation?to_pages }}</div>
-					</div>
-				</div>
-			</div>
 			<div id="content">
 				{{{ content }}}
 			</div>
 		</div>
 		<footer>
-			<a href="http://creativecommons.org/licenses/" rel="external">CC NC-ND</a> | Cunzhong &copy 2005-2013 | <a href="../thanks.html">Special Thanks</a> | <a href="../latest.html">Friendly format</a>
+			<a href="/">{{ site.title }}</a> | {{ site.author.name }} &copy 2005-2013 CC NC-ND | <a href="/latest.html">Friendly format</a><br>
+			{{# categories }}{{> categories_list }} {{/ categories }}{{# site.navigation?to_pages }} {{> pages_list }} {{/ site.navigation?to_pages }}
 		</footer>
 	</body>
 </html>
