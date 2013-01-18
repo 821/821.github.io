@@ -1,16 +1,14 @@
 ---
-layout: page
-title: Categories
+layout: default
+title: ∑÷Óê
 ---
 <div id="categories">
 	{% for cat in site.categories %}
 	{% if cat[0] != 'blog' %}
 	<h3><a id="{{cat[0]}}" >{{cat[0]}}</a></h3>
-	<table class="sublist">
 		{% for f in cat[1] %}
-		<tr><td><a href="{{f.url}}">{{ f.title }}</a></td><td>{{ f.date |date: "%Y/%m/%d"}}</td></tr>
+		<a href="{{f.url}}">{{ f.title }}</a></td><td>{{ f.date |date: "%Y/%m/%d"}}
 		{% endfor %}
-	</table>
 	{% endif %}
 	{% endfor %}
 </div>
