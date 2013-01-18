@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "權力回收：新站小記"
+title: 權力回收：新站小記
 tags:
 - 電腦
 - 心態
