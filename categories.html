@@ -1,13 +1,13 @@
 ---
 layout: default
-title: ·Öî
+title: åˆ†é¡
 ---
 <div id="categories">
 	{% for cat in site.categories %}
 	{% if cat[0] != 'blog' %}
 	<h3><a id="{{cat[0]}}" >{{cat[0]}}</a></h3>
 		{% for f in cat[1] %}
-		<a href="{{f.url}}">{{ f.title }}</a></td><td>{{ f.date |date: "%Y/%m/%d"}}
+		<a href="{{f.url}}">{{ f.title }}</a> {{ f.date |date: "%Y/%m/%d"}}
 		{% endfor %}
 	{% endif %}
 	{% endfor %}

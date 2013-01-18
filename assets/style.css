@@ -17,6 +17,7 @@ td,th{visibility:visible;border:1px solid #39c;text-align:center;vertical-align:
 blockquote{margin:0.2em 1em 1em;padding:0.2em 1% 0 1%;border-left:0.2em solid #28b;background:#e1ebfa;}
 ul,li{list-style:none;}
 code{background-color:#f1f1f4;border:1px solid #bbb;font:20px Inconsolata;}
+a span{vertical-align:super;font-size:0.6em;color:#181;}
 /*Index*/
 #post-index{background:#e9f3ff;border:1px solid #39c;float:right;width:22%;padding:0.2em 2% 0.2em 2%;margin:0.2em 2% 0.2em 2%;}
 #index-ul li{list-style:none;}

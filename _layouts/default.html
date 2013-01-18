@@ -17,7 +17,7 @@
 		</div>
 		<footer>
 			<a href="/">{{ site.title }}</a> | {{ site.author.name }} &copy 2005-2013 CC NC-ND | <a href="{{ site.url }}/latest.html">Friendly format</a><br>
-		{% for category in site.categories  %}<a href="{{ site.url }}/categories#{{ category | first  }}.html">{{ category | first  }}({{ category | last | size  }})</a>{% endfor  %}
+		{% for category in site.categories  %}<a href="{{ site.url }}/categories#{{ category | first  }}.html">{{ category | first  }}<span>{{ category | last | size  }}</span></a>{% endfor  %}
 		</footer>
 	</body>
 </html>
