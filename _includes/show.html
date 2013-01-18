@@ -1,7 +1,9 @@
-<script type="text/javascript" src="/assets/taketori.js"></script>
-<link href="/assets/taketori.css" type="text/css" rel="stylesheet">
 <script type="text/javascript">
-//<![CDATA[
-(new Taketori()).set({multiColumnEnabled:true,maxHeight:'900px',width:'100%'}).element('vt').toVertical();
-//]]>
+	function toggleDiv(divid){
+		if(document.getElementById(divid).style.display == 'none'){
+			document.getElementById(divid).style.display = 'block';
+		}else{
+			document.getElementById(divid).style.display = 'none';
+		}
+	}
 </script>

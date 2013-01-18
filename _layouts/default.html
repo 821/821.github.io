@@ -8,15 +8,6 @@
 		<link rel="Bookmark" href="/assets/favicon.ico" />
 		<link href="/assets/style.css" type="text/css" rel="stylesheet">
 		<script type="text/javascript">$(document).ready(function(){$("a[rel='external'],a[rel='external nofollow']").click(function(){window.open(this.href);return false})})</script>
-	<script type="text/javascript">
-		function toggleDiv(divid){
-			if(document.getElementById(divid).style.display == 'none'){
-				document.getElementById(divid).style.display = 'block';
-			}else{
-				document.getElementById(divid).style.display = 'none';
-			}
-		}
-	</script>
 	</head>
 	<body>
 		<div id="container">
@@ -26,7 +17,7 @@
 		</div>
 		<footer>
 			<a href="/">{{ site.title }}</a> | {{ site.author.name }} &copy 2005-2013 CC NC-ND | <a href="/latest.html">Friendly format</a><br>
-			{{# categories }}{{> categories_list }} {{/ categories }}{{# site.navigation?to_pages }} {{> pages_list }} {{/ site.navigation?to_pages }}
+		{% for category in site.categories  %}<a href="{{ site.url }}/categorys/{{ category | first  }}.html">{{ category | first  }}({{ category | last | size  }})</a>{% endfor  %}
 		</footer>
 	</body>
 </html>

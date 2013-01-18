@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-{% include show.html %}
+{% include vt.html %}
 <div id="vt"><h3>{{ page.title }}</h3><br />{{ content }}</div>
 <div id="co-in">
 <div id="comments">{% include disqus.html %}</div>
-<div id="post-info">°lÑì¶£º<br />{{ page.date }}<br /><br />·Öî£º<ul class="tag_box">{{# page.categories?to_categories }}{{> categories_list }} {{/ page.categories?to_categories }}</ul><br />˜Ë»`£º<ul class="tag_box">{{# page.tags?to_tags }}{{> tags_list }} {{/ page.tags?to_tags }}</ul></div>
+<div id="post-info">ç™¼ä½ˆæ–¼ï¼š<br />{{ page.date }}<br /><br />åˆ†é¡ï¼š<ul class="tag_box">{{# page.categories?to_categories }}{{> categories_list }} {{/ page.categories?to_categories }}</ul><br />æ¨™ç±¤ï¼š<ul class="tag_box">{{# page.tags?to_tags }}{{> tags_list }} {{/ page.tags?to_tags }}</ul></div>
 </div>
