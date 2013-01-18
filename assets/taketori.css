@@ -1,0 +1,22 @@
+/*taketori*/
+.taketori-ttb span{cursor:vertical-text;}.taketori-ttb a span{cursor:pointer;}
+.taketori-ttb .taketori-col{-moz-transform-origin:left bottom;-webkit-transform-origin:left bottom;-o-transform-origin:left bottom;transform-origin:left bottom;-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);}
+.taketori-ttb .taketori-col span.cjk{display:0;display:inline-block;}
+.taketori-ttb span.tcy{min-width:1em;text-align:center;cursor:text;}
+.taketori-ttb span.cjk,.taketori-ttb span.tcy,.taketori-ttb span.ltr{display:0;display:inline-block;-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg);vertical-align:middle;}
+.taketori-ttb ruby rb,.taketori-ttb ruby rt{line-height:1;}
+.taketori-ttb img,.taketori-ttb object,.taketori-ttb embed,.taketori-ttb video,.taketori-ttb audio{-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg);vertical-align:middle;}
+.taketori-ttb .nocjk{vertical-align:middle;}
+.taketori-ttb .ltr{-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg);}
+.taketori-ttb del span.nocjk,.taketori-ttb del .ltr,.taketori-ttb .ltr del{text-decoration:line-through;}
+.taketori-ttb del span.cjk:after{content:"\2503";display:0;display:inline-block;position:absolute;top:0;left:0;}
+.taketori-ttb del span.cho-on:after{-moz-transform:scale(1.0,-1.0) rotate(-90deg);-webkit-transform:scale(1.0,-1.0) rotate(-90deg);-o-transform:scale(1.0,-1.0) rotate(-90deg);transform:scale(1.0,-1.0) rotate(-90deg);}
+.taketori-ttb ul.cjk li:before,.taketori-ttb ol.cjk li:before{content:attr(data-marker);display:0;display:inline-block;width:3em;text-align:center;margin:0 -.3em 0 -2.7em;font-size:.8em;-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg);}
+.taketori-ruby-disabled ruby{display:0;display:inline-block;position:relative;}
+.taketori-ruby-disabled ruby rp{display:none;}
+.taketori-ruby-disabled ruby rt{display:block;margin:-1em 0 0;font-size:.5em;position:absolute;top:0;left:0;vertical-align:bottom;}
+.taketori-writingmode-ttb .taketori-col{-moz-writing-mode:vertical-rl;-webkit-writing-mode:vertical-rl;-o-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:tb-rl;_writing-mode:tb-rl;}
+.taketori-writingmode-ttb .ltr,.taketori-writingmode-ttb span.tcy{-moz-writing-mode:horizontal-tb;-webkit-writing-mode:horizontal-tb;-o-writing-mode:horizontal-tb;-ms-writing-mode:lr-tb;writing-mode:lr-tb;_writing-mode:lr-tb;vertical-align:middle\9;}
+.taketori-writingmode-ttb .underline{text-decoration:overline;}
+.taketori-writingmode-ttb .overline{text-decoration:underline;}
+.taketori-in-progress{opacity:0;-moz-opacity:0;-webkit-opacity:0;-o-opacity:0;-ms-filter:alpha(opacity=0);filter:alpha(opacity=0);}
