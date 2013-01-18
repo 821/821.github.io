@@ -1,0 +1,8 @@
+<div id="post-info">
+	°lÑì¶£º<br />{{ page.date }}<br /><br />
+	·Öî£º{{# page.categories?to_categories }}{{> categories_list }} {{/ page.categories?to_categories }}<br />
+	˜Ë»`£º
+	{% for tag in page.tags %}
+	<span class="tag"><a href="/tags.html#{{tag}}">{{tag}}</a></span>
+	{% endfor %}
+</div>
