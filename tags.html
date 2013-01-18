@@ -5,10 +5,8 @@ title: 標籤
 <div id="two-colomuns">
 	{% for tag in site.tags %}	
 	<h2><a id="{{tag[0]}}" >{{tag[0]}}</a></h2>
-	<table class="sublist">
-		{% for f in tag[1] %}
-		<tr><td><a href="{{f.url}}">{{ f.title }}</a></td><td>{{ f.date |date: "%Y/%m/%d"}}</td></tr>
-		{% endfor %}
-	</table>	
+	{% for f in tag[1] %}
+	<a href="{{f.url}}">{{ f.title }}</a> {{ f.date |date: "%Y/%m/%d"}}
+	{% endfor %}
 	{% endfor %}
 </div>
