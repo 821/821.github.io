@@ -21,7 +21,7 @@ a span{vertical-align:super;font-size:0.6em;color:#181;}
 .showhide a{float:right;color:#181;}
 /*Index*/
 #indexedcontent{width:80%;}
-#menuIndex{position:fixed;top:0;right:0;width:18%;overflow:auto;padding:1em;}
+#menuIndex{position:fixed;top:1em;right:1em;width:18%;overflow:auto;}
 #menuIndex a{display:block}#menuIndex a:hover{text-decoration:none;}
 #menuIndex ul li{margin-bottom:0.2em;word-wrap:break-word;padding-left:1em;}
 #menuIndex ul li.on{background-color:#e9f3ff;}

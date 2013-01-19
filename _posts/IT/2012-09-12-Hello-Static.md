@@ -4,7 +4,9 @@ title: 權力回收：新站小記
 tags:
 - 電腦
 - 心態
-categories: 網誌
+categories:
+- 網誌
+- 挨踢
 date: 2012-09-12 07:01
 description: 本文包含了本站的構建史以及正在使用的程序的折騰情況。
 ---
