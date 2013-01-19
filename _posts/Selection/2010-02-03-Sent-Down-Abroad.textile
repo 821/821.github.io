@@ -13,7 +13,6 @@ date: '2010/02/03 18:07:33'
 ---
 上課寫的歌詞，曲調用羅大佑的「超級市民」。2月7日：因為找不到伴奏，所以隨意清唱了一遍。
 <audio src="https://edventure.ntu.edu.sg/bbcswebdav/users/p060032/Sent%20Down%20Abroad.mp3" controls="controls">
-什麼破瀏覽器，竟然不支持 html5 mp3 ？快換個 Chrome 罷！
 </audio>
 洋插隊
 背井離鄉趕來南洋插隊
