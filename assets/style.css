@@ -8,7 +8,7 @@ body{font:20px Book Antiqua,Times,PMingliu;line-height:1.3em;color:#028;backgrou
 ::selection{color:#f00;background:#ff0;}
 a{color:#181;text-decoration:none;}a:hover{color:#1f75cc;}
 p{margin:0 0 1em;text-indent:0;}
-h1{font-size:1.8em;line-height:1em;}h2{font-size:1.4em;}h3{font-size:1.3em;}h4{font-size:1.2em;}h5{font-size:1.2em;}h6{color:#red;}
+h1{font-size:1.6em;line-height:1em;}h2{font-size:1.4em;}h3{font-size:1.3em;}h4{font-size:1.2em;}h5{font-size:1.2em;}h6{color:#red;}
 h1 a,h3,h3 a{color:#369;}h2,h3,h4{padding:0.2em 0 0.2em 0;}h2 a{color:#039;}
 hr{border:1px dotted #9cf;clear:both;}
 img,TABLE{border:0;}
