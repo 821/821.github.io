@@ -2,6 +2,7 @@
 layout: indexed
 title : 全站快讀
 ---
+{% include show.html %}
 {% for post in site.posts %}
 	<h1><a href="{{ post.url }}">{{ post.title }}</a> <span class="showhide"><a href="javascript:;" onmousedown="toggleDiv('{{ post.url }}');">&dArr;</a></span></h1>
 	<div id="{{ post.url }}" style="display:none;">
