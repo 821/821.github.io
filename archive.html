@@ -2,7 +2,8 @@
 layout: default
 title : 全站快讀
 ---
-<del>爲了方便半文盲和外國人，</del>本站提供橫排版全文，按 &dArr; 閱讀單篇全文
+<h1><del>爲了方便半文盲和外國人，</del>本站提供橫排版全文，按 &dArr; 閱讀單篇全文</h1>
+
 {% include show.html %}
 {% for post in site.posts %}
 	<h1><a href="{{ post.url }}">{{ post.title }}</a> <span class="showhide"><a href="javascript:;" onmousedown="toggleDiv('{{ post.url }}');">&dArr;</a></span></h1>
