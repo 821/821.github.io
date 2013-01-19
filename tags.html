@@ -6,7 +6,7 @@ title: 標籤
 	{% for tag in site.tags %}	
 	<h2><a id="{{tag[0]}}" >{{tag[0]}}</a></h2>
 	{% for f in tag[1] %}
-	<a href="{{f.url}}">{{ f.title }}</a> {{ f.date |date: "%Y/%m/%d"}}
+	<a href="{{f.url}}">{{ f.title }}</a> {{ f.date |date: "%Y/%m/%d"}}<br />
 	{% endfor %}
 	{% endfor %}
 </div>

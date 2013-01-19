@@ -7,7 +7,7 @@ title: 分類
 	{% if cat[0] != 'blog' %}
 	<h3><a id="{{cat[0]}}" >{{cat[0]}}</a></h3>
 		{% for f in cat[1] %}
-		<a href="{{f.url}}">{{ f.title }}</a> {{ f.date |date: "%Y/%m/%d"}}
+		<a href="{{f.url}}">{{ f.title }}</a> {{ f.date |date: "%Y/%m/%d"}}<br />
 		{% endfor %}
 	{% endif %}
 	{% endfor %}
