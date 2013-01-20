@@ -39,7 +39,7 @@ Ruhoh 使用（務必）： <a href="http://ruhoh.com/usage/" rel="external">安
 其他： <a href="http://daringfireball.net/projects/markdown/syntax" rel="external">Markdown</a> 或其<a href="http://markdown.tw/" rel="external">中文版</a> ，還可考慮 <a href="http://johnmacfarlane.net/pandoc/" rel="external">Pandoc</a> （需改代碼或再轉一次）。 ruhoh 模塊用 <a href="http://mustache.github.com/mustache.5.html" rel="external">Mustache</a> 標記，應讀。 <a href="http://jekyllbootstrap.com/" rel="external">Jekyll</a> 和 <a href="http://octopress.org/" rel="external">Octopress</a> 可以逛逛。最後，<a href="http://zoomquiet.org/res/scrapbook/ZqFLOSS/tree/item20070306123934-frameset.html" rel="external">這裏</a>有很多好東西。  
 以上就是我在大量瀏覽之後總結出來的少量網站，雖然好像也不算很少，不過如果想完全掌握好 ruhoh ，看這些當然遠遠不夠了。比如要製作主題，那麼整個默認主題當然要細究一番。這也是一個非常好的例子，間接證明了開源程序的坑爹性。不過，雖然有部分莫名其妙的所謂技術人士指出， ruhoh 等物有這些那些 prerequisites ，是程序猿的東西，還揚言不懂 console 就不行。但從我的經歷看，其實祇有兩樣：一是較多的網頁製作經驗，即 html + CSS 。二是四級以上英語水平（閱讀能力跟英語國家小學三年級差不多吧），以便讀文檔、搜索。如果你再問我還有什麼，那我就說， 105 以上的智商。但智商 105 以下的，我還真沒聽說誰既懂 html ，又英語過四級，又能讀以中文撰寫的本文，且看了上面那一大篇遠比文藝青年作品難懂的文字，還能耐著性子讀到這裏。  
 好吧， ruhoh 上手後也沒什麼，即使是重裝系統，裝上 railsinstaller ，到 GitHub 網站上加一下新的 ssh key ，然後 `gem install ruhoh` （不打算本地編譯的話這一步可以省略），即可。如果遺失本地的備份（以用戶名爲 821 爲例）， `git clone git@github.com:821/821.ruhoh.com.git 821` ，一切都回來了。發佈文章也簡單，改好後 `git add .` `git commit -m 'yymmdd'` `git remote set-url origin git@github.com:821/821.ruhoh.com.git` 再 `git push origin master` 搞定。如果密鑰不見了，那就生成一個唄。雖然肯定不像某些白癡程序那麼方便，但也不很麻煩。網站更新後大約一分鐘就能看到了，還是挺快的。  
-我的上傳 bat ：{% highlight bash %}cd ruhoh
+我的上傳 bat ：{% highlight bat linenos %}cd ruhoh
 call git add .
 call git add -A
 call git commit -m "%date:~0,10%"

@@ -2,6 +2,105 @@
 layout: indexed
 title: Jekyll vs ruhoh
 tags:
- - 電腦
-categories: 挨踢
+- 電腦
+categories:
+- 挨踢
 ---
+h2. 概述
+
+經過一番糾結，我還是決定把網站程序從 ruhoh 轉到 Jekyll 。
+先說一下二者的關係罷。 Jekyll 是目前最知名的一款靜態網站生成器，但是他更多的是爲程序猿設計，所以上手不易。於是，一個叫 Plusjade 的人開發了一個 Jekyll 模版，名曰 Jekyll-Bootstrap ，還開發了一些插件。後來， Plusjade 覺得 Jekyll-Bootstrap 不夠完美，就開發了 ruhoh ，代碼完全重構。我剛「入行」時，在網上看到不少人相當看好 ruhoh ，而且這貨確實比較容易上手，就用了，但最近不滿於一些情況，就轉到了 Jekyll 。順帶一提的是還有一個叫 Octopress 的東西，個人認爲毫無優勢，根本不值得使用。
+如果用房子來打比方，託管 blog 就像市中心旅館，但你不能裝修（只有少量模版），常有警察查房（你懂的），每天晚上還有人打電話問你要不要特殊服務（廣告），如果想搬家，旅館還會扣下你自己添置的家具（別人的留言往往無法轉移）。 Wordpress 或 Movable Type 之類像郊區購的精品房，可以自己再改造，但交通不便（動態網站就是慢，所以你經常會看見 Wordpress 用戶討論優化和偽靜態，但是從來聽不到靜態網站的用戶討論），而且房價很高（對服務器要求高），難搬家（要搬數據庫），常有盜竊案發生（易被黑客入侵），遇到天災時會很慘（所以要注意備份）。 ruhoh 像市中心粗裝修商品房，水電網比較便利，交通也不錯，還挺好搬家，就是樣板少點，想漂亮點要花不少功夫。 Jekyll 則是給你一塊市中心的土地，還有很多磚瓦，房子自己起，一切都是你的，隨時可以搬家，在你之前已經有很多人起了房子，你可以直接複製他們的房子來用。
+這樣抽象的描述當然不足以說明問題，我們就來分點論述。
+
+h2. 名字
+
+Jekyll 這個名字太酷了——如果你讀過 Dr. Jekyll and Mr. Hyde 的話。
+不過作爲中國人，我堅決不用 Jekyll-Bootstrap ，原因是他的網站 source 裏一堆 JB 。
+
+h2. 上手和手冊
+
+ruhoh 可以說是三分鐘建成的。只要按照官網幾個步驟，再改一下 Disqus 方面的用戶名就可以。 ruhoh 的手冊也很不錯，雖然還有不完善的地方，但按照他所寫，基本能夠實現主題的自定義。
+Jekyll 以不易上手著稱，手冊寫得非常差，官網根本沒有一個好的入門，只有一個不知所謂的 wiki 。好在網上各種入門討論比較多。 Jekyll 本來不能三分鐘建成，但是官方那裏就有很多個人站，直接拿來建站也可以。
+ruhoh 稍勝。
+
+h2. 結構
+
+我不相信做個人站的人完全沒有結構方面的潔癖。 Jekyll 的結構很不好看，有 「_」 開頭的文件和文件夾。相比之下， ruhoh 就漂亮多了。不過 ruhoh 可能是一定程度上繼承 Jekyll 的緣故，結構仍有不合理的地方，比如他的 partial ，沒有放在主題裏，而是放在根目錄下，這個很詭異。另外實際設置起來，插件的參數要額外設置，這就要鑽進比較深的文件夾，有點鬱悶，反而不如用 Jekyll 方便。
+ruhoh 稍勝
+
+h2. 社區
+
+毫無疑問， Jekyll 完勝。
+
+h2. 文章代碼支持
+
+Jekyll 原生支持多種 markdown, textile ， ruhoh 僅僅支持 markdown 。
+Jekyll 完勝。
+
+h2. 自定義主題
+
+Jekyll 是基於 Liquid 的，功能豐富，但比較難用，官方文檔七零八落，官方也沒有提供模版。
+ruhoh 基於 Mustache ，功能較弱，但容易學習，官方文檔不很完善但還不錯，官方模版也還算全面。
+雖然 ruhoh 更好定制，可事實是， Jekyll 網站千奇百怪，而 ruhoh 千人一面。
+這方面不相上下。
+
+h2. 前景
+
+ruhoh 是 oneman 程序，不過很熱情開發，作者自己介紹，他每個週末都做開發。
+Jekyll 開發組大一點，而且 GitHub 沒理由停止開發。
+Jekyll 稍勝。
+
+h2. 插件
+
+Jekyll 已經有很多插件，不過如果要在 GitHub 上面跑，就不能用插件。
+ruhoh 幾乎沒什麼插件，但 Plusjade 對插件的控制似乎寬鬆些。
+這方面不相上下。
+
+h2. 編譯部署
+
+Jekyll 本地編譯會搞死人，但目前已經支持直接部署在 GitHub 和 Heroku 。
+ruhoh 本地編譯相對簡單，雲端方面僅支持部署在 GitHub 的 public repo 。
+理論上，所有支持 SSH+Ruby 的 PaaS 都可以安裝這兩款東西，然後運行，比如 OpenShift, Heroku 。
+這方面不相上下。
+
+h2. 結論
+
+功能要求高的，用 Jekyll 。期待快速上手的，用 ruhoh 。
+
+
+h2. 附錄： Jekyll 中階使用總結
+
+h3. 大原則
+
+一、爲了簡化每次本地系統重裝後的手續，不使用本地編譯， Windows 下用 RailsInstaller 。這還有一個好處，每次發佈文章，都會自動備份。
+二、不使用 Jekyll-Bootstrap 或 Octopress 。這兩樣東西能夠幫你快速上手，但是你的源碼結構會進一步遭到污染，當你想再改進的時候會很麻煩。
+三、多抄襲。爲了把主題做得更美，建議多多抄襲別人的原創主題。
+四、控制好文件夾數量和層級。比如 CSS 和 JS 這些全站使用的東西，不妨放一個文件夾，以便集中管理。不然以後你自己建立的文件夾一多，就淩亂了。
+
+h3. 一個便捷化的上傳腳本
+
+這是 Windows 版的，如果用 Linux ，去掉 @call@ 。個人建議雙保險，開一個 BitBucket 的 repo 然後同時傳過去。
+{% highlight bat linenos %}cd Jekyll
+call git add .
+call git add -A
+call git commit -m "%date:~0,10%"
+call git push git@github.com:821/821.github.com.git{% endhighlight %}
+
+h3. 撰文必備
+
+"Markdown 中文版":http://markdown.tw/ "Markdown":http://daringfireball.net/projects/markdown/syntax "Textile":http://txstyle.org/ "html":http://www.w3schools.com/html/default.asp "代碼高亮 Pygments":http://pygments.org/docs/lexers/
+Note: 代碼高亮的訣竅在於使用形如 {% raw %}{% highlight bat linenos %}{% endhighlight %}{% endraw %} 的東西把代碼框起來。
+
+h3. 主題
+
+基本上他的 include 跟 PHP 之類動態語言是差不多的，有 Wordpress 主題製作經驗的人可以較快上手。
+"扒皮好去處":https://github.com/mojombo/jekyll/wiki/Sites
+"Jekyll 中可調用的一些網站參數":https://github.com/mojombo/jekyll/wiki/Template-Data
+Liquid: "原版":https://github.com/shopify/liquid/wiki/liquid-for-designers "Jekyll 加強版":https://github.com/mojombo/jekyll/wiki/Liquid-Extensions
+Note: Jekyll 官方 Liquid 文檔寫的所有 @page@ 的屬性都適用於 @post@ 。
+
+
+
+h3. 部署進階教程
+"Openshift":http://shawhu.org/2012-10/Jekyll-OpenShift/ "Heroku":http://jonasforsberg.se/2012/07/22/jekyll-heroku-unicorn
