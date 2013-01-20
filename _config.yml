@@ -1,6 +1,6 @@
 permalink: /:title 
 paginate: 100
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile"]
 auto: true
 pygments: true
 author:
