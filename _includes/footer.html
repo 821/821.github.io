@@ -1,5 +1,4 @@
-<a href="/">{{ site.title }}</a> | {{ site.author.name }} &copy 2005-2013 CC NC-ND | <a href="https://github.com/821/821.github.com">Source</a> | Powered by Jekyll & Hosted on GitHub<br>
-<a href="{{ site.url }}/archive">全站快讀</a> <a href="{{ site.url }}/Me">本人</a> <a href="{{ site.url }}/Thanks">鳴謝</a> <a href="{{ site.url }}/Yet">未竟事業</a>
-{% for category in site.categories  %}<a href="{{ site.url }}/categories#{{ category | first  }}">{{ category | first  }}<span>{{ category | last | size  }}</span></a> {% endfor  %}
+<a href="/">{{ site.title }}</a> | <a href="{{ site.url }}/Me">{{ site.author.name }}</a> &copy 2005-2013 CC NC-ND | Powered by Jekyll & Hosted on GitHub<br>
+<a href="{{ site.url }}/archive">全站快讀</a> <a href="{{ site.url }}/Thanks">鳴謝</a> <a href="{{ site.url }}/Yet">未竟事業</a> <a href="https://github.com/821/821.github.com">源碼</a> {% for category in site.categories  %}<a href="{{ site.url }}/categories#{{ category | first  }}">{{ category | first  }}<span>{{ category | last | size  }}</span></a> {% endfor  %}
 <script src="http://api.html5media.info/1.1.5/html5media.min.js"></script>
 <script>audiojs.events.ready(function() {var as = audiojs.createAll();});</script>
