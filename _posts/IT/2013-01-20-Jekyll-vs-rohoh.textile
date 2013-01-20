@@ -107,4 +107,5 @@ Note: Jekyll 官方 Liquid 文檔寫的所有 @page@ 的屬性都適用於 @post
 
 h3. 部署進階教程
 
-"Openshift":http://shawhu.org/2012-10/Jekyll-OpenShift/ "Heroku":http://jonasforsberg.se/2012/07/22/jekyll-heroku-unicorn
+"Openshift":http://shawhu.org/2012-10/Jekyll-OpenShift/
+"Heroku":http://jonasforsberg.se/2012/07/22/jekyll-heroku-unicorn
