@@ -89,7 +89,11 @@ call git push git@github.com:821/821.github.com.git{% endhighlight %}
 
 h3. 撰文必備
 
-"Markdown 中文版":http://markdown.tw/ "Markdown":http://daringfireball.net/projects/markdown/syntax "Textile":http://txstyle.org/ "html":http://www.w3schools.com/html/default.asp "代碼高亮 Pygments":http://pygments.org/docs/lexers/
+"Markdown 中文版":http://markdown.tw/
+"Markdown":http://daringfireball.net/projects/markdown/syntax
+"Textile":http://txstyle.org/
+"html":http://www.w3schools.com/html/default.asp
+"代碼高亮 Pygments":http://pygments.org/docs/lexers/
 Note: 代碼高亮的訣竅在於使用形如 {% raw %}{% highlight bat linenos %}{% endhighlight %}{% endraw %} 的東西把代碼框起來。
 
 h3. 主題
@@ -97,7 +101,8 @@ h3. 主題
 基本上他的 include 跟 PHP 之類動態語言是差不多的，有 Wordpress 主題製作經驗的人可以較快上手。
 "扒皮好去處":https://github.com/mojombo/jekyll/wiki/Sites
 "Jekyll 中可調用的一些網站參數":https://github.com/mojombo/jekyll/wiki/Template-Data
-Liquid: "原版":https://github.com/shopify/liquid/wiki/liquid-for-designers "Jekyll 加強版":https://github.com/mojombo/jekyll/wiki/Liquid-Extensions
+"Liquid 原版":https://github.com/shopify/liquid/wiki/liquid-for-designers
+"Liquid Jekyll 加強版":https://github.com/mojombo/jekyll/wiki/Liquid-Extensions
 Note: Jekyll 官方 Liquid 文檔寫的所有 @page@ 的屬性都適用於 @post@ 。
 
 h3. 部署進階教程
