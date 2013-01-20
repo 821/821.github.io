@@ -89,6 +89,7 @@ call git push git@github.com:821/821.github.com.git{% endhighlight %}
 
 h3. 撰文必備
 
+"文章開頭聲明的寫法":https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter
 "Markdown 中文版":http://markdown.tw/
 "Markdown":http://daringfireball.net/projects/markdown/syntax
 "Textile":http://txstyle.org/
