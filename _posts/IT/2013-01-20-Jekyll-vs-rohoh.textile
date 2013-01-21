@@ -91,6 +91,7 @@ call git add -A
 call git commit -m "%date:~0,10%"
 call git push git@github.com:821/821.github.com.git
 {% endhighlight %}
+做成這麼一個腳本後，每次寫好文章，雙擊一下這個腳本就好了。還嫌麻煩？沒問題，把這個腳本拖進 @CLaunch@ 這款日本軟件，然後設置一個快捷鍵，比如像我設定爲 @F12@ ，以後手不必離開鍵盤，就能更新了。
 本來確實就這麼簡單。不過由於 GitHub 在本文完成後一天被 GFW 當成關鍵字給屏蔽了，所以最後一句修改爲
 {% highlight bat %}call git push https://username:password@github.com/username/username.github.com/{% endhighlight %}
 明白爲什麼我要把我的上傳腳本放在文件夾外面了嗎？哦，對了，還有 .gitconfig 要加上：
@@ -99,7 +100,7 @@ call git push git@github.com:821/821.github.com.git
 	proxy = 127.0.0.1:48100
 	sslVerify = false
 {% endhighlight %}
-具體 proxy 當然是自己設置，我比較懶惰用了 GSnova 。
+具體 proxy 當然是自己設置，用 SSH 什麼的都可以，我比較懶惰而且很窮就用了 GSnova 。
 基本上 GFW 這次動作對我影響不大，雖然屏蔽了 GitHub ，但我的網站綁定了域名，訪問沒有影響。上傳方面做好設置後問題不大，我本地連接 GitHub 的服務器並不快，繞一下 Heroku 的服務器再過去的影響可以忽略不計。這就令人費解了，我一個半句 Ruby 都不會寫、 Pro-Git 都沒讀過的人尚且能通過 Google （主要是看 StackOverflow ）和動腦輕鬆解決問題，這次封鎖對用戶以程序猿爲主的 GitHub 到底有什麼屁用？
 
 h3. 撰文必備
