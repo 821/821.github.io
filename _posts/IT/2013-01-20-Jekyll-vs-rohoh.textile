@@ -87,7 +87,7 @@ call git add -A
 call git commit -m "%date:~0,10%"
 call git push git@github.com:821/821.github.com.git{% endhighlight %}
 本來確實就這麼簡單。不過由於 GitHub 在本文完成後一天被 GFW 當成關鍵字給屏蔽了，所以最後一句修改爲
-{% highlight bat %}call git push https://username:password@github.com/username/username.github.com{% endhighlight %}
+{% highlight bat %}call git push https://username:password@github.com/username/username.github.com/{% endhighlight %}
 明白爲什麼我要把我的上傳腳本放在文件夾外面了嗎？哦，對了，還有 .gitconfig 要加上：
 {% highlight yaml linenos %}[http]
 	proxy = 127.0.0.1:48100
