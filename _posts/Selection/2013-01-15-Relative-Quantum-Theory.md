@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: indexed
 title: 股市相對量子學
 tags:
 - 亂彈
