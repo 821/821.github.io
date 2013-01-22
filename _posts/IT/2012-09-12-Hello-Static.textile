@@ -70,14 +70,14 @@ h3. 附三：知名長期免費 PaaS 概況列表
 
 好吧，我比較懶得寫一些自己不關注的點，比如我現在上傳祇喜歡 Git ，或至少 Hg ，所以就不會管人家有沒有 FTP 。
 
-|PaaS| Disk | B.W | Git | Ruby | PHP | Java | Python | Node |
+|PaaS| Disk | B.w | Git | Ruby | PHP | Java | Python | Node |
 |<a href="https://openshift.redhat.com/app/" rel="external">Openshift</a>|3|∞|Y|Y|Y|Y|Y|Y|
 |<a href="http://www.heroku.com/" rel="external">Heruko</a>|0.1|∞|Y|Y|Y|Y|Y|Y|
 |<a href="http://www.cloudfoundry.com/" rel="external">CloudFoundry</a>|2|∞|N|Y|Y|Y|Y|Y|
 |<a href="http://appfog.com/" rel="external">AppFog</a>|∞|50|N|Y|Y|Y|Y|Y|
 |<a href="https://www.dotcloud.com/" rel="external">dotCloud</a>|∞|∞|Y|Y|Y|Y|Y|Y|
 |<a href="https://www.cloudcontrol.com" rel="external">CloudControl</a>|∞|∞|Y|Y|Y|Y|Y|Y|
-|<a href="https://appengine.google.com/" rel="external">GAE</a>|0.5|60|N|N|N|N|Y|N|
+|<a href="https://appengine.google.com/" rel="external">Google AppEngine</a>|0.5|60|N|N|N|N|Y|N|
 |<a href="http://www.phpcloud.com/" rel="external">PhpCloud</a>|0.5|∞|Y|N|Y|N|N|N|
 |<a href="https://pagodabox.com/" rel="external">pagodabox</a>|0.2|∞|Y|N|Y|N|N|N|
 |<a href="http://www.engineyard.com/products/orchestra" rel="external">Orchestra</a>|0|∞|Y|N|Y|N|N|N|
