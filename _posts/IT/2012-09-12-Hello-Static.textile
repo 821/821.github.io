@@ -70,11 +70,10 @@ h3. 附三：知名長期免費 PaaS 概況列表
 
 好吧，我比較懶得寫一些自己不關注的點，比如我現在上傳祇喜歡 Git ，或至少 Hg ，所以就不會管人家有沒有 FTP 。
 
-|:. 250 | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 |
 |PaaS| Disk | B.W | Git | Ruby | PHP | Java | Python | Node |
 |<a href="https://openshift.redhat.com/app/" rel="external">Openshift</a>|3|∞|Y|Y|Y|Y|Y|Y|
 |<a href="http://www.heroku.com/" rel="external">Heruko</a>|0.1|∞|Y|Y|Y|Y|Y|Y|
-|<a href="http://www.cloudfoundry.com/" rel="external">CloudFoundry</a> |2|∞|N|Y|Y|Y|Y|Y|
+|<a href="http://www.cloudfoundry.com/" rel="external">CloudFoundry</a>|2|∞|N|Y|Y|Y|Y|Y|
 |<a href="http://appfog.com/" rel="external">AppFog</a>|∞|50|N|Y|Y|Y|Y|Y|
 |<a href="https://www.dotcloud.com/" rel="external">dotCloud</a>|∞|∞|Y|Y|Y|Y|Y|Y|
 |<a href="https://www.cloudcontrol.com" rel="external">CloudControl</a>|∞|∞|Y|Y|Y|Y|Y|Y|
@@ -84,6 +83,7 @@ h3. 附三：知名長期免費 PaaS 概況列表
 |<a href="http://www.engineyard.com/products/orchestra" rel="external">Orchestra</a>|0|∞|Y|N|Y|N|N|N|
 
 h3. 附四：我的網站旅程（舊文，有增刪）
+
 我老人家開始自己的個人網站旅程，乃是非常曲折而白痴的。這段旅程從我老人家極度不滿 fb 的網誌開始（這口吻是看西方理論作品的後遺症），但在 fb 以前，我老人家也用過其他的網誌。大家就順著我老人家的旅程來看一看吧。
 
 <span style="color: #ff0000;">起家： QQ 空間</span>
