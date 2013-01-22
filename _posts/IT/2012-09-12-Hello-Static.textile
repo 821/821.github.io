@@ -82,6 +82,8 @@ h3. 附三：知名長期免費 PaaS 概況列表
 |<a href="https://pagodabox.com/" rel="external">pagodabox</a>|0.2|∞|Y|N|Y|N|N|N|
 |<a href="http://www.engineyard.com/products/orchestra" rel="external">Orchestra</a>|0|∞|Y|N|Y|N|N|N|
 
+
+
 h3. 附四：我的網站旅程（舊文，有增刪）
 
 我老人家開始自己的個人網站旅程，乃是非常曲折而白痴的。這段旅程從我老人家極度不滿 fb 的網誌開始（這口吻是看西方理論作品的後遺症），但在 fb 以前，我老人家也用過其他的網誌。大家就順著我老人家的旅程來看一看吧。

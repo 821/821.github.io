@@ -4,7 +4,7 @@ layout: indexed
 ---
 先來聽聽本站主題曲：<audio src="{{ site.url }}/Music/Writing.mp3" controls preload></audio>
 
-h2. 神神叨叨
+h2. 碎碎念
 
 
 h2. 無聊項目
