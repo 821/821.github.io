@@ -95,18 +95,3 @@ h2. 中國大陸系
 h2. 結論
 
 對於存放自己靜態站的空間，幾個問題顯得至關重要：速度、上傳方式、綁定域名、是否被牆、流量、空間大小。速度包括出口帶寬和 ping （本來 ping 沒有那麼重要，但是因爲靜態站很快， ping 高了也會有感覺）。上傳方式以自動上傳的 Dropbox 最善， Git 如何自己寫一個 bat 來做上傳也還行，其他 SVN 或 SFTP 也勉強合格。綁定域名除了 Dropbox, Google Code 這些不原生支持，而且沒有專用二級域名的顯得比較不便，其他都很好。高牆限制了一些技術難度低的熱門應用，如 Dropbox ，但 CDN 綁定域名可以直接翻過去。流量和空間對小站來說不是問題，除非做音樂站，但音樂站涉及版權問題，相信不是那麼好做的。對國人而言，沒有完美的免費空間，甚至收費的都不完美。
-
-h2. 附錄：知名長期免費 PaaS 概況列表
-
-好吧，我比較懶得寫一些自己不關注的點，比如我現在上傳祇喜歡 Git ，或至少 Hg ，所以就不會管人家有沒有 FTP 。
-
-|PaaS| Disk | B.W | Git | Ruby | PHP | Java | Python | Node | Other |
-|OpenShift|3|∞|Y|Y|Y|Y|Y|Y| Perl|
-|Heroku|0.1|∞|Y|Y|Y|Y|Y|Y| Scala, Clojure|
-|Clound Foundry |2|∞|Y|Y|Y|Y|Y|Y|
-|AppFog|∞|50|N|Y|Y|Y|Y|Y|.Net|
-|Dotcloud|∞|∞|Y|Y|Y|Y|Y|Y| Perl|
-|GAE|0.5|60|N|N|N|N|Y|N|
-|PhpCloud|0.5|∞|Y|N|Y|N|N|N|
-|pagodabox|0.2|∞|Y|N|Y|N|N|N|
-|Orchestra|0|∞|Y|N|Y|N|N|N|

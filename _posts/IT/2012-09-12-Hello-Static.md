@@ -25,7 +25,7 @@ description: 本文包含了本站的構建史以及正在使用的程序的折�
 說實話， ruhoh 非常難用。問題不在命令行操作，而在容錯。很多商業軟件的容錯能力非常高，而 ruhoh 卻很嚴格，少一個空格都罷工。這還不是結束， ruhoh 和 Jekyll 有些格式不兼容，比如文章日期、文檔命名方式等等。儘管我也有意趁此機會再刪掉一半以上的文章，逐個修改終究是非常辛苦的。還有這貨不支持 textile ，而僅有 markdown 或直接 html 。Textile 比 markdown 強了幾條街，但沒有也沒辦法不是，我這水平也不可能去動代碼核心。水平不夠，對某些事就不能太龜毛，本來打算把導航欄做成左讀，但是命令並沒有那沒簡單。還有他本身的標籤、分類都顯得非常簡陋，居然做不到一個標籤一個頁面，也沒有標籤雲。我也不大喜歡 Twitter Bootstrap ，對我來說，這貨字小色醜文章模版少，顯然不夠好。曾幾何時，在 Wordpress 下根本不要談什麼文章模版，不過現在自然要一番作爲，至少要把直排、橫排、橫排含代碼三者區分。好在我不是沒有主題設計的基礎，自己就開發過兩個 Wordpress 主題，所以一切修改都有所根據，相當於有自己的 bootstrap 。你現在看到的主題基本上是我一個晚上移植的，不過直排處理對我來說算是新鮮事，又多花了幾小時。  
 ruhoh 好處當然很多。首先文章果然全都一篇一個文件的放到硬盤上了，修改很方便，備份可以說不用做，符合 centralization 標準。我喜歡預覽效果， ruhoh 祇要開了本地預覽，每次保存都能即時更新，裝一個瀏覽器自動刷新插件，再把文本編輯器的自動保存間隔設置得短一些，用起來跟 WYSIWYG 差不多了。或者你不要在本地做，自己寫好腳推文章，文章推到 GitHub 上再預覽也是不錯的。講到 GitHub ，也是一個令人愉快的經歷，速度、空間都很滿意，還不要錢。單個 repo 的空間是最好不大於 1GB ，對普通網站而言是足夠了。如果不夠，可以再開 repo 來做圖牀、音樂庫，或者用無限空間的 BitBucket 。當然，整體來講，功能肯定弱於 Wordpress ，但關鍵是我也用不了太多。  
 嘮叨了半天都是我自己，那對於比較 general 的需求，靜態網站生成器又有什麼優勢呢？首先是速度。動態網站需要運算的內容較多，所以速度會被拖慢。你固然可以用偽靜態插件之類的東西，不過他從修改文章到靜態化完成不是不用時間，而且網站程序文件夾也會變得亂七八糟。不妨看看奧巴馬團隊的經驗。白宮網站是 Drupal 做的，他不需要盈利，所以用戶體驗不必做得多好。競選籌款站就不同了，這跟購物網站一樣，非常有必要做好體驗。於是他的團隊就用了 Jekyll ，訪問速度立刻獲得質的飛躍——當然了，一般小站不需要講太多用戶體驗，所謂用戶體驗，其實是做給自己的。不過自己賞心悅目也很好不是麼。  
-大站靜態，小站爲神馬也要靜態？小站嘛，大家都不想多花錢。動態對服務器的要求比較高，免費空間少，高速免費空間可說不存在。但是對靜態站而言，還是存在的。現在米國網絡已實現社會主義初級階段了，有**大量** PaaS 可供使用，從全能的 <a href="http://sf.net" rel="external">Sourceforge</a>, <a href="https://openshift.redhat.com/app/" rel="external">Openshift</a>, <a href="http://www.heroku.com/" rel="external">Heruko</a>, <a href="http://www.cloudfoundry.com/" rel="external">CloudFoundry</a>, <a href="http://www.phpcloud.com/" rel="external">PhpCloud</a>, <a href="http://appfog.com/" rel="external">AppFog</a>, <a href="https://www.cloudcontrol.com" rel="external">CloudControl</a>, <a href="https://pagodabox.com/" rel="external">pagodabox</a>, <a href="https://www.dotcloud.com/" rel="external">dotCloud</a>, <a href="http://www.engineyard.com/products/orchestra" rel="external">Orchestra</a> 到比較單一的 <a href="https://appengine.google.com/" rel="external">Google App Engine</a>, <a href="https://github.com/" rel="external">GitHub</a>, <a href="https://bitbucket.org/" rel="external">BitBucket</a>  （免費 Git Hosting極多，詳見<a href="https://git.wiki.kernel.org/index.php/GitHosting" rel="external">此處</a>），對小站而言完全是免費的。在這大好的形式之下，或許小站不再需要收費空間了。不過上面提到的免費空間基本上支持 PHP 的速度都不是非常理想。我不清楚究竟是空間本身還是 PHP 網站本身，反正個人體驗是不如靜態。現在多數人用 Wordpress ，凡免費 PHP+MySQL 空間在中國都較容易抽風或牆掉。如果很文藝的用王國維三大境界來形容託管情況，大可這麼說：「昨夜西風凋碧樹，獨上新浪，寫盡天涯路」，「衣帶漸寬終不悔， WordPress 消得人憔悴」，「眾裏尋他千百度，回頭驀見， GitHub 正在，燈火闌珊處」。（新浪、天涯都提供託管博客服務。）  
+大站靜態，小站爲神馬也要靜態？小站嘛，大家都不想多花錢。動態對服務器的要求比較高，免費空間少，高速免費空間可說不存在。但是對靜態站而言，還是存在的。現在米國網絡已實現社會主義初級階段了，有**大量** PaaS 可供使用，對小站而言完全是免費的。在這大好的形式之下，或許小站不再需要收費空間了。不過上面提到的免費空間基本上支持 PHP 的速度都不是非常理想。我不清楚究竟是空間本身還是 PHP 網站本身，反正個人體驗是不如靜態。現在多數人用 Wordpress ，凡免費 PHP+MySQL 空間在中國都較容易抽風或牆掉。如果很文藝的用王國維三大境界來形容託管情況，大可這麼說：「昨夜西風凋碧樹，獨上新浪，寫盡天涯路」，「衣帶漸寬終不悔， WordPress 消得人憔悴」，「眾裏尋他千百度，回頭驀見， GitHub 正在，燈火闌珊處」。（新浪、天涯都提供託管博客服務。）  
 Ruby 系的靜態網站生成器都與 Git 緊密結合。 Git 做的版本控制相信會帶給版本控各種無與倫比的享受。我甚至建議龜毛的作家也用 Git+BitBucket 來管理自己的作品。雖然我甚少回顧既有版本，不過偶爾看看還是不錯的。如果使用 Worpdress 等動態程序，就很難做版本控制了。即便保存一份草稿在本地，並且隔三差五 `Git commit` ，還是嫌不方便、不即時。  
 總而言之， Git 系靜態網站生成器給我的感覺有幾點：首先， centralized ，一切掌握在自己手裏。其次，免費高速無廣告。第三，一次部署，終身無憂，備份、版本、發佈一體化，不需維護，站長唯一的任務就是把文章寫好、改好。  
 
@@ -57,7 +57,23 @@ ruhoh: 對空間的要求低、備份和搬家更輕鬆（文章本來就在電�
 Wordpress: 特殊的專用 PHP 命令讓資深程序猿反而還要學他、留言也佔用數據庫條目導致臃腫化。  
 ruhoh: 萬惡的 Mustache 導致模版**有時**非常難搞、留言需要用閉源服務管理且切換域名時需要重新導入。  
 
-###附三：我的網站旅程（舊文，有增刪）
+###附三：知名長期免費 PaaS 概況列表
+
+好吧，我比較懶得寫一些自己不關注的點，比如我現在上傳祇喜歡 Git ，或至少 Hg ，所以就不會管人家有沒有 FTP 。
+|:. 250 | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 |
+|PaaS| Disk | B.W | Git | Ruby | PHP | Java | Python | Node |
+|<a href="https://openshift.redhat.com/app/" rel="external">Openshift</a>|3|∞|Y|Y|Y|Y|Y|Y|
+|<a href="http://www.heroku.com/" rel="external">Heruko</a>|0.1|∞|Y|Y|Y|Y|Y|Y|
+|<a href="http://www.cloudfoundry.com/" rel="external">CloudFoundry</a> |2|∞|N|Y|Y|Y|Y|Y|
+|<a href="http://appfog.com/" rel="external">AppFog</a>|∞|50|N|Y|Y|Y|Y|Y|
+|<a href="https://www.dotcloud.com/" rel="external">dotCloud</a>|∞|∞|Y|Y|Y|Y|Y|Y|
+|<a href="https://www.cloudcontrol.com" rel="external">CloudControl</a>|∞|∞|Y|Y|Y|Y|Y|Y|
+|<a href="https://appengine.google.com/" rel="external">GAE</a>|0.5|60|N|N|N|N|Y|N|
+|<a href="http://www.phpcloud.com/" rel="external">PhpCloud</a>|0.5|∞|Y|N|Y|N|N|N|
+|<a href="https://pagodabox.com/" rel="external">pagodabox</a>|0.2|∞|Y|N|Y|N|N|N|
+|<a href="http://www.engineyard.com/products/orchestra" rel="external">Orchestra</a>|0|∞|Y|N|Y|N|N|N|
+
+###附四：我的網站旅程（舊文，有增刪）
 我老人家開始自己的個人網站旅程，乃是非常曲折而白痴的。這段旅程從我老人家極度不滿 fb 的網誌開始（這口吻是看西方理論作品的後遺症），但在 fb 以前，我老人家也用過其他的網誌。大家就順著我老人家的旅程來看一看吧。  
 
 <span style="color: #ff0000;">起家： QQ 空間</span>  
