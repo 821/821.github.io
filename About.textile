@@ -16,6 +16,48 @@ h3. 域名
 我想換域名的頻率幾乎是一年一次，而且確實又沒有非常高的需求。
 現在用頂級域名主要是因他短，好記，還能做點 CDN ，免費的也能實現，就懶得走那些複雜煩人的支付程序了。
 
+h2. 技能
+
+h3. 編程
+
+Python: 入門
+VB: 忘了
+C#: 在學
+PHP: 忘了
+易語言：忘了
+
+h3. 腳本語言
+
+JavaScript: 半入門
+AHK: 忘了
+AutoIt: 忘了
+iMacros: 入門
+
+h3. 標記語言
+
+html: 熟練
+CSS: 熟練
+XML: 忘了
+TeX: 入門
+方正書版：精通，但處於滑坡期
+
+h3. 數據庫
+
+MySQL: 忘了
+SQL Server: 忘了
+SQLlite: 忘了
+（你到底記得什麼……）
+
+h3. 其他
+
+RegEx: 熟練
+VIM: 入門
+Bat (DOS): 入門
+Bash (Linux): 入門
+Git: 入門
+Wordpress PHP: 忘了
+Jekyll/Liquid: 入門
+
 h2. 無聊項目
 
 h3. vt
