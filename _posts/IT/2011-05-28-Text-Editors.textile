@@ -1,5 +1,5 @@
 ---
-layout: posth
+layout: indexed
 title: 文本編輯器群英會
 tags:
 - 亂彈
