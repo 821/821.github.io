@@ -361,6 +361,7 @@ h2. 字體
 字體是 TeX 一個重大問題，目前的解決方案都較差。
 
 h3. dvipdfm/dvipdfmx
+
 先說第一種，也就是較老的幾個 TeX 分支的情況：會卡在 DVI 轉 PDF 一步。主要是 dvipdfm/dvipdfmx 中的設置太麻煩了。針對這個問題， W32TeX 下有 "PXchfon":http://zrbabbler.sp.land.to/pxchfon.html 和 "PXwjmap":http://zrbabbler.sp.land.to/data/pxwjmap.zip 。
 這類原始的方式讓我想到了方正的 CID 字體，不過方正如果用他自己的字體還是很簡單的。
 
