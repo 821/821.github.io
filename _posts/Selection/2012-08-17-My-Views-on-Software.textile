@@ -171,10 +171,12 @@ h3. 文本編輯器
 <a href="http://www.vim.org/" rel="external">VIM</a> 我經常使用 EmEditor 的 VI 模式，但其實很少用到 VIM 本體。
 關注： <a href="http://jedit.org" rel="external">jEdit</a>, !<a href="http://baoku.yunduan.cn/d/item/6345/" rel="external">UltraEdit</a>, <a href="http://www.scintilla.org/" rel="external">SciTE</a>, !<a href="http://baoku.yunduan.cn/d/item/2118" rel="external">EditPlus</a>
 Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor 是我的菜，所以 Windows 更好。
+
 h3. 電子書及圖像處理
+
 UnicornViewer 讀 PDG 和其他掃描版電子書。
 <a href="http://pdfpatcher.cnblogs.com/" rel="external">PDFPatcher</a>, <a href="http://www.comicer.com/stronghorse/software/#ComicEnhancerPro" rel="external">ComicEnhancerPro</a>, <a href="http://www.comicer.com/stronghorse/software/#Pdg2Pic" rel="external">Pdg2Pic</a>, <a href="http://www.comicer.com/stronghorse/software/#DjVuToy" rel="external">DjVuToy</a> 處理掃描版電子書。
-!CxCandy, 超星老鷹版 , DxDown, Dxfillpage 下載 PDG 四件套。這是我轉向 Linux 的最大阻力之一。
+!CxCandy, 超星老鷹版 , Downdx, DxDown, Dxfillpage 下載 PDG 。這是我轉向 Linux 的最大阻力之一。
 <a href="http://www.imagemagick.org" rel="external">ImageMagick</a> 跨平臺的命令行圖像處理工具
 <a href="http://www.portableappc.com/office/pdf-xchange-viewer-portable/" rel="external">PDF-XChange Viewer</a> 讀文本 PDF ，但這款軟件我把他當綠色而非便攜軟件用。
 !<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Foxit Editor</a> 編輯文本 PDF 。
@@ -208,7 +210,9 @@ h3. 鍵鼠操作
 <a href="http://www.iopus.com/imacros/firefox" rel="external">iMacros</a> 同上，但針對網頁操作比較完善。
 關注： <a href="http://www.portableappc.com/utilities/strokeit-portable/" rel="external">StrokeIt</a>, <a href="http://www.autoitscript.com/site/autoit/" rel="external">AutoIt</a>, <a href="http://www.vrBrothers.com" rel="external">按鍵精靈</a>
 Linux 方案及點評： <a href="http://www.ironahk.net/" rel="external">IronAHK</a> 重構了 AHK ，甚至可以說更好學，我 Windows 都該轉用他。 StrokeIt 也有 Easystroke 來代替。
+
 h3. 文件管理
+
 <a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Total Commander</a> 用於改名和移動。
 !<a href="http://baoku.yunduan.cn/d/item/6685/" rel="external">Winrar</a> 簡單好用， 7zip 坑爹不解釋。
 <a href="http://baoku.yunduan.cn/d/item/1245/" rel="external">Unlocker</a> 刪掉被鎖住的文件。
@@ -244,5 +248,5 @@ h3. 其他
 
 h3. 戰場之結論
 
-XP 將於 2014 年停止更新，而且 Windows 8 的風格讓我無法說喜歡，我可不想用個篩子系統，因此我觀察了 Linux 。 Windows 下軟件很安逸， Linux 下較折騰。如果喜歡嘗試某些開源項目和網上互動， Linux 更好。但娛樂和中國式的辦公、學習則應該在 Windows 下。對於我來說，我最需要的無非就是上網、看電子書、查字、打字、文本編輯，這些 Windows 都做得很好，而 Linux 有很多地方我不大滿意。本來 Windows 不穩定，軟件還不好裝，這個體驗不如 Linux ，但就是因爲體驗不好而用戶極多，現在便攜弄得火紅舒適，從重裝到把軟件全部搞清楚只要一小時，反而很方便重裝，真是世事難料。
+Windows 下軟件很安逸， Linux 下較折騰。如果喜歡嘗試某些開源項目和網上互動， Linux 更好。但娛樂和中國式的辦公、學習則應該在 Windows 下。對於我來說，我最需要的無非就是上網、看電子書、查字、打字、文本編輯，這些 Windows 都做得很好，而 Linux 有很多地方我不大滿意。本來 Windows 不穩定，軟件還不好裝，這個體驗不如 Linux ，但就是因爲體驗不好而用戶極多，現在便攜弄得火紅舒適，從重裝到把軟件全部搞清楚只要一小時，反而很方便重裝，真是世事難料。
 從費用的角度來講，我的工具以免費軟件的爲主，但侵權行爲很多：比如用有版權的辭典，還有冒名下載超星書籍，也有一些破解軟件。
