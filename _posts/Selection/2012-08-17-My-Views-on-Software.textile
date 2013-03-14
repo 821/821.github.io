@@ -188,12 +188,13 @@ Linux 方案及點評：由於我主要下載和看 PDG ，極少使用 PDF ， 
 
 h3. 電子辭典
 
-!<a href="http://goldendict.org/" rel="external">GoldenDict</a>, 差可告慰的跨平臺辭典，支持跨辭典和援引網上辭典，但不能搜全文。
-!Accelon 一個適合全文檢索的工具，用來找近義詞。
-!StarDict 同上。很巧，兩個作者都是佛教徒，不同的是後者瘋了。
-!<a href="http://mdict.cn/" rel="external">MDict</a> 中文詞庫最多，但軟件真心難用。
+<a href="http://goldendict.org/" rel="external">GoldenDict</a>, 差可告慰的跨平臺辭典，支持跨辭典和援引網上辭典，但不能搜全文。
+Accelon 一個適合全文檢索的工具，用來找近義詞。
+StarDict 同上。很巧，兩個作者都是佛教徒，不同的是後者瘋了。
+<a href="http://mdict.cn/" rel="external">MDict</a> 中文詞庫最多，但軟件真心難用。
 <a href="http://www.cnblogs.com/hanzisearcher/" rel="external">HanziSearcher</a> 用來「查」字典——他會給出具體頁碼。
 Linux 方案及點評：免費的辭典終究不敷使用，還是要從 MDict 轉，而轉換器是 Windows 的，而且轉不了 mdd 的圖片和發音。
+注：軟件本身都沒有問題，但是所用辭典可能產生版權糾紛。
 
 h3. 亞洲語系相關
 
