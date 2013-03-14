@@ -166,8 +166,8 @@ Linux 方案及點評：老實說，作爲命令行控，沒人會開著編譯�
 
 h3. 文本編輯器
 
-!<a href="http://www.portableappc.com/development/emeditor-pro-portable/" rel="external">EmEditor</a> 最適合作家的文本編輯器，原生支持便攜版。
 <a href="http://www.hanzify.org/software/11742.html" rel="external">AkelPad</a> 我最關注的開源文本編輯器，但不常用。
+!<a href="http://www.portableappc.com/development/emeditor-pro-portable/" rel="external">EmEditor</a> 最適合作家的文本編輯器，原生支持便攜版。
 <a href="http://www.vim.org/" rel="external">VIM</a> 我經常使用 EmEditor 的 VI 模式，但其實很少用到 VIM 本體。
 關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.scintilla.org/" rel="external">SciTE</a>, !<a href="http://baoku.yunduan.cn/d/item/2118" rel="external">EditPlus</a>
 Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor 是我的菜，所以 Windows 更好。這個結論太個人化了，不具備普遍參考價值。
