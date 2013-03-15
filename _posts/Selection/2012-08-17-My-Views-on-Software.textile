@@ -121,7 +121,6 @@ h3. 網盤類
 <a href="https://spideroak.com/signup/referral/cc8fc25a35f7183890a91ba4f65e913f/" rel="external">SpiderOak</a> 隱私做得最好的跨平臺網盤，設置稍微複雜，功能強大。
 !!<a href="http://www.kuaipan.cn/?channel=aoipf6" rel="external">金山快盤</a> 我有老 T 盤，所以是 1TB 空間。
 !!<a href="https://jianguoyun.com" rel="external">堅果雲</a> 中國網盤團隊裡最重視技術的一個，由於限流量不限空間，我自己製作了便攜版。
-!!<a href="http://f.xunlei.com" rel="external">迅雷方舟</a> 免費無限永久空間，但客戶端太爛。可以利用其超高上傳速度和無限空間保存一些加工前的東西，或加工中期產物。
 關注： <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>, <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://www.wuala.com" rel="external">Wuala</a>, <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a>, <a href="www.syncplicity.com" rel="external">Syncplicity</a>, <a href="http://www.idrive.com/" rel="external">iDrive</a>, !!<a href="http://yun.baidu.com/disk/beinvited?uk=3204744784" rel="external">百度網盤</a>
 Linux 方案及點評：同步盤不受影響，其餘用網頁版或 Wine ，總體體驗打折不嚴重。
 
@@ -153,7 +152,7 @@ h3. 辦公套件
 
 !<a href="http://hi.baidu.com/dragonflylee/item/82f412334bab4f80c2cf29b8" rel="external">Excel 2003</a> 帶運算符的表格。
 !<a href="http://i.yunduan.cn/topic/735" rel="external">Visio 2003</a> 我就畫點人物關係圖，但別的軟件就是做不好。
-關注： <a href="http://libreoffice.org/" rel="external">LibreOffice</a>, !!<a href="http://www.kingsoftstore.com" rel="external">KingSoft Office</a>, !!<a href="http://www.foxtable.com/" rel="external">Foxtable</a>, !!<a href="http://baoku.yunduan.cn/d/item/407/" rel="external">永中 Office</a>
+關注： <a href="http://libreoffice.org/" rel="external">LibreOffice</a>, !!<a href="http://www.kingsoftstore.com" rel="external">KingSoft Office</a>
 Linux 方案及點評： <a href="http://libreoffice.org/" rel="external">LibreOffice</a> 或 OpenOffice 。鑒於 OpenOffice 已內嵌，雖然略有不習慣處，體驗還行。但 Visio 比較難以替代， LibreOffice 不夠好， <a href="https://live.gnome.org/Dia" rel="external">Dia</a> 適合非正式作圖，但我關心的是你直接編輯我已經畫好的圖。
 
 h3. 排版
@@ -246,7 +245,7 @@ h3. 其他
 <a href="http://ishare.iask.sina.com.cn/f/7852628.html" rel="external">變速齒輪</a> 曹操傳必備。
 <a href="http://www.freelaunchbar.com/" rel="external">Free Launch Bar</a> 雖然 TLB 不難找，不過我覺得這個更好用。
 程序多開器 對於某些不支持多開的軟件，這玩意能起到比較好的效果。
-<a href="http://www.cygwin.com/" rel="external">CygWin</a> 比 WINE 還煩，我是用來 `wget -r -np` 的。
+<a href="http://www.cygwin.com/" rel="external">CygWin</a> 比 WINE 還煩，我是用來 @wget -r -np@ 的。
 
 h3. 戰場之結論
 
