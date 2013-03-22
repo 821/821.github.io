@@ -31,4 +31,4 @@ a span{vertical-align:super;font-size:0.6em;color:#181;}
 #two-colomuns{-moz-column-count:2;-moz-column-gap:2%;-moz-column-rule:none;-webkit-column-count:2;-webkit-column-gap:2%;-webkit-column-rule:none;column-count:2;column-gap:2%;column-rule:none;}
 #colomuns{-moz-column-count:3;-moz-column-gap:2%;-moz-column-rule:none;-webkit-column-count:3;-webkit-column-gap:2%;-webkit-column-rule:none;column-count:3;column-gap:2%;column-rule:none;}
 /*Mine*/
-.exp{font-size:0.8em;color:#000;}.cri{font-size:0.8em;color:#f00;}#ClCache{display:none;}
+.exp{font-size:0.8em;color:#000;}.cri{font-size:0.8em;color:#f00;}#ClCache{display:none;}.red{color:red;}

@@ -447,7 +447,7 @@ h2. 有用的網站
 "TeX Wiki":http://oku.edu.mie-u.ac.jp/~okumura/texwiki/ 一個日本人寫的 Wiki 式網站。
 "電脳世界の奥底にて":http://zrbabbler.sp.land.to/index.html 雖然日文的東西我能看懂的不到三成，不過眞有點用。
 "字客網":http://www.fontke.com 本來這種網站不該推薦，不過他的字體眞的挺多。
-
+"收集":https://www.dropbox.com/sh/k9h7jgkaq24ya6c/MdaKUpg2jm 我自己收集的一些 otf 字體（哈，因爲 NTU 校友在 Dropbox 太空競賽拿到 25GB ，就拿來浪費了）。
 
 
 

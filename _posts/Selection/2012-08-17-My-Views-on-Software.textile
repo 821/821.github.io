@@ -21,9 +21,10 @@ h3. （二）、不嘗試不代表不瞭解
 
 我還是偶爾上一些軟件測評、介紹的小站看看的，至少能夠在自己需要某軟件的時候，知道什麼軟件好用。同時，因爲我不喜歡折騰，可能有什麼功能比我現有軟件強很多很多的軟件出來了都不知道，讀讀測評、介紹，大致瞭解一下，但不加以嘗試，不費事，但也不閉塞。
 
-h3. （三）、不主動做沒必要的升級
+h3. （三）、尊重自己的用戶習慣，不主動做沒必要的升級，穩定高於很多
 
-有的人是升級控，一定要用最新的軟件才哈皮。起初我也試過，最後確立了夠用就好的思維，因此系統還是 XP ， Office 還是 2003 ，網盤裡存個 Nero ，也衹存了 6 和 7 。但是，中國很多公司比較惡劣，他提供免費軟件的同時，會強制用戶升級到新版，而且是差一個小版本號就不讓用，非常嚴格。對於這類軟件，就很難說了。還有的軟件不強制升級，但不斷彈窗，基於省事原則，也只好升級。衹有某些開發很積極的軟件，我會欣然升級，因爲升級後往往能看到不少新功能，或至少修正了一些常見 bug 。還有就是有些軟件實在 bug 太多了，出了新版就會忍不住試試看能否少一點……
+有的人是升級控，一定要用最新的軟件才哈皮。起初我也試過，最後確立了夠用就好的思維，採取緩慢跟進的方式。但是，中國很多公司比較惡劣，他提供免費軟件的同時，會強制用戶升級到新版，而且是差一個小版本號就不讓用，非常嚴格。對於這類軟件，就很難說了。還有的軟件不強制升級，但不斷彈窗，基於省事原則，也只好升級。衹有某些開發很積極的軟件，我會欣然升級，因爲升級後往往能看到不少新功能，或至少修正了一些常見 bug 。還有就是有些軟件實在 bug 太多了，出了新版就會忍不住試試看能否少一點……
+電腦是給我工作的，不是我給電腦打工。我不是電腦的奶媽，還要小心伺候他偶爾煩躁的脾氣，給他餵食送水換尿布。對於成熟的軟件，舊版其實已經很好了，看看新版的更新列表，如果沒有自己迫切需要的內容，完全可以不更新。
 
 h3. （四）、與其開發一個軟件的潛能，不如換一個專業軟件
 
@@ -33,7 +34,7 @@ h3. （四）、與其開發一個軟件的潛能，不如換一個專業軟件
 h3. （五）、大眾化、標準化：用，或至少保留業內評價最高、最熱門、背景最雄厚的軟件
 
 大眾認可總有其合理性，專業軟件尤然。基本上如果不是軟件本身確實優秀，那就是歷史原因形成今日地位，總會有他的可取之處。而且用非主流的東西，往往就是給自己找事：
-第一、非主流不便交流。有時想和別人做該類別軟件下的交流，就有一堆兼容性問題。比如系統，雖然我對 Linux 很感興趣，但無意把他作爲主要系統，因爲很多軟件衹有 Windows 客戶端——我對 MAC 當然更加沒興趣， Linux 還說服務器都用他， MAC 就是一群裝逼眾愛用罷了。對於一般軟件，也往往有格式衝突的問題，如果老闆用 Word ，公事上就別用 LaTeX 。
+第一、非主流不便交流。有時想和別人做該類別軟件下的交流，就有一堆兼容性問題。比如系統，雖然我對 Linux 很感興趣，但無意把他作爲主要系統，因爲很多軟件衹有 Windows 客戶端——我對 MAC 當然更加沒興趣， Linux 還說服務器都用他， MAC 就是一群裝逼眾愛用罷了。對於一般軟件，也往往有格式衝突的問題，如果老闆用 Word ，公事上就別用 TeX 。
 第二、非主流的支持不好。電腦問題，百度 Google 的幫助很大。如果軟件受眾太小，根本沒人寫心得，那就只能孤軍奮戰了。我不是高手，也沒有美國時間。
 第三、非主流的可能會出現後續問題。主流作品受眾多，往往能夠保證持續更新，以應對未來出現的一些問題。非主流哪天不更新，然後又出現點什麼新情況，就沒法用了。這當然無法接受。
 第四、儘管如此，我還是用了很多非常小眾的軟件。不過這些軟件的功能比較難替代，其實也相當於業界主流了，而且多數是小工具類型的。
@@ -61,8 +62,10 @@ h3. （九）、選擇對自己來說學習曲線平滑且有終點，或者僅�
 
 h3. （十）、不因軟件是否收費而過度影響取捨
 
-雖然各公司都在積極反盜版，不過破解總是強大的，到了我的手裡，絕大多數軟件都有破解版。事實上，對於公司而言，用戶改投別家比用戶繼續用盜版還慘，因爲潛在客戶就這麼流失了。所以 TotalCMD 的作者有他那種寬鬆的態度， WinRAR 其實也可以無限期使用， Nero 出了個閹割過的免費版， MSO 也有免費的 viewer 。現實中這種流失也時有發生，比如方正公司的飛騰，就因爲太難獲得盜版了，用戶衹好用 Adobe InDesign 。後者在處理中文書刊明顯遠弱於飛騰，但是盜版很容易獲得，所以到處都是。現在，小型出版單位、打印店普遍使用盜版 InDesign ，而飛騰衹有大公司在用，結果就是方正怎麼也做不大。好吧，這並非使用盜版的藉口，因爲用盜版就用了，根本不會考慮什麼藉口不藉口。各種虛偽的藉口就好像好色男在理學背景下納妾硬說是爲了傳宗接代一樣，根本沒有任何現實意義。
-我選擇軟件還是根據其他「戰略」和「戰術」決定的，免費不免費，對我的影響，大概僅在於破解版的尋求難度。比如方正書版，我用不上尚未破解的 2008 ，就用已完美破解的 10 。再比如各種文件管理軟件， Directory Opus 比較難破解，就不用，用 TotalCMD 。我也不會因爲某款強大的收費軟件容易破解而非要用他，比如 Nero ，我已經很久不碰了，因爲一個小小的 ONES 已經足夠，而且都已經做成綠色版了，還有什麼必要不斷更新？「戰略」是白講的嗎？
+雖然各公司都在積極反盜版，不過破解總是強大的，絕大多數軟件都有破解版。事實上，對於公司而言，用戶改投別家比用戶用盜版還慘，因爲潛在客戶流失了。所以 TotalCMD 的作者有他那種寬鬆的態度， WinRAR 其實也可以無限期使用， Nero 出了個閹割過的免費版。現實中這種流失也時有發生，比如方正公司的飛騰，就因太難獲得盜版了，用戶衹好用 Adobe InDesign 。後者裸版處理中文書刊遠弱於飛騰，但盜版很容易獲得，所以到處都是。現在，小型出版單位、打印店普遍使用盜版 InDesign ，飛騰衹有大公司在用，結果方正怎麼也做不大。好吧，這並非使用盜版的藉口，因爲用盜版就用了，根本不會考慮什麼藉口不藉口。各種虛偽的藉口就好像好色男在理學背景下納妾硬說是爲了傳宗接代一樣，沒有任何現實意義。
+我選擇軟件還是根據其他「戰略」和「戰術」決定的，免費不免費，對我的影響，大概僅在於破解版的尋求難度。比如方正書版，我用不上尚未破解的 2008 ，就用已完美破解的 10 。再比如各種文件管理軟件， Directory Opus 比較難破，就不用，用 TotalCMD 。我也不會因爲某款強大的收費軟件容易破解而非要用他，比如 Nero ，我已很久不碰了，因爲一個小小的 ONES 已經足夠，而且都已經做成綠色版了，還有什麼必要不斷更新？「戰略」是白講的嗎？
+
+
 
 h2. 二、戰術層面：延續高效舒適的幾點方案
 
@@ -106,84 +109,108 @@ h3. （五）、在便攜、綠色、安裝三種體系中正確取捨
 h3. （六）、建立好快捷方式
 
 雲端和 PortableApps 都可以在面板看到軟件列表，雲端還支持分類，但兩個面板都比較陽春，雲端的啟動速度更是相當不理想。這樣，每次重裝之後，還是會出現討厭的情況：不記得自己裝了什麼軟件，只好重新看看，再建立快捷方式。
-這未免太蠢了。我的方法是：把常用軟件分類放入 Quick Launch ，然後使用 Free Launch Bar ，再把這個文件夾用軟件同步起來。重裝後，打開網盤，裝上 Free Launch Bar ，幾十近百種軟件頓時完美分類呈現，點兩下左鍵就能打開，大大提高使用效率。另外， nrLaunch 也是個不錯的解決方案。
+這未免太蠢了。我的方法是：把常用軟件分類放入 Quick Launch ，然後使用 Free Launch Bar ，再把這個文件夾用軟件同步起來。重裝後，打開網盤，裝上 Free Launch Bar ，幾十近百種軟件頓時完美分類呈現，點兩下左鍵就能打開，大大提高使用效率。後來， CLaunch 映入眼簾，直接弄好一大版快捷方式，放在屏幕上方，再設置好快捷鍵，不論鼠標還是鍵盤，都很方便。
 當然，也有人喜歡 Win+R 這種方式。不過重裝頻繁，真的大丈夫嗎？
+
+h3. （七）、不使用不代表不瞭解
+
+對於自己比較依賴的軟件類型，還是需要關注的。我自己比較依賴的軟件主要是文本編輯器、輸入法、瀏覽器、網盤、掃描版電子書閱讀工具。這幾類軟件我現在都找到了比較舒適的選擇，但都還不夠好。所以雖然我未必具體嘗試某款軟件，但在網上看到介紹時一般都會點進去看看。
 
 h2. 三、戰場層面：我使用或關注的一些軟件
 
 光說不練不行，我會羅列我所使用的軟件，並給出我的下載源頭，以顯示我在平臺等方面的選擇。
-加 ! 的軟件存在版權問題，鏈接均爲熱心網友的展示，僅作說明用。如果你的職業對版權敏感，請上官網購買權限。
-加 !! 的軟件可能給中華人民共和國公民和在華人員帶來不必要的麻煩，不要把自己生產的文檔、照片與之交互，再或者阻斷其網絡連接。
+加 $ 的軟件存在版權問題，鏈接均爲熱心網友的展示，僅作說明用。如果你的職業對版權敏感，請上官網購買權限。
+加 ☭ 的軟件可能給中華人民共和國公民和在華人員帶來不必要的麻煩，不要把自己生產的文檔、照片與之交互，再或者阻斷其網絡連接。
 
 h3. 網盤類
 
-<a href="https://www.dropbox.com/referrals/NTI3MzQ2NDcxOQ" rel="external">Dropbox</a> 最著名的跨平臺網盤，缺點是隱私不大好，在中國上傳較慢。
-<a href="https://spideroak.com/signup/referral/cc8fc25a35f7183890a91ba4f65e913f/" rel="external">SpiderOak</a> 隱私做得最好的跨平臺網盤，設置稍微複雜，功能強大。
-!!<a href="http://www.kuaipan.cn/?channel=aoipf6" rel="external">金山快盤</a> 我有老 T 盤，所以是 1TB 空間。
-!!<a href="https://jianguoyun.com" rel="external">堅果雲</a> 中國網盤團隊裡最重視技術的一個，由於限流量不限空間，我自己製作了便攜版。
-關注： <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>, <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://www.wuala.com" rel="external">Wuala</a>, <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a>, <a href="www.syncplicity.com" rel="external">Syncplicity</a>, <a href="http://www.idrive.com/" rel="external">iDrive</a>, !!<a href="http://yun.baidu.com/disk/beinvited?uk=3204744784" rel="external">百度網盤</a>
+<a href="https://www.dropbox.com/referrals/NTI3MzQ2NDcxOQ" rel="external">Dropbox</a> 著名跨平臺網盤，隱私不大好，在中國較慢。
+<a href="https://spideroak.com/signup/referral/cc8fc25a35f7183890a91ba4f65e913f/" rel="external">SpiderOak</a> 隱私最好的跨平臺網盤，設置複雜，功能強大。
+☭<a href="http://www.kuaipan.cn/?channel=aoipf6" rel="external">金山快盤</a> 我有老 T 盤，所以是 1TB 空間。
+☭<a href="https://jianguoyun.com" rel="external">堅果雲</a> 中國網盤團隊最重視技術的一個，限流量不限空間，我自己製作了便攜版。
+SkyDrive: 僅用來搭配 Onenote 。
+關注： <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>, <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://www.wuala.com" rel="external">Wuala</a>, <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a>, <a href="www.syncplicity.com" rel="external">Syncplicity</a>, <a href="http://www.idrive.com/" rel="external">iDrive</a>, ☭<a href="http://yun.baidu.com/disk/beinvited?uk=3204744784" rel="external">百度網盤</a>, copy.com
 Linux 方案及點評：同步盤不受影響，其餘用網頁版或 Wine ，總體體驗打折不嚴重。
+理想：支持同步和存儲式上傳（快盤、電信、雲諾），永久保存，大容量，直鏈分享與文件夾分享共存（ Dropbox ），嚴格的隱私（ SpiderOak ），開源。
+
 
 h3. 科學衝浪
 
-<a href="http://baoku.yunduan.cn/d/item/7163/" rel="external">Chrome</a> 習慣了，就他了。
-<a href="http://orztech.com/softwares/hostsx" rel="external">HostX</a> 一個幫助你更新 hosts 文件的軟件。
+<a href="http://portableapps.com/apps/internet/google_chrome_portable" rel="external">Chrome</a> 優勢很多，但佔用內存太大。建議使用 MyChrome 軟件便攜化並設爲默認！
+<a href="http://portableapps.com/apps/internet/firefox_portable" rel="external">Firefox</a> 密碼保存能力遠勝 Chrome ，插件又多又好。
+<a href="http://kmeleon.sourceforge.net" rel="external">K-Meleon</a> 最清涼又輕量的瀏覽器，可惜停止開發了。
+<a href="http://orztech.com/softwares/hostsx" rel="external">HostX</a> 幫助更新 hosts 文件的國情軟件。
 <a href="https://smarthosts.googlecode.com/svn/trunk/hosts" rel="external">SmartHosts</a> 與 HostX 互補。
 <a href="http://code.google.com/p/goagent/" rel="external">GoAgent</a> 自己看。
 <a href="https://code.google.com/p/snova/" rel="external">Snova</a> 自己看。
 <a href="http://portableapps.com/apps/internet/winscp_portable" rel="external">WinSCP</a> 輕便的 SFTP ，還能科學衝浪。
-關注： <a href="http://portableapps.com/apps/internet/firefox_portable" rel="external">Firefox</a>, <a href="http://portableapps.com/apps/internet/opera_portable" rel="external">Opera</a>, <a href="http://www.bitvise.com/tunnelier" rel="external">Bitvise Tunnelier</a>, <a href="http://www.portableappc.com/internet/vimperator-portable/" rel="external">Vimperator</a>, <a href="http://code.google.com/p/west-chamber-season-3/" rel="external">西廂</a>, <a href="https://code.google.com/p/wallproxy-plus/" rel="external">Wallproxy Plus</a>, FG
+關注： <a href="http://portableapps.com/apps/internet/opera_portable" rel="external">Opera</a>, <a href="http://www.bitvise.com/tunnelier" rel="external">Bitvise Tunnelier</a>, <a href="http://www.portableappc.com/internet/vimperator-portable/" rel="external">Vimperator</a>, <a href="http://code.google.com/p/west-chamber-season-3/" rel="external">西廂</a>, <a href="https://code.google.com/p/wallproxy-plus/" rel="external">Wallproxy Plus</a>, FG
 Linux 方案及點評：該有的 Linux 都有，選擇還更廣，體驗高於 Windows 。
+理想： Firefox 的插件， Webkit 內核，其他和 K-Meleon 一樣。
+
 
 h3. 下載
 
-!!<a href="http://www.portableappc.com/internet/qq-download-portable/" rel="external">QQ 旋風</a> 免費離綫下載——我更傾向於使用網頁版 + IDM 之類的國外下載軟件。
-!<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Internet Download Manager</a> http 協議下顯得很強大，但是有時有點煩人。
-關注： !!<a href="http://baoku.yunduan.cn/d/item/19336/" rel="external">Thunder</a>, !<a href="http://baoku.yunduan.cn/d/item/1600/" rel="external">FlashFXP</a>, <a href="http://portableapps.com/apps/internet/filezilla_portable" rel="external">FileZilla</a>, <a href="http://portableapps.com/apps/internet/free-download-manager-portable" rel="external">Free Download Manager</a>
+☭<a href="http://www.portableappc.com/internet/qq-download-portable/" rel="external">QQ 旋風</a> 免費離綫下載——我更傾向於使用網頁版 + IDM 之類的國外下載軟件。
+$<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Internet Download Manager</a> http 下載老大，但有時有點煩人。
+關注： $<a href="http://baoku.yunduan.cn/d/item/1600/" rel="external">FlashFXP</a>, <a href="http://portableapps.com/apps/internet/filezilla_portable" rel="external">FileZilla</a>, <a href="http://portableapps.com/apps/internet/free-download-manager-portable" rel="external">Free Download Manager</a>
 Linux 方案及點評：網頁版+瀏覽器插件，體驗略低於 Windows ，但 FTP 和 SFTP 及衍生物會更好。
+理想：開源 IDM 配合離綫下載。
+
 
 h3. 通訊
 
 <a href="http://portableapps.com/apps/internet/skype_portable" rel="external">Skype</a> 免費高速的視頻通話。
-!!<a href="http://www.portableappc.com/internet/tencent-tm-portable/" rel="external">TM</a> 無廣告、低佔用的 QQ 。要是能找到好用的非官方 QQ 協議軟件就好了，還是覺得不安全。
+☭<a href="http://www.portableappc.com/internet/tencent-tm-portable/" rel="external">TM</a> 無廣告、低佔用的 QQ 。要是能找到好用的非官方 QQ 協議軟件就好了，還是覺得不安全。
 Linux 方案及點評： Sype+Pidgin ，體驗不好，兼容較差， QQ 部分功能缺失。
+理想：開源 Skype 支持 QQ 協議。
+
 
 h3. 辦公套件
 
-!<a href="http://hi.baidu.com/dragonflylee/item/82f412334bab4f80c2cf29b8" rel="external">Excel 2003</a> 帶運算符的表格。
-!<a href="http://i.yunduan.cn/topic/735" rel="external">Visio 2003</a> 我就畫點人物關係圖，但別的軟件就是做不好。
-關注： <a href="http://libreoffice.org/" rel="external">LibreOffice</a>, !!<a href="http://www.kingsoftstore.com" rel="external">KingSoft Office</a>
-Linux 方案及點評： <a href="http://libreoffice.org/" rel="external">LibreOffice</a> 或 OpenOffice 。鑒於 OpenOffice 已內嵌，雖然略有不習慣處，體驗還行。但 Visio 比較難以替代， LibreOffice 不夠好， <a href="https://live.gnome.org/Dia" rel="external">Dia</a> 適合非正式作圖，但我關心的是你直接編輯我已經畫好的圖。
+$Excel 帶運算符的表格。無明顯優勢，用他是因爲反正 Office 都裝了……
+$Visio 就畫點人物關係圖，但別的軟件不是太複雜太慢就是做不好。用得很少但比較滿意。
+$Onenote 筆記整理。 2010 版針對性能做了優化，比 Evernote 快多了。重點是我需要在筆記上做點畫圈和插入圖片再畫圈等無聊事，同時又比較喜歡筆記本式的編排。本來不喜歡如此大而髒的管理方式，不過目前的免費軟件都不大好用。
+關注： <a href="http://libreoffice.org/" rel="external">LibreOffice</a>, <a href="http://xournal.sourceforge.net/" rel="external">Xournal</a>, <a href="http://jarnal.wikispaces.com/" rel="external">Jarnal</a>
+Linux 方案及點評： <a href="http://libreoffice.org/" rel="external">LibreOffice</a> 或 OpenOffice 。鑒於 OpenOffice 已內嵌，雖然略有不習慣處，體驗還行。但 Visio 和 Onenote 比較難以替代。
+理想：軟件開源，筆記分散式存儲，支持在敲入的文字上手寫塗畫，高度整合表格和畫圖軟件。
+
 
 h3. 排版
 
 <a href="http://www.w32tex.org/" rel="external">W32TeX</a> 搞日本人開發的宏包必備。
 <a href="http://www.tug.org/texlive/" rel="external">TeX Live</a> 高大全的東西。
-!方正書版：非常容易上手的命令排版。
-關注： !<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=265" rel="external">Adobe InDesign</a>, <a href="http://miktex.org/" rel="external">MiKTeX</a>, <a href="http://www.ctex.org/" rel="external">CTeX</a>
+$☭方正書版：非常容易上手的命令排版。
+關注： $<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=265" rel="external">Adobe InDesign</a>, <a href="http://miktex.org/" rel="external">MiKTeX</a>, <a href="http://www.ctex.org/" rel="external">CTeX</a>
 Linux 方案及點評：老實說，作爲命令行控，沒人會開著編譯器寫文章，無所謂體驗如何。 Linux 裝 TeX 會比較方便，但沒有書版，字體設置也比較討厭。
+理想： 完美整合 LuaTeX, XeTeX, ConTeXt, Omega 和方正書版，簡化字體設置和編譯速度，文件數量 200 個以內，根據古代刻本製作若干款開源舊字形字體，其餘完美實現飛行安裝。
+
 
 h3. 文本編輯器
 
 <a href="http://www.hanzify.org/software/11742.html" rel="external">AkelPad</a> 我最關注的開源文本編輯器，但不常用。
-!<a href="http://www.portableappc.com/development/emeditor-pro-portable/" rel="external">EmEditor</a> 最適合作家的文本編輯器，原生支持便攜版。
+$<a href="http://www.portableappc.com/development/emeditor-pro-portable/" rel="external">EmEditor</a> 最適合作家的文本編輯器，原生支持便攜版。
 <a href="http://www.vim.org/" rel="external">VIM</a> 我經常使用 EmEditor 的 VI 模式，但其實很少用到 VIM 本體。
-關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.scintilla.org/" rel="external">SciTE</a>, !<a href="http://baoku.yunduan.cn/d/item/2118" rel="external">EditPlus</a>
+關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.scintilla.org/" rel="external">SciTE</a>, $<a href="http://baoku.yunduan.cn/d/item/2118" rel="external">EditPlus</a>
 Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor 是我的菜，所以 Windows 更好。這個結論太個人化了，不具備普遍參考價值。
+理想： EmEditor 基礎上加入收藏夾。
+
 
 h3. 電子書及圖像處理
 
 UnicornViewer: 讀 PDG 和其他掃描版電子書。
 <a href="http://pdfpatcher.cnblogs.com/" rel="external">PDFPatcher</a> 非常不錯 PDF 處理軟件。
 <a href="http://www.comicer.com/stronghorse/software/#ComicEnhancerPro" rel="external">ComicEnhancerPro</a>, <a href="http://www.comicer.com/stronghorse/software/#Pdg2Pic" rel="external">Pdg2Pic</a>, <a href="http://www.comicer.com/stronghorse/software/#DjVuToy" rel="external">DjVuToy</a> 處理超星電子書。
-!CxCandy, 超星老鷹版 , Downdx, DxDown, Dxfillpage: 下載 PDG 。這是我轉向 Linux 的最大阻力之一。
+$CxCandy, 超星老鷹版 , Downdx, DxDown, Dxfillpage: 下載 PDG 。這是我轉向 Linux 的最大阻力之一。
 <a href="http://www.imagemagick.org" rel="external">ImageMagick</a> 跨平臺的命令行圖像處理工具
-<a href="http://www.portableappc.com/office/pdf-xchange-viewer-portable/" rel="external">PDF-XChange Viewer</a> 讀文本 PDF ，但這款軟件我把他當綠色而非便攜軟件用。
-!<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Foxit Editor</a> 編輯文本 PDF 。
-!Adobe PDF Printer 誰讓他是標準呢。
+<a href="http://www.portableappc.com/office/pdf-xchange-viewer-portable/" rel="external">PDF-XChange Viewer</a> 讀文本 PDF ，非常平滑，軟件也小。
+$<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Foxit Editor</a> 編輯文本 PDF 。
+$Adobe PDF Printer 誰讓他是標準呢。
 <a href="http://www.portableappc.com/office/cajviewer-portable/" rel="external">CAJViewer</a> 讀論文時被迫使用。
-關注： <a href="http://www.comicer.com/stronghorse/software/#ComicViewer" rel="external">ComicViewer</a>, !<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">ACDSee</a>, <a href="http://www.irfanview.com" rel="external">IrfanView</a>, <a href="http://blog.kowalczyk.info/software/sumatrapdf/download-free-pdf-viewer.html" rel="external">Sumatra</a>
+關注： <a href="http://www.comicer.com/stronghorse/software/#ComicViewer" rel="external">ComicViewer</a>, $<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">ACDSee</a>, <a href="http://www.irfanview.com" rel="external">IrfanView</a>, <a href="http://blog.kowalczyk.info/software/sumatrapdf/download-free-pdf-viewer.html" rel="external">Sumatra</a>
 Linux 方案及點評：由於我主要下載和看 PDG ，極少使用 PDF ， Windows 完勝。
+理想： PDF-XChange 能打開 PDG 和 DJVU 的話，我就滿足了。
+
 
 h3. 電子辭典
 
@@ -193,17 +220,21 @@ StarDict 同上。很巧，兩個作者都是佛教徒，不同的是後者瘋�
 <a href="http://mdict.cn/" rel="external">MDict</a> 中文詞庫最多，但軟件真心難用。
 <a href="http://www.cnblogs.com/hanzisearcher/" rel="external">HanziSearcher</a> 用來「查」字典——他會給出具體頁碼。
 Linux 方案及點評：免費的辭典終究不敷使用，還是要從 MDict 轉，而轉換器是 Windows 的，而且轉不了 mdd 的圖片和發音。
+理想： Accelon 式的搜索，主流界面，配合我所需要的所有辭典。
 注：軟件本身都沒有問題，但是所用辭典可能產生版權糾紛。
+
 
 h3. 亞洲語系相關
 
-!!<a href="http://baoku.yunduan.cn/d/item/1718/" rel="external">QQ 拼音</a> 原本是我唯一安裝的輸入法，各種抄襲，各種強大，但繁體不是原生的，有錯字，需要調教。
+☭<a href="http://baoku.yunduan.cn/d/item/1718/" rel="external">QQ 拼音</a> 原本是我唯一安裝的輸入法，各種抄襲，各種強大，但繁體不是原生的，有錯字，需調教。
 <a href="http://code.google.com/p/rimeime" rel="external">小狼毫</a> 原生支持繁體雙拼的輸入法平臺，不過目前還很爛，幾乎沒法用，主要還是關注。
 <a href="http://ntu.csie.org/~piaip/index.html" rel="external">pAppLocale</a> 打繁體遊戲專用。
 ROST 中文字頻統計分析。
-<a href="http://ishare.iask.sina.com.cn/f/7852836.html" rel="external">Convertz</a> 最好的繁簡切換器。
+<a href="http://ishare.iask.sina.com.cn/f/7852836.html" rel="external">Convertz</a> 最好的繁簡切換器。 Open-CC 雖然更準確，功能很弱。
 關注： <a href="http://cle.linux.org.tw/trac" rel="external">gcin</a>
 Linux 方案及點評： Rime/ibus-pinyin/gcin/scim/hime/fcitx 。繁體輸入還好，但按鍵等方面會不舒服，由於輸入法差一點會差很多，所以體驗還是差。其他小工具還是 Windows 的比較好。
+理想：把 QQ 拼音所有功能放進小狼毫即可。
+
 
 h3. 鍵鼠操作
 
@@ -211,43 +242,105 @@ h3. 鍵鼠操作
 <a href="http://www.iopus.com/imacros/firefox" rel="external">iMacros</a> 同上，但針對網頁操作比較完善。
 關注： <a href="http://www.portableappc.com/utilities/strokeit-portable/" rel="external">StrokeIt</a>, <a href="http://www.autoitscript.com/site/autoit/" rel="external">AutoIt</a>, <a href="http://www.vrBrothers.com" rel="external">按鍵精靈</a>
 Linux 方案及點評： <a href="http://www.ironahk.net/" rel="external">IronAHK</a> 重構了 AHK ，甚至可以說更好學，我 Windows 都該轉用他。 StrokeIt 也有 Easystroke 來代替。
+理想： AHK+iMacros ，命令再豐富些。
+
 
 h3. 文件管理
 
 <a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Total Commander</a> 用於改名和移動。
-!<a href="http://baoku.yunduan.cn/d/item/6685/" rel="external">Winrar</a> 簡單好用， 7zip 坑爹不解釋。
+$<a href="http://baoku.yunduan.cn/d/item/6685/" rel="external">Winrar</a> 簡單好用， 7zip 坑爹不解釋。
 <a href="http://baoku.yunduan.cn/d/item/1245/" rel="external">Unlocker</a> 刪掉被鎖住的文件。
 <a href="http://ipmsg.org/tools/fastcopy.html.en" rel="external">FastCopy</a> 最快的複製、移動軟件。
-<a href="http://codesector.com/teracopy" rel="external">TeraCopy</a> 不夠快，但是整合進右鍵了很爽。
-!<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Partition Magic</a> 偶爾用來分區。
-關注： <a href="http://portableapps.com/apps/utilities/7-zip_portable" rel="external">7zip</a>, !Directory Opus
+<a href="http://codesector.com/teracopy" rel="external">TeraCopy</a> 不夠快，但整合進右鍵了很爽。
+<a href="http://www.autoitscript.com/site/autoit-tools/gimagex/" rel="external">GImageX</a> 免去使用 ImageX 時忘記命令的尷尬。
+關注： <a href="http://portableapps.com/apps/utilities/7-zip_portable" rel="external">7zip</a>, $Directory Opus
 Linux 方案及點評： Double Commander 的體驗不行， 7zip 也不如 WinRAR 清爽， Unlocker 有也不敢亂用不是。
+理想：以上軟件的著名功能全部整合進系統。
+
+
+h3. 硬件
+
+$Diskeeper: 快得讓人驚喜的磁盤碎片整理工具。
+$<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Partition Magic</a> 偶爾用來分區。
+
 
 h3. 光碟
 
-ONES 小巧的刻錄軟件，何必 Nero 呢。
-<a href="http://www.daemon-tools.cc" rel="external">Daemon Tools Lite</a> Lite 足夠了，衹用來加載虛擬光碟。
-!UltraISO 用單文件版，用於製作和修改虚拟光碟。
+ONES: 小巧的刻錄軟件，何必 Nero 呢。
+<a href="http://www.daemon-tools.cc" rel="external">Daemon Tools Lite</a> Lite 虛擬光碟軟件很多， DTL 支持一些特殊的東西，而且現在用 PortableApps 標準的版本，並不流氓。
+$UltraISO 用單文件版，用於製作和修改虚拟光碟。
 關注： <a href="http://portableapps.com/apps/utilities/infrarecorder_portable" rel="external">InfraRecorder</a>, <a href="http://www.imgburn.com/" rel="external">ImgBurn</a>
-Linux 方案及點評： DAEMON Tools 倒是不好替換，其他隨便。
+Linux 方案及點評： DAEMON Tools 倒是不好替換，不過 Linux 沒法打遊戲，需求解除。
+
 
 h3. 影音
 
-<a href="http://www.potplayer.org" rel="external">PotPlayer</a> 強大的高性能視頻播放器，體積小於 KMPlayer 。
-!!<a href="http://www.portableappc.com/music-video/ttplayer-portable/" rel="external">TTPlayer</a> 還是挺強大的，不但能播放，還能批處理編輯，但是一定要去廣告。本著懶惰原則，有別的也不換。
+KMPlayer: 用了一陣 PotPlayer ，可能默認設置不好，反正啟動很慢，乾脆換回 KMP ，而且是 2.9 版。
+☭<a href="http://www.portableappc.com/music-video/ttplayer-portable/" rel="external">TTPlayer</a> 還是挺強大的，不但能播放，還能批處理編輯，但是一定要去廣告。本著懶惰原則，有別的也不換。
 <a href="http://www.bunkus.org/videotools/mkvtoolnix/" rel="external">MKVToolNix</a> 偶爾截取一些視頻，原版就很好。
 關注： <a href="http://www.videolan.org/vlc/" rel="external">VLC</a>, <a href="http://sourceforge.net/projects/guliverkli/">Media Player Classic</a>, <a href="http://aimp.ru" rel="external">AIMP</a>
 Linux 方案及點評：看片用 VLC/MPlayer ，聽歌沒有好工具。 Linux 娛樂還是差。
+理想：啟動快、支持格式多、具有簡單的編輯、轉換功能即可。
+
 
 h3. 其他
 
 <a href="http://homepage1.nifty.com/kazubon/tclocklight/index.html" rel="external">Tclock</a> 好用的免費鬧鐘軟件。
-<a href="http://ishare.iask.sina.com.cn/f/7852628.html" rel="external">變速齒輪</a> 曹操傳必備。
-<a href="http://www.freelaunchbar.com/" rel="external">Free Launch Bar</a> 雖然 TLB 不難找，不過我覺得這個更好用。
+$☭<a href="http://ishare.iask.sina.com.cn/f/7852628.html" rel="external">變速齒輪</a> 曹操傳必備。
+<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLaunch</a> 日系快速啟動類軟件，各種快捷鍵，各種風格，同類軟件我都懶得試了阿魯。
 程序多開器 對於某些不支持多開的軟件，這玩意能起到比較好的效果。
 <a href="http://www.cygwin.com/" rel="external">CygWin</a> 比 WINE 還煩，我是用來 @wget -r -np@ 的。
+
+
+h3. 已淘汰名單
+
+嘗試過一段時間但終於放棄的。可以看到，帶 $ 和 ☭ 的很多。
+
+Evernote: 太慢，用戶體驗極差，還不如文本編輯器解決。
+☭Wiz: 比 Evernote 快，但簡單的在文本編輯器裏直接寫最好，複雜的還是 Onenote 。
+$Frontpage: 自從學會了 html 就沒用了。
+$Dreamweaver: 我眞不懂誰會買這貨。
+Notepad++: 作者你是臺灣人中英混排換行都做不好還出來混？
+$UltraEdit: 跟 EmEditor 比，弱爆了弱爆了弱爆了。
+☭搜狗拼音: 還去廣告，麻煩。
+谷歌拼音: 輸入法是習慣積累而成的，但他不符合。
+新酷音: 詞庫略小。
+$☭WPS: 本來就很弱，而且搞得還不如自己開發給老外的 Kingsoft Office 。
+$Microsoft Powerpoint: 沒啥搞頭。
+$CorelDraw: 複雜了點。
+$Photoshop: 太慢太複雜，用不上那麼多功能。
+Adobe Reader: 臃腫、緩慢，而且文本 PDF 很差。
+$Directory Opus: 破解太麻煩了，反正 TotalCMD 也能滿足需要。
+Free Launch Bar: 曾經覺得不錯，不過在強大的 CLaunch 面前還是敗了。
+$Nero: 囉嗦。
+Stardict: 界面令我眼球乾澀。
+☭超級兔子/優化大師: 懶得鼓搗。
+☭QQ: 我搞不懂有了 TM 爲什麼還有人用 QQ 。
+$Microsoft Outlook/Thunderbird: 需求解除——主要是現在沒關係的郵件都用騰訊家的了。
+IE: 除了部分網銀，誰還能給我一個用他的理由？
+☭迅雷方舟: 永久保存都去掉了，這貨還有用嗎？
+☭華爲網盤: 本來就很垃圾好伐！我都沒眞正用過。
+☭115: 傷不起。
+☭金山 T 盤: 倒閉了你叫我怎麼用？
+SugarSync: 界面傷眼，而且確實比不上 Dropbox 。
+MSN: 確實不如 TM 清爽和高效，音頻聊天也不如 Skype 。
+☭迅雷: 光看這資源佔用，還以爲他母公司是 Adobe 呢。（你在黑 Adobe 吧。）
+Flashget: 新版亂七八糟又慢，舊版比不上 IDM 。
+Filezila: 倒不怪他，我在 FlashFXP 下的用戶習慣太強大了。
+NirCmd: 軟件本身很好，但你覺得我的記性會好到這些命令都記得麼……
+
 
 h3. 戰場之結論
 
 Windows 下軟件很安逸， Linux 下較折騰。如果喜歡嘗試某些開源項目和網上互動， Linux 更好。但娛樂和中國式的辦公、學習則應該在 Windows 下。對於我來說，我最需要的無非就是上網、看電子書、查字、打字、文本編輯，這些 Windows 都做得很好，而 Linux 有很多地方我不大滿意。本來 Windows 不穩定，軟件還不好裝，這個體驗不如 Linux ，但就是因爲體驗不好而用戶極多，現在便攜弄得火紅舒適，從重裝到把軟件全部搞清楚只要一小時，反而很方便重裝，真是世事難料。
 從費用的角度來講，我的工具以免費軟件的爲主，但侵權行爲很多：比如用有版權的辭典，還有冒名下載超星書籍，也有一些破解軟件。
+
+h3. 彈藥庫
+
+http://www.opensourcealternative.org/ 開源替代品網站。不同於 alternatives.to ，他是文章形式的，做得比較好。
+http://portableapps.com/apps 不論是使用便攜軟件還是下載綠色包，都可以在這裏碰碰運氣。
+http://portableappc.com/ 同上，亮點在論壇，有熱心人不斷更新比較難下載到的國外網盤上的軟件。
+http://www.winpenpack.com/en/index.php 類似 Portableapps ，不過是意大利的。
+http://www.hanzify.org/index.html 烈火的網站，專注於製作精美的漢化軟件。
+http://www.portablesoft.org/ 孜孜不倦的更新、打包便攜軟件。
+http://baoku.yunduan.cn/ 雖然不斷沒落，還是能找到不少盜版軟件。
