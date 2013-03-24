@@ -171,8 +171,8 @@ h3. 辦公套件
 $Excel 帶運算符的表格。無明顯優勢，用他是因爲反正 Office 都裝了……
 $Visio 就畫點人物關係圖，但別的軟件不是太複雜太慢就是做不好。用得很少但比較滿意。
 $Onenote 筆記整理。 2010 版針對性能做了優化，比 Evernote 快多了。重點是我需要在筆記上做點畫圈和插入圖片再畫圈等無聊事，同時又比較喜歡筆記本式的編排。本來不喜歡如此大而髒的管理方式，不過目前的免費軟件都不大好用。
-關注： <a href="http://libreoffice.org/" rel="external">LibreOffice</a>, <a href="http://xournal.sourceforge.net/" rel="external">Xournal</a>, <a href="http://jarnal.wikispaces.com/" rel="external">Jarnal</a>
-Linux 方案及點評： <a href="http://libreoffice.org/" rel="external">LibreOffice</a> 或 OpenOffice 。鑒於 OpenOffice 已內嵌，雖然略有不習慣處，體驗還行。但 Visio 和 Onenote 比較難以替代。
+關注： <a href="http://libreoffice.org/" rel="external">LibreOffice</a>, <a href="http://xournal.sourceforge.net/" rel="external">Xournal</a>, <a href="http://jarnal.wikispaces.com/" rel="external">Jarnal</a>, <a href="http://basket.kde.org" rel="external">BasKet Note Pads</a>
+Linux 方案及點評： <a href="http://libreoffice.org/" rel="external">LibreOffice</a> 或 OpenOffice 。但 Visio 和 Onenote 比較難以替代。特別是 Onenote ，他的筆跡功能太卓越， BasKet Note Pads 實現了他的大多數功能，唯獨這個沒有。
 理想：軟件開源，筆記分散式存儲，支持在敲入的文字上手寫塗畫，高度整合表格和畫圖軟件。
 
 
@@ -297,7 +297,7 @@ h3. 已淘汰名單
 嘗試過一段時間但終於放棄的。可以看到，帶 $ 和 ☭ 的很多。
 
 Evernote: 太慢，用戶體驗極差，還不如文本編輯器解決。
-☭Wiz: 比 Evernote 快，但簡單的在文本編輯器裏直接寫最好，複雜的還是 Onenote 。
+☭Wiz: 比 Evernote 快，相較於 Evernote ，好了太多，他的老總很靠譜，很認真聽取意見，我喜歡這樣的產品。但使用還是不如 Onenote 。
 $Frontpage: 自從學會了 html 就沒用了。
 $Dreamweaver: 我眞不懂誰會買這貨。
 Notepad++: 作者你是臺灣人中英混排換行都做不好還出來混？
@@ -344,3 +344,4 @@ http://www.winpenpack.com/en/index.php 類似 Portableapps ，不過是意大利
 http://www.hanzify.org/index.html 烈火的網站，專注於製作精美的漢化軟件。
 http://www.portablesoft.org/ 孜孜不倦的更新、打包便攜軟件。
 http://baoku.yunduan.cn/ 雖然不斷沒落，還是能找到不少盜版軟件。
+http://www.guofs.com/ 專注於中國人常用的軟件，現在放 M$ 家盜版軟件的名博不多了——他的 PR 是 4 ，算個小名博罷。
