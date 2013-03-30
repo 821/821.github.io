@@ -122,14 +122,15 @@ h2. 三、戰場層面：我使用或關注的一些軟件
 
 h3. 網盤類
 
-→<a href="https://www.dropbox.com/referrals/NTI3MzQ2NDcxOQ" rel="external">Dropbox</a> 著名跨平臺網盤，隱私不大好，在中國較慢。
+→<a href="https://www.dropbox.com/referrals/NTI3MzQ2NDcxOQ" rel="external">Dropbox</a> 隱私不好，在中國較慢，不過空間大。
 →<a href="https://spideroak.com/signup/referral/cc8fc25a35f7183890a91ba4f65e913f/" rel="external">SpiderOak</a> 隱私最好的跨平臺網盤，設置複雜，功能強大。
 ☭<a href="http://www.kuaipan.cn/?channel=aoipf6" rel="external">金山快盤</a> 我有老 T 盤，所以是 1TB 空間。
-☭<a href="https://jianguoyun.com" rel="external">堅果雲</a> 中國網盤團隊最重視技術的一個，限流量不限空間，我自己製作了便攜版。
-SkyDrive: 僅用來搭配 Onenote 。
-關注： <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>, <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://www.wuala.com" rel="external">Wuala</a>, <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a>, <a href="www.syncplicity.com" rel="external">Syncplicity</a>, <a href="http://www.idrive.com/" rel="external">iDrive</a>, ☭<a href="http://yun.baidu.com/disk/beinvited?uk=3204744784" rel="external">百度網盤</a>, copy.com
+☭<a href="https://jianguoyun.com" rel="external">堅果雲</a> 中國網盤團隊最重視技術的一個，限流量不限空間，自己製作了便攜版。
+SkyDrive: 僅用來搭配 OneNote ，以便在綫翻閱。隱私問題如果能躲過機器排查還是好的。
+關注： <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>, <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://www.wuala.com" rel="external">Wuala</a>, <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a>, <a href="www.syncplicity.com" rel="external">Syncplicity</a>, <☭<a href="http://yun.baidu.com/disk/beinvited?uk=3204744784" rel="external">百度網盤</a>, copy.com
 Linux 方案及點評：同步盤不受影響，其餘用網頁版或 Wine ，總體體驗打折不嚴重。
-理想：支持同步和存儲式上傳（快盤、電信、雲諾），永久保存，大容量，直鏈分享與文件夾分享共存（ Dropbox ），嚴格的隱私（ SpiderOak ），開源。
+理想：支持同步和存儲式上傳（快盤、電信、雲諾），永久保存，大容量，大單文件，直鏈分享與文件夾分享共存（ Dropbox ），嚴格的隱私（ SpiderOak ），開源。
+注：我在這裏給一個換算式子來衡量免費網盤價值—— SpiderOak = 1.2 Dropbox = 1.5 Wuala/Syncplicity/Jungle Disk = 1.8 SkyDrive/Memopal/Sugarsync = 4 堅果雲 = 6 box.net = 10 雲諾/電信 = 15 金山快盤 = 20 百度網盤 = 25 妖妖舞/新浪微盤 = ∞ 華爲。比如你的 SpiderOak 是 3 GB 而妖妖舞是 75GB ，我個人覺得，二者是等價的。
 
 
 h3. 科學衝浪
@@ -168,20 +169,20 @@ h3. 辦公套件
 
 →$Excel: 帶運算符的表格。無明顯優勢，用他是因爲反正 Office 都裝了……
 $Visio: 就畫點人物關係圖，但別的軟件不是太複雜太慢就是做不好。用得很少但比較滿意。
-→$Onenote: 筆記整理。 2010 版針對性能做了優化，比 Evernote 快多了。重點是我需要在筆記上做點畫圈和插入圖片再畫圈等無聊事，同時又比較喜歡筆記本式的編排。本來不喜歡如此大而髒的管理方式，不過目前的免費軟件都不大好用。
+→$OneNote: 用起來最有使用紙質筆記本感覺的筆記軟件。 2010 版針對性能做了優化，比 Evernote 快多了。重點是我需要在筆記上做點畫圈和插入圖片再畫圈等無聊事，同時又比較喜歡筆記本式的編排，有時還會貼一些不太常用又怕搞丟的附件。本來不喜歡大而髒的管理方式，不過目前的免費軟件都不大好用。這裏說明一下，如果你用 Office 2003 感覺很好，沒必要升級。但如果正在用 2007 ，建議換成 2010 或 2013 ，速度快很多。
 關注： <a href="http://libreoffice.org/" rel="external">LibreOffice</a>, <a href="http://xournal.sourceforge.net/" rel="external">Xournal</a>, <a href="http://jarnal.wikispaces.com/" rel="external">Jarnal</a>, <a href="http://basket.kde.org" rel="external">BasKet Note Pads</a>
-Linux 方案及點評： <a href="http://libreoffice.org/" rel="external">LibreOffice</a> 或 OpenOffice 。但 Visio 和 Onenote 比較難以替代。特別是 Onenote ，他的筆跡功能太卓越， BasKet Note Pads 實現了他的大多數功能，唯獨這個沒有。
+Linux 方案及點評： LibreOffice 或 OpenOffice 。但 Visio 和 OneNote 比較難以替代。特別是 OneNote ，他的筆跡功能太卓越， BasKet Note Pads 實現了他的大多數功能，但這個沒有。
 理想：軟件開源，筆記分散式存儲，支持在敲入的文字上手寫塗畫，高度整合表格和畫圖軟件。
 
 
 h3. 排版
 
-<a href="http://www.w32tex.org/" rel="external">W32TeX</a> 搞日本人開發的宏包必備。
+→<a href="http://www.w32tex.org/" rel="external">W32TeX</a> 搞日本人開發的宏包必備。
 <a href="http://www.tug.org/texlive/" rel="external">TeX Live</a> 高大全的東西。
-$☭方正書版：非常容易上手的命令排版。
+→$☭方正書版：非常容易上手的命令排版。
 關注： <a href="http://miktex.org/" rel="external">MiKTeX</a>, <a href="http://www.ctex.org/" rel="external">CTeX</a>
 Linux 方案及點評：老實說，作爲命令行控，沒人會開著編譯器寫文章，無所謂體驗如何。 Linux 裝 TeX 會比較方便，但沒有書版，字體設置也比較討厭。
-理想： 引擎完美整合 LuaTeX, XeTeX, ConTeXt, Omega 和方正書版，簡化字體設置，提高編譯速度，發行版文件數量 200 個以內，根據古代刻本製作若干款開源舊字形字體，其餘完美實現飛行安裝。
+理想： ConTeXt 爲基礎，完美整合 LuaTeX, XeTeX, Omega, 方正書版，簡化字體設置，提高編譯速度，發行版文件數量 200 個以內，根據古代刻本製作若干款開源舊字形字體，其餘完美實現飛行安裝。
 
 
 h3. 文本編輯器
@@ -223,11 +224,11 @@ Linux 方案及點評：免費的辭典終究不敷使用，還是要從 MDict �
 
 h3. 亞洲語系相關
 
-→☭<a href="http://baoku.yunduan.cn/d/item/1718/" rel="external">QQ 拼音</a> 原本是我唯一安裝的輸入法，各種抄襲，各種強大，但繁體不是原生的，有錯字，需調教。
+→☭<a href="http://baoku.yunduan.cn/d/item/1718/" rel="external">QQ 拼音</a> 原本是我唯一安裝的輸入法，各種抄襲，各種強大，但繁體有錯字，需調教。
 <a href="http://code.google.com/p/rimeime" rel="external">小狼毫</a> 原生支持繁體雙拼的輸入法平臺，不過目前還很爛，幾乎沒法用，主要還是關注。
 <a href="http://ntu.csie.org/~piaip/index.html" rel="external">pAppLocale</a> 打繁體遊戲專用。
 ROST 中文字頻統計分析。
-→<a href="http://ishare.iask.sina.com.cn/f/7852836.html" rel="external">Convertz</a> 最好的繁簡切換器。 Open-CC 雖然更準確，功能很弱。
+→<a href="http://ishare.iask.sina.com.cn/f/7852836.html" rel="external">Convertz</a> 最好的繁簡切換器。 Open-CC 雖更準確，功能很弱。
 關注： <a href="http://cle.linux.org.tw/trac" rel="external">gcin</a>
 Linux 方案及點評： Rime/ibus-pinyin/gcin/scim/hime/fcitx 。繁體輸入還好，但按鍵等方面會不舒服，由於輸入法差一點會差很多，所以體驗還是差。其他小工具還是 Windows 的比較好。
 理想：把 QQ 拼音所有功能放進小狼毫即可。
@@ -245,12 +246,12 @@ Linux 方案及點評： <a href="http://www.ironahk.net/" rel="external">IronAH
 h3. 文件管理
 
 <a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Total Commander</a> 用於改名和移動。
-→$<a href="http://baoku.yunduan.cn/d/item/6685/" rel="external">Winrar</a> 簡單好用， 7zip 坑爹不解釋。
+→$<a href="http://baoku.yunduan.cn/d/item/6685/" rel="external">Winrar</a> 簡單好用，用戶習慣無敵。
+→<a href="http://www.peazip.org/" rel="external">Peazip</a> Winrar 的最佳開源替代品，就是安裝包有捆綁。
 →<a href="http://baoku.yunduan.cn/d/item/1245/" rel="external">Unlocker</a> 刪掉被鎖住的文件。
 <a href="http://ipmsg.org/tools/fastcopy.html.en" rel="external">FastCopy</a> 最快的複製、移動軟件。
 <a href="http://codesector.com/teracopy" rel="external">TeraCopy</a> 不夠快，但整合進右鍵了很爽。
 <a href="http://www.autoitscript.com/site/autoit-tools/gimagex/" rel="external">GImageX</a> 免去使用 ImageX 時忘記命令的尷尬。
-關注： <a href="http://portableapps.com/apps/utilities/7-zip_portable" rel="external">7zip</a>, $Directory Opus
 Linux 方案及點評： Double Commander 的體驗不行， 7zip 也不如 WinRAR 清爽， Unlocker 有也不敢亂用不是。
 理想：以上軟件的著名功能全部整合進系統。
 
@@ -291,18 +292,18 @@ h3. 其他
 
 h3. 已淘汰名單
 
-嘗試過一段時間但終於放棄的。可以看到，帶 $ 和 ☭ 的很多。
+嘗試過但終於放棄的。可以看到，帶 $ 和 ☭ 的很多。
 
-Evernote: 太慢，用戶體驗極差，還不如文本編輯器。別人說 Evernote 的精髓在於搜索，偏偏我不需要。
-☭Wiz: 比 Evernote 快，相較於 Evernote ，好了太多，他的老總很靠譜，很認真聽取意見，我喜歡這樣的產品。但使用還是不如 Onenote 。
+Evernote: 太慢，體驗極差，還不如文本編輯器。最傻的是他還逼你聯網，你妹啊。有說 Evernote 的精髓在搜索，偏偏我不需要。
+☭Wiz: 比 Evernote 快，相較於 Evernote ，好了太多，他的老總很認真聽取意見，我喜歡這樣的產品精神，非常推薦。不過 OneNote 確實更強。
 $Frontpage: 自從學會了 html 就沒用了。
 $Dreamweaver: 我眞不懂誰會買這貨。
 Notepad++: 作者你是臺灣人中英混排換行都做不好還出來混？
 $UltraEdit: 跟 EmEditor 比，弱爆了弱爆了弱爆了。
-☭搜狗拼音: 還去廣告，麻煩。
+☭搜狗拼音: 還要去廣告，麻煩。
 谷歌拼音: 輸入法是習慣積累而成的，但他不符合。
 新酷音: 詞庫略小。
-$☭WPS: 本來就很弱，而且搞得還不如自己開發給老外的 Kingsoft Office 。
+$☭WPS: 本就很弱，而且搞得還不如自己開發給老外的 Kingsoft Office 。
 $Microsoft Powerpoint: 沒啥搞頭。
 $CorelDraw: 複雜了點。
 $Photoshop: 太慢太複雜，用不上那麼多功能。話說現在官網有 CS 2 系列的序列號，不必破解。不過我還是懶得用。
@@ -326,6 +327,9 @@ MSN: 確實不如 TM 清爽和高效，音頻聊天也不如 Skype 。
 Flashget: 新版亂七八糟又慢，舊版比不上 IDM 。
 Filezila: 倒不怪他，我在 FlashFXP 下的用戶習慣太強大了。
 NirCmd: 軟件本身很好，但你覺得我的記性會好到這些命令都記得麼……
+$Process Lasso: 都說能優化性能，我是感覺不到。
+殺毒軟件: 譬如性病，帶套喫藥不如潔身自好。當然了，電腦沒那麼絕對，比如別人的文檔污染神馬的。懷疑中毒時隨便下載一個免費的就行了。
+7-Zip: 有了 Peazip 我想不通他還有什麼市場。用戶基數？
 
 
 h3. 戰場之結論
@@ -342,7 +346,7 @@ h3. 彈藥庫
 <a href="http://portableappc.com/" rel="external">PortableAppc</a> 同上，亮點在論壇，有熱心人不斷更新比較難下載到的國外網盤上的軟件。
 <a href="http://www.winpenpack.com/en/index.php" rel="external">WinPenPack</a> 類似 Portableapps ，不過是意大利的。
 <a href="http://www.hanzify.org/index.html" rel="external">漢化新世紀</a> 烈火的網站，專注於製作精美的漢化軟件。
-<a href="http://www.portablesoft.org/" rel="external">精品綠色便攜軟件</a> 孜孜不倦的更新、打包便攜軟件。
+<a href="http://www.portablesoft.org/" rel="external">精品綠色便攜軟件</a> 孜孜不倦的更新、打包便攜軟件。比較欣賞的一點是他不拿新版本充數，軟件出新版他是用更新文章的方式，而且對於他常用的軟件，更新比較勤快。
 <a href="http://baoku.yunduan.cn/" rel="external">雲端</a> 雖然不斷沒落，還是能找到不少盜版軟件。他的論壇有雲端版 Office ，懶得裝的可以去看看。
 <a href="http://www.guofs.com/" rel="external">獨木成林</a> 專注於中國人常用的軟件，現在放 M$ 家盜版軟件的名博不多了——他的 PR 是 4 ，算個小名博罷。
 <a href="htt://x-berry.com" rel="external">軟礦</a> 作品不多，但收藏不少。
