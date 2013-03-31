@@ -28,8 +28,8 @@ h3. （三）、尊重自己的用戶習慣，不主動做沒必要的升級，�
 
 h3. （四）、與其開發一個軟件的潛能，不如換一個專業軟件
 
-善用佳軟的站長總喜歡在介紹軟件的帖子裡加一段很文青的內容，說自己又用該什麼軟件做了一件你想不到的事，並認爲這就是「善用」了該軟件的表現，因爲他最大限度開發了該軟件的功能，正是因爲他「善用」，所以才成就了該軟件的「佳軟」本質。恰恰相反，這正是不能善用軟件的表現。砍樹明明有斧頭和鋸子，現在還有電鋸，他偏偏用菜刀，甚至勺子。這的確是想像力豐富的表現，很多外國閒人喜歡做這種事，但你能說用勺子砍樹是「善用」勺子嗎？遇到大樹，捨棄勺子，尋找電鋸，才是善用的表現。勺子是吃飯喝湯的「佳」器，電鋸是砍樹「佳」器，倒過來必然是行不通的。
-這跟第一條衝突嗎？不衝突。因爲我嘗試的前提是有需求，即，現有軟件離滿意實在差很多。
+善用佳軟總喜歡在介紹軟件的帖子加一段很文青的內容，說自己又用什麼軟件做了一件你想不到的事，並認爲這就是「善用」該軟件的表現，因爲他最大限度開發了該軟件的功能，因爲「善用」，所以才成就了該軟件的「佳軟」本質。恰恰相反，這正是不能善用軟件的表現。砍樹明明有斧頭和鋸子，現在還有電鋸，他偏偏用菜刀，甚至勺子。這的確是想像力豐富的表現，但你能說用勺子砍樹是「善用」勺子嗎？遇到大樹，捨棄勺子，尋找電鋸，才是善用的表現。勺子是吃飯喝湯的「佳」器，電鋸是砍樹「佳」器，倒過來必然是行不通的。
+這跟第一條衝突嗎？不衝突。因爲嘗試的前提是有需求，即，現有軟件離滿意實在差很多。
 
 h3. （五）、大眾化、標準化：用，或至少保留業內評價最高、最熱門、背景最雄厚的軟件
 
@@ -127,7 +127,8 @@ h3. 網盤類
 ☭<a href="http://www.kuaipan.cn/?channel=aoipf6" rel="external">金山快盤</a> 我有老 T 盤，所以是 1TB 空間。
 ☭<a href="https://jianguoyun.com" rel="external">堅果雲</a> 中國網盤團隊最重視技術的一個，限流量不限空間，自己製作了便攜版。
 SkyDrive: 僅用來搭配 OneNote ，以便在綫翻閱。隱私問題如果能躲過機器排查還是好的。
-關注： <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>, <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://www.wuala.com" rel="external">Wuala</a>, <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a>, <a href="www.syncplicity.com" rel="external">Syncplicity</a>, <☭<a href="http://yun.baidu.com/disk/beinvited?uk=3204744784" rel="external">百度網盤</a>, copy.com
+<a href="http://sparkleshare.org/" rel="external">SparkleShare</a> 跟 BitBucket 配合得不要太好！免費無限網盤就是這麼煉成的。缺點是目前我衹知道如何在統一的根目錄下使用英文命名的文件夾。
+關注： <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://www.wuala.com" rel="external">Wuala</a>, <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a>, <a href="www.syncplicity.com" rel="external">Syncplicity</a>, <☭<a href="http://yun.baidu.com/disk/beinvited?uk=3204744784" rel="external">百度網盤</a>, copy.com
 Linux 方案及點評：同步盤不受影響，其餘用網頁版或 Wine ，總體體驗打折不嚴重。
 理想：支持同步和存儲式上傳（快盤、電信、雲諾），永久保存，大容量，大單文件，直鏈分享與文件夾分享共存（ Dropbox ），嚴格的隱私（ SpiderOak ），開源。
 注：我在這裏給一個換算式子來衡量免費網盤價值—— SpiderOak = 1.2 Dropbox = 1.5 Wuala/Syncplicity/Jungle Disk = 1.8 SkyDrive/Memopal/Sugarsync = 4 堅果雲 = 6 box.net = 10 雲諾/電信 = 15 金山快盤 = 20 百度網盤 = 25 妖妖舞/新浪微盤 = ∞ 華爲。比如你的 SpiderOak 是 3 GB 而妖妖舞是 75GB ，我個人覺得，二者是等價的。
@@ -143,7 +144,7 @@ h3. 科學衝浪
 →<a href="http://code.google.com/p/goagent/" rel="external">GoAgent</a> 自己看。
 <a href="https://code.google.com/p/snova/" rel="external">Snova</a> 自己看。
 <a href="http://portableapps.com/apps/internet/winscp_portable" rel="external">WinSCP</a> 輕便的 SFTP ，還能科學衝浪。
-關注： <a href="http://portableapps.com/apps/internet/opera_portable" rel="external">Opera</a>, <a href="http://www.bitvise.com/tunnelier" rel="external">Bitvise Tunnelier</a>, <a href="http://www.portableappc.com/internet/vimperator-portable/" rel="external">Vimperator</a>, <a href="http://code.google.com/p/west-chamber-season-3/" rel="external">西廂</a>, <a href="https://code.google.com/p/wallproxy-plus/" rel="external">Wallproxy Plus</a>, FG
+關注： <a href="http://portableapps.com/apps/internet/opera_portable" rel="external">Opera</a>, <a href="http://www.bitvise.com/tunnelier" rel="external">Bitvise Tunnelier</a>, <a href="http://code.google.com/p/west-chamber-season-3/" rel="external">西廂</a>, <a href="https://code.google.com/p/wallproxy-plus/" rel="external">Wallproxy Plus</a>, FG
 Linux 方案及點評：該有的 Linux 都有，選擇還更廣，體驗高於 Windows 。
 理想： Firefox 的插件， Webkit 內核，其他和 K-Meleon 一樣。
 
@@ -153,7 +154,7 @@ h3. 下載
 →☭<a href="http://www.portableappc.com/internet/qq-download-portable/" rel="external">QQ 旋風</a> 免費離綫下載——我更傾向於使用網頁版 + IDM 之類的國外下載軟件。
 $<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Internet Download Manager</a> http 下載老大，但有時有點煩人。
 關注： $<a href="http://baoku.yunduan.cn/d/item/1600/" rel="external">FlashFXP</a>, <a href="http://portableapps.com/apps/internet/filezilla_portable" rel="external">FileZilla</a>, <a href="http://portableapps.com/apps/internet/free-download-manager-portable" rel="external">Free Download Manager</a>
-Linux 方案及點評：網頁版+瀏覽器插件，體驗略低於 Windows ，但 FTP 和 SFTP 及衍生物會更好。
+Linux 方案及點評：網頁版+瀏覽器插件+wget，體驗略低於 Windows ，但 FTP 和 SFTP 及衍生物會更好。
 理想：開源 IDM 配合離綫下載。
 
 
@@ -169,8 +170,8 @@ h3. 辦公套件
 
 →$Excel: 帶運算符的表格。無明顯優勢，用他是因爲反正 Office 都裝了……
 $Visio: 就畫點人物關係圖，但別的軟件不是太複雜太慢就是做不好。用得很少但比較滿意。
-→$OneNote: 用起來最有使用紙質筆記本感覺的筆記軟件。 2010 版針對性能做了優化，比 Evernote 快多了。重點是我需要在筆記上做點畫圈和插入圖片再畫圈等無聊事，同時又比較喜歡筆記本式的編排，有時還會貼一些不太常用又怕搞丟的附件。本來不喜歡大而髒的管理方式，不過目前的免費軟件都不大好用。這裏說明一下，如果你用 Office 2003 感覺很好，沒必要升級。但如果正在用 2007 ，建議換成 2010 或 2013 ，速度快很多。
-關注： <a href="http://libreoffice.org/" rel="external">LibreOffice</a>, <a href="http://xournal.sourceforge.net/" rel="external">Xournal</a>, <a href="http://jarnal.wikispaces.com/" rel="external">Jarnal</a>, <a href="http://basket.kde.org" rel="external">BasKet Note Pads</a>
+→$OneNote: 用起來最有使用紙質筆記本感覺的筆記軟件。 2010 版針對性能做了優化，比 Evernote 快多了。重點是我需要在筆記上做點畫圈和插入圖片再畫圈等無聊事，同時又比較喜歡筆記本式的編排，有時還會貼一些不太常用又怕搞丟的附件。本來不喜歡大而髒的管理方式，不過目前的免費軟件都不大好用。
+關注： <a href="http://libreoffice.org/" rel="external">LibreOffice</a>, <a href="http://xournal.sourceforge.net/" rel="external">Xournal</a>, <a href="http://jarnal.wikispaces.com/" rel="external">Jarnal</a>, <a href="http://basket.kde.org" rel="external">BasKet Note Pads</a>, ☭Wiz
 Linux 方案及點評： LibreOffice 或 OpenOffice 。但 Visio 和 OneNote 比較難以替代。特別是 OneNote ，他的筆跡功能太卓越， BasKet Note Pads 實現了他的大多數功能，但這個沒有。
 理想：軟件開源，筆記分散式存儲，支持在敲入的文字上手寫塗畫，高度整合表格和畫圖軟件。
 
@@ -288,18 +289,19 @@ h3. 其他
 →<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLaunch</a> 日系快速啟動類軟件，同類軟件我都懶得試了阿魯。
 程序多開器 對於某些不支持多開的軟件，這玩意能起到比較好的效果。
 <a href="http://www.cygwin.com/" rel="external">CygWin</a> 比 WINE 還煩，我是用來 @wget -r -np@ 的。
+→<a href="http://railsinstaller.org" rel="external">RailsInstaller</a> 方便的 git 環境，以便上傳本站文件。
 
 
 h3. 已淘汰名單
 
 嘗試過但終於放棄的。可以看到，帶 $ 和 ☭ 的很多。
 
-Evernote: 太慢，體驗極差，還不如文本編輯器。最傻的是他還逼你聯網，你妹啊。有說 Evernote 的精髓在搜索，偏偏我不需要。
-☭Wiz: 比 Evernote 快，相較於 Evernote ，好了太多，他的老總很認真聽取意見，我喜歡這樣的產品精神，非常推薦。不過 OneNote 確實更強。
+Evernote: 太慢，體驗極差，還不如文本編輯器。有說 Evernote 精髓在搜索，自己的筆記還搜你妹啊，大腦沒有邏輯區塊？
 $Frontpage: 自從學會了 html 就沒用了。
 $Dreamweaver: 我眞不懂誰會買這貨。
 Notepad++: 作者你是臺灣人中英混排換行都做不好還出來混？
 $UltraEdit: 跟 EmEditor 比，弱爆了弱爆了弱爆了。
+Emacs: 太難，記不住。
 ☭搜狗拼音: 還要去廣告，麻煩。
 谷歌拼音: 輸入法是習慣積累而成的，但他不符合。
 新酷音: 詞庫略小。

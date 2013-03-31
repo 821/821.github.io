@@ -54,6 +54,8 @@ call git commit -m "%date:~0,10%"
 call git push origin master
 {% endhighlight %}
 
+另外，如果喜歡即時發佈，還可以配合 SparkleShare 這樣的殺器。每保存一次都會馬上上傳到服務器，不要太厲害哦。
+
 
 h3. 附二：對比 Wordpress 與 ruhoh
 
