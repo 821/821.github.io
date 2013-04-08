@@ -119,19 +119,21 @@ h2. 三、戰場層面：我使用或關注的一些軟件
 加 $ 的軟件存在版權問題，鏈接均爲熱心網友的展示，僅作說明用。如果你的職業對版權敏感，請上官網購買權限。
 加 ☭ 的軟件可能給中華人民共和國公民和在華人員帶來不必要的麻煩，不要把自己生產的文檔、照片與之交互，再或者阻斷其網絡連接。
 加 → 的軟件是特別常用的，屬於衹要裝了系統，就會裝上的。
+後面還會寫出理想軟件的形態，當然，有幾條是默認的，就沒寫：開源、高性能、低資源佔用。
 
 h3. 網盤類
 
 →<a href="https://www.dropbox.com/referrals/NTI3MzQ2NDcxOQ" rel="external">Dropbox</a> 隱私不好，在中國較慢，不過空間大。
-→<a href="https://spideroak.com/signup/referral/cc8fc25a35f7183890a91ba4f65e913f/" rel="external">SpiderOak</a> 隱私最好的跨平臺網盤，設置複雜，功能強大。
+→<a href="https://spideroak.com/signup/referral/cc8fc25a35f7183890a91ba4f65e913f/" rel="external">SpiderOak</a> 設置複雜，功能強大，變態的全版本備份。
+<a href="http://www.wuala.com" rel="external">Wuala</a> 最不改變文件結構、最安全、最環保。
 ☭<a href="http://www.kuaipan.cn/?channel=aoipf6" rel="external">金山快盤</a> 我有老 T 盤，所以是 1TB 空間。
 ☭<a href="https://jianguoyun.com" rel="external">堅果雲</a> 中國網盤團隊最重視技術的一個，限流量不限空間，自己製作了便攜版。
 SkyDrive: 僅用來搭配 OneNote ，以便在綫翻閱。隱私問題如果能躲過機器排查還是好的。
 <a href="http://sparkleshare.org/" rel="external">SparkleShare</a> 跟 BitBucket 配合得不要太好！免費無限網盤就是這麼煉成的。缺點是目前我衹知道如何在統一的根目錄下使用英文命名的文件夾。
-關注： <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://www.wuala.com" rel="external">Wuala</a>, <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a>, <a href="www.syncplicity.com" rel="external">Syncplicity</a>, <☭<a href="http://yun.baidu.com/disk/beinvited?uk=3204744784" rel="external">百度網盤</a>, copy.com
+關注： <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a>, <a href="www.syncplicity.com" rel="external">Syncplicity</a>, <☭<a href="http://yun.baidu.com/disk/beinvited?uk=3204744784" rel="external">百度網盤</a>, copy.com
 Linux 方案及點評：同步盤不受影響，其餘用網頁版或 Wine ，總體體驗打折不嚴重。
-理想：支持同步和存儲式上傳（快盤、電信、雲諾），永久保存，大容量，大單文件，直鏈分享與文件夾分享共存（ Dropbox ），嚴格的隱私（ SpiderOak ），開源。
-注：我在這裏給一個換算式子來衡量免費網盤價值—— SpiderOak = 1.2 Dropbox = 1.5 Wuala/Syncplicity/Jungle Disk = 1.8 SkyDrive/Memopal/Sugarsync = 4 堅果雲 = 6 box.net = 10 雲諾/電信 = 15 金山快盤 = 20 百度網盤 = 25 妖妖舞/新浪微盤 = ∞ 華爲。比如你的 SpiderOak 是 3 GB 而妖妖舞是 75GB ，我個人覺得，二者是等價的。
+理想：支持同步和存儲式上傳（快盤、電信、雲諾），可選擇全版本保存，大容量，其餘和 Wuala 一樣即可。
+注：我在這裏給一個換算式子來衡量免費網盤價值—— Wuala = 1.2 SpiderOak = 1.5 Dropbox = 1.8 Syncplicity/Jungle Disk = 2 SkyDrive/Memopal/Sugarsync = 5 堅果雲 = 8 box.net = 12 雲諾/電信 = 18 金山快盤 = 25 百度網盤 = 30 妖妖舞/新浪微盤 = ∞ 華爲。比如你的 Wuala 是 10GB 而 Dropbox 是 15GB ，妖妖舞是 300GB ，我個人覺得，三者是等價的。
 
 
 h3. 科學衝浪
@@ -155,7 +157,7 @@ h3. 下載
 $<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Internet Download Manager</a> http 下載老大，但有時有點煩人。
 關注： $<a href="http://baoku.yunduan.cn/d/item/1600/" rel="external">FlashFXP</a>, <a href="http://portableapps.com/apps/internet/filezilla_portable" rel="external">FileZilla</a>, <a href="http://portableapps.com/apps/internet/free-download-manager-portable" rel="external">Free Download Manager</a>
 Linux 方案及點評：網頁版+瀏覽器插件+wget，體驗略低於 Windows ，但 FTP 和 SFTP 及衍生物會更好。
-理想：開源 IDM 配合離綫下載。
+理想： IDM 帶離綫下載。
 
 
 h3. 通訊
@@ -163,7 +165,7 @@ h3. 通訊
 <a href="http://portableapps.com/apps/internet/skype_portable" rel="external">Skype</a> 免費高速的視頻通話。
 →☭<a href="http://www.portableappc.com/internet/tencent-tm-portable/" rel="external">TM</a> 無廣告、低佔用的 QQ 。要是能找到好用的非官方 QQ 協議軟件就好了，還是覺得不安全。
 Linux 方案及點評： Sype+Pidgin ，體驗不好，兼容較差， QQ 部分功能缺失。
-理想：開源 Skype 支持 QQ 協議。
+理想： Skype 支持 QQ 和旺旺協議。
 
 
 h3. 辦公套件
@@ -173,7 +175,7 @@ $Visio: 就畫點人物關係圖，但別的軟件不是太複雜太慢就是做
 →$OneNote: 用起來最有使用紙質筆記本感覺的筆記軟件。 2010 版針對性能做了優化，比 Evernote 快多了。重點是我需要在筆記上做點畫圈和插入圖片再畫圈等無聊事，同時又比較喜歡筆記本式的編排，有時還會貼一些不太常用又怕搞丟的附件。本來不喜歡大而髒的管理方式，不過目前的免費軟件都不大好用。
 關注： <a href="http://libreoffice.org/" rel="external">LibreOffice</a>, <a href="http://xournal.sourceforge.net/" rel="external">Xournal</a>, <a href="http://jarnal.wikispaces.com/" rel="external">Jarnal</a>, <a href="http://basket.kde.org" rel="external">BasKet Note Pads</a>, ☭Wiz
 Linux 方案及點評： LibreOffice 或 OpenOffice 。但 Visio 和 OneNote 比較難以替代。特別是 OneNote ，他的筆跡功能太卓越， BasKet Note Pads 實現了他的大多數功能，但這個沒有。
-理想：軟件開源，筆記分散式存儲，支持在敲入的文字上手寫塗畫，高度整合表格和畫圖軟件。
+理想：筆記分散式存儲，支持在敲入的文字上手寫塗畫，高度整合表格和畫圖軟件，界面高度自定義。
 
 
 h3. 排版
@@ -183,7 +185,7 @@ h3. 排版
 →$☭方正書版：非常容易上手的命令排版。
 關注： <a href="http://miktex.org/" rel="external">MiKTeX</a>, <a href="http://www.ctex.org/" rel="external">CTeX</a>
 Linux 方案及點評：老實說，作爲命令行控，沒人會開著編譯器寫文章，無所謂體驗如何。 Linux 裝 TeX 會比較方便，但沒有書版，字體設置也比較討厭。
-理想： ConTeXt 爲基礎，完美整合 LuaTeX, XeTeX, Omega, 方正書版，簡化字體設置，提高編譯速度，發行版文件數量 200 個以內，根據古代刻本製作若干款開源舊字形字體，其餘完美實現飛行安裝。
+理想： ConTeXt 爲基礎，完美整合 LuaTeX, XeTeX, Omega, 方正書版，簡化字體設置，提高編譯速度，發行版文件數量 200 個以內，根據古代刻本製作若干款舊字形字體，其餘完美實現飛行安裝。
 
 
 h3. 文本編輯器
@@ -193,7 +195,7 @@ h3. 文本編輯器
 <a href="http://www.vim.org/" rel="external">VIM</a> 我經常使用 EmEditor 的 VI 模式，但其實很少用到 VIM 本體。
 關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.scintilla.org/" rel="external">SciTE</a>, $<a href="http://baoku.yunduan.cn/d/item/2118" rel="external">EditPlus</a>
 Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor 是我的菜，所以 Windows 更好。這個結論太個人化了，不具備普遍參考價值。
-理想： EmEditor 基礎上加入收藏夾、開源。
+理想： EmEditor 基礎上加入收藏夾。
 
 
 h3. 電子書及圖像處理
@@ -232,7 +234,7 @@ ROST 中文字頻統計分析。
 →<a href="http://ishare.iask.sina.com.cn/f/7852836.html" rel="external">Convertz</a> 最好的繁簡切換器。 Open-CC 雖更準確，功能很弱。
 關注： <a href="http://cle.linux.org.tw/trac" rel="external">gcin</a>
 Linux 方案及點評： Rime/ibus-pinyin/gcin/scim/hime/fcitx 。繁體輸入還好，但按鍵等方面會不舒服，由於輸入法差一點會差很多，所以體驗還是差。其他小工具還是 Windows 的比較好。
-理想：把 QQ 拼音所有功能放進小狼毫即可。
+理想：小狼毫繼承 QQ 拼音所有功能。
 
 
 h3. 鍵鼠操作
@@ -254,7 +256,7 @@ h3. 文件管理
 <a href="http://codesector.com/teracopy" rel="external">TeraCopy</a> 不夠快，但整合進右鍵了很爽。
 <a href="http://www.autoitscript.com/site/autoit-tools/gimagex/" rel="external">GImageX</a> 免去使用 ImageX 時忘記命令的尷尬。
 Linux 方案及點評： Double Commander 的體驗不行， 7zip 也不如 WinRAR 清爽， Unlocker 有也不敢亂用不是。
-理想：以上軟件的著名功能全部整合進系統。
+理想：以上軟件的著名功能全部整合進操作系統。
 
 
 h3. 硬件
@@ -274,18 +276,18 @@ Linux 方案及點評： DAEMON Tools 倒是不好替換，不過 Linux 沒法�
 
 h3. 影音
 
-→KMPlayer: 用了一陣 PotPlayer ，可能默認設置不好，反正啟動很慢，乾脆換回 KMP ，而且是 2.9 版。
-☭<a href="http://www.portableappc.com/music-video/ttplayer-portable/" rel="external">TTPlayer</a> 還是挺強大的，不但能播放，還能批處理編輯，但是一定要去廣告。
+→The KMPlayer: 用了一陣 PotPlayer ，可能默認設置不好，反正啟動很慢，乾脆換回舊版 KMP 。據說 bug 很多，但我感覺不到。
+☭<a href="http://www.portableappc.com/music-video/ttplayer-portable/" rel="external">TTPlayer</a> 還是挺強大的，不但能播放，還能批處理編輯，但是一定要去廣告。我用了一個相當古老的版本。
 <a href="http://www.bunkus.org/videotools/mkvtoolnix/" rel="external">MKVToolNix</a> 偶爾截取一些視頻，原版就很好。
 關注： <a href="http://www.videolan.org/vlc/" rel="external">VLC</a>, <a href="http://sourceforge.net/projects/guliverkli/">Media Player Classic</a>, <a href="http://aimp.ru" rel="external">AIMP</a>, Foobar2000
 Linux 方案及點評：看片用 VLC/MPlayer ，聽歌沒有好工具。 Linux 娛樂還是差。
-理想：啟動快、支持格式多、具有簡單的編輯、轉換功能即可。
+理想：歌曲如舊版 TTPlayer 即可，如果能擴展到視頻更佳。很少聽歌看電影，動畫都改看漫畫了，所以這類軟件不重要，不打算折騰。
 
 
 h3. 其他
 
-<a href="http://homepage1.nifty.com/kazubon/tclocklight/index.html" rel="external">Tclock</a> 好用的免費鬧鐘軟件。
-→$☭<a href="http://ishare.iask.sina.com.cn/f/7852628.html" rel="external">變速齒輪</a> 曹操傳必備。
+→<a href="http://homepage1.nifty.com/kazubon/tclocklight/index.html" rel="external">Tclock</a> 好用的免費鬧鐘軟件。
+→$<a href="http://ishare.iask.sina.com.cn/f/7852628.html" rel="external">變速齒輪</a> 曹操傳必備。
 →<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLaunch</a> 日系快速啟動類軟件，同類軟件我都懶得試了阿魯。
 程序多開器 對於某些不支持多開的軟件，這玩意能起到比較好的效果。
 <a href="http://www.cygwin.com/" rel="external">CygWin</a> 比 WINE 還煩，我是用來 @wget -r -np@ 的。
@@ -340,8 +342,6 @@ Windows 下軟件很安逸， Linux 下較折騰。如果喜歡嘗試某些開�
 從費用的角度來講，我的工具以免費軟件的爲主，但侵權行爲很多：比如用有版權的辭典，還有冒名下載超星書籍，也有一些破解軟件。
 
 h3. 彈藥庫
-
-既然是「彈藥庫」，就不羅列不提供下載的網站了。
 
 <a href="http://www.opensourcealternative.org/" rel="external">Open Source Alternative</a> 不同於 alternatives.to ，他是文章形式的，做得比較好。
 <a href="http://portableapps.com/apps" rel="external">PortableApps</a> 不論是使用便攜軟件還是下載綠色包，都可以在這裏碰碰運氣。
