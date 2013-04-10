@@ -191,10 +191,11 @@ Linux 方案及點評：老實說，作爲命令行控，沒人會開著編譯�
 h3. 文本編輯器
 
 <a href="http://www.hanzify.org/software/11742.html" rel="external">AkelPad</a> 我最關注的開源文本編輯器，但不常用。
-→$<a href="http://www.portablesoft.org/emeditor-pro/" rel="external">EmEditor</a> 最適合作家的文本編輯器，原生支持便攜版。
+$<a href="http://www.portablesoft.org/emeditor-pro/" rel="external">EmEditor</a> 最適合作家的文本編輯器，原生支持便攜版。
+→<a href="http://www.everedit.net" rel="external">EverEdit</a> 國產閉源免費文本編輯器，很好的山寨了 EmEditor 速度特快。
 <a href="http://www.vim.org/" rel="external">VIM</a> 我經常使用 EmEditor 的 VI 模式，但其實很少用到 VIM 本體。
 關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.scintilla.org/" rel="external">SciTE</a>, $<a href="http://baoku.yunduan.cn/d/item/2118" rel="external">EditPlus</a>
-Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor 是我的菜，所以 Windows 更好。這個結論太個人化了，不具備普遍參考價值。
+Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor/EverEdit 是我的菜，所以 Windows 更好。這個結論太個人化了，不具備普遍參考價值。
 理想： EmEditor 基礎上加入收藏夾。
 
 
@@ -298,7 +299,7 @@ h3. 已淘汰名單
 
 嘗試過但終於放棄的。可以看到，帶 $ 和 ☭ 的很多。
 
-Evernote: 太慢，體驗極差，還不如文本編輯器。有說 Evernote 精髓在搜索，自己的筆記還搜你妹啊，大腦沒有邏輯區塊？
+Evernote: 筆記軟件僅僅支持富文本是不夠的，界面和體驗也做不到 OneNote 的水平。
 $Frontpage: 自從學會了 html 就沒用了。
 $Dreamweaver: 我眞不懂誰會買這貨。
 Notepad++: 作者你是臺灣人中英混排換行都做不好還出來混？
