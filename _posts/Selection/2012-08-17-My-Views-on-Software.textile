@@ -229,7 +229,7 @@ Linux 方案及點評：免費的辭典終究不敷使用，還是要從 MDict �
 h3. 亞洲語系相關
 
 →☭<a href="http://baoku.yunduan.cn/d/item/1718/" rel="external">QQ 拼音</a> 原本是我唯一安裝的輸入法，各種抄襲，各種強大，但繁體有錯字，需調教。
-<a href="http://code.google.com/p/rimeime" rel="external">小狼毫</a> 原生支持繁體雙拼的輸入法平臺，不過目前還很爛，幾乎沒法用，主要還是關注。
+→<a href="http://code.google.com/p/rimeime" rel="external">小狼毫</a> 原生支持繁體雙拼的開源輸入法平臺，不過目前功能還很爛，主要還是關注，以及輸入一些隱私相關的東西。
 <a href="http://ntu.csie.org/~piaip/index.html" rel="external">pAppLocale</a> 打繁體遊戲專用。
 ROST 中文字頻統計分析。
 →<a href="http://ishare.iask.sina.com.cn/f/7852836.html" rel="external">Convertz</a> 最好的繁簡切換器。 Open-CC 雖更準確，功能很弱。
@@ -256,7 +256,7 @@ h3. 文件管理
 <a href="http://ipmsg.org/tools/fastcopy.html.en" rel="external">FastCopy</a> 最快的複製、移動軟件。
 <a href="http://codesector.com/teracopy" rel="external">TeraCopy</a> 不夠快，但整合進右鍵了很爽。
 <a href="http://www.autoitscript.com/site/autoit-tools/gimagex/" rel="external">GImageX</a> 免去使用 ImageX 時忘記命令的尷尬。
-Linux 方案及點評： Double Commander 的體驗不行， 7zip 也不如 WinRAR 清爽， Unlocker 有也不敢亂用不是。
+Linux 方案及點評： Double Commander 的 Windows 體驗不行，但是跑到 Linux 平臺下應該沒有問題。
 理想：以上軟件的著名功能全部整合進操作系統。
 
 
