@@ -62,7 +62,7 @@ h2. 附一：已發現之網盤高級功能
 在線播放
 在線看圖
 在線編輯 (Google Drive)
-在線筆記 (Google Drive)
+在線筆記 (Google Drive, Ubuntu One)
 文件內容搜索 (Google Drive)
 眞實地址直鏈 (Dropbox, SpiderOak, Wuala)
 網頁 (Dropbox, Google Drive)
@@ -90,11 +90,11 @@ h2. 附二：同步網盤比較
 |KDrive|15|50|單一|支持|支持|無|否|強制|無|
 |Memopal|3|∞|任意|直鏈|全部|無|可|強制|未見|
 |SkyDrive|7|45|單一|支持|無|無|否|強制|未見|
-|SparkleShare|∞|∞|單一|直鏈|全部|可選|否|repo|
+|SparkleShare|∞|∞|單一|直鏈|全部|可選|否|repo|未見|
 |SpiderOak|2|40+|任意|直鏈|全部|有|否|本人|未見|
 |SugarSync|5|37+|任意|支持|五個|無|否|強制|驗證|
 |Syncplicity|2|6|任意|支持|支持|無|否|強制|未見|
-|Ubuntu One|5|25|單一|支持|無|否|強制|未見|
+|Ubuntu One|5|25|單一|支持|支持|無|否|強制|未見|
 |Wuala|5|5|任意|直鏈|十個|有|否|本人|驗證|
 |Yunio|10|63|單一|支持|支持|無|可|強制|無|
 
