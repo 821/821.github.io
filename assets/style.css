@@ -6,7 +6,7 @@ footer{text-align:center;clear:both;width:100%;border-top:1px solid #9cf;}
 /*General*/
 body{font:20px Book Antiqua,Times,PMingliu;line-height:1.3em;color:#fff;background:#000;}
 ::selection{color:#000;background:#f00;}
-a{color:#181;text-decoration:none;}a:hover{color:#1f75cc;}
+a{color:#9f9;text-decoration:none;}a:hover{color:#1f75cc;}
 p{margin:0 0 1em;text-indent:0;}
 h1{font-size:1.6em;line-height:1em;}h2{font-size:1.4em;}h3{font-size:1.3em;}h4{font-size:1.2em;}h5{font-size:1.2em;}h6{color:#red;}
 h1 a,h3,h3 a{color:#9cf;}h2,h3,h4{padding:0.2em 0 0.2em 0;}h2 a{color:#9cf;}
@@ -17,8 +17,8 @@ td,th{visibility:visible;border:1px solid #39c;text-align:center;vertical-align:
 blockquote{margin:0.2em 1em 1em;padding:0.2em 1% 0 1%;border-left:0.2em solid #28b;background:#039;}
 ul,li{list-style:none;}
 code{background-color:#039;border:1px solid #999;font:20px Inconsolata;}
-a span{vertical-align:super;font-size:0.6em;color:#181;}
-.showhide a{float:right;color:#181;}
+a span{vertical-align:super;font-size:0.6em;color:#9f9;}
+.showhide a{float:right;color:#9f9;}
 /*Columns*/
 #two-colomuns{-moz-column-count:2;-moz-column-gap:2%;-moz-column-rule:none;-webkit-column-count:2;-webkit-column-gap:2%;-webkit-column-rule:none;column-count:2;column-gap:2%;column-rule:none;}
 #colomuns{-moz-column-count:3;-moz-column-gap:2%;-moz-column-rule:none;-webkit-column-count:3;-webkit-column-gap:2%;-webkit-column-rule:none;column-count:3;column-gap:2%;column-rule:none;}
