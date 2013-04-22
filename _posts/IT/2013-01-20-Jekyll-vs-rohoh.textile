@@ -127,3 +127,12 @@ h3. 部署進階教程
 
 "Openshift":http://shawhu.org/2012-10/Jekyll-OpenShift/
 "Heroku":http://jonasforsberg.se/2012/07/22/jekyll-heroku-unicorn
+
+h3. 一些選擇
+GitHub for hosting.
+Git for versioning.
+HTML, markdown and textile for typsetting.
+Wuala for instant syncing.
+Everedit for writing and coding.
+Rimeime for inputting.
+CMD for pushing.
