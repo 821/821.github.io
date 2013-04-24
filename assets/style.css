@@ -9,7 +9,7 @@ body{font:20px Book Antiqua,Times,PMingliu;line-height:1.3em;color:#fff;backgrou
 a{color:#9f9;text-decoration:none;}a:hover{color:#1f75cc;}
 p{margin:0 0 1em;text-indent:0;}
 h1{font-size:1.6em;line-height:1em;}h2{font-size:1.4em;}h3{font-size:1.3em;}h4{font-size:1.2em;}h5{font-size:1.2em;}h6{color:#red;}
-h1 a,h3,h3 a{color:#9cf;}h2,h3,h4{padding:0.2em 0 0.2em 0;}h2 a{color:#9cf;}
+h1 a,h3,h3 a{color:#9cf;}h2,h3,h4{padding:0.2em 0 0.2em 0;}h2,h2 a{color:#F2F5A9;}
 hr{border:1px dotted #9cf;clear:both;}
 img,TABLE{border:0;}
 TABLE{table-layout:auto;border-collapse:collapse;}
@@ -18,6 +18,7 @@ blockquote{margin:0.2em 1em 1em;padding:0.2em 1% 0 1%;border-left:0.2em solid #2
 ul,li{list-style:none;}
 code{background-color:#039;border:1px solid #999;font:20px Inconsolata;}
 a span{vertical-align:super;font-size:0.6em;color:#9f9;}
+strong{#faa}
 .showhide a{float:right;color:#9f9;}
 /*Columns*/
 #two-colomuns{-moz-column-count:2;-moz-column-gap:2%;-moz-column-rule:none;-webkit-column-count:2;-webkit-column-gap:2%;-webkit-column-rule:none;column-count:2;column-gap:2%;column-rule:none;}
