@@ -1,6 +1,6 @@
 ---
 title: 本人
-layout: indexed
+layout: horizontal
 ---
 先來聽聽本站主題曲：<audio src="{{ site.url }}/Music/Writing.mp3" controls preload></audio>
 
