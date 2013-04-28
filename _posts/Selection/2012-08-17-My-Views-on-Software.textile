@@ -190,13 +190,12 @@ Linux 方案及點評：老實說，作爲命令行控，沒人會開著編譯�
 
 h3. 文本編輯器
 
-<a href="http://www.hanzify.org/software/11742.html" rel="external">AkelPad</a> 我最關注的開源文本編輯器，但不常用。
-$<a href="http://www.portablesoft.org/emeditor-pro/" rel="external">EmEditor</a> 最適合作家的文本編輯器，原生支持便攜版。
+<a href="http://www.hanzify.org/software/11742.html" rel="external">AkelPad</a> 最關注的開源文本編輯器，但不常用。
+→$<a href="http://www.portablesoft.org/emeditor-pro/" rel="external">EmEditor</a> 適合作家，原生支持便攜版。
 →<a href="http://www.everedit.net" rel="external">EverEdit</a> 國產閉源免費文本編輯器，很好的山寨了 EmEditor 速度特快。
-<a href="http://www.vim.org/" rel="external">VIM</a> 我經常使用 EmEditor 的 VI 模式，但其實很少用到 VIM 本體。
-關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.scintilla.org/" rel="external">SciTE</a>, $<a href="http://baoku.yunduan.cn/d/item/2118" rel="external">EditPlus</a>
+關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.scintilla.org/" rel="external">SciTE</a>, $<a href="http://baoku.yunduan.cn/d/item/2118" rel="external">EditPlus</a>, <a href="http://www.vim.org/" rel="external">VIM</a>
 Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor/EverEdit 是我的菜，所以 Windows 更好。這個結論太個人化了，不具備普遍參考價值。
-理想： EmEditor 基礎上加入收藏夾。
+理想： EmEditor 基礎上提高性能，並加入收藏夾。
 
 
 h3. 電子書及圖像處理
@@ -295,7 +294,7 @@ h3. 其他
 →<a href="http://railsinstaller.org" rel="external">RailsInstaller</a> 方便的 git 環境，以便上傳本站文件。
 
 
-h3. 已淘汰名單
+h3. 退伍名單
 
 嘗試過但終於放棄的。可以看到，帶 $ 和 ☭ 的很多。
 
@@ -351,10 +350,33 @@ h3. 彈藥庫
 <a href="http://www.hanzify.org/index.html" rel="external">漢化新世紀</a> 烈火的網站，專注於製作精美的漢化軟件。
 <a href="http://www.portablesoft.org/" rel="external">精品綠色便攜軟件</a> 孜孜不倦的更新、打包便攜軟件。比較欣賞的一點是他不拿新版本充數，軟件出新版他是用更新文章的方式，而且對於他常用的軟件，更新比較勤快。
 <a href="http://baoku.yunduan.cn/" rel="external">雲端</a> 雖然不斷沒落，還是能找到不少盜版軟件。他的論壇有雲端版 Office ，懶得裝的可以去看看。
-<a href="http://www.guofs.com/" rel="external">獨木成林</a> 專注於中國人常用的軟件，現在放 M$ 家盜版軟件的名博不多了——他的 PR 是 4 ，算個小名博罷。
+<a href="http://www.guofs.com/" rel="external">獨木成林</a> 專注於中國人常用軟件，現在放 M$ 家盜版軟件的名博不多了——他的 PR 是 4 ，算個小名博罷。
 <a href="htt://x-berry.com" rel="external">軟礦</a> 作品不多，但收藏不少。
 <a href="http://www.softjie.cn/thread-htm-fid-2.html" rel="external">軟件街</a> 現在改成了論壇，有點亂，不過總體來講還好。
 <a href="http://www.bzdiao.com/" rel="external">不着調軟件</a> 右下角的「猜你喜歡」略討厭。
+
+h3. 總參
+
+<a href="http://en.wikipedia.org/wiki/List_of_search_engines" rel="external">Search engines (list)</a>
+<a href="http://en.wikipedia.org/wiki/List_of_wiki_software" rel="external">Wiki software (list)</a>
+<a href="http://en.wikipedia.org/wiki/List_of_content_management_systems" rel="external">CMS (list)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_notetaking_software" rel="external">Notetaking (comparison)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_document_markup_languages" rel="external">Document markup languages (comparison)</a>
+<a href="http://en.wikipedia.org/wiki/List_of_document_markup_languages" rel="external">Document markup languages (list)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_text_editors" rel="external">Text editor (comparison)</a>
+<a href="http://en.wikipedia.org/wiki/List_of_text_editors" rel="external">Text editor (list)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_revision_control_software" rel="external">Revision control (comparison)</a>
+<a href="http://en.wikipedia.org/wiki/List_of_revision_control_software" rel="external">Revision control (list)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_online_backup_services" rel="external">Online backup (comparison)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_file_hosting_services" rel="external">File hosting (comparison)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_open-source_software_hosting_facilities" rel="external">Open-source software hosting (comparison)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_file_managers" rel="external">File managers (comparison)</a>
+<a href="http://zh.wikipedia.org/wiki/%E4%B8%AD%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E5%88%97%E8%A1%A8" rel="external">Chinese IME(list)</a>
+<a href="http://en.wikipedia.org/wiki/List_of_web_browsers" rel="external">Browser (list)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_webmail_providers" rel="external">Email (comparison)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_spreadsheets" rel="external">Spreadsheets (comparison)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_video_player_software" rel="external">Video (comparison)</a>
+<a href="http://en.wikipedia.org/wiki/Comparison_of_audio_player_software" rel="external">Audio (comparison)</a>
 
 h3. 福利院
 
