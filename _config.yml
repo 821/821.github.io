@@ -1,4 +1,4 @@
-permalink: /:title 
+permalink: /:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile"]
 pygments: true
 title : 奚適而惡乎待哉
