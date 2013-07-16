@@ -1,0 +1,2262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- 由 Microsoft Visio 2003, SVG Export, v1.0 生成 Comfort.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="39.3701in"
+		height="15.748in" viewBox="0 0 2834.65 1133.86" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#99ccff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st3 {fill:#000000;font-family:Times New Roman;font-size:2.50001em}
+		.st4 {fill:#ff0000;font-family:Times New Roman;font-size:2.50001em}
+		.st5 {fill:#0000ff;font-family:Times New Roman;font-size:2.50001em}
+		.st6 {fill:#000000;font-family:宋体;font-size:2.50001em}
+		.st7 {font-family:Times New Roman;font-size:1em}
+		.st8 {fill:#99ccff}
+		.st9 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st10 {font-family:宋体;font-size:1em}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Page-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394" v:shadowType="1"/>
+		<v:layer v:name="批注" v:index="0"/>
+		<v:layer v:name="电力/通信" v:index="1"/>
+		<v:layer v:name="电气装置" v:index="2"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(141.732,-793.701)">
+			<title>Rectangle.1</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape2-3" v:mID="2" v:groupContext="shape" transform="translate(2012.6,-226.772)">
+			<title>Rectangle.2</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape3-5" v:mID="3" v:groupContext="shape" transform="translate(1870.87,-226.772)">
+			<title>Rectangle.3</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(1729.13,-226.772)">
+			<title>Rectangle.4</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape5-9" v:mID="5" v:groupContext="shape" transform="translate(1020.47,-226.772)">
+			<title>Rectangle.5</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape6-11" v:mID="6" v:groupContext="shape" transform="translate(793.701,-226.772)">
+			<title>Rectangle.6</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="198.425" height="113.386" class="st1"/>
+		</g>
+		<g id="shape7-13" v:mID="7" v:groupContext="shape" transform="translate(566.929,-226.772)">
+			<title>Rectangle.7</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="198.425" height="113.386" class="st1"/>
+		</g>
+		<g id="shape8-15" v:mID="8" v:groupContext="shape" transform="translate(425.197,-226.772)">
+			<title>Rectangle.8</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape9-17" v:mID="9" v:groupContext="shape" transform="translate(283.465,-226.772)">
+			<title>Rectangle.9</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape10-19" v:mID="10" v:groupContext="shape" transform="translate(141.732,-226.772)">
+			<title>Rectangle.10</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape11-21" v:mID="11" v:groupContext="shape" transform="translate(1870.87,-368.504)">
+			<title>Rectangle.11</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape12-23" v:mID="12" v:groupContext="shape" transform="translate(1729.13,-368.504)">
+			<title>Rectangle.94</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape13-25" v:mID="13" v:groupContext="shape" transform="translate(1587.4,-368.504)">
+			<title>Rectangle.96</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape14-27" v:mID="14" v:groupContext="shape" transform="translate(1445.67,-368.504)">
+			<title>Rectangle.97</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape15-29" v:mID="15" v:groupContext="shape" transform="translate(1303.94,-368.504)">
+			<title>Rectangle.98</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape16-31" v:mID="16" v:groupContext="shape" transform="translate(1162.2,-368.504)">
+			<title>Rectangle.99</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape17-33" v:mID="17" v:groupContext="shape" transform="translate(1020.47,-368.504)">
+			<title>Rectangle.100</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape18-35" v:mID="18" v:groupContext="shape" transform="translate(878.74,-368.504)">
+			<title>Rectangle.101</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape19-37" v:mID="19" v:groupContext="shape" transform="translate(737.008,-368.504)">
+			<title>Rectangle.102</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape20-39" v:mID="20" v:groupContext="shape" transform="translate(595.276,-368.504)">
+			<title>Rectangle.103</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape21-41" v:mID="21" v:groupContext="shape" transform="translate(453.543,-368.504)">
+			<title>Rectangle.104</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape22-43" v:mID="22" v:groupContext="shape" transform="translate(141.732,-368.504)">
+			<title>Rectangle.105</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="283.465" height="113.386" class="st1"/>
+		</g>
+		<g id="shape23-45" v:mID="23" v:groupContext="shape" transform="translate(1814.17,-510.236)">
+			<title>Rectangle.106</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="311.811" height="113.386" class="st1"/>
+		</g>
+		<g id="shape24-47" v:mID="24" v:groupContext="shape" transform="translate(1700.79,-793.701)">
+			<title>Rectangle.124</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape25-49" v:mID="25" v:groupContext="shape" transform="translate(1672.44,-510.236)">
+			<title>Rectangle.147</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape26-51" v:mID="26" v:groupContext="shape" transform="translate(1530.71,-510.236)">
+			<title>Rectangle.148</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape27-53" v:mID="27" v:groupContext="shape" transform="translate(1388.98,-510.236)">
+			<title>Rectangle.609</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape28-55" v:mID="28" v:groupContext="shape" transform="translate(1247.24,-510.236)">
+			<title>Rectangle.716</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape29-57" v:mID="29" v:groupContext="shape" transform="translate(1105.51,-510.236)">
+			<title>Rectangle.720</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape30-59" v:mID="30" v:groupContext="shape" transform="translate(963.78,-510.236)">
+			<title>Rectangle.721</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape31-61" v:mID="31" v:groupContext="shape" transform="translate(822.047,-510.236)">
+			<title>Rectangle.722</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape32-63" v:mID="32" v:groupContext="shape" transform="translate(680.315,-510.236)">
+			<title>Rectangle.727</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape33-65" v:mID="33" v:groupContext="shape" transform="translate(538.583,-510.236)">
+			<title>Rectangle.731</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape34-67" v:mID="34" v:groupContext="shape" transform="translate(396.85,-510.236)">
+			<title>Rectangle.732</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape35-69" v:mID="35" v:groupContext="shape" transform="translate(141.732,-510.236)">
+			<title>Rectangle.733</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="226.772" height="113.386" class="st1"/>
+		</g>
+		<g id="shape36-71" v:mID="36" v:groupContext="shape" transform="translate(1899.21,-651.969)">
+			<title>Rectangle.734</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="226.772" height="113.386" class="st1"/>
+		</g>
+		<g id="shape37-73" v:mID="37" v:groupContext="shape" transform="translate(1615.75,-651.969)">
+			<title>Rectangle.735</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape38-75" v:mID="38" v:groupContext="shape" transform="translate(1474.02,-651.969)">
+			<title>Rectangle.736</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape39-77" v:mID="39" v:groupContext="shape" transform="translate(1332.28,-651.969)">
+			<title>Rectangle.737</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape40-79" v:mID="40" v:groupContext="shape" transform="translate(1190.55,-651.969)">
+			<title>Rectangle.738</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape41-81" v:mID="41" v:groupContext="shape" transform="translate(1048.82,-651.969)">
+			<title>Rectangle.739</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape42-83" v:mID="42" v:groupContext="shape" transform="translate(907.087,-651.969)">
+			<title>Rectangle.741</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape43-85" v:mID="43" v:groupContext="shape" transform="translate(765.354,-651.969)">
+			<title>Rectangle.742</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape44-87" v:mID="44" v:groupContext="shape" transform="translate(623.622,-651.969)">
+			<title>Rectangle.743</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape45-89" v:mID="45" v:groupContext="shape" transform="translate(481.89,-651.969)">
+			<title>Rectangle.744</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape46-91" v:mID="46" v:groupContext="shape" transform="translate(340.157,-651.969)">
+			<title>Rectangle.745</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape47-93" v:mID="47" v:groupContext="shape" transform="translate(141.732,-651.969)">
+			<title>Rectangle.746</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="170.079" height="113.386" class="st1"/>
+		</g>
+		<g id="shape48-95" v:mID="48" v:groupContext="shape" transform="translate(1842.52,-793.701)">
+			<title>Rectangle.747</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="283.465" height="113.386" class="st1"/>
+		</g>
+		<g id="shape49-97" v:mID="49" v:groupContext="shape" transform="translate(1445.67,-226.772)">
+			<title>Rectangle.748</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape50-99" v:mID="50" v:groupContext="shape" transform="translate(1303.94,-226.772)">
+			<title>Rectangle.749</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape51-101" v:mID="51" v:groupContext="shape" transform="translate(1559.06,-793.701)">
+			<title>Rectangle.750</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape52-103" v:mID="52" v:groupContext="shape" transform="translate(1417.32,-793.701)">
+			<title>Rectangle.751</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape53-105" v:mID="53" v:groupContext="shape" transform="translate(1275.59,-793.701)">
+			<title>Rectangle.752</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape54-107" v:mID="54" v:groupContext="shape" transform="translate(1133.86,-793.701)">
+			<title>Rectangle.753</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape55-109" v:mID="55" v:groupContext="shape" transform="translate(992.126,-793.701)">
+			<title>Rectangle.754</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape56-111" v:mID="56" v:groupContext="shape" transform="translate(850.394,-793.701)">
+			<title>Rectangle.755</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape57-113" v:mID="57" v:groupContext="shape" transform="translate(708.661,-793.701)">
+			<title>Rectangle.756</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape58-115" v:mID="58" v:groupContext="shape" transform="translate(566.929,-793.701)">
+			<title>Rectangle.757</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape59-117" v:mID="59" v:groupContext="shape" transform="translate(425.197,-793.701)">
+			<title>Rectangle.758</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape60-119" v:mID="60" v:groupContext="shape" transform="translate(283.465,-793.701)">
+			<title>Rectangle.759</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape61-121" v:mID="61" v:groupContext="shape" v:layerMember="0" transform="translate(170.079,-843.307)">
+			<title>12pt. text.760</title>
+			<desc>ESC</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.88582677165354):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.3465" cy="1126.77" width="56.7" height="14.1732"/>
+			<rect x="0" y="1119.69" width="56.6929" height="14.1732" class="st2"/>
+			<text x="0.84" y="1135.77" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ESC</text>		</g>
+		<g id="shape62-124" v:mID="62" v:groupContext="shape" v:layerMember="0" transform="translate(313.228,-822.047)">
+			<title>12pt. text.761</title>
+			<desc>1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.39370078740157):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.9291" cy="1126.77" width="53.86" height="14.1732"/>
+			<rect x="0" y="1119.69" width="53.8583" height="14.1732" class="st2"/>
+			<text x="19.42" y="1135.77" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape63-127" v:mID="63" v:groupContext="shape" v:layerMember="0" transform="translate(436.535,-779.528)">
+			<title>12pt. text.762</title>
+			<desc>2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2</text>		</g>
+		<g id="shape64-130" v:mID="64" v:groupContext="shape" v:layerMember="0" transform="translate(1077.17,-198.425)">
+			<title>12pt. text.769</title>
+			<desc>Ins</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8504" cy="1091.34" width="73.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="73.7008" height="85.0394" class="st2"/>
+			<text x="18.52" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Ins</text>		</g>
+		<g id="shape65-133" v:mID="65" v:groupContext="shape" v:layerMember="0" transform="translate(1088.5,-623.622)">
+			<title>12pt. text.780</title>
+			<desc>F12</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="22.01" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F12</text>		</g>
+		<g id="shape66-136" v:mID="66" v:groupContext="shape" v:layerMember="0" transform="translate(946.772,-623.622)">
+			<title>12pt. text.781</title>
+			<desc>F11</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="22.01" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F11</text>		</g>
+		<g id="shape67-139" v:mID="67" v:groupContext="shape" v:layerMember="0" transform="translate(805.039,-623.622)">
+			<title>12pt. text.782</title>
+			<desc>F10</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="22.01" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F10</text>		</g>
+		<g id="shape68-142" v:mID="68" v:groupContext="shape" v:layerMember="0" transform="translate(674.646,-623.622)">
+			<title>12pt. text.783</title>
+			<desc>F9</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="29.51" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F9</text>		</g>
+		<g id="shape69-145" v:mID="69" v:groupContext="shape" v:layerMember="0" transform="translate(532.913,-623.622)">
+			<title>12pt. text.784</title>
+			<desc>F8</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="29.51" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F8</text>		</g>
+		<g id="shape70-148" v:mID="70" v:groupContext="shape" v:layerMember="0" transform="translate(391.181,-623.622)">
+			<title>12pt. text.785</title>
+			<desc>F7</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="29.51" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F7</text>		</g>
+		<g id="shape71-151" v:mID="71" v:groupContext="shape" v:layerMember="0" transform="translate(1043.15,-765.354)">
+			<title>12pt. text.786</title>
+			<desc>F6</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="29.51" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F6</text>		</g>
+		<g id="shape72-154" v:mID="72" v:groupContext="shape" v:layerMember="0" transform="translate(901.417,-765.354)">
+			<title>12pt. text.787</title>
+			<desc>F5</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="29.51" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F5</text>		</g>
+		<g id="shape73-157" v:mID="73" v:groupContext="shape" v:layerMember="0" transform="translate(759.685,-765.354)">
+			<title>12pt. text.788</title>
+			<desc>F4</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="29.51" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F4</text>		</g>
+		<g id="shape74-160" v:mID="74" v:groupContext="shape" v:layerMember="0" transform="translate(617.953,-765.354)">
+			<title>12pt. text.789</title>
+			<desc>F3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="29.51" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F3</text>		</g>
+		<g id="shape75-163" v:mID="75" v:groupContext="shape" v:layerMember="0" transform="translate(476.22,-765.354)">
+			<title>12pt. text.790</title>
+			<desc>F2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="29.51" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F2</text>		</g>
+		<g id="shape76-166" v:mID="76" v:groupContext="shape" v:layerMember="0" transform="translate(323.15,-765.354)">
+			<title>12pt. text.791</title>
+			<desc>F1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="29.51" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F1</text>		</g>
+		<g id="shape77-169" v:mID="77" v:groupContext="shape" v:layerMember="0" transform="translate(1627.09,-666.142)">
+			<title>12pt. text.792</title>
+			<desc>P</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.01" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>P</text>		</g>
+		<g id="shape78-172" v:mID="78" v:groupContext="shape" v:layerMember="0" transform="translate(1485.35,-666.142)">
+			<title>12pt. text.793</title>
+			<desc>O</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>O</text>		</g>
+		<g id="shape79-175" v:mID="79" v:groupContext="shape" v:layerMember="0" transform="translate(1343.62,-666.142)">
+			<title>12pt. text.794</title>
+			<desc>I</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="40.35" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>I</text>		</g>
+		<g id="shape80-178" v:mID="80" v:groupContext="shape" v:layerMember="0" transform="translate(1201.89,-666.142)">
+			<title>12pt. text.795</title>
+			<desc>U</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>U</text>		</g>
+		<g id="shape81-181" v:mID="81" v:groupContext="shape" v:layerMember="0" transform="translate(1060.16,-666.142)">
+			<title>12pt. text.796</title>
+			<desc>Y</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Y</text>		</g>
+		<g id="shape82-184" v:mID="82" v:groupContext="shape" v:layerMember="0" transform="translate(918.425,-666.142)">
+			<title>12pt. text.797</title>
+			<desc>T</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="36.19" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>T</text>		</g>
+		<g id="shape83-187" v:mID="83" v:groupContext="shape" v:layerMember="0" transform="translate(776.693,-666.142)">
+			<title>12pt. text.798</title>
+			<desc>R</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="35.34" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>		</g>
+		<g id="shape84-190" v:mID="84" v:groupContext="shape" v:layerMember="0" transform="translate(634.961,-666.142)">
+			<title>12pt. text.799</title>
+			<desc>E</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="36.19" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>E</text>		</g>
+		<g id="shape85-193" v:mID="85" v:groupContext="shape" v:layerMember="0" transform="translate(493.228,-666.142)">
+			<title>12pt. text.800</title>
+			<desc>W</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="31.19" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>W</text>		</g>
+		<g id="shape86-196" v:mID="86" v:groupContext="shape" v:layerMember="0" transform="translate(351.496,-666.142)">
+			<title>12pt. text.801</title>
+			<desc>Q</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Q</text>		</g>
+		<g id="shape87-199" v:mID="87" v:groupContext="shape" v:layerMember="0" transform="translate(1712.13,-836.22)">
+			<title>12pt. text.802</title>
+			<desc>&#34;</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="39.23" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>&#34;</text>		</g>
+		<g id="shape88-202" v:mID="88" v:groupContext="shape" v:layerMember="0" transform="translate(1712.13,-779.528)">
+			<title>12pt. text.803</title>
+			<desc>&#39;</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="42.65" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>&#39;</text>		</g>
+		<g id="shape89-205" v:mID="89" v:groupContext="shape" v:layerMember="0" transform="translate(1683.78,-552.756)">
+			<title>12pt. text.804</title>
+			<desc>;</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="41.18" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>;</text>		</g>
+		<g id="shape90-208" v:mID="90" v:groupContext="shape" v:layerMember="0" transform="translate(1683.78,-496.063)">
+			<title>12pt. text.805</title>
+			<desc>:</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="41.18" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>:</text>		</g>
+		<g id="shape91-211" v:mID="91" v:groupContext="shape" v:layerMember="0" transform="translate(1542.05,-524.409)">
+			<title>12pt. text.806</title>
+			<desc>L</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="36.19" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>L</text>		</g>
+		<g id="shape92-214" v:mID="92" v:groupContext="shape" v:layerMember="0" transform="translate(1400.31,-524.409)">
+			<title>12pt. text.807</title>
+			<desc>K</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>K</text>		</g>
+		<g id="shape93-217" v:mID="93" v:groupContext="shape" v:layerMember="0" transform="translate(1258.58,-524.409)">
+			<title>12pt. text.808</title>
+			<desc>J</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="39.51" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>J</text>		</g>
+		<g id="shape94-220" v:mID="94" v:groupContext="shape" v:layerMember="0" transform="translate(1116.85,-524.409)">
+			<title>12pt. text.809</title>
+			<desc>H</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>H</text>		</g>
+		<g id="shape95-223" v:mID="95" v:groupContext="shape" v:layerMember="0" transform="translate(975.118,-524.409)">
+			<title>12pt. text.810</title>
+			<desc>G</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>G</text>		</g>
+		<g id="shape96-226" v:mID="96" v:groupContext="shape" v:layerMember="0" transform="translate(833.386,-524.409)">
+			<title>12pt. text.811</title>
+			<desc>F</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.01" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>F</text>		</g>
+		<g id="shape97-229" v:mID="97" v:groupContext="shape" v:layerMember="0" transform="translate(691.654,-524.409)">
+			<title>12pt. text.812</title>
+			<desc>D</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>D</text>		</g>
+		<g id="shape98-232" v:mID="98" v:groupContext="shape" v:layerMember="0" transform="translate(549.921,-524.409)">
+			<title>12pt. text.813</title>
+			<desc>S</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.01" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>S</text>		</g>
+		<g id="shape99-235" v:mID="99" v:groupContext="shape" v:layerMember="0" transform="translate(408.189,-524.409)">
+			<title>12pt. text.814</title>
+			<desc>A</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>A</text>		</g>
+		<g id="shape100-238" v:mID="100" v:groupContext="shape" v:layerMember="0" transform="translate(1967.24,-694.488)">
+			<title>12pt. text.815</title>
+			<desc>|</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="42.35" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>|</text>		</g>
+		<g id="shape101-241" v:mID="101" v:groupContext="shape" v:layerMember="0" transform="translate(1967.24,-637.795)">
+			<title>12pt. text.816</title>
+			<desc>\</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="41.18" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>\</text>		</g>
+		<g id="shape102-244" v:mID="102" v:groupContext="shape" v:layerMember="0" transform="translate(1927.56,-524.409)">
+			<title>12pt. text.817</title>
+			<desc>Enter</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="12.87" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Enter</text>		</g>
+		<g id="shape103-247" v:mID="103" v:groupContext="shape" v:layerMember="0" transform="translate(1031.81,-240.945)">
+			<title>12pt. text.819</title>
+			<desc>Del</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="23.69" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Del</text>		</g>
+		<g id="shape104-250" v:mID="104" v:groupContext="shape" v:layerMember="0" transform="translate(2023.94,-240.945)">
+			<title>12pt. text.820</title>
+			<desc>→</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="30.35" y="1101.21" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>→</text>		</g>
+		<g id="shape105-253" v:mID="105" v:groupContext="shape" v:layerMember="0" transform="translate(1740.47,-240.945)">
+			<title>12pt. text.821</title>
+			<desc>←</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="30.35" y="1101.21" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>←</text>		</g>
+		<g id="shape106-256" v:mID="106" v:groupContext="shape" v:layerMember="0" transform="translate(1882.2,-240.945)">
+			<title>12pt. text.822</title>
+			<desc>↓</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="30.35" y="1101.21" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>↓</text>		</g>
+		<g id="shape107-259" v:mID="107" v:groupContext="shape" v:layerMember="0" transform="translate(1882.2,-382.677)">
+			<title>12pt. text.823</title>
+			<desc>↑</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="30.35" y="1101.21" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>↑</text>		</g>
+		<g id="shape108-262" v:mID="108" v:groupContext="shape" v:layerMember="0" transform="translate(294.803,-240.945)">
+			<title>12pt. text.824</title>
+			<desc>Alt</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="26.18" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Alt</text>		</g>
+		<g id="shape109-265" v:mID="109" v:groupContext="shape" v:layerMember="0" transform="translate(436.535,-240.945)">
+			<title>12pt. text.825</title>
+			<desc>Fn</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="29.51" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Fn</text>		</g>
+		<g id="shape110-268" v:mID="110" v:groupContext="shape" v:layerMember="0" transform="translate(141.732,-240.945)">
+			<title>12pt. text.826</title>
+			<desc>Pn</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="1091.34" width="113.39" height="85.0394"/>
+			<rect x="0" y="1048.82" width="113.386" height="85.0394" class="st2"/>
+			<text x="40.86" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Pn</text>		</g>
+		<g id="shape111-271" v:mID="111" v:groupContext="shape" v:layerMember="0" transform="translate(238.11,-382.677)">
+			<title>12pt. text.827</title>
+			<desc>Shift</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="16.18" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Shift</text>		</g>
+		<g id="shape112-274" v:mID="112" v:groupContext="shape" v:layerMember="0" transform="translate(209.764,-524.409)">
+			<title>12pt. text.828</title>
+			<desc>Ctrl</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="22.01" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Ctrl</text>		</g>
+		<g id="shape113-277" v:mID="113" v:groupContext="shape" v:layerMember="0" transform="translate(181.417,-666.142)">
+			<title>12pt. text.829</title>
+			<desc>Tab</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="22.03" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Tab</text>		</g>
+		<g id="shape114-280" v:mID="114" v:groupContext="shape" v:layerMember="0" transform="translate(606.614,-240.945)">
+			<title>12pt. text.830</title>
+			<desc>Ctrl</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.5276" cy="1091.34" width="119.06" height="85.0394"/>
+			<rect x="0" y="1048.82" width="119.055" height="85.0394" class="st2"/>
+			<text x="36.19" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Ctrl</text>		</g>
+		<g id="shape115-283" v:mID="115" v:groupContext="shape" v:layerMember="0" transform="translate(1598.74,-411.024)">
+			<title>12pt. text.832</title>
+			<desc>&#62;</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="36.89" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>&#62;</text>		</g>
+		<g id="shape116-286" v:mID="116" v:groupContext="shape" v:layerMember="0" transform="translate(1457.01,-411.024)">
+			<title>12pt. text.833</title>
+			<desc>&#60;</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="36.89" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>&#60;</text>		</g>
+		<g id="shape117-289" v:mID="117" v:groupContext="shape" v:layerMember="0" transform="translate(1598.74,-354.331)">
+			<title>12pt. text.835</title>
+			<desc>.</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="41.6" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>.</text>		</g>
+		<g id="shape118-292" v:mID="118" v:groupContext="shape" v:layerMember="0" transform="translate(1457.01,-354.331)">
+			<title>12pt. text.836</title>
+			<desc>,</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="41.6" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>,</text>		</g>
+		<g id="shape119-295" v:mID="119" v:groupContext="shape" v:layerMember="0" transform="translate(1315.28,-382.677)">
+			<title>12pt. text.838</title>
+			<desc>M</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="32.01" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>M</text>		</g>
+		<g id="shape120-298" v:mID="120" v:groupContext="shape" v:layerMember="0" transform="translate(1173.54,-382.677)">
+			<title>12pt. text.839</title>
+			<desc>N</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>N</text>		</g>
+		<g id="shape121-301" v:mID="121" v:groupContext="shape" v:layerMember="0" transform="translate(1031.81,-382.677)">
+			<title>12pt. text.840</title>
+			<desc>B</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="35.34" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>B</text>		</g>
+		<g id="shape122-304" v:mID="122" v:groupContext="shape" v:layerMember="0" transform="translate(890.079,-382.677)">
+			<title>12pt. text.841</title>
+			<desc>V</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>V</text>		</g>
+		<g id="shape123-307" v:mID="123" v:groupContext="shape" v:layerMember="0" transform="translate(748.346,-382.677)">
+			<title>12pt. text.842</title>
+			<desc>C</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="35.34" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>C</text>		</g>
+		<g id="shape124-310" v:mID="124" v:groupContext="shape" v:layerMember="0" transform="translate(606.614,-382.677)">
+			<title>12pt. text.843</title>
+			<desc>X</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="34.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>X</text>		</g>
+		<g id="shape125-313" v:mID="125" v:groupContext="shape" v:layerMember="0" transform="translate(464.882,-382.677)">
+			<title>12pt. text.844</title>
+			<desc>Z</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="36.19" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Z</text>		</g>
+		<g id="shape126-316" v:mID="126" v:groupContext="shape" v:layerMember="0" transform="translate(1457.01,-269.291)">
+			<title>12pt. text.845</title>
+			<desc>+</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="36.89" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape127-319" v:mID="127" v:groupContext="shape" v:layerMember="0" transform="translate(1315.28,-300.472)">
+			<title>12pt. text.846</title>
+			<desc>_</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.35433070866142):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.35433070866142):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1108.35" width="90.71" height="51.0236"/>
+			<rect x="0" y="1082.83" width="90.7087" height="51.0236" class="st2"/>
+			<text x="37.85" y="1117.35" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>_</text>		</g>
+		<g id="shape128-322" v:mID="128" v:groupContext="shape" v:layerMember="0" transform="translate(1570.39,-836.22)">
+			<title>12pt. text.847</title>
+			<desc>)</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="40.35" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>)</text>		</g>
+		<g id="shape129-325" v:mID="129" v:groupContext="shape" v:layerMember="0" transform="translate(1428.66,-836.22)">
+			<title>12pt. text.848</title>
+			<desc>(</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="40.35" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>(</text>		</g>
+		<g id="shape130-328" v:mID="130" v:groupContext="shape" v:layerMember="0" transform="translate(1286.93,-836.22)">
+			<title>12pt. text.849</title>
+			<desc>*</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>*</text>		</g>
+		<g id="shape131-331" v:mID="131" v:groupContext="shape" v:layerMember="0" transform="translate(1145.2,-836.22)">
+			<title>12pt. text.850</title>
+			<desc>&#38;</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="33.68" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>&#38;</text>		</g>
+		<g id="shape132-334" v:mID="132" v:groupContext="shape" v:layerMember="0" transform="translate(1003.46,-836.22)">
+			<title>12pt. text.851</title>
+			<desc>^</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="38.31" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>^</text>		</g>
+		<g id="shape133-337" v:mID="133" v:groupContext="shape" v:layerMember="0" transform="translate(861.732,-836.22)">
+			<title>12pt. text.852</title>
+			<desc>%</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="32.85" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>%</text>		</g>
+		<g id="shape134-340" v:mID="134" v:groupContext="shape" v:layerMember="0" transform="translate(720,-836.22)">
+			<title>12pt. text.853</title>
+			<desc>$</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>$</text>		</g>
+		<g id="shape135-343" v:mID="135" v:groupContext="shape" v:layerMember="0" transform="translate(578.268,-836.22)">
+			<title>12pt. text.854</title>
+			<desc>#</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>#</text>		</g>
+		<g id="shape136-346" v:mID="136" v:groupContext="shape" v:layerMember="0" transform="translate(436.535,-836.22)">
+			<title>12pt. text.855</title>
+			<desc>@</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="31.54" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>@</text>		</g>
+		<g id="shape137-349" v:mID="137" v:groupContext="shape" v:layerMember="0" transform="translate(294.803,-836.22)">
+			<title>12pt. text.856</title>
+			<desc>!</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="40.35" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>!</text>		</g>
+		<g id="shape138-352" v:mID="138" v:groupContext="shape" v:layerMember="0" transform="translate(1859.53,-807.874)">
+			<title>12pt. text.857</title>
+			<desc>← Backspace</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(2.9527559055118):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="121.89" cy="1091.34" width="243.78" height="85.0394"/>
+			<rect x="0" y="1048.82" width="243.78" height="85.0394" class="st2"/>
+			<text x="39.02" y="1101.21" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>←<tspan class="st7"> Backspace</tspan></text>		</g>
+		<g id="shape139-356" v:mID="139" v:groupContext="shape" v:layerMember="0" transform="translate(1457.01,-212.598)">
+			<title>12pt. text.858</title>
+			<desc>=</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="36.89" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>=</text>		</g>
+		<g id="shape140-359" v:mID="140" v:groupContext="shape" v:layerMember="0" transform="translate(1315.28,-212.598)">
+			<title>12pt. text.859</title>
+			<desc>-</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="40.35" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>-</text>		</g>
+		<g id="shape141-362" v:mID="141" v:groupContext="shape" v:layerMember="0" transform="translate(1570.39,-779.528)">
+			<title>12pt. text.860</title>
+			<desc>0</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>0</text>		</g>
+		<g id="shape142-365" v:mID="142" v:groupContext="shape" v:layerMember="0" transform="translate(1428.66,-779.528)">
+			<title>12pt. text.861</title>
+			<desc>9</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>9</text>		</g>
+		<g id="shape143-368" v:mID="143" v:groupContext="shape" v:layerMember="0" transform="translate(1286.93,-779.528)">
+			<title>12pt. text.862</title>
+			<desc>8</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>8</text>		</g>
+		<g id="shape144-371" v:mID="144" v:groupContext="shape" v:layerMember="0" transform="translate(1145.2,-779.528)">
+			<title>12pt. text.863</title>
+			<desc>7</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>7</text>		</g>
+		<g id="shape145-374" v:mID="145" v:groupContext="shape" v:layerMember="0" transform="translate(1003.46,-779.528)">
+			<title>12pt. text.864</title>
+			<desc>6</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6</text>		</g>
+		<g id="shape146-377" v:mID="146" v:groupContext="shape" v:layerMember="0" transform="translate(861.732,-779.528)">
+			<title>12pt. text.865</title>
+			<desc>5</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5</text>		</g>
+		<g id="shape147-380" v:mID="147" v:groupContext="shape" v:layerMember="0" transform="translate(720,-779.528)">
+			<title>12pt. text.866</title>
+			<desc>4</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4</text>		</g>
+		<g id="shape148-383" v:mID="148" v:groupContext="shape" v:layerMember="0" transform="translate(578.268,-779.528)">
+			<title>12pt. text.867</title>
+			<desc>3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3</text>		</g>
+		<g id="shape149-386" v:mID="149" v:groupContext="shape" v:layerMember="0" transform="translate(170.079,-765.354)">
+			<title>12pt. text.868</title>
+			<desc>Power</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="1091.34" width="85.04" height="85.0394"/>
+			<rect x="0" y="1048.82" width="85.0394" height="85.0394" class="st2"/>
+			<text x="4.2" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Power</text>		</g>
+		<g id="shape150-389" v:mID="150" v:groupContext="shape" v:layerMember="0" transform="translate(2004.09,-759.685)">
+			<title>12pt. text.870</title>
+			<desc>Sleep</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.259842519685):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.62992125984252):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="82.2047" cy="1088.5" width="164.41" height="90.7087"/>
+			<rect x="0" y="1043.15" width="164.409" height="90.7087" class="st2"/>
+			<text x="48.87" y="1097.5" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Sleep</text>		</g>
+		<g id="shape155-392" v:mID="155" v:groupContext="shape" v:layerMember="0" transform="translate(2040.94,-623.622)">
+			<title>12pt. text.875</title>
+			<desc>Caps</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.0236" cy="1091.34" width="102.05" height="85.0394"/>
+			<rect x="0" y="1048.82" width="102.047" height="85.0394" class="st2"/>
+			<text x="21.02" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Caps</text>		</g>
+		<g id="shape156-395" v:mID="156" v:groupContext="shape" v:layerMember="1;2" transform="translate(2005.51,-758.268)">
+			<title>Encl ceiling lum.876</title>
+			<v:custProps>
+				<v:cp v:nameU="ShapeClass" v:lbl="形状类" v:type="0" v:invis="true" v:langID="2052" v:val="VT4(建筑物组件)"/>
+				<v:cp v:nameU="ShapeType" v:lbl="形状类型" v:type="0" v:invis="true" v:langID="2052" v:val="VT4(电气装置)"/>
+				<v:cp v:nameU="SubShapeType" v:lbl="子形状类型" v:type="0" v:invis="true" v:langID="2052" v:val="VT4(灯具)"/>
+				<v:cp v:nameU="BaseElevation" v:lbl="基本标高" v:type="2" v:sortKey="01" v:invis="false" v:langID="2052"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="XOffset" v:val="VT0(0.0098425196850394):24"/>
+				<v:ud v:nameU="HasText" v:val="VT0(0):5"/>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT4({5D50005D-537C-4738-9C46-130C74335A6D})"/>
+				<v:ud v:nameU="ShapeClass" v:prompt="建筑物组件" v:val="VT0(3):26"/>
+				<v:ud v:nameU="ShapeType" v:prompt="电气装置" v:val="VT0(12):26"/>
+				<v:ud v:nameU="SubShapeType" v:prompt="灯具" v:val="VT0(50):26"/>
+			</v:userDefs>
+			<path d="M0 1133.86 L14.17 1133.86 L14.17 1119.69 L0 1119.69 L0 1133.86 Z" class="st8"/>
+			<path d="M0.71 1120.39 L13.46 1133.15" class="st9"/>
+			<path d="M13.46 1120.39 L0.71 1133.15" class="st9"/>
+			<path d="M0 1133.86 L14.17 1133.86 L14.17 1119.69 L0 1119.69 L0 1133.86" class="st9"/>
+		</g>
+		<g id="shape157-400" v:mID="157" v:groupContext="shape" v:layerMember="0" transform="translate(634.961,-340.157)">
+			<title>12pt. text.877</title>
+			<desc>App</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="19.52" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>App</text>		</g>
+		<g id="shape158-403" v:mID="158" v:groupContext="shape" v:layerMember="0" transform="translate(720,-481.89)">
+			<title>12pt. text.878</title>
+			<desc>Mute</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8504" cy="1091.34" width="73.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="73.7008" height="85.0394" class="st2"/>
+			<text x="5.19" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Mute</text>		</g>
+		<g id="shape159-406" v:mID="159" v:groupContext="shape" v:layerMember="0" transform="translate(425.197,-481.89)">
+			<title>12pt. text.879</title>
+			<desc>Vol↑</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="1091.34" width="113.39" height="85.0394"/>
+			<rect x="0" y="1048.82" width="113.386" height="85.0394" class="st2"/>
+			<text x="19.2" y="1101.21" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Vol<tspan
+						class="st10">↑</tspan></text>		</g>
+		<g id="shape160-410" v:mID="160" v:groupContext="shape" v:layerMember="0" transform="translate(566.929,-481.89)">
+			<title>12pt. text.880</title>
+			<desc>Vol↓</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="1091.34" width="113.39" height="85.0394"/>
+			<rect x="0" y="1048.82" width="113.386" height="85.0394" class="st2"/>
+			<text x="19.2" y="1101.21" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Vol<tspan
+						class="st10">↓</tspan></text>		</g>
+		<g id="shape161-414" v:mID="161" v:groupContext="shape" v:layerMember="0" transform="translate(776.693,-340.157)">
+			<title>12pt. text.881</title>
+			<desc>Cal</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="24.52" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Cal</text>		</g>
+		<g id="shape162-417" v:mID="162" v:groupContext="shape" v:layerMember="0" transform="translate(481.89,-340.157)">
+			<title>12pt. text.882</title>
+			<desc>Eject</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="51.0236" cy="1091.34" width="102.05" height="85.0394"/>
+			<rect x="0" y="1048.82" width="102.047" height="85.0394" class="st2"/>
+			<text x="20.21" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Eject</text>		</g>
+		<g id="shape163-420" v:mID="163" v:groupContext="shape" transform="translate(1757.48,-651.969)">
+			<title>Rectangle.883</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape164-422" v:mID="164" v:groupContext="shape" v:layerMember="0" transform="translate(1814.17,-680.315)">
+			<title>12pt. text.884</title>
+			<desc>}</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="38.15" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>}</text>		</g>
+		<g id="shape165-425" v:mID="165" v:groupContext="shape" v:layerMember="0" transform="translate(1768.82,-694.488)">
+			<title>12pt. text.885</title>
+			<desc>{</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="38.15" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>{</text>		</g>
+		<g id="shape166-428" v:mID="166" v:groupContext="shape" v:layerMember="0" transform="translate(1814.17,-637.795)">
+			<title>12pt. text.886</title>
+			<desc>]</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.49212598425197):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.49212598425197):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="1098.43" width="85.04" height="70.8661"/>
+			<rect x="0" y="1062.99" width="85.0394" height="70.8661" class="st2"/>
+			<text x="37.53" y="1107.43" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>]</text>		</g>
+		<g id="shape167-431" v:mID="167" v:groupContext="shape" v:layerMember="0" transform="translate(1768.82,-637.795)">
+			<title>12pt. text.887</title>
+			<desc>[</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="40.35" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>[</text>		</g>
+		<g id="shape170-434" v:mID="170" v:groupContext="shape" transform="translate(1162.2,-226.772)">
+			<title>Rectangle.891</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape171-436" v:mID="171" v:groupContext="shape" transform="translate(2012.6,-368.504)">
+			<title>Rectangle.900</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape172-438" v:mID="172" v:groupContext="shape" v:layerMember="0" transform="translate(1757.48,-382.677)">
+			<title>12pt. text.902</title>
+			<desc>End</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.3465" cy="1091.34" width="56.7" height="85.0394"/>
+			<rect x="0" y="1048.82" width="56.6929" height="85.0394" class="st2"/>
+			<text x="4.19" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>End</text>		</g>
+		<g id="shape173-441" v:mID="173" v:groupContext="shape" transform="translate(2154.33,-226.772)">
+			<title>Rectangle.903</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="255.118" height="113.386" class="st1"/>
+		</g>
+		<g id="shape180-443" v:mID="180" v:groupContext="shape" transform="translate(2579.53,-510.236)">
+			<title>Rectangle.1077</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="878.74" width="113.386" height="255.118" class="st1"/>
+		</g>
+		<g id="shape184-445" v:mID="184" v:groupContext="shape" transform="translate(2579.53,-793.701)">
+			<title>Rectangle.1100</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape185-447" v:mID="185" v:groupContext="shape" transform="translate(2437.8,-793.701)">
+			<title>Rectangle.1101</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape186-449" v:mID="186" v:groupContext="shape" transform="translate(2296.06,-793.701)">
+			<title>Rectangle.1102</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape187-451" v:mID="187" v:groupContext="shape" transform="translate(2154.33,-793.701)">
+			<title>Rectangle.1103</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape189-453" v:mID="189" v:groupContext="shape" transform="translate(2437.8,-226.772)">
+			<title>Rectangle.1105</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape190-455" v:mID="190" v:groupContext="shape" transform="translate(2579.53,-226.772)">
+			<title>Rectangle.1106</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="878.74" width="113.386" height="255.118" class="st1"/>
+		</g>
+		<g id="shape198-457" v:mID="198" v:groupContext="shape" v:layerMember="0" transform="translate(2590.87,-595.276)">
+			<title>12pt. text.1114</title>
+			<desc>+</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="36.89" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape199-460" v:mID="199" v:groupContext="shape" v:layerMember="0" transform="translate(2590.87,-311.811)">
+			<title>12pt. text.1115</title>
+			<desc>Enter</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="12.87" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Enter</text>		</g>
+		<g id="shape200-463" v:mID="200" v:groupContext="shape" v:layerMember="0" transform="translate(2239.37,-240.945)">
+			<title>12pt. text.1116</title>
+			<desc>0</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>0</text>		</g>
+		<g id="shape206-466" v:mID="206" v:groupContext="shape" v:layerMember="0" transform="translate(2590.87,-807.874)">
+			<title>12pt. text.1122</title>
+			<desc>/</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="41.18" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>/</text>		</g>
+		<g id="shape218-469" v:mID="218" v:groupContext="shape" transform="translate(1587.4,-226.772)">
+			<title>Rectangle.26</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape219-471" v:mID="219" v:groupContext="shape" v:layerMember="0" transform="translate(1598.74,-240.945)">
+			<title>12pt. text.763</title>
+			<desc>Win</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="19.52" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Win</text>		</g>
+		<g id="shape220-474" v:mID="220" v:groupContext="shape" v:layerMember="0" transform="translate(1173.54,-269.291)">
+			<title>12pt. text.831</title>
+			<desc>/</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="41.18" y="1100.34" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>/</text>		</g>
+		<g id="shape221-477" v:mID="221" v:groupContext="shape" v:layerMember="0" transform="translate(1173.54,-212.598)">
+			<title>12pt. text.834</title>
+			<desc>?</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="38.69" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>?</text>		</g>
+		<g id="shape222-480" v:mID="222" v:groupContext="shape" v:layerMember="0" transform="translate(2029.61,-382.677)">
+			<title>12pt. text.503</title>
+			<desc>Home</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.685" cy="1091.34" width="79.38" height="85.0394"/>
+			<rect x="0" y="1048.82" width="79.3701" height="85.0394" class="st2"/>
+			<text x="3.02" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Home</text>		</g>
+		<g id="shape152-483" v:mID="152" v:groupContext="shape" v:layerMember="0" transform="translate(2281.89,-807.874)">
+			<title>12pt. text.872</title>
+			<desc>Pg Up</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="1091.34" width="141.74" height="85.0394"/>
+			<rect x="0" y="1048.82" width="141.732" height="85.0394" class="st2"/>
+			<text x="32.95" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Pg Up</text>		</g>
+		<g id="shape151-486" v:mID="151" v:groupContext="shape" v:layerMember="0" transform="translate(2451.97,-807.874)">
+			<title>12pt. text.871</title>
+			<desc>Pg Dn</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="1091.34" width="85.04" height="85.0394"/>
+			<rect x="0" y="1048.82" width="85.0394" height="85.0394" class="st2"/>
+			<text x="4.6" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Pg Dn</text>		</g>
+		<g id="shape174-489" v:mID="174" v:groupContext="shape" transform="translate(2437.8,-368.504)">
+			<title>Rectangle.1408</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape175-491" v:mID="175" v:groupContext="shape" transform="translate(2296.06,-368.504)">
+			<title>Rectangle.1409</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape176-493" v:mID="176" v:groupContext="shape" transform="translate(2154.33,-368.504)">
+			<title>Rectangle.1410</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape177-495" v:mID="177" v:groupContext="shape" transform="translate(2437.8,-510.236)">
+			<title>Rectangle.1411</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape178-497" v:mID="178" v:groupContext="shape" transform="translate(2296.06,-510.236)">
+			<title>Rectangle.1412</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape179-499" v:mID="179" v:groupContext="shape" transform="translate(2154.33,-510.236)">
+			<title>Rectangle.1413</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape181-501" v:mID="181" v:groupContext="shape" transform="translate(2437.8,-651.969)">
+			<title>Rectangle.1415</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape182-503" v:mID="182" v:groupContext="shape" transform="translate(2296.06,-651.969)">
+			<title>Rectangle.1440</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape183-505" v:mID="183" v:groupContext="shape" transform="translate(2154.33,-651.969)">
+			<title>Rectangle.1442</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<rect x="0" y="1020.47" width="113.386" height="113.386" class="st1"/>
+		</g>
+		<g id="shape191-507" v:mID="191" v:groupContext="shape" v:layerMember="0" transform="translate(2168.5,-382.677)">
+			<title>12pt. text.1500</title>
+			<desc>1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape192-510" v:mID="192" v:groupContext="shape" v:layerMember="0" transform="translate(2310.24,-382.677)">
+			<title>12pt. text.1502</title>
+			<desc>2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2</text>		</g>
+		<g id="shape193-513" v:mID="193" v:groupContext="shape" v:layerMember="0" transform="translate(2457.64,-382.677)">
+			<title>12pt. text.1503</title>
+			<desc>3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8504" cy="1091.34" width="73.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="73.7008" height="85.0394" class="st2"/>
+			<text x="29.35" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3</text>		</g>
+		<g id="shape194-516" v:mID="194" v:groupContext="shape" v:layerMember="0" transform="translate(2168.5,-524.409)">
+			<title>12pt. text.1506</title>
+			<desc>4</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="1091.34" width="85.04" height="85.0394"/>
+			<rect x="0" y="1048.82" width="85.0394" height="85.0394" class="st2"/>
+			<text x="35.02" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4</text>		</g>
+		<g id="shape195-519" v:mID="195" v:groupContext="shape" v:layerMember="0" transform="translate(2310.24,-524.409)">
+			<title>12pt. text.1507</title>
+			<desc>5</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5</text>		</g>
+		<g id="shape196-522" v:mID="196" v:groupContext="shape" v:layerMember="0" transform="translate(2451.97,-524.409)">
+			<title>12pt. text.1508</title>
+			<desc>6</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6</text>		</g>
+		<g id="shape197-525" v:mID="197" v:groupContext="shape" v:layerMember="0" transform="translate(2168.5,-666.142)">
+			<title>12pt. text.1546</title>
+			<desc>7</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="42.5197" cy="1091.34" width="85.04" height="85.0394"/>
+			<rect x="0" y="1048.82" width="85.0394" height="85.0394" class="st2"/>
+			<text x="35.02" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>7</text>		</g>
+		<g id="shape201-528" v:mID="201" v:groupContext="shape" v:layerMember="0" transform="translate(2310.24,-666.142)">
+			<title>12pt. text.1547</title>
+			<desc>8</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="37.85" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>8</text>		</g>
+		<g id="shape202-531" v:mID="202" v:groupContext="shape" v:layerMember="0" transform="translate(2463.31,-666.142)">
+			<title>12pt. text.1548</title>
+			<desc>9</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1091.34" width="62.37" height="85.0394"/>
+			<rect x="0" y="1048.82" width="62.3622" height="85.0394" class="st2"/>
+			<text x="23.67" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>9</text>		</g>
+		<g id="shape168-534" v:mID="168" v:groupContext="shape" v:layerMember="0" transform="translate(836.22,-481.89)">
+			<title>12pt. text.888</title>
+			<desc>Prt Sc</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.1811023622047):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="1091.34" width="113.39" height="85.0394"/>
+			<rect x="0" y="1048.82" width="113.386" height="85.0394" class="st2"/>
+			<text x="20.45" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Prt Sc</text>		</g>
+		<g id="shape169-537" v:mID="169" v:groupContext="shape" v:layerMember="0" transform="translate(907.087,-340.157)">
+			<title>12pt. text.889</title>
+			<desc>SysRq</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(1.7716535433071):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="6.16" y="1100.34" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>SysRq</text>		</g>
+		<g id="shape153-540" v:mID="153" v:groupContext="shape" v:layerMember="0" transform="translate(2165.67,-850.394)">
+			<title>12pt. text.873</title>
+			<desc>~</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.49212598425197):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.49212598425197):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1098.43" width="90.71" height="70.8661"/>
+			<rect x="0" y="1062.99" width="90.7087" height="70.8661" class="st2"/>
+			<text x="37.23" y="1107.43" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>~</text>		</g>
+		<g id="shape154-543" v:mID="154" v:groupContext="shape" v:layerMember="0" transform="translate(2165.67,-779.528)">
+			<title>12pt. text.874</title>
+			<desc>`</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.59055118110236):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1091.34" width="90.71" height="85.0394"/>
+			<rect x="0" y="1048.82" width="90.7087" height="85.0394" class="st2"/>
+			<text x="40.35" y="1100.34" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>`</text>		</g>
+		<g id="shape223-546" v:mID="223" v:groupContext="shape" v:layerMember="0" transform="translate(2449.13,-255.118)">
+			<title>12pt. text.223</title>
+			<desc>.</desc>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="AutoWidth" v:val="VT0(0.49212598425197):1"/>
+				<v:ud v:nameU="WidthIncrement" v:val="VT0(0.49212598425197):1"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(11):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="45.3543" cy="1098.43" width="90.71" height="70.8661"/>
+			<rect x="0" y="1062.99" width="90.7087" height="70.8661" class="st2"/>
+			<text x="41.6" y="1107.43" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>.</text>		</g>
+	</g>
+</svg>
