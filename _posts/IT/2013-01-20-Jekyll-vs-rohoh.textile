@@ -60,6 +60,7 @@ ruhoh 幾乎沒什麼插件，但 Plusjade 對插件的控制似乎寬鬆些。
 h2. 編譯部署
 
 Jekyll 本地編譯會搞死人，但目前已經支持直接部署在 GitHub 和 Heroku 。
+譬如 Windows 下編譯，中文文章竟然會有 bug ，要在 Jekyll 文件夾下的 @\lib\jekyll\convertible.rb@ 的 @self.content = File.read(File.join(base, name))@ 改爲 @self.content = File.read(File.join(base, name), :encoding => "utf-8")@ ，以及 @\lib\jekyll\tags\include.rb@ 的 @source = File.read(@file)@ 改爲 @source = File.read(@file, :encoding => "utf-8")@
 ruhoh 本地編譯相對簡單，雲端方面僅支持部署在 GitHub 的 public repo 。
 理論上，所有支持 SSH+Ruby 的 PaaS 都可以安裝這兩款東西，然後運行，比如 OpenShift, Heroku 。
 這方面不相上下。
@@ -95,11 +96,13 @@ call git push git@github.com:821/821.github.com.git
 本來確實就這麼簡單。不過由於 GitHub 在本文完成後一天被 GFW 當成關鍵字給屏蔽了，所以最後一句修改爲
 {% highlight bat %}call git push https://username:password@github.com/username/username.github.com/{% endhighlight %}
 明白爲什麼我要把我的上傳腳本放在文件夾外面了嗎？哦，對了，還有 .gitconfig 要加上：
+
 {% highlight yaml linenos %}
 [http]
 	proxy = 127.0.0.1:48100
 	sslVerify = false
 {% endhighlight %}
+
 具體 proxy 當然是自己設置，用 SSH 什麼的都可以，我比較懶惰而且很窮就用了 GSnova 。
 基本上 GFW 這次動作對我影響不大，雖然屏蔽了 GitHub ，但我的網站綁定了域名，訪問沒有影響。上傳方面做好設置後問題不大，我本地連接 GitHub 的服務器並不快，繞一下 Heroku 的服務器再過去的影響可以忽略不計。這就令人費解了，我一個半句 Ruby 都不會寫、 Pro-Git 都沒讀過的人尚且能通過 Google （主要是看 StackOverflow ）和動腦輕鬆解決問題，這次封鎖對用戶以程序猿爲主的 GitHub 到底有什麼屁用？
 果不其然， GitHub 於封鎖後兩天得到解封，這似乎是 GFW 史上第一個解封遭到 DNS 污染+關鍵字屏蔽的網站。李開復等挨踢名人當然有一定的推動作用，但最主要的原因還是 GitHub 確實沒什麼反動的東西。或許本站已經算上面比較不好的了……
@@ -129,6 +132,7 @@ h3. 部署進階教程
 "Heroku":http://jonasforsberg.se/2012/07/22/jekyll-heroku-unicorn
 
 h3. 一些選擇
+
 GitHub for hosting.
 Git for versioning.
 HTML, markdown and textile for typsetting.
