@@ -4,8 +4,8 @@
 #co-in{clear:both;margin-top:1em;}#comments{width:55%;float:left;}#post-info{float:right;width:40%;line-height:1em;}
 footer{text-align:center;clear:both;width:100%;border-top:1px solid #9cf;}
 /*General*/
-body{font:20px Book Antiqua,Times,PMingliu;line-height:1.3em;color:#fff;background:#000;}
-::selection{color:#000;background:#f00;}
+body{font:20px Book Antiqua,Times,PMingliu;line-height:1.3em;color:#fff;background:#00142A;}
+::selection{color:#ffe6cc;background:#003877;}
 a{color:#9f9;text-decoration:none;}a:hover{color:#1f75cc;}
 p{margin:0 0 1em;text-indent:0;}
 h1{font-size:1.6em;line-height:1em;}h2{font-size:1.4em;}h3{font-size:1.3em;}h4{font-size:1.2em;}h5{font-size:1.2em;}h6{color:#red;}
