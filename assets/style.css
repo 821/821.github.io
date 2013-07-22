@@ -5,7 +5,7 @@
 footer{text-align:center;clear:both;width:100%;border-top:1px solid #9cf;}
 /*General*/
 body{font:20px Book Antiqua,Times,PMingliu;line-height:1.3em;color:#fff;background:#00142A;}
-::selection{color:#ffe6cc;background:#003877;}
+::selection{color:#004040;background:#003877;}
 a{color:#9f9;text-decoration:none;}a:hover{color:#1f75cc;}
 p{margin:0 0 1em;text-indent:0;}
 h1{font-size:1.6em;line-height:1em;}h2{font-size:1.4em;}h3{font-size:1.3em;}h4{font-size:1.2em;}h5{font-size:1.2em;}h6{color:#red;}
@@ -16,7 +16,7 @@ TABLE{table-layout:auto;border-collapse:collapse;}
 td,th{visibility:visible;border:1px solid #39c;text-align:center;vertical-align:middle;overflow:hidden;}
 blockquote{margin:0.2em 1em 1em;padding:0.2em 1% 0 1%;border-left:0.2em solid #28b;background:#039;}
 ul,li{list-style:none;}
-code{background-color:#039;border:1px solid #999;font:20px Inconsolata;}
+code{background-color:#000;border:1px solid #999;font:20px Inconsolata;}
 a span{vertical-align:super;font-size:0.6em;color:#9f9;}
 strong{color:#E6DB74;}
 .showhide a{float:right;color:#9f9;}
