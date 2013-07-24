@@ -5,7 +5,7 @@
 footer{text-align:center;clear:both;width:100%;border-top:1px solid #9cf;}
 /*General*/
 body{font:20px Book Antiqua,Times,PMingliu;line-height:1.3em;color:#fff;background:#00142A;}
-::selection{color:#004040;background:#003877;}
+::selection{color:#004040;background:#d9ebff;}
 a{color:#9f9;text-decoration:none;}a:hover{color:#1f75cc;}
 p{margin:0 0 1em;text-indent:0;}
 h1{font-size:1.6em;line-height:1em;}h2{font-size:1.4em;}h3{font-size:1.3em;}h4{font-size:1.2em;}h5{font-size:1.2em;}h6{color:#red;}
