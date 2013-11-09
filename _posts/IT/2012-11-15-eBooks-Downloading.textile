@@ -75,7 +75,29 @@ h2. 後期處理
 還有人對轉換成 pdf 情有獨鐘。用 Pdg2Pic 即可。
 這裡倒是隨口扯一句非讀秀/超星的電子書，因為這些書才是不規範、需要修正的。
 首先是 Google Books 。如果你下載的是英文書，那沒大問題，但中文古籍卻經常「倒裝」——洋人往往不知道我天朝的傳統書籍跟他們是倒過來的。簡單， PDFPatcher 就可以。 PDFPatcher 還可以用於 PDF 拆頁，但是 Google 很不厚道的把一些頁面挖下幾個字再補上去，如果你拆頁成圖片，這些補丁就回不去了……
-然後是網友自掃的書籍。一般來說，用 ComicEnhancerPro 就能收到比較好的效果，但對於一些比較變態的，就要用點特殊手段。比如很多人掃描是雙頁掃的， ComicEnhancerPro, IrfanView, GIMP, Photoshop 等軟件的批處理基本上需要做兩次才能分開一頁， PDF 倒是有海德堡插件和其他小軟件可以分頁，不過多數是假分頁，即，如果你真正導出圖片時，這些圖片還是沒分頁的。這時候用 ImageMagick 這個命令行操作的神軟更好。自掃經常碰上彩色的，非常佔空間，可以用 ComicEnhancerPro 或 ImageMagick 處理成單色。但有的掃描時書溝比較深，直接單色處理會使得靠近書溝的部分變成黑色的，還有如果用比較深色的筆做筆記，有時會蓋住字，單色的直接一團黑了。因此可能需要處理成灰度圖像，或者通過調整伽馬值、高亮、對比度、曲線等等多方面來達到滿意的效果。
+然後是網友自掃的書籍。一般來說，用 ComicEnhancerPro 就能收到比較好的效果，但對於一些比較變態的，就要用點特殊手段。PDF 倒是有海德堡插件和其他小軟件可以分頁，不過多數是假分頁，即，如果你真正導出圖片時，這些圖片還是沒分頁的。這時候用 ImageMagick 這個命令行操作的神軟更好。自掃經常碰上彩色的，非常佔空間，可以用 ComicEnhancerPro 或 ImageMagick 處理成單色。但有的掃描時書溝比較深，直接單色處理會使得靠近書溝的部分變成黑色的，還有如果用比較深色的筆做筆記，有時會蓋住字，單色的直接一團黑了。因此可能需要處理成灰度圖像，或者通過調整伽馬值、高亮、對比度、曲線等等多方面來達到滿意的效果。
+
+h3. ImageMagick 實戰舉例
+
+大圖批量去水印而不改變其他部分（原理是利用水印的顏色去除）：
+mogrify -path newdir -fill white -opaque "rgb(238,238,238)" -colors 16 *.png
+批量將其他格式轉爲最緊湊的 tif ：
+mogrify -path newdir -compress group4 -format tif *.jpg
+批量去白邊：
+mogrify -path newdir -trim +repage *.tif
+批量對半切開，切好的文件自動命名爲超星標準的六位數：
+convert *.tif -crop 50%x100% +repage %06d.tif
+批量對半切開並去白邊，但切開時左右都是 52% ，且各放一個文件夾：
+mogrify -path a -gravity northwest -crop 52%x100% -trim +repage *.tif
+mogrify -path b -gravity northeast -crop 52%x100% -trim +repage *.tif
+批量放大一倍：
+mogrify -path newdir -resize 200% *.jpg
+批量轉 90 度：
+mogrify -path newdir -rotate -90 *.png
+批量傾斜校正（可能造成鋸齒化和體積增加）：
+mogrify -path newdir -background white -deskew 40% *.tif
+以上都是簡單命令，還可以結合 CMD 設置複雜化的命令。
+
 
 h2. 結論
 
