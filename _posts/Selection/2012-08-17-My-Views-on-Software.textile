@@ -290,6 +290,8 @@ h3. 其他
 <a href="http://www.cygwin.com/" rel="external">CygWin</a> 比 WINE 還煩，我是用來 @wget -r -np@ 的。
 →<a href="http://railsinstaller.org" rel="external">RailsInstaller</a> 方便的 git 環境，以便上傳本站文件。
 Enigma Virtual Box 一個把綠色軟件打包成單文件軟件的東西。
+→<a href="http://keepass.info" rel="external">Keepass</a> 密碼管理。原本用 LastPass ，也不錯，但還是想自己來控制加密，所以改了。
+→<a href="http://freepiano.tiwb.com/" rel="external">FreePiano</a> 最好的免費鋼琴軟件。
 
 
 h3. 退伍名單
