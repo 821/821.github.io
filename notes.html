@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 分類
+title: 筆記
 ---
 <h1>筆記</h1>
 <div id="two-colomuns">
 	<ul>
-		{% for notes in site.notes %}
-			<li><a href="{{ notes.url }}">{{ notes.title }}</a></li>
+		{% for collections in site.collections %}
+			<li><a href="{{ collections.url }}">{{ collections.title }}</a></li>
 		{% endfor %}
 	</ul>
 </div>
