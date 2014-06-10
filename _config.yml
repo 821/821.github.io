@@ -1,15 +1,15 @@
-permalink: /:title
-exclude: [".rvmrc", ".rbenv-version", "Rakefile"]
-pygments: true
-markdown: rdiscount
 collections:
 - mynotes
+permalink: /:title
+exclude: [".rvmrc", ".rbenv-version", "Rakefile"]
+post_defaults:
+  layout: post
+pygments: true
+markdown: rdiscount
 
 timezone: Asia/Shanghai
 title : 奚適而惡乎待哉
 tagline: 承載思想與文字之厚重
-post_defaults:
-  layout: post
 author:
   name: 存中
   email: cunzhong@qq.com
