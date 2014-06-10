@@ -3,7 +3,6 @@ layout: default
 title: 筆記
 ---
 <h1>筆記</h1>
-{% include show.html %}
 <div id="two-colomuns">
 {% for mynotes in site.mynotes %}
 	<li><a href="{{ mynotes.url }}">{{ mynotes.title }}</a></li>
