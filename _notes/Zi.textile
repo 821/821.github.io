@@ -4,9 +4,6 @@ title: 諸子小結
 tags:
 - 思想
 - 莊子
-categories:
-- 網誌
-- 自選集
 date: '2007/04/16 03:29:00'
 ---
 <table align="left">

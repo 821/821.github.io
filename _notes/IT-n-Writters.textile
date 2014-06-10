@@ -3,7 +3,6 @@ layout: indexed
 title: IT 時代的碼字環境
 tags:
 - 電腦
-categories: 挨踢
 ---
 本文是一個寫作環境體系整理，也許具有一定啓發性。
 

@@ -1,0 +1,12 @@
+---
+layout: default
+title: 分類
+---
+<div id="two-colomuns">
+	{% for cat in site.notes %}
+	<h3><a id="{{cat[0]}}" >{{cat[0]}}</a></h3>
+		{% for f in cat[1] %}
+		<a href="{{f.url}}">{{ f.title }}</a> {{ f.date |date: "%Y/%m/%d"}}<br />
+		{% endfor %}
+	{% endfor %}
+</div>
