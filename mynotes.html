@@ -4,8 +4,5 @@ title: 筆記
 ---
 {% include show.html %}
 <h1>筆記</h1>
-	<h2><a href="{{ mynotes.url }}">{{ mynotes.title }}</a> <span class="showhide"><a href="javascript:;" onmousedown="toggleDiv('{{ mynotes.url }}');">&dArr;</a></span></h2>
-	<div id="{{ mynotes.url }}" style="display:none;">
-	{{ mynotes.content }}
-	</div>
+	<h2><a href="{{ mynotes.url }}">{{ mynotes.title }}</a></h2>
 </div>
