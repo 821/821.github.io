@@ -5,5 +5,11 @@ markdown: rdiscount
 timezone: Asia/Shanghai
 title : 奚適而惡乎待哉
 tagline: 承載思想與文字之厚重
+post_defaults:
+  layout: post
+author:
+  name: 存中
+  email: cunzhong@qq.com
 collections:
-- notes
+  notes:
+    output: true

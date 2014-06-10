@@ -2,11 +2,11 @@
 layout: default
 title: 分類
 ---
+<h1>筆記</h1>
 <div id="two-colomuns">
-	{% for cat in site.notes %}
-	<h3><a id="{{cat[0]}}" >{{cat[0]}}</a></h3>
-		{% for f in cat[1] %}
-		<a href="{{f.url}}">{{ f.title }}</a> {{ f.date |date: "%Y/%m/%d"}}<br />
+	<ul>
+		{% for notes in site.notes %}
+			<li><a href="{{ notes.url }}">{{ notes.title }}</a></li>
 		{% endfor %}
-	{% endfor %}
+	</ul>
 </div>
