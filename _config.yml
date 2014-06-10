@@ -3,8 +3,8 @@ exclude: [".rvmrc", ".rbenv-version", "Rakefile"]
 pygments: true
 markdown: rdiscount
 collections:
-    mynotes:
-        output: true
+  mynotes:
+    output: true
 
 timezone: Asia/Shanghai
 title : 奚適而惡乎待哉
