@@ -3,10 +3,12 @@ layout: default
 title: 筆記
 ---
 <h1>筆記</h1>
+{% include show.html %}
 <div id="two-colomuns">
-	<ul>
-		{% for collections in site.collections %}
-			<li><a href="{{ collections.url }}">{{ collections.title }}</a></li>
-		{% endfor %}
-	</ul>
+{% for collection in site.collections %}
+	<h2><a href="{{ collection.url }}">{{ collection.title }}</a> <span class="showhide"><a href="javascript:;" onmousedown="toggleDiv('{{ collection.url }}');">&dArr;</a></span></h2>
+	<div id="{{ collection.url }}" style="display:none;">
+	{{ collection.content }}
+	</div>
+{% endfor %}
 </div>
