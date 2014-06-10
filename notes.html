@@ -5,10 +5,10 @@ title: 筆記
 <h1>筆記</h1>
 {% include show.html %}
 <div id="two-colomuns">
-{% for collection in site.collections %}
-	<h2><a href="{{ collection.url }}">{{ collection.title }}</a> <span class="showhide"><a href="javascript:;" onmousedown="toggleDiv('{{ collection.url }}');">&dArr;</a></span></h2>
-	<div id="{{ collection.url }}" style="display:none;">
-	{{ collection.content }}
+{% for notes in site.notes %}
+	<h2><a href="{{ notes.url }}">{{ notes.title }}</a> <span class="showhide"><a href="javascript:;" onmousedown="toggleDiv('{{ notes.url }}');">&dArr;</a></span></h2>
+	<div id="{{ notes.url }}" style="display:none;">
+	{{ notes.content }}
 	</div>
 {% endfor %}
 </div>
