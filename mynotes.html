@@ -6,9 +6,7 @@ title: 筆記
 {% include show.html %}
 <div id="two-colomuns">
 {% for mynotes in site.mynotes %}
-	<h3><a href="{{ mynotes.url }}">{{ mynotes.title }}</a> <span class="showhide"><a href="javascript:;" onmousedown="toggleDiv('{{ mynotes.url }}');">&dArr;</a></span></h3>
-	<div id="{{ mynotes.url }}" style="display:none;">
-	{{ mynotes.content }}
+	<li><a href="{{ mynotes.url }}">{{ mynotes.title }}</a></li>
 	</div>
 {% endfor %}
 </div>
