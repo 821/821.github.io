@@ -1,7 +1,8 @@
 permalink: /:title
 exclude: [".rvmrc", ".rbenv-version", "Rakefile"]
 pygments: true
-markdown: kramdown
+markdown: rdiscount
+timezone: Asia/Shanghai
 title : 奚適而惡乎待哉
 tagline: 承載思想與文字之厚重
 collections:
