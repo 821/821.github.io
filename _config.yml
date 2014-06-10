@@ -11,5 +11,5 @@ author:
   name: 存中
   email: cunzhong@qq.com
 collections:
-  notes:
+  mynotes:
     output: true
