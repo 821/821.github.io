@@ -253,7 +253,6 @@
   font-weight: bold;
 }
 .taketori-ttb strong span.cjk:after {
-  content: "\3001";
   display: -moz-inline-block;
   display: inline-block;
   position: absolute;
