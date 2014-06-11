@@ -1,0 +1,7 @@
+---
+layout: default
+title: 小說
+---
+{% for blq in site.blq %}
+	<h2><a href="{{ blq.url }}">{{ blq.title }}</a></h2>
+{% endfor %}
