@@ -1178,8 +1178,8 @@ Taketori.prototype = {
 						if (this.isWritingModeReady) {
 							if (tag == 'strong') {
 								if (!this.isTextEmphasisReady) {
-									if (!this.process.kenten) setKenten = true;
-									this.process.kenten = true;
+									if (!this.process.kenten) setKenten = false;
+									this.process.kenten = false;
 								}
 								className += ((className) ? ' ' : '') + 'bo-ten';
 							}
