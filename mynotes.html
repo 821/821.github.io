@@ -4,5 +4,6 @@ title: 筆記
 ---
 {% include show.html %}
 <h1>筆記</h1>
+{% for mynotes in site.mynotes %}
 	<h2><a href="{{ mynotes.url }}">{{ mynotes.title }}</a></h2>
-</div>
+{% endfor %}
