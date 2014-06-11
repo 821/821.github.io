@@ -1,5 +1,8 @@
 collections:
-- mynotes
+  notes:
+    output: true
+  blq:
+    output: false
 permalink: /:title
 exclude: [".rvmrc", ".rbenv-version", "Rakefile"]
 post_defaults:
