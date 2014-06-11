@@ -2,8 +2,7 @@
 layout: default
 title: 筆記
 ---
-{% include show.html %}
 <h1>筆記</h1>
-{% for notes in site.notes %}
-	<h2><a href="{{ notes.url }}">{{ notes.title }}</a></h2>
+{% for collections in site.collections %}
+	<h2><a href="{{ collections.url }}">{{ collections.title }}</a></h2>
 {% endfor %}
