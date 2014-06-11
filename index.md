@@ -6,6 +6,7 @@ layout: page
 很久沒更新？其實一直在自己電腦上寫，衹是沒 push 。主要原因是忙於把玩輸入法，次要原因是瀏覽器換成了 Firefox ，結果自己也看到網站不太美。且 Jekyll 2.0 終於有了 [Colletions](http://jekyllrb.com/docs/collections/) 功能，但現在是 experimental ，所以我也在做 experiments 。  
 ###簡介
 日常屁話在[網誌](/categories#網誌)，電腦技術討論在[挨踢](/categories#挨踢)，最有代表性的文章集合到[自選集](/categories#自選集)，其他可以猜猜看，猜不到就算了。  
+本站對 IE 非常不友好，其他瀏覽器則各有優缺點。 IE 下的顯示問題站長不知如何解決，也懶得解決。不妨認定本站反 IE 。  
 ###理念
 **圈內**：祇歡迎師友及臭味相投的陌生人  
 **原創**：全站平均相似度達論文標準  
