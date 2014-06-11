@@ -38,25 +38,7 @@ Git 做的版本控制相信會帶給版本控各種無與倫比的享受。我�
 
 h2. 附錄
 
-h3. 附一： ruhoh 用戶應備文檔及網頁
-
-準備工作：圖省事就用 <a href="http://railsinstaller.org/" rel="external">RailsInstaller</a> 或 <a href="http://code.google.com/p/msysgit/downloads/list" rel="external">Git Portable</a> ，然後註冊並佈置好自己的 <a href="https://github.com/" rel="external">GitHub</a> 並部署。然後按照 <a href="http://ruhoh.com/" rel="external">ruhoh.com</a> 的貼心提示部署。如果覺得同步起來比較複雜，可以使用 <a href="https://code.google.com/p/tortoisegit/" rel="external">TortoiseGit</a> 。我的辦法是把上傳操作的幾條命令寫成一個 bat 文件，做好快捷方式，每次需要的時候點一下就行了。
-Git 教程： <a href="http://git-scm.com/book" rel="external">Pro Git</a> ——如果不用 GitHub 來存放，可以不看。
-Ruhoh 使用（務必）： <a href="http://ruhoh.com/usage/" rel="external">安裝</a>，<a href="http://ruhoh.com/usage/configure/" rel="external">個人信息</a>，<a href="http://ruhoh.com/usage/create/" rel="external">建文章</a>，<a href="http://ruhoh.com/usage/publish/" rel="external">發佈</a>，<a href="http://ruhoh.com/usage/templating/" rel="external">模塊</a>，<a href="http://ruhoh.com/usage/theming" rel="external">主題</a>，<a href="http://ruhoh.com/usage/widgets/" rel="external">部件</a>，<a href="http://ruhoh.com/usage/plugins/" rel="external">插件</a>，<a href="https://github.com/mojombo/jekyll/wiki/blog-migrations" rel="external">從他處搬家</a>。
-其他： <a href="http://daringfireball.net/projects/markdown/syntax" rel="external">Markdown</a> 或其<a href="http://markdown.tw/" rel="external">中文版</a> ，還可考慮 <a href="http://johnmacfarlane.net/pandoc/" rel="external">Pandoc</a> （需改代碼或再轉一次）。 ruhoh 模塊用 <a href="http://mustache.github.com/mustache.5.html" rel="external">Mustache</a> 標記，應讀。 <a href="http://jekyllbootstrap.com/" rel="external">Jekyll</a> 和 <a href="http://octopress.org/" rel="external">Octopress</a> 可以逛逛。最後，<a href="http://zoomquiet.org/res/scrapbook/ZqFLOSS/tree/item20070306123934-frameset.html" rel="external">這裏</a>有很多好東西。
-以上就是我在大量瀏覽之後總結出來的少量網站，雖然好像也不算很少，不過如果想完全掌握好 ruhoh ，看這些當然遠遠不夠了。比如要製作主題，那麼整個默認主題當然要細究一番。這也是一個非常好的例子，間接證明了開源程序的坑爹性。不過，雖然有部分莫名其妙的所謂技術人士指出， ruhoh 等物有這些那些 prerequisites ，是程序猿的東西，還揚言不懂 console 就不行。但從我的經歷看，其實祇有兩樣：一是較多的網頁製作經驗，即 html + CSS 。二是四級以上英語水平（閱讀能力跟英語國家小學三年級差不多吧），以便讀文檔、搜索。如果你再問我還有什麼，那我就說， 105 以上的智商。但智商 105 以下的，我還真沒聽說誰既懂 html ，又英語過四級，又能讀以中文撰寫的本文，且看了上面那一大篇遠比文藝青年作品難懂的文字，還能耐著性子讀到這裏。
-好吧， ruhoh 上手後也沒什麼，即使是重裝系統，裝上 RailsInstaller ，到 GitHub 網站上加一下新的 ssh key ，本地部署搞定。如果密鑰不見了，那就生成一個唄。雖然肯定不像某些白癡程序那麼方便，但也不很麻煩。網站更新後大約一分鐘就能看到了，還是挺快的。
-我的上傳 bat ：{% highlight bat linenos %}cd ruhoh
-call git add .
-call git add -A
-call git commit -m "%date:~0,10%"
-call git push origin master
-{% endhighlight %}
-
-另外，如果喜歡即時發佈，還可以配合 SparkleShare 這樣的殺器。每保存一次都會馬上上傳到服務器，不要太厲害哦。
-
-
-h3. 附二：對比 Wordpress 與 ruhoh
+h3. 附一：對比 Wordpress 與 ruhoh
 
 二者都有的優點：
 開源、免費。
@@ -67,25 +49,7 @@ ruhoh: 對空間的要求低、備份和搬家更輕鬆（文章本來就在電�
 Wordpress: 特殊的專用 PHP 命令讓資深程序猿反而還要學他、留言也佔用數據庫條目導致臃腫化。
 ruhoh: 萬惡的 Mustache 導致模版[*有時*]非常難搞、留言需要用閉源服務管理且切換域名時需要重新導入。
 
-h3. 附三：知名長期免費 PaaS 概況列表
-
-好吧，我比較懶得寫一些自己不關注的點，比如我現在上傳祇喜歡 Git ，或至少 Hg ，所以就不會管人家有沒有 FTP 。
-
-|PaaS| Disk | B.w | Git | Ruby | PHP | Java | Python | Node |
-|<a href="https://openshift.redhat.com/app/" rel="external">Openshift</a>|3|∞|Y|Y|Y|Y|Y|Y|
-|<a href="http://www.heroku.com/" rel="external">Heruko</a>|0.1|∞|Y|Y|Y|Y|Y|Y|
-|<a href="http://www.cloudfoundry.com/" rel="external">CloudFoundry</a>|2|∞|N|Y|Y|Y|Y|Y|
-|<a href="http://appfog.com/" rel="external">AppFog</a>|∞|50|N|Y|Y|Y|Y|Y|
-|<a href="https://www.dotcloud.com/" rel="external">dotCloud</a>|∞|∞|Y|Y|Y|Y|Y|Y|
-|<a href="https://www.cloudcontrol.com" rel="external">CloudControl</a>|∞|∞|Y|Y|Y|Y|Y|Y|
-|<a href="https://appengine.google.com/" rel="external">Google AppEngine</a>|0.5|60|N|N|N|N|Y|N|
-|<a href="http://www.phpcloud.com/" rel="external">PhpCloud</a>|0.5|∞|Y|N|Y|N|N|N|
-|<a href="https://pagodabox.com/" rel="external">pagodabox</a>|0.2|∞|Y|N|Y|N|N|N|
-|<a href="http://www.engineyard.com/products/orchestra" rel="external">Orchestra</a>|0|∞|Y|N|Y|N|N|N|
-
-
-
-h3. 附四：我的網站旅程（舊文，有增刪）
+h3. 附二：我的網站旅程（舊文，有增刪）
 
 我老人家開始自己的個人網站旅程，乃是非常曲折而白痴的。這段旅程從我老人家極度不滿 fb 的網誌開始（這口吻是看西方理論作品的後遺症），但在 fb 以前，我老人家也用過其他的網誌。大家就順著我老人家的旅程來看一看吧。
 

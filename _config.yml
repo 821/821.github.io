@@ -1,8 +1,6 @@
 collections:
-  notes:
-    output: true
+- notes
 permalink: /:title
-exclude: [".rvmrc", ".rbenv-version", "Rakefile"]
 post_defaults:
   layout: post
 pygments: true
