@@ -1,6 +1,6 @@
 collections:
-- notes
-- blq
+  - notes
+  - blq
 permalink: /:title
 post_defaults:
   layout: post
