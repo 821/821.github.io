@@ -3,7 +3,7 @@ title: 首頁
 layout: page
 ---
 ###絮語
-很久沒更新？其實一直在自己電腦上寫，衹是沒 push 。主要原因是忙於把玩輸入法，次要原因是瀏覽器換成了 Firefox ，結果自己也看到網站不太美。且 Jekyll 2.0 終於有了 [Colletions](http://jekyllrb.com/docs/collections/) 功能，但現在是 experimental ，所以我也在做 experiments 。  
+很久沒更新？其實一直在自己電腦上寫，衹是沒 push 。主要原因是忙於把玩輸入法，次要原因是瀏覽器換成了 Firefox ，結果自己也看到網站不太美，頓時沒動力了。且 Jekyll 2.0 終於有了 [Colletions](http://jekyllrb.com/docs/collections/) 功能，但現在是 experimental ，所以我也在做 experiments ：現在本地編譯沒問題， push 上來死活不見輸出。  
 ###簡介
 日常屁話在[網誌](/categories#網誌)，電腦技術討論在[挨踢](/categories#挨踢)，最有代表性的文章集合到[自選集](/categories#自選集)，其他猜猜看，猜不到就算了。  
 本站對 Trident 引擎的瀏覽器非常不友好，建議使用 WebKit 或 Blink 引擎的瀏覽器， Gecko 引擎者亦優於 Trident 者。  
