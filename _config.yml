@@ -1,8 +1,6 @@
 collections:
-  notes:
-    output:true
-  blq:
-    output:true
+  - notes
+  - blq
 permalink: /:title
 post_defaults:
   layout: post
