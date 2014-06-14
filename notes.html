@@ -3,6 +3,6 @@ layout: default
 title: 筆記
 ---
 <h1>筆記</h1>
-{% for page in site.notes %}
-	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+{% for page in site.collections %}
+	<a href="{{ page.url }}">{{ page.title }}</a>
 {% endfor %}
