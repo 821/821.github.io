@@ -1,6 +1,7 @@
 ---
 layout: indexed
 title: 繁中輸入法素材庫
+permalink: /TCIMMM
 ---
 ##簡介
 TCIMM (Traditional Chinese Input Method Material) 致力於繁體中文輸入法素材收集。項目包括選字、字的構成、詞、短語、名句等輸入法的構成部件。  
