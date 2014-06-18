@@ -22,7 +22,7 @@ TCIMM (Traditional Chinese Input Method Material) 致力於繁體中文輸入法
 [51896 條 Unihan 拼音]() <a href="http://www.unicode.org/Public/UNIDATA/Unihan.zip" rel="external">Unihan.zip</a>
 [兩岸注音對照]()
 [智能 ABC 八筆]()
-[漢字構形資料庫]() <a href="http://cdp.sinica.edu.tw/cdphanzi/" rel="external">原鏈接</a>
+<a href="http://cdp.sinica.edu.tw/cdphanzi/" rel="external">漢字構形資料庫</a>
 
 ##詞語、短語 (Words & Expressions)
 [大漢和辭典]() <a href="https://github.com/cjkvi/cjkvi-dict/raw/master/dkw-word.txt " rel="external">原鏈接</a>
