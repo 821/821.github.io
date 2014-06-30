@@ -6,7 +6,7 @@ Books:
 <a href="http://hanji.sinica.edu.tw/index.html?" rel="external">漢籍</a>
 <a href="http://edu.duxiu.com/" rel="external">讀秀</a>
 <a href="http://hn.sslibrary.com/library.jsp" rel="external">超星</a>
-<a href="http://www.cadal.zju.edu.cn/Index.action" rel="external">中美百萬</a>
+<a href="http://www.cadal.zju.edu.cn/Index.action" rel="external">CADAL</a>
 <a href="http://www.gutenberg.org/wiki/Main_Page" rel="external">Gutenberg</a>
 <a href="http://books.google.com.tw/" rel="external">GBooks</a>
 <a href="http://bbs.gxsd.com.cn/" rel="external">數典</a>
@@ -31,22 +31,27 @@ Journals:
 <a href="http://www.xiaomili.cn/" rel="external">小米粒</a>
   
 
-Dictionary/encyclopedia:
+Dictionary/encyclopedia/database:
 <a href="http://korat.ibc.ac.th/Dictionary-on-Line/Chinese_Classic/index.html" rel="external">漢語大字典</a>
 <a href="http://korat.ibc.ac.th/Dictionary-on-Line/Chinese_Classic_TW/index.html" rel="external">中文大辭典</a>
+<a href="http://218.78.212.175/hd/APP.asp" rel="external">漢語大辭典</a>
 <a href="http://140.111.34.46/newDict/dict/index.html" rel="external">國語辭典</a>
+<a href="http://words.sinica.edu.tw/sou/sou.html" rel="external">搜詞尋字</a>
 <a href="http://eastling.org/oc/oldage.aspx" rel="external">上古音</a>
 <a href="http://eastling.org/tdfweb/midage.aspx" rel="external">中古音</a>
 <a href="http://eastling.org/tdfweb/cmp.aspx?name=122" rel="external">南白</a>
+<a href="http://xiaoxue.iis.sinica.edu.tw/ccr/" rel="external">古今音</a>
+<a href="http://ytenx.org/" rel="external">韻典</a>
 <a href="http://dict.variants.moe.edu.tw/main.htm" rel="external">異體</a>
 <a href="http://chineseetymology.org" rel="external">字形</a>
-<a href="http://cdict.freetcp.com" rel="external">英漢</a>
-<a href="http://ytenx.org/" rel="external">韻典</a>
 <a href="http://www.mebag.com/index/" rel="external">引得市</a>
+<a href="http://cdict.freetcp.com" rel="external">英漢</a>
 <a href="http://gjtsjc.gxu.edu.cn/" rel="external">古今圖書集成</a>
 <a href="http://wikipedia.org/" rel="external">Wikipedia</a>
 <a href="http://db1x.sinica.edu.tw/sinocal/" rel="external">中西曆</a>
 <a href="http://ccl.pku.edu.cn:8080/ccl_corpus/" rel="external">北大語料</a>
+<a href="http://www.unicode.org/Public/zipped/" rel="external">Unicode</a>
+<a href="http://www.pdawiki.com/forum/forum.php" rel="external">PDAWiki</a>
   
 
 Netdisks:
@@ -55,6 +60,7 @@ Netdisks:
 <a href="https://spideroak.com/" rel="external">SpiderOak</a>
 <a href="https://www.copy.com/" rel="external">Copy</a>
 <a href="https://www.dropbox.com/" rel="external">Dropbox</a>
+<a href="https://onedrive.live.com/" rel="external">OneDrive</a>
 <a href="https://bintray.com/" rel="external">Bintray</a>
 <a href="http://www.kuaipan.cn/home.htm" rel="external">快盤</a>
 <a href="http://pan.baidu.com/" rel="external">百度</a>
@@ -66,6 +72,7 @@ Netdisks:
 <a href="http://www.kanbox.com" rel="external">酷盤</a>
 <a href="http://cloud.letv.com/webdisk/home/index" rel="external">樂視</a>
 <a href="http://vdisk.weibo.com/" rel="external">微盤</a>
+<a href="http://www.pansou.com/" rel="external">盤搜</a>
   
 
 PaaS:
@@ -103,6 +110,7 @@ Software/scripts:
 <a href="http://www.everedit.net/" rel="external">EverEdit</a>
 <a href="http://www.emeditor.com/" rel="external">EmEditor</a>
 <a href="https://code.google.com/p/rimeime/" rel="external">RIME</a>
+<a href="http://ahkscript.org/download/" rel="external">AHK</a>
 <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>
 <a href="http://mirrors.163.com/" rel="external">網易開源鏡像</a>
 <a href="http://itellyou.cn/" rel="external">MSDN</a>
@@ -117,11 +125,13 @@ Software/scripts:
 
 Shopping:
 <a href="http://www.taobao.com" rel="external">淘寶</a>
+<a href="http://2.taobao.com/" rel="external">二手</a>
 <a href="https://www.alipay.com/" rel="external">支付寶</a>
 <a href="http://jd.com/" rel="external">京東</a>
 <a href="http://www.amazon.cn/" rel="external">亞馬遜</a>
 <a href="http://www.51buy.com/" rel="external">易迅</a>
 <a href="http://www.suning.com/" rel="external">蘇寧</a>
+<a href="http://www.newegg.cn/" rel="external">新蛋</a>
 <a href="http://www.box-z.com/" rel="external">盒子比價</a>
 <a href="http://58.com/" rel="external">58</a>
 <a href="http://189.cn/" rel="external">電信</a>
