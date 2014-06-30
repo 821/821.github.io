@@ -25,17 +25,18 @@ Journals:
 <a href="http://www.jstor.org/" rel="external">JSTOR</a>
 <a href="http://ndltd.ncl.edu.tw" rel="external">臺灣碩博</a>
 <a href="http://www.press.ntu.edu.tw/ejournal/index.asp" rel="external">臺大期刊</a>
-<a href="http://sunzi1.lib.hku.hk/hkjo/index.jsp" rel="external">HK Journals</a>
+<a href="http://sunzi1.lib.hku.hk/hkjo/index.jsp" rel="external">HKJournals</a>
 <a href="http://www.paper800.com/" rel="external">免費論文</a>
 <a href="http://emuch.net/bbs/index.php" rel="external">小木蟲</a>
+<a href="http://www.xiaomili.cn/" rel="external">小米粒</a>
   
 
-Dictionary/Encyclopedia:
+Dictionary/encyclopedia:
 <a href="http://korat.ibc.ac.th/Dictionary-on-Line/Chinese_Classic/index.html" rel="external">漢語大字典</a>
 <a href="http://korat.ibc.ac.th/Dictionary-on-Line/Chinese_Classic_TW/index.html" rel="external">中文大辭典</a>
 <a href="http://140.111.34.46/newDict/dict/index.html" rel="external">國語辭典</a>
-<a href="http://eastling.org/oc/oldage.aspx" rel="external">上古音</a><a
-href="http://eastling.org/tdfweb/midage.aspx" rel="external">中古音</a>
+<a href="http://eastling.org/oc/oldage.aspx" rel="external">上古音</a>
+<a href="http://eastling.org/tdfweb/midage.aspx" rel="external">中古音</a>
 <a href="http://eastling.org/tdfweb/cmp.aspx?name=122" rel="external">南白</a>
 <a href="http://dict.variants.moe.edu.tw/main.htm" rel="external">異體</a>
 <a href="http://chineseetymology.org" rel="external">字形</a>
@@ -49,10 +50,12 @@ href="http://eastling.org/tdfweb/midage.aspx" rel="external">中古音</a>
   
 
 Netdisks:
+<a href="https://cloud.mail.ru/" rel="external">Cloud.Mail.ru</a>
 <a href="https://disk.yandex.com" rel="external">Yandex</a>
 <a href="https://spideroak.com/" rel="external">SpiderOak</a>
 <a href="https://www.copy.com/" rel="external">Copy</a>
 <a href="https://www.dropbox.com/" rel="external">Dropbox</a>
+<a href="https://bintray.com/" rel="external">Bintray</a>
 <a href="http://www.kuaipan.cn/home.htm" rel="external">快盤</a>
 <a href="http://pan.baidu.com/" rel="external">百度</a>
 <a href="http://www.weiyun.com/+" rel="external">微雲</a>
@@ -62,9 +65,10 @@ Netdisks:
 <a href="http://www.ys168.com/" rel="external">永碩</a>
 <a href="http://www.kanbox.com" rel="external">酷盤</a>
 <a href="http://cloud.letv.com/webdisk/home/index" rel="external">樂視</a>
+<a href="http://vdisk.weibo.com/" rel="external">微盤</a>
   
 
-Spaces:
+PaaS:
 <a href="https://github.com/" rel="external">GitHub</a>
 <a href="http://www.heroku.com/" rel="external">Heruko</a>
 <a href="https://bitbucket.org/" rel="external">Bitbucket</a>
@@ -75,12 +79,22 @@ Spaces:
 <a href="https://openshift.redhat.com/app/" rel="external">Openshift</a>
 <a href="http://orchestra.io" rel="external">Orchestra</a>
 <a href="http://www.cloudfoundry.com/" rel="external">CloudFoundry</a>
+<a href="http://www.cumulogic.com/" rel="external">Cumulogic</a>
 <a href="http://www.phpcloud.com/" rel="external">PhpCloud</a>
 <a href="http://appfog.com/" rel="external">AppFog</a>
 <a href="https://www.cloudcontrol.com" rel="external">CloudControl</a>
 <a href="https://pagodabox.com/" rel="external">pagodabox</a>
 <a href="https://www.dotcloud.com/" rel="external">dotCloud</a>
+<a href="https://www.nitrous.io/" rel="external">Nitrous</a>
+<a href="http://www.cloudbees.com/" rel="external">CloudBees</a>
 <a href="http://www.openfoundry.org" rel="external">OpenFoundry</a>
+<a href="https://gitcafe.com/" rel="external">GitCafe</a>
+<a href="http://developer.baidu.com/cloud/rt" rel="external">BAE</a>
+<a href="http://www.aliyun.com/product/ace/" rel="external">ACE</a>
+<a href="http://appengine.jd.com/product/jae.html" rel="external">JAE</a>
+<a href="http://sae.sina.com.cn/" rel="external">SAE</a>
+<a href="http://www.grandcloud.cn/product/ae" rel="external">CAE</a>
+<a href="http://www.mopaas.com/" rel="external">MoPaaS</a>
   
 
 Software/scripts:
@@ -89,14 +103,15 @@ Software/scripts:
 <a href="http://www.everedit.net/" rel="external">EverEdit</a>
 <a href="http://www.emeditor.com/" rel="external">EmEditor</a>
 <a href="https://code.google.com/p/rimeime/" rel="external">RIME</a>
-<a href="http://portableapps.com/apps" rel="external">PortableApps</a>
-<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386" rel="external">便攜</a>
-<a href="http://hrtsea.com/" rel="external">心海</a>
-<a href="http://alternativeto.net/" rel="external">AlternativesTo</a>
+<a href="http://sparkleshare.org/" rel="external">SparkleShare</a>
 <a href="http://mirrors.163.com/" rel="external">網易開源鏡像</a>
 <a href="http://itellyou.cn/" rel="external">MSDN</a>
+<a href="http://portableapps.com/apps" rel="external">PortableApps</a>
+<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386" rel="external">便攜軟件</a>
+<a href="http://hrtsea.com/" rel="external">心海</a>
+<a href="http://alternativeto.net/" rel="external">AlternativesTo</a>
 <a href="http://userscripts.org:8080/" rel="external">Userscripts</a>
-<a href="https://greasyfork.org/" rel="external">Greasy Fork</a>
+<a href="https://greasyfork.org/" rel="external">GreasyFork</a>
 <a href="https://openuserjs.org/" rel="external">OpenUserJS</a>
   
 
@@ -116,14 +131,19 @@ Shopping:
 
 Social:
 <a href="https://www.facebook.com/" rel="external">Facebook</a>
+<a href="https://twitter.com/" rel="external">Twitter</a>
 <a href="https://www.gmail.com/" rel="external">GMail</a>
-<a href="https://mail.qq.com/" rel="external">QQMail</a>
 <a href="https://mail.ru/" rel="external">Mail.ru</a>
+<a href="https://outlook.com/" rel="external">Outlook</a>
+<a href="http://www.gmx.com/" rel="external">GMX</a>
+<a href="https://mail.qq.com/" rel="external">QQMail</a>
+<a href="http://mail.163.com/" rel="external">163</a>
 <a href="https://webim.feixin.10086.cn/login.aspx" rel="external">飛信</a>
 <a href="http://www.shuobar.cn/" rel="external">說吧</a>
   
 
 Others:
+<a href="http://paste.ubuntu.com/" rel="external">UbuntuPastebin</a>
 <a href="http://www.guofs.com/tvlive/" rel="external">電視直播</a>
 <a href="http://cn.usinfo.me/" rel="external">美國人生成器</a>
 <a href="http://www.v2ex.com/" rel="external">v2ex</a>
