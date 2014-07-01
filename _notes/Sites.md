@@ -15,7 +15,7 @@ Books:
 <a href="http://forum.er07.com/index.php" rel="external">愛如生</a>
 <a href="http://www.dushubaoku.cn/forum.php" rel="external">寶庫</a>
 <a href="http://www.readfree.net/bbs/" rel="external">園地</a>
-<a href="http://ctext.org/zh" rel="external">思想史文獻</a>
+<a href="http://ctext.org/" rel="external">思想史文獻</a>
 <a href="http://www.byscrj.com/jmm/index.htm" rel="external">道家書籍</a>
   
 
@@ -37,6 +37,7 @@ Dictionary/encyclopedia/database:
 <a href="http://218.78.212.175/hd/APP.asp" rel="external">漢語大辭典</a>
 <a href="http://140.111.34.46/newDict/dict/index.html" rel="external">國語辭典</a>
 <a href="http://words.sinica.edu.tw/sou/sou.html" rel="external">搜詞尋字</a>
+<a href="http://www.zhongwen.com/zi.htm" rel="external">字典網</a>
 <a href="http://eastling.org/oc/oldage.aspx" rel="external">上古音</a>
 <a href="http://eastling.org/tdfweb/midage.aspx" rel="external">中古音</a>
 <a href="http://eastling.org/tdfweb/cmp.aspx?name=122" rel="external">南白</a>
@@ -50,6 +51,7 @@ Dictionary/encyclopedia/database:
 <a href="http://wikipedia.org/" rel="external">Wikipedia</a>
 <a href="http://db1x.sinica.edu.tw/sinocal/" rel="external">中西曆</a>
 <a href="http://ccl.pku.edu.cn:8080/ccl_corpus/" rel="external">北大語料</a>
+<a href="http://cwn.ling.sinica.edu.tw/" rel="external">CWN</a>
 <a href="http://www.unicode.org/Public/zipped/" rel="external">Unicode</a>
 <a href="http://www.pdawiki.com/forum/forum.php" rel="external">PDAWiki</a>
   
@@ -85,10 +87,8 @@ PaaS:
 <a href="http://sf.net" rel="external">Sourceforge</a>
 <a href="https://openshift.redhat.com/app/" rel="external">Openshift</a>
 <a href="http://orchestra.io" rel="external">Orchestra</a>
-<a href="http://www.cloudfoundry.com/" rel="external">CloudFoundry</a>
 <a href="http://www.cumulogic.com/" rel="external">Cumulogic</a>
 <a href="http://www.phpcloud.com/" rel="external">PhpCloud</a>
-<a href="http://appfog.com/" rel="external">AppFog</a>
 <a href="https://www.cloudcontrol.com" rel="external">CloudControl</a>
 <a href="https://pagodabox.com/" rel="external">pagodabox</a>
 <a href="https://www.dotcloud.com/" rel="external">dotCloud</a>
@@ -111,6 +111,7 @@ Software/scripts:
 <a href="http://www.emeditor.com/" rel="external">EmEditor</a>
 <a href="https://code.google.com/p/rimeime/" rel="external">RIME</a>
 <a href="http://ahkscript.org/download/" rel="external">AHK</a>
+<a href="https://code.google.com/p/goagent/" rel="external">GoAgent</a>
 <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>
 <a href="http://mirrors.163.com/" rel="external">網易開源鏡像</a>
 <a href="http://itellyou.cn/" rel="external">MSDN</a>
@@ -154,8 +155,13 @@ Social:
 
 Others:
 <a href="http://paste.ubuntu.com/" rel="external">UbuntuPastebin</a>
+<a href="http://60.199.175.73/" rel="external">Google</a>
+<a href="https://duckduckgo.com/" rel="external">DuckDuckGo</a>
+<a href="http://www.baidu.com/" rel="external">百度</a>
 <a href="http://www.guofs.com/tvlive/" rel="external">電視直播</a>
 <a href="http://cn.usinfo.me/" rel="external">美國人生成器</a>
 <a href="http://www.v2ex.com/" rel="external">v2ex</a>
 <a href="http://ocw.aca.ntu.edu.tw/ntu-ocw/" rel="external">臺大開放課</a>
 <a href="http://open.163.com/" rel="external">網易公開課</a>
+<a href="http://v.qq.com/zt2011/open/" rel="external">騰訊公開課</a>
+<a href="http://open.sina.com.cn/" rel="external">新浪公開課</a>
