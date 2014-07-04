@@ -3,7 +3,7 @@ title: 首頁
 layout: page
 ---
 ###簡介
-日常屁話在[網誌](/categories#網誌)，電腦技術討論在[挨踢](/categories#挨踢)，最有代表性的文章集合到[自選集](/categories#自選集)，其他猜猜看，猜不到就算了。筆記是用 Collections 功能寫的，需要 Jekyll 2.0 來編譯，而 GitHub Pages 現有 Jekyll 爲 1.5 版，所以看不到。  
+日常屁話在[網誌](/categories#網誌)，電腦技術討論在[挨踢](/categories#挨踢)，最有代表性的文章集合到[自選集](/categories#自選集)，其他猜猜看，猜不到就算了。筆記是用 Collections 功能寫的，需要 Jekyll 2.0 來編譯，而 GitHub Pages 現有 Jekyll 爲 1.5 版，所以看不到，可以進入本站的[鏡像](http://lucz.github.io)查看。  
 本站對 Trident 引擎的瀏覽器非常不友好，建議使用 WebKit 或 Blink 引擎的瀏覽器， Gecko 引擎者亦優於 Trident 者。  
 ###理念
 **圈內**：祇歡迎師友及臭味相投的陌生人  
