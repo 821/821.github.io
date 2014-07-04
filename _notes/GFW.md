@@ -22,6 +22,7 @@ DNS 污染則是在劫持的時候直接給一個虛假的 IP ，結果用戶上
 **HostsX** 記事本風格的 hosts 文件修改軟件，以前還帶有很頗豐富的數據庫，隨時更新常用被牆網站和廣告屛蔽。  
 **huhamhire-hosts** HostsX的簡化+弱化版。  
 **SwitchHosts** 顧名思義，如果有多份 hosts 文件，用他來切換很不錯。還能設置一些網址，隨時更新。  
+**HostMan** 葡萄牙人製作，相當強大細緻，開發也很活躍，官網已牆。  
   
 ##關鍵字屛蔽
 比如 GitHub ，就曾被關鍵字屛蔽過，域名包含 GitHub 的網站，一律不可訪問——就算 hosts 塡了正確的 IP 也不行。  
@@ -45,11 +46,11 @@ VPN 的缺點是，不管訪問什麼網站，都要先經過 VPN 的那個服�
 **chnroutes** 一個幫助 VPN 決定哪些網站直接訪問、哪些網站要翻的腳本，可減輕 VPN 壓力。  
 ####SSH
 Secure Shell 與 VPN 相似，但好處是他並非全局的，設置代理了纔用遠程服務器，不設置還是本地網絡。  
-由於該技術廣泛應用於服務器端的管理，很多虛擬空間都提供 SSH 服務，不用買 VPS ，服務器方面不需要安裝軟件，本地使用 MyEnTunnel, Bitvise Tunnelier, PuTTY 等軟件卽可。  
+由於該技術廣泛應用於服務器端的管理，很多虛擬空間都提供 SSH 服務，不用買 VPS ，服務器方面不需要安裝軟件，本地使用 MyEnTunnel, Bitvise SSH Client, PuTTY 等軟件卽可。  
 ####網頁代理
 直接在瀏覽器上打開網頁代理，輸入想要訪問的網站卽可，好處是不用裝軟件。  
 一般的虛擬空間都可以配置網頁代理，常見網頁代理有 APJP, phpsocks5, phproxy encrypt, KnProxy, PHP Tunnel Proxy, hyk-proxy 等。  
-國內外很多高校的圖書館就利用 EZPorxy 技術來提供校外訪問。  
+國內外很多高校的圖書館就利用 EZProxy 技術來提供校外訪問。  
 ####郵箱法
 往某個特定的郵箱發一封郵件，在郵件的標題或正文包含你要訪問的 URL ，該郵箱會自動回信，信上就是訪問內容。  
 ####利用各種 PaaS
@@ -57,9 +58,10 @@ PaaS 可以理解爲限制使用特定語言的 VPS 。比如最著名的 GAE �
 **GoAgent** 翻越界老大，支持 GAE 和 PHP 。  
 **GAEProxy** GoAgent 的 Android 客戶端。  
 **Wallproxy** 兼容 GoAgent 的客戶端，支持多線程和更多加密方式。  
+**GreatAgent** 在 GoAgent 和 Wallproxy 的基礎上，更傻瓜的使用方式。  
 **Snova** **GSnova** 支持多種 PaaS 的工具。  
 **fqrouter** Android 客戶端，自帶跳板，同時支持 GoAgent/SSH/HTTP/SPDY/Shadowsocks 。  
-**Shadowsocks** 輕量級代理，部署過程簡單。  
+**Shadowsocks** 輕量級代理，部署過程簡單，但需要一個具有 root 權限的 VPS 。  
 ####CDN
 CDN 的本意是當用戶訪問一個離他比較遠的網站時，網站自動讓他訪問一個離用戶比較近的鏡像。但是這樣正好可以給我們用來翻越。  
 不過現在高牆已經封掉了很多 CDN 提供商的 IP 。  

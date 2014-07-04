@@ -1,10 +1,11 @@
 collections:
   notes:
-    output:true
+    output: true
+    permalink: /:path/
   blq:
-    output:true
+    output: true
   Projects:
-    output:true
+    output: true
 
 permalink: /:title
 post_defaults:
