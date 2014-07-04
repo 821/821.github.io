@@ -8,11 +8,11 @@
 footer{text-align:center;clear:both;width:100%;border-top:1px solid #9cf;}
 .upper{vertical-align:super;color:#9f9;font-size:0.6em;}
 /*General*/
-body{font:24px Book Antiqua,Times,PMingliu;line-height:1.3em;color:#fff;background:#00142A;}
+body{font:24px Book Antiqua,Times,PMingliu;line-height:1.2em;color:#fff;background:#00142A;}
 ::selection{color:#F2F5A9;background:#004040;}
 a{color:#9f9;text-decoration:none;}
 a:hover{color:#1f75cc;}
-p{margin:0 0 1em;text-indent:0;}
+p{margin:0 0 0.5em;text-indent:0;}
 h1{font-size:1.6em;line-height:1em;}h2{font-size:1.4em;}h3{font-size:1.3em;}h4{font-size:1.2em;}h5{font-size:1.2em;}h6{color:#red;}
 h1 a,h3,h3 a{color:#9cf;}
 h2,h2 a{color:#F2F5A9;}
