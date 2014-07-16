@@ -8,7 +8,7 @@
 footer{text-align:center;clear:both;width:100%;border-top:1px solid #9cf;}
 .upper{vertical-align:super;color:#9f9;font-size:0.6em;}
 /*General*/
-body{font:24px Book Antiqua,Times,PMingliu;line-height:1.3em;color:#fff;background:#00142A;}
+body{font:24px Book Antiqua,Times New Roman,Consolas,PMingliu;line-height:1.3em;color:#fff;background:#00142A;}
 ::selection{color:#F2F5A9;background:#004040;}
 a{color:#9f9;text-decoration:none;}
 a:hover{color:#1f75cc;}
@@ -24,7 +24,7 @@ td,th{visibility:visible;border:1px solid #39c;text-align:center;vertical-align:
 blockquote{margin:0.2em 1em 1em;padding:0.2em 1% 0 1%;border-left:0.2em solid #28b;background:#039;}
 ul,li{list-style:none;}
 code{background-color:#000;border:1px solid #999;font:20px Inconsolata;}
-strong{color:#E6DB74;}
+b,strong{color:#E6DB74;}
 .showhide a{float:right;color:#9f9;}
 /*Columns*/
 #two-colomuns{-moz-column-count:2;-moz-column-gap:2%;-moz-column-rule:none;-webkit-column-count:2;-webkit-column-gap:2%;-webkit-column-rule:none;column-count:2;column-gap:2%;column-rule:none;}
