@@ -10,7 +10,7 @@ collections:
 permalink: /:title
 post_defaults:
   layout: post
-pygments: true
+highlighter: pygments
 markdown: rdiscount
 auto: true
 
