@@ -114,12 +114,12 @@ COMMIT_EDITMSG 最後一次提交的提交信息
 h2. 資料
 
 收集一些寫得比較好的，和 Git 有關的文章。
-==<a href="http://git-scm.com/book" rel="external">==Git Book==</a>== 官方書，但很多東西都沒寫。
-==<a href="http://gitready.com/" rel="external">==git ready==</a>== 一份詳細敎程。
-==<a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html" rel="external">==Git User’s Manual==</a>== 詳細得讓人不想看，推送失敗怎麼辦之類的細節都有介紹。
-==<a href="http://gitref.org/" rel="external">==Git Reference==</a>== 結合實例的敎程。
-==<a href="http://marklodato.github.io/visual-git-guide/index-zh-cn.html" rel="external">==图解Git==</a>== 重點解釋一些不太好理解的槪念。
-==<a href="http://ihower.tw/git/" rel="external">==Git 版本控制系統==</a>== 一串關於 Git 的「高級」用法。
-==<a href="http://blog.yorkxin.org/posts/2011/07/29/git-rebase" rel="external">==Git-rebase 小筆記==</a>==
-==<a href="http://www.ruanyifeng.com/blog/2014/06/git_remote.html" rel="external">==Git远程操作详解==</a>==
-==<a href="http://www.worldhello.net/gotgithub/index.html" rel="external">==GotGitHub==</a>==
+<a href="http://git-scm.com/book" rel="external">Git Book</a> 官方書，但很多東西都沒寫。
+<a href="http://gitready.com/" rel="external">git ready</a> 一份詳細敎程。
+<a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html" rel="external">Git User’s Manual</a> 詳細得讓人不想看，推送失敗怎麼辦之類的細節都有介紹。
+<a href="http://gitref.org/" rel="external">Git Reference</a> 結合實例的敎程。
+<a href="http://marklodato.github.io/visual-git-guide/index-zh-cn.html" rel="external">图解Git</a> 重點解釋一些不太好理解的槪念。
+<a href="http://ihower.tw/git/" rel="external">Git 版本控制系統</a> 一串關於 Git 的「高級」用法。
+<a href="http://blog.yorkxin.org/posts/2011/07/29/git-rebase" rel="external">Git-rebase 小筆記</a>
+<a href="http://www.ruanyifeng.com/blog/2014/06/git_remote.html" rel="external">Git远程操作详解</a>
+<a href="http://www.worldhello.net/gotgithub/index.html" rel="external">GotGitHub</a>
