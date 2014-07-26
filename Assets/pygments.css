@@ -1,3 +1,4 @@
+.highlight pre { white-space: pre; overflow: auto;
 .highlight{background:#000;border:1px dotted #9cf;}
 .highlight .hll{background-color:#000}
 .highlight .c{color:#75715e} /* Comment */
