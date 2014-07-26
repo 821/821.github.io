@@ -12,7 +12,6 @@ post_defaults:
   layout: post
 highlighter: pygments
 markdown: rdiscount
-auto: true
 
 timezone: Asia/Shanghai
 title : 奚適而惡乎待哉
