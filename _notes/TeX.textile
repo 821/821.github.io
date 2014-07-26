@@ -1,6 +1,6 @@
 ---
 layout: indexed
-title: TeX 傳統版式寫作的曲折道路（吐血文威力加強白金限量版，慎入）
+title: TeX 傳統版式寫作的曲折道路
 tags:
 - 電腦
 date: '2013/03/11'
