@@ -1,5 +1,5 @@
 collections:
-  notes:
+  Notes:
     output: true
     permalink: /:path/
   blq:
