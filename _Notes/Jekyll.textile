@@ -143,7 +143,7 @@ h3. clone 複製
 
 <notextile>
 複製遠程倉庫。下載時 https 最方便安全又普遍，還支持 rsync, ftp, ssh 等。
-git clone <address> <foldername> 複製遠程倉庫，當參數 foldername 省略時，就地建立一個跟遠程倉庫同名的子文件夾，並將文件放在裏面
+git clone <remote address> <foldername> 複製遠程倉庫，當參數 foldername 省略時，就地建立一個跟遠程倉庫同名的子文件夾，並將文件放在裏面
 </notextile>
 
 h3. remote 遠程管理
@@ -151,8 +151,8 @@ h3. remote 遠程管理
 <notextile>
 git remote 羅列
 git remote -v 查看主機網址，記住：名字是 orgin 的很重要
-git remote -o <name> <address> 設置並命名
-git remote add <name <address> 添加
+git remote -o <name> <remote address> 設置並命名
+git remote add <name <remote address> 添加
 git remote rm <name> 刪除
 git remote rename <old> <new> 改名
 </notextile>
