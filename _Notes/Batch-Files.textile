@@ -1,6 +1,7 @@
 ---
 layout: indexed
 title: 批處理命令備查
+date: '2014/08/04'
 ---
 簡單使用批處理不難，我邊學邊寫本文，也就花了兩天。本來批處理看看 HELP 就差不多的，可是某些命令的解釋如同火星文，衹好親自整理一番。筆記較簡單，自認爲比較重要的會打上「☯」號。
 微軟標準，在討論 DOS 命令時，一般使用方括號表示可選內容； | 表示若干項選一樣； drive 表示盤符，比如 C ； path 表示路徑； filename 表示文件名； string 表示字符串。儘管 DOS 對大小寫不敏感，用戶可以隨便寫，但書寫命令的時候，一般用大寫來寫命令和命令參數，而小寫寫一些路徑、文件、字符串之類的用戶參數。有時用 source 和 destination 表示來源和目標，來源可不含盤符和路徑，目錄可不含文件名。
@@ -18,14 +19,6 @@ $ 表示行尾
 .. 表示上一級目錄
 [命令] /? 表示查詢這個命令的用法☯
 & 把兩行命令粘起來☯
-</notextile>
-
-h2. 變量☯
-
-<notextile>
-%0 批處理命令本身
-%1-9 表示以空格分隔的參數，比如有個 a.bat 文件，他的命令是 MOVE %3 D:\1 ，在 DOS 執行 a.bat 1.txt 2.txt 3.txt 時， %3 就代表 3.txt
-x,y 表示字符串的第 x 到 y 個字符，但注意他數數從 0 開始，不是 1 。比如 %date:~0,10% ，就是形如 2014/01/01 這樣的東西
 </notextile>
 
 h2. 常見命令參數用法
@@ -68,6 +61,7 @@ h3. 標籤與跳轉☯
 GOTO lable 運行到這一行時，跳轉到設置了標籤的地方繼續運行
 
 h3. 調用☯
+
 CALL 直接調用另一腳本，並且運行完後還後再運行本腳本後的命令
 
 h3. 臨時設置環境變量
@@ -160,6 +154,8 @@ DEL|ERASE [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
 
 h3. 複製與合倂☯
 
+h4. COPY
+
 <notextile>
 {% highlight bat %}
 COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/L] [/A | /B ] source [/A | /B] [+ source [/A | /B] [+ ...]] [destination [/A | /B]]
@@ -167,13 +163,24 @@ COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/L] [/A | /B ] source [/A | /B] [+ source [
 </notextile>
 兩種合倂方式： copy *.txt all.txt 以及 copy 1.txt + 2.txt + 3.txt all.txt
 
+h4. XCOPY
+
+複製文件和目錄樹，一般用不上這麼強悍的命令
 <notextile>
 {% highlight bat %}
 XCOPY source [destination] [/A | /M] [/D[:date]] [/P] [/S [/E]] [/V] [/W] [/C] [/I] [/Q] [/F] [/L] [/G] [/H] [/R] [/T] [/U] [/K] [/N] [/O] [/X] [/Y] [/-Y] [/Z] [/B] [/EXCLUDE:file1[+file2][+file3]...]
 {% endhighlight %}
 </notextile>
 
-h2. 變量操作☯
+h2. 變量☯
+
+<notextile>
+%0 批處理命令本身
+%1-9 表示以空格分隔的參數，比如有個 a.bat 文件，他的命令是 MOVE %3 D:\1 ，在 DOS 執行 a.bat 1.txt 2.txt 3.txt 時， %3 就代表 3.txt
+x,y 表示字符串的第 x 到 y 個字符，但注意他數數從 0 開始，不是 1 。比如 %date:~0,10% ，就是形如 2014/01/01 這樣的東西
+</notextile>
+
+h3. 設定
 
 <notextile>
 {% highlight bat %}
