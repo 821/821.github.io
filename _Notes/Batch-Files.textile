@@ -353,8 +353,17 @@ h3. 額外處理 variable
 h2. 二逼自娛腳本
 
 <notextile>
+打包器
 WinRAR 的逐個文件夾打包功能會把文件夾包進去，用這個腳本來剃掉文件夾。
 {% highlight bat %}
 FOR /D %%I IN (*) DO CD %%I&"C:\Program Files\WinRAR\winrar" u -afzip "%%I" *.* -m5&MOVE /Y "%%I".zip F:\s&CD ..
+{% endhighlight %}
+
+環境變量
+{% highlight bat %}
+@echo off
+SET regpath=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+SET /P newpath=輸入要添加的文件夾
+reg add "%regpath%" /v "path" /d "%%path%%;%%thepath%%" /f
 {% endhighlight %}
 </notextile>
