@@ -1,5 +1,5 @@
 .highlight.hll{background-color:#333333;}
-.highlight.lineno{color:#ccc;} /*Linenumber*/
+.highlight .lineno{color:#ccc;} /*Linenumber*/
 .highlight{border:1pxdotted#9cf;background:#000;color:#fff;}
 .highlight.c{color:#008800;font-style:italic;background-color:#0f140f;} /*Comment*/
 .highlight.err{color:#fff;} /*Error*/
