@@ -1,11 +1,11 @@
 .highlight pre { border:0px;}
 .highlight .hll { background-color: #333333 }
-.highlight .lineno { color: #ccc } /* Line number */
+.highlight .lineno { color: #999 } /* Line number */
 .highlight  { border:1px dotted #9cf;background: #000; color: #fff }
 .highlight .c { color: #008800; font-style: italic; background-color: #0f140f } /* Comment */
 .highlight .err { color: #fff } /* Error */
 .highlight .g { color: #fff } /* Generic */
-.highlight .k { color: #fb660a; font-weight: bold } /* Keyword */
+.highlight .k { color: yellow; font-weight: bold } /* Keyword */
 .highlight .l { color: #fff } /* Literal */
 .highlight .n { color: #fff } /* Name */
 .highlight .o { color: #fff } /* Operator */
