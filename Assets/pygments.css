@@ -1,13 +1,13 @@
 .highlight {border:1px solid #9cf;background:#000; color:#fff}
 .highlight code{border:0px;}
 .highlight .hll{background-color:#333}
-.highlight .lineno{border-right:1px solid #000;color:#9cf;background:#333} /* Line number */
+.highlight .lineno{border-right:1px solid #fff;color:#9cf;background:#333} /* Line number */
 .highlight .c{color:#008800; font-style:italic; background-color:#0f140f} /* Comment */
 .highlight .err{color:#fff} /* Error */
 .highlight .g{color:#fff} /* Generic */
 .highlight .k{color:yellow; font-weight:bold} /* Keyword */
 .highlight .l{color:#fff} /* Literal */
-.highlight .n{color:#fff} /* Name */
+.highlight .n{color:#0CC} /* Name */
 .highlight .o{color:#fff} /* Operator */
 .highlight .x{color:#fff} /* Other */
 .highlight .p{color:#fff} /* Punctuation */
