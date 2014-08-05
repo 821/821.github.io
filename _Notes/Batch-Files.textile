@@ -60,13 +60,13 @@ h3. 調用☯
 
 CALL 直接調用另一腳本，並且運行完後還後再運行本腳本後的命令
 
-h3. 淸屛
+h4. 淸屛
 
 cls 淸除之前執行的一堆命令
 
 h2. 文件夾類
 
-h3. 查看
+h4. 查看
 
 <notextile>{% highlight bat %}
 DIR [drive:][path][filename] [/A[[:]attributes]] [/B] [/C] [/D] [/L] [/N] [/O[[:]sortorder]] [/P] [/Q] [/R] [/S] [/T[[:]timefield]] [/W] [/X] [/4] [drive:][path][filename]
@@ -86,7 +86,7 @@ CD\ 跳到當前驅動器的根目錄
 CD \[name] 將當前文件夾改名爲 name
 Drive: 進入特定驅動器
 
-h3. 創建
+h4. 創建
 
 <notextile>{% highlight bat %}
 MKDIR|MD [drive:]path
@@ -94,7 +94,7 @@ MKDIR|MD [drive:]path
 MD drive:path 在特定驅動器下建立文件夾
 MD path 在當前文件夾下建立子文件夾
 
-h3. 刪除
+h4. 刪除
 
 <notextile>{% highlight bat %}
 RMDIR|RM [drive]:path [/S] [/Q]
@@ -111,13 +111,13 @@ MOVE [/Y|/-Y] [source] [destination]
 {% endhighlight %}</notextile>
 前面是官方的，但我認爲後者淸楚一點
 
-h3. 重命名
+h4. 重命名
 
 <notextile>{% highlight bat %}
 RENAME|REN [drive:][path]filename1 filename2
 {% endhighlight %}</notextile>
 
-h3. 刪除
+h4. 刪除
 
 <notextile>{% highlight bat %}
 DEL|ERASE [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
@@ -212,7 +212,9 @@ LEQ 小於等於
 GTR 大於
 GEQ 大於等於
 
-其實做個自己的腳本，一般用不上 IF ，人腦知道這個腳本不能做這事就排除了。不過， IF 結合 GOTO 可以變成循環，這倒是有點用：
+h3. 循環
+
+IF 結合 GOTO 可以變成循環，是個不錯的用法：
 <notextile>{% highlight bat linenos %}
 @ECHO OFF
 SET var=0
@@ -261,29 +263,25 @@ h3. 逐行分析文件
 <notextile>{% highlight bat %}
 FOR /F ["options"] %variable IN (file-set|"string"|'command') DO command [command-parameters]
 {% endhighlight %}</notextile>
-之前的命令執行 DO 的時候，是逐個文件的，現在是文件逐行 DO
+之前的命令執行 DO 的時候，是逐個文件的，現在是文件逐行 DO 。 其中 options 豐富了命令的多樣性：
 
-h4. options
-
-FOR /F 中的 options 豐富了命令的多樣性
-
-h5. 忽略指定字符開頭的行
+h4. 忽略指定字符開頭的行
 
 eol=.
 . 代表任何一個字符，衹能是一個，不然報錯，弱爆了的命令
 默認情況下， FOR /F 會忽略以 ; 開頭的行，以便寫註釋什麼的，使用 "eol=" 時纔會讀取以 ; 開頭的行
 
-h5. 跳過若干行
+h4. 跳過若干行
 
 skip=n
 跳過前 n 行，從第 n+1 行開始讀取
 
-h5. 按符號截取
+h4. 按符號截取
 
 delims=符號表
 假設符號表爲 ., ，則僅保留 (file-set|"string"|'command') 中每一行的第一個 . 或 , 前面的部分，比如 hello, world 會被截取成 hello
 
-h5. 按字符位置截取
+h4. 按字符位置截取
 
 tokens=x,y,m-n
 x, y, m, n 都是數字或者 * 號
@@ -300,7 +298,7 @@ FOR /F "delims=, tokens=1-2,*" %i IN (test.txt) DO ECHO %i %j
 {% endhighlight %}</notextile>
 輸出爲 hello world hi,bat 。
 
-h5. 允許文件名出現奇怪的字符
+h4. 允許文件名出現奇怪的字符
 
 usebackq
 使用後，在 (file-set) 加上 " 就行了。比如 hello world.txt ，不寫成 "hello world.txt" 會報錯的……
