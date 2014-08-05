@@ -340,7 +340,7 @@ h3. 額外處理 variable
 今有一個變量 %%I ，當他加上其他參數時：
 <notextile>
 {% highlight bat %}
-%%~I 刪除 " 號
+%%~I 刪除引號
 %%~fI 合法的完整路徑 full
 %%~dI 僅驅動器 drive
 %%~pI 僅路徑 path
