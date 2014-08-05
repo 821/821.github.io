@@ -339,7 +339,6 @@ h3. 額外處理 variable
 
 今有一個變量 %%I ，當他加上其他參數時：
 <notextile>
-{% highlight bat %}
 %%~I 刪除引號
 %%~fI 合法的完整路徑 full
 %%~dI 僅驅動器 drive
@@ -350,7 +349,6 @@ h3. 額外處理 variable
 %%~aI 文件屬性 attribute
 %%~tI 文件日期、時間 time
 %%~zI 文件大小
-{% endhighlight %}
 </notextile>
 可以搭配使用，比如 %%~nxI ，就是文件名加擴展名
 
