@@ -338,6 +338,8 @@ usebackq
 h3. 額外處理 variable
 
 今有一個變量 %%I ，當他加上其他參數時：
+<notextile>
+{% highlight bat %}
 %%~I 刪除 " 號
 %%~fI 合法的完整路徑 full
 %%~dI 僅驅動器 drive
@@ -348,13 +350,16 @@ h3. 額外處理 variable
 %%~aI 文件屬性 attribute
 %%~tI 文件日期、時間 time
 %%~zI 文件大小
+{% endhighlight %}
+</notextile>
 可以搭配使用，比如 %%~nxI ，就是文件名加擴展名
 
 h2. 二逼自娛腳本
 
-<notextile>
-打包器
+h4. 打包器
+
 WinRAR 的逐個文件夾打包功能會把文件夾包進去，用這個腳本來剃掉文件夾。
+<notextile>
 {% highlight bat linenos %}
 FOR /D %%I IN (*) DO (
 CD %%I
@@ -362,8 +367,12 @@ CD %%I
 MOVE /Y "%%I".zip F:\s&CD ..
 )
 {% endhighlight %}
+</notextile>
 
-環境變量
+h4. 永久添加環境變量
+
+原理是利用註冊表來添加環境變量，所以用了 reg
+<notextile>
 {% highlight bat linenos %}
 @echo off
 SET regpath=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
