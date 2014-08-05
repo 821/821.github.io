@@ -216,11 +216,10 @@ SET /A expression
 
 h3. 內置變量
 
-<notextile>
+
 不經設定，本來就存在的變量：
-%CD% %DATE% %TIME% %RANDOM% %ERRORLEVEL%
+==%CD% %DATE% %TIME% %RANDOM% %ERRORLEVEL%==
 以上不用說，剩下不重要，眞省事
-</notextile>
 
 h2. IF 語句☯
 
@@ -231,10 +230,10 @@ IF [NOT] string1==string2 command
 IF [NOT] EXIST filename command
 [ELSE command]
 {% endhighlight %}
+</notextile>
 有點編程基礎就知道，這是簡單的條件語句。
 可以單用 IF [NOT] ，也可以多配個 ELSE ，或者一個 IF 配個 IF NOT ，這是靈活的
 其實做個自己的腳本，一般情況下用不上 IF ，人腦就排除了
-</notextile>
 
 h2. FOR 語句☯
 
@@ -244,10 +243,10 @@ h2. FOR 語句☯
 FOR [[drive:]path]] %variable IN (set) DO command [command-parameters]
 {% endhighlight %}
 注意：批處理中， %variable 應寫作 %%variable ，並且是區分大小寫的
+</notextile>
 (set) 是一組文件或字符等，可使用通配符如 *.txt ，也可以是用分號、逗號、空格等分隔的一串
 (set) 會被逐個提取成變量，執行 DO ，再提取下一個，而不是一次提取完了再 DO
 DO 後面的語句可以加上 () ，然後斷行，這樣看起來倒是挺整齊的
-</notextile>
 擴展命令：
 
 h3. 僅匹配文件夾
@@ -272,8 +271,8 @@ h3. 等差數列
 {% highlight bat %}
 FOR /L %variable IN (start,step,end) DO command [command-parameters]
 {% endhighlight %}
-程序會根據 (start,step,end) 生成等差數列，再執行任務
 </notextile>
+程序會根據 (start,step,end) 生成等差數列，再執行任務
 
 h3. 逐行分析文件
 
@@ -281,8 +280,8 @@ h3. 逐行分析文件
 {% highlight bat %}
 FOR /F ["options"] %variable IN (file-set|"string"|'command') DO command [command-parameters]
 {% endhighlight %}
-之前的命令執行 DO 的時候，是逐個文件的，現在是文件逐行 DO
 </notextile>
+之前的命令執行 DO 的時候，是逐個文件的，現在是文件逐行 DO
 
 h4. options
 
