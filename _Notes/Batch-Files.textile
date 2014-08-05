@@ -9,7 +9,7 @@ date: '2014/08/04'
 h2. 習慣
 
 ? 表示一個字符和空字符
-* 表示若干個字符
+==*== 表示若干個字符
 ^ 表示行首
 $ 表示行尾
 \x 表示一個字符——以區分命令
@@ -222,7 +222,6 @@ h3. 內置變量
 以上不用說，剩下不重要，眞省事
 
 h2. IF 語句☯
-
 <notextile>
 {% highlight bat %}
 IF [NOT] ERRORLEVEL number command
@@ -233,7 +232,27 @@ IF [NOT] EXIST filename command
 </notextile>
 有點編程基礎就知道，這是簡單的條件語句。
 可以單用 IF [NOT] ，也可以多配個 ELSE ，或者一個 IF 配個 IF NOT ，這是靈活的
-其實做個自己的腳本，一般情況下用不上 IF ，人腦就排除了
+關於語句的判斷，還支持這些數學上的：
+EQU 等於
+NEQ 不等於
+LSS 小於
+LEQ 小於等於
+GTR 大於
+GEQ 大於等於
+
+其實做個自己的腳本，一般用不上 IF ，人腦知道這個腳本不能做這事就排除了。不過， IF 結合 GOTO 可以變成循環，這倒是有點用：
+<notextile>
+{% highlight bat linenos %}
+@ECHO OFF
+SET var=0
+:continue
+SET /A var+=1
+echo 第 %var% 次循環
+IF %var% lss 100 GOTO continue
+ECHO 循環結束
+PAUSE
+{% endhighlight %}
+</notextile>
 
 h2. FOR 語句☯
 
@@ -345,6 +364,12 @@ h3. 額外處理 variable
 %%~zI 文件大小
 </notextile>
 可以搭配使用，比如 %%~nxI ，就是文件名加擴展名
+
+h2. 功能增強
+
+就那麼幾個命令，不夠用，怎麼辦？
+安裝 Cygwin ，使用 Linux 命令。有了這堆 Linux 命令，簡直什麼都有了。
+微軟的 VBScript 或 PowerShell 也可增強。
 
 h2. 二逼自娛腳本
 
