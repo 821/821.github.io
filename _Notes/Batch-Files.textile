@@ -303,7 +303,7 @@ usebackq
 
 h4. 額外處理 variable
 
-<notextile>今有一個變量 %%I ，當他加上其他參數時：
+今有一個變量 %%I ，當他加上其他參數時：
  %%~I 刪除引號
  %%~fI 合法的完整路徑 full
  %%~dI 僅驅動器 drive
@@ -313,7 +313,7 @@ h4. 額外處理 variable
  %%~sI 路徑僅縮略名
  %%~aI 文件屬性 attribute
  %%~tI 文件日期、時間 time
- %%~zI 文件大小</notextile>
+ %%~zI 文件大小
 可以搭配使用，比如 %%~nxI ，就是文件名加擴展名
 
 h2. 功能增強
