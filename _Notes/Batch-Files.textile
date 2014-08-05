@@ -173,7 +173,7 @@ h2. 變量☯
 
 %0 批處理命令本身
 %1-9 表示以空格分隔的參數，比如有個 a.bat 文件，他的命令是 MOVE %3 D:\1 ，在 DOS 執行 a.bat 1.txt 2.txt 3.txt 時， %3 就代表 3.txt
-x,y 表示字符串的第 x 到 y 個字符，但注意他數數從 0 開始，不是 1 。比如 %date:~0,10% ，就是形如 2014/01/01 這樣的東西
+~x,y 表示字符串的第 x 到 y 個字符，但注意他數數從 0 開始，不是 1 。比如 %date:~0,10% ，就是形如 2014/01/01 這樣的東西
 
 h3. 設定
 
@@ -182,10 +182,10 @@ h3. 設定
 SET [variable=[string]]
 {% endhighlight %}
 定義好之後，使用 %variable% 就表示那串 string ，比如 SET hw=hello world ，以後所有 %hw% 就代表 hello world
+</notextile>
 形如 SET v 的意思是羅列所有 v 開頭的 variables ，如果沒有，會將 ERRORLEVEL 設定爲 1
 由於需要使用 = 號定義，所以變量名不能包含 = 號
 可以一次設定很多個變量，不同變量用空格隔開
-</notextile>
 
 h3. 用戶輸入
 
@@ -202,6 +202,7 @@ h3. 運算
 {% highlight bat %}
 SET /A expression
 {% endhighlight %}
+</notextile>
 這 expression 可以是如 a=1+2 的純數字運算，可以是變量間運算，也可以是變量和數字間的運算
 這裏的運算不支持對小數的運算，結果如果有小數，一律抹去取整
 支持的運算符有：
@@ -212,7 +213,6 @@ SET /A expression
 & 不懂是什麼意思，寫的時候要加 ""
 特殊寫法 var*=2 就是 var=var*2 ，上面的全都可以這麼寫
 一元運算符： ! 邏輯非， ~ 按位求反（個人理解 ~a=-a-1 ）， | 或
-</notextile>
 
 h3. 內置變量
 
