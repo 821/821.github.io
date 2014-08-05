@@ -37,12 +37,10 @@ REM 整行
 
 h3. 回顯
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 ECHO ON|OFF
 ECHO [message]
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 
 h3. 自我隱藏
 
@@ -64,13 +62,11 @@ CALL 直接調用另一腳本，並且運行完後還後再運行本腳本後的
 
 h3. 臨時設置環境變量
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 PATH=[%path%;][drive:]path
 SET PATH=%path%;[drive:]path
-{% endhighlight %}
+{% endhighlight %}</notextile>
 臨時設置環境變量，僅在批處理內有效，多個文件夾用 ; 分隔，後者是在 DOS 中的用法
-</notextile>
 
 h3. 淸屛
 
@@ -80,20 +76,16 @@ h2. 文件夾類
 
 h3. 查看
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 DIR [drive:][path][filename] [/A[[:]attributes]] [/B] [/C] [/D] [/L] [/N] [/O[[:]sortorder]] [/P] [/Q] [/R] [/S] [/T[[:]timefield]] [/W] [/X] [/4] [drive:][path][filename]
-{% endhighlight %}
+{% endhighlight %}</notextile>
 查看本目錄下的文件和文件夾
-</notextile>
 
 h3. 切換☯
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 CHDIR|CD [/D] [drive:][path]
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 CD 顯示當前目錄的路徑
 CD .. 進入上級目錄
 CD [drive:path] 進入特定目錄
@@ -104,70 +96,56 @@ Drive: 進入特定驅動器
 
 h3. 創建
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 MKDIR|MD [drive:]path
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 MD drive:path 在特定驅動器下建立文件夾
 MD path 在當前文件夾下建立子文件夾
 
 h3. 刪除
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 RMDIR|RM [drive]:path [/S] [/Q]
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 不帶參數時衹刪空目錄
 
 h2. 文件類
 
 h3. 移動
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 MOVE [/Y|/-Y] [drive:][path]dirname1 dirname2
 MOVE [/Y|/-Y] [source] [destination]
-{% endhighlight %}
+{% endhighlight %}</notextile>
 前面是官方的，但我認爲後者淸楚一點
-</notextile>
 
 h3. 重命名
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 RENAME|REN [drive:][path]filename1 filename2
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 
 h3. 刪除
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 DEL|ERASE [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 
 h3. 複製與合倂☯
 
 h4. COPY
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/L] [/A | /B ] source [/A | /B] [+ source [/A | /B] [+ ...]] [destination [/A | /B]]
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 兩種合倂方式： copy *.txt all.txt 以及 copy 1.txt + 2.txt + 3.txt all.txt
 
 h4. XCOPY
 
 複製文件和目錄樹，一般用不上這麼強悍的命令
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 XCOPY source [destination] [/A | /M] [/D[:date]] [/P] [/S [/E]] [/V] [/W] [/C] [/I] [/Q] [/F] [/L] [/G] [/H] [/R] [/T] [/U] [/K] [/N] [/O] [/X] [/Y] [/-Y] [/Z] [/B] [/EXCLUDE:file1[+file2][+file3]...]
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 
 h2. 變量☯
 
@@ -177,8 +155,7 @@ h2. 變量☯
 
 h3. 設定
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 SET [variable=[string]]
 {% endhighlight %}
 定義好之後，使用 %variable% 就表示那串 string ，比如 SET hw=hello world ，以後所有 %hw% 就代表 hello world
@@ -189,20 +166,16 @@ SET [variable=[string]]
 
 h3. 用戶輸入
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 SET /P variable=[promptString]
-{% endhighlight %}
+{% endhighlight %}</notextile>
 參數 /P 允許用戶在運行腳本時輸入變量，而 promptString 會作爲提示顯示，比如可以設置成「請輸入一個數」，用戶輸入一個數後，變量的値從「請輸入一個數」變成用戶輸入的數
-</notextile>
 
 h3. 運算
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 SET /A expression
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 這 expression 可以是如 a=1+2 的純數字運算，可以是變量間運算，也可以是變量和數字間的運算
 這裏的運算不支持對小數的運算，結果如果有小數，一律抹去取整
 支持的運算符有：
@@ -222,14 +195,13 @@ h3. 內置變量
 以上不用說，剩下不重要，眞省事
 
 h2. IF 語句☯
-<notextile>
-{% highlight bat %}
+
+<notextile>{% highlight bat %}
 IF [NOT] ERRORLEVEL number command
 IF [NOT] string1==string2 command
 IF [NOT] EXIST filename command
 [ELSE command]
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 有點編程基礎就知道，這是簡單的條件語句。
 可以單用 IF [NOT] ，也可以多配個 ELSE ，或者一個 IF 配個 IF NOT ，這是靈活的
 關於語句的判斷，還支持這些數學上的：
@@ -241,8 +213,7 @@ GTR 大於
 GEQ 大於等於
 
 其實做個自己的腳本，一般用不上 IF ，人腦知道這個腳本不能做這事就排除了。不過， IF 結合 GOTO 可以變成循環，這倒是有點用：
-<notextile>
-{% highlight bat linenos %}
+<notextile>{% highlight bat linenos %}
 @ECHO OFF
 SET var=0
 :continue
@@ -251,14 +222,12 @@ echo 第 %var% 次循環
 IF %var% lss 100 GOTO continue
 ECHO 循環結束
 PAUSE
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 
 h2. FOR 語句☯
 
 這一節複雜度比較高，囉嗦的話寫幾萬字都講不完。
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 FOR [[drive:]path]] %variable IN (set) DO command [command-parameters]
 {% endhighlight %}
 注意：批處理中， %variable 應寫作 %%variable ，並且是區分大小寫的
@@ -270,36 +239,28 @@ DO 後面的語句可以加上 () ，然後斷行，這樣看起來倒是挺整�
 
 h3. 僅匹配文件夾
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 FOR /D %variable IN (set) DO command [command-parameters]
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 
 h3. 檢查整個目錄樹
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 FOR /R [[drive:]path] %variable IN (set) DO command [command-parameters]
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 
 h3. 等差數列
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 FOR /L %variable IN (start,step,end) DO command [command-parameters]
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 程序會根據 (start,step,end) 生成等差數列，再執行任務
 
 h3. 逐行分析文件
 
-<notextile>
-{% highlight bat %}
+<notextile>{% highlight bat %}
 FOR /F ["options"] %variable IN (file-set|"string"|'command') DO command [command-parameters]
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 之前的命令執行 DO 的時候，是逐個文件的，現在是文件逐行 DO
 
 h4. options
@@ -324,22 +285,20 @@ delims=符號表
 
 h5. 按字符位置截取
 
-<notextile>
 tokens=x,y,m-n
 x, y, m, n 都是數字或者 * 號
 單獨使用時，表示截取第 x, y, 還有 m-n 個字符
 可與 delims 結合變成新的奇葩用法，比如 "delims=, tokens=3" ，被截取對象是 hello,world,hi,bat ，則截取 hi 。
 與 delims 結合時，如果 tokens 有多個，則截取後分配到多個變量中。比如
-{% highlight bat %}
+<notextile>{% highlight bat %}
 FOR /F "delims=, tokens=1,3-4" %%i IN (test.txt) DO ECHO %%i %%j
-{% endhighlight %}
+{% endhighlight %}</notextile>
 假設 test.txt 就是 hello,world,hi,bat 則輸出 hello hi bat
 * 號不單獨用，表示剩下的。比如
-{% highlight bat %}
+<notextile>{% highlight bat %}
 FOR /F "delims=, tokens=1-2,*" %i IN (test.txt) DO ECHO %i %j
-{% endhighlight %}
+{% endhighlight %}</notextile>
 輸出爲 hello world hi,bat 。
-</notextile>
 
 h5. 允許文件名出現奇怪的字符
 
@@ -376,24 +335,20 @@ h2. 二逼自娛腳本
 h4. 打包器
 
 WinRAR 的逐個文件夾打包功能會把文件夾包進去，用這個腳本來剃掉文件夾。
-<notextile>
-{% highlight bat linenos %}
+<notextile>{% highlight bat linenos %}
 FOR /D %%I IN (*) DO (
 CD %%I
 "C:\Program Files\WinRAR\winrar" u -afzip "%%I" *.* -m5
 MOVE /Y "%%I".zip F:\s&CD ..
 )
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
 
 h4. 永久添加環境變量
 
 原理是利用註冊表來添加環境變量，所以用了 reg
-<notextile>
-{% highlight bat linenos %}
+<notextile>{% highlight bat linenos %}
 @echo off
 SET regpath=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment
 SET /P newpath=輸入要添加的文件夾
 reg add "%regpath%" /v "path" /d "%%path%%;%%thepath%%" /f
-{% endhighlight %}
-</notextile>
+{% endhighlight %}</notextile>
