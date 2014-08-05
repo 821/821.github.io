@@ -60,14 +60,6 @@ h3. 調用☯
 
 CALL 直接調用另一腳本，並且運行完後還後再運行本腳本後的命令
 
-h3. 臨時設置環境變量
-
-<notextile>{% highlight bat %}
-PATH=[%path%;][drive:]path
-SET PATH=%path%;[drive:]path
-{% endhighlight %}</notextile>
-臨時設置環境變量，僅在批處理內有效，多個文件夾用 ; 分隔，後者是在 DOS 中的用法
-
 h3. 淸屛
 
 cls 淸除之前執行的一堆命令
@@ -193,6 +185,14 @@ h3. 內置變量
 不經設定，本來就存在的變量：
 ==%CD% %DATE% %TIME% %RANDOM% %ERRORLEVEL%==
 以上不用說，剩下不重要，眞省事
+
+h3. 臨時設置環境變量
+
+<notextile>{% highlight bat %}
+PATH=[%path%;][drive:]path
+SET PATH=%path%;[drive:]path
+{% endhighlight %}</notextile>
+臨時設置環境變量，僅在批處理內有效，多個文件夾用 ; 分隔，後者是在 DOS 中的用法
 
 h2. IF 語句☯
 
