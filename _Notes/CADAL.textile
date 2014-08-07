@@ -89,7 +89,6 @@ h2. 下載腳本
 
 好啦，其實下載沒有那麼麻煩，我花了幾小時學習 Python 並寫了這個下載腳本，輸入 BookNum 就能自動下載到 F:\BookNum 文件夾。 Python 眞是易學易用。
 <notextile>{% highlight python linenos %}
-@echo off
 # -*- coding: utf-8 -*-
 import httplib,urllib,os
 #一堆構造鏈接用的變量
