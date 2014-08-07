@@ -84,3 +84,49 @@ h3. 打包 pdg
 
 首先有 @TotalCMD@ 之類的工具，批量將 8 位文件名轉成 6 位，並把擴展名改成 pdg 。
 然後按文件夾打包 zip 就行了。這個過程中可以把 @Catalog.xml@ 書籤轉成超星模式掛上去。
+
+h2. 下載腳本
+
+好啦，其實下載沒有那麼麻煩，我花了幾小時學習 Python 並寫了這個下載腳本，輸入 BookNum 就能自動下載到 F:\BookNum 文件夾。 Python 眞是易學易用。
+<notextile>{% highlight python linenos %}
+@echo off
+# -*- coding: utf-8 -*-
+import httplib,urllib,os
+#一堆構造鏈接用的變量
+BookNum=raw_input("Tell me your BookNum: ")
+BookNum1=BookNum[:2]
+BookNum2=str((int(BookNum[2:5])+1)*1000).zfill(6)
+BookType=["book","anc","minguo","minguoqikan","qikan","deg","dunhuang","eng","shufa"]
+BookLib=["dlib","dlib1","dlib2","dlib3","dlib4","dlib5","dlib6","newebooks7","newebooks8","newebooks9","newebooks10","newebooks11"]
+#存儲用的文件夾
+Path="F:\\"+BookNum+"\\"
+for Type in BookType:
+	for Lib in BookLib:
+		URIPart="/"+Lib+"/ebooks/"+Type+"/"+BookNum1+"/"+BookNum2+"/"+BookNum+"/ptiff/"
+		URI=URIPart+"00000001.djvu"
+		#測試鏈接是否正確，正確就進入下載階段，不正確就試下一個
+		Test=httplib.HTTPConnection("210.32.137.91")
+		Test.request("GET", URI)
+		Response=Test.getresponse()
+		if Response.status == 200:
+			os.mkdir(Path)
+			#Catalog.xml 一般都是存在的，不判斷了
+			CatURL="http://210.32.137.91"+"/"+Lib+"/ebooks/"+Type+"/"+BookNum1+"/"+BookNum2+"/"+BookNum+"/meta/Catalog.xml"
+			DownCat=urllib.urlretrieve(CatURL,Path+"Catalog.xml")
+			for Page in range(1,99999999):
+				ThePage=str(Page).zfill(8)+".djvu"
+				#測試該頁是否存在，如果存在就下載，不存在說明下完了
+				PageTest=httplib.HTTPConnection("210.32.137.91")
+				PageTest.request("GET", URIPart+ThePage)
+				PageResponse=PageTest.getresponse()
+				if PageResponse.status == 200:
+					PageURL="http://210.32.137.91"+URIPart+ThePage
+					DownPage=urllib.urlretrieve(PageURL,Path+ThePage)
+				else:
+					print "Finish!"
+					raw_input()
+		else:
+			pass
+print "Not found!"
+raw_input()
+{% endhighlight %}</notextile>
