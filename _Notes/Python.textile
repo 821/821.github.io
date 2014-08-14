@@ -104,8 +104,8 @@ var=[1,2,'ok'] # 列表
 var={'name':'Tom','age':15,'race':'Caucasian'} # 字典
 var1=var2=var3=123 # 賦予相同的値
 var1,var2,var3=123,456,"string" # 簡寫模式
-var=raw_input("Prompt") # 請用戶輸入變量，但卽使用戶輸是數字，其屬性仍是字符串，這個命令僅在 Python 2 可用
-var=input("Prompt") # 也是用戶輸入，但輸入的是可以運算的，比如輸入 1+1 ，得到的不是 "1+1" 這個字符串，而是 2 ，但在 Python 3 當中，效果等同與 2 中的 raw_input{% endhighlight %}
+var=raw_input("Prompt") # 請用戶輸入變量，屬性是字符串，這命令僅在 Python 2 可用
+var=input("Prompt") # 輸入的是可以運算的，比如輸入 1+1 ，得到不是字符串 "1+1" ，而是 2 ；但在 Python 3 效果等同與 2 中的 raw_input{% endhighlight %}
 
 h4. 轉換
 
