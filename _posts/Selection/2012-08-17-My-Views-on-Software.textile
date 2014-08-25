@@ -136,15 +136,15 @@ Linux 方案及點評：同步盤不受影響，百度網盤有人用 Python 2.7
 
 h3. 科學衝浪
 
-→<a href="http://hi.baidu.com/jdchenjian/item/03236e0cfa3629f2a01034da" rel="external">Firefox</a> 插件多又好，所以我從 Chrome 又跑回來了。
-<a href="http://hi.baidu.com/jdchenjian/item/e04f06df3975724eddf9bedc" rel="external">Chrome</a> 優勢很多，但代理沒有好的解決方案，已淪爲打免費電話專用。
+→<a href="http://hi.baidu.com/jdchenjian/item/03236e0cfa3629f2a01034da" rel="external">Firefox</a> 插件多又好，無法割捨。
+→<a href="http://hi.baidu.com/jdchenjian/item/e04f06df3975724eddf9bedc" rel="external">Chrome</a> 速度快，穩定性竟然比現在的 Firefox 好。
 <a href="http://kmeleon.sourceforge.net" rel="external">K-Meleon</a> 最清涼又輕量的瀏覽器，可惜停止開發了。
-→<a href="https://hosts.huhamhire.com/get-hosts-win.html" rel="external">HostsTool</a> 幫助更新 hosts 文件的國情軟件。
-<a href="http://oldj.github.io/SwitchHosts/" rel="external">SwitchHosts</a> 可與 HostsTool 互補。
+→<a href="http://hostsman.abelhadigital.com/" rel="external">HostsMan</a> 幫助更新 hosts 文件的國情軟件。
 →<a href="http://code.google.com/p/goagent/" rel="external">GoAgent</a> 國情軟件。利用 GAE ，穩定高速。
 <a href="https://code.google.com/p/snova/" rel="external">Snova</a> 國情軟件。可以借用更多雲空間。
+<a href="https://github.com/clowwindy/shadowsocks" rel="external">ShadowSocks</a>
 <a href="http://portableapps.com/apps/internet/winscp_portable" rel="external">WinSCP</a> 輕便的 SFTP ，還能科學衝浪。
-關注： <a href="http://portableapps.com/apps/internet/opera_portable" rel="external">Opera</a>, <a href="http://www.bitvise.com/tunnelier" rel="external">Bitvise Tunnelier</a>, <a href="http://code.google.com/p/west-chamber-season-3/" rel="external">西廂</a>, <a href="https://code.google.com/p/wallproxy-plus/" rel="external">Wallproxy Plus</a>, FG
+關注： <a href="http://portableapps.com/apps/internet/opera_portable" rel="external">Opera</a>, <a href="http://www.bitvise.com/tunnelier" rel="external">Bitvise Tunnelier</a>, <a href="https://code.google.com/p/wallproxy-plus/" rel="external">Wallproxy Plus</a>
 Linux 方案及點評：該有的 Linux 都有，選擇還更廣，體驗高於 Windows 。
 理想： Firefox 的插件， Webkit 內核，其他和 K-Meleon 一樣。
 
@@ -161,7 +161,7 @@ Linux 方案及點評：網頁版+瀏覽器插件+wget，體驗略低於 Windows
 h3. 通訊
 
 →☭<a href="http://www.portableappc.com/internet/tencent-tm-portable/" rel="external">TM2009</a> 騰訊你夠了，一個聊天軟件用不用做這麼肥？
-→☭阿里旺旺 沒辦法不用。
+→☭阿里旺旺 沒辦法不用，但使用頻率可想而知。
 <a href="http://portableapps.com/apps/internet/skype_portable" rel="external">Skype</a> 最好的網絡通話。
 <a href="https://www.10086china.com/" rel="external">說吧</a> 電腦打給手機。
 Linux 方案及點評： Skype+Pidgin ，體驗不好，兼容較差， QQ 部分功能缺失。
@@ -174,7 +174,7 @@ h3. 辦公套件
 $OneNote: 最有紙質筆記本感覺的筆記軟件。其實最想用 Marboo ，但沒有 Windows 版。
 關注： <a href="http://xournal.sourceforge.net/" rel="external">Xournal</a>, <a href="http://jarnal.wikispaces.com/" rel="external">Jarnal</a>, <a href="http://basket.kde.org" rel="external">BasKet Note Pads</a>, Wiz
 Linux 方案及點評： Office 系統自帶， OneNote 由 Marboo 替代。
-理想：筆記分散式存儲，支持在敲入的文字上手寫塗畫，高度整合表格和畫圖軟件，界面高度自定義。
+理想：筆記分散式存儲，支持在敲入的文字上手寫塗畫，高度整合表格和畫圖軟件，界面高度自定義。不過整體來講我對辦公軟件的需求不大。
 
 
 h3. 排版
@@ -189,11 +189,22 @@ Linux 方案及點評： Linux 裝 TeX 會比較方便，但沒有書版，字�
 
 h3. 文本編輯器
 
-→$<a href="http://www.portablesoft.org/emeditor-pro/" rel="external">EmEditor</a> 適合作家，原生支持便攜版。但跟小狼毫不甚兼容。
-→<a href="http://www.everedit.net" rel="external">EverEdit</a> 國產文本編輯器，新版爲共享軟件，很好的山寨了 EmEditor ，速度快，體積較小。
+→$<a href="http://www.portablesoft.org/emeditor-pro/" rel="external">EmEditor</a> 適合作家，編程亦佳，原生支持便攜版。
+→<a href="http://www.everedit.net" rel="external">EverEdit</a> 國產文本編輯器，很好的山寨了 EmEditor ，速度快，體積較小。
 關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.hanzify.org/software/11742.html" rel="external">AkelPad</a>, $<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=5540#p5540" rel="external">EditPlus</a>
 Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor/EverEdit 是我的菜，所以 Windows 更好。這個結論太個人化了，不具備普遍參考價值。
 理想： EmEditor 基礎上提高性能，並加入收藏夾。
+
+
+h3. 語言相關
+
+→<a href="http://code.google.com/p/rimeime" rel="external">Rime</a> 原生支持繁體雙拼的開源輸入法平臺。該軟件問題很多，所以祗好自己寫碼表，自己鼓搗詞庫、詞頻。
+<a href="http://ntu.csie.org/~piaip/index.html" rel="external">pAppLocale</a> 打繁體遊戲專用。
+☭<a href="http://www.china-language.gov.cn/tools/MyZiCiFreq.rar" rel="external">MyZiCiFreq</a> 字頻統計工具，官網竟然是個帶 gov.cn 的。
+→<a href="http://ishare.iask.sina.com.cn/f/7852836.html" rel="external">Convertz</a> 最好的繁簡切換器。 Open-CC 雖可更準確，功能很弱。
+關注： <a href="http://cle.linux.org.tw/trac" rel="external">gcin</a>
+Linux 方案及點評： Rime/ibus-pinyin/gcin/scim/hime/fcitx 。繁體輸入還好，但按鍵等方面會不舒服，由於輸入法差一點會差很多，所以體驗還是差。其他小工具還是 Windows 的較好。 Convertz 的話， OpenCC 可以替代一部分，但 Convertz 最爽的功能是批量重命名，似乎沒有很好的工具。
+理想： Rime 繼承 QQ 拼音所有功能。
 
 
 h3. 電子工具書
@@ -207,23 +218,12 @@ Linux 方案及點評： GoldenDict + Stardict ，後者用起來不太舒服。
 注：軟件本身都沒有問題，但所用辭典可能產生版權糾紛。
 
 
-h3. 語言相關
-
-→<a href="http://code.google.com/p/rimeime" rel="external">Rime</a> 原生支持繁體雙拼的開源輸入法平臺。該軟件問題很多，所以祗好自己寫碼表，自己鼓搗詞庫、詞頻。
-<a href="http://ntu.csie.org/~piaip/index.html" rel="external">pAppLocale</a> 打繁體遊戲專用。
-☭<a href="http://www.china-language.gov.cn/tools/MyZiCiFreq.rar" rel="external">MyZiCiFreq</a> 字頻統計工具，官網竟然是個帶 gov.cn 的。
-→<a href="http://ishare.iask.sina.com.cn/f/7852836.html" rel="external">Convertz</a> 最好的繁簡切換器。 Open-CC 雖更準確，功能很弱。
-關注： <a href="http://cle.linux.org.tw/trac" rel="external">gcin</a>
-Linux 方案及點評： Rime/ibus-pinyin/gcin/scim/hime/fcitx 。繁體輸入還好，但按鍵等方面會不舒服，由於輸入法差一點會差很多，所以體驗還是差。其他小工具還是 Windows 的較好。 Convertz 的話， OpenCC 可以替代一部分，但 Convertz 最爽的功能是批量重命名，似乎沒有很好的工具。
-理想： Rime 繼承 QQ 拼音所有功能。
-
-
 h3. 電子書及圖像處理
 
 →UnicornViewer: 讀 PDG 和其他掃描版電子書。
 <a href="http://pdfpatcher.cnblogs.com/" rel="external">PDFPatcher</a> 非常不錯的 PDF 處理軟件。
-<a href="http://www.comicer.com/stronghorse/software/#ComicEnhancerPro" rel="external">ComicEnhancerPro</a>, <a href="http://www.comicer.com/stronghorse/software/#Pdg2Pic" rel="external">Pdg2Pic</a>, <a href="http://www.comicer.com/stronghorse/software/#DjVuToy" rel="external">DjVuToy</a> 處理超星電子書。
-→$CxCandy, DxAttDownload: 下載 PDG 。我轉向 Linux 的最大阻力之一。我是 CxCandy 的正版用戶——免費的，不過需要有論壇帳號。
+<a href="http://www.comicer.com/stronghorse/software/#ComicEnhancerPro" rel="external">ComicEnhancerPro</a>, <a href="http://www.comicer.com/stronghorse/software/#Pdg2Pic" rel="external">Pdg2Pic</a>, <a DjVuToy 處理 CADAL 的書籤文件，新版莫名去掉了這個功能……
+→$CxCandy: 下載 PDG 。我轉向 Linux 的最大阻力之一。我是 CxCandy 的正版用戶——免費的，不過需要有論壇帳號。
 <a href="http://www.imagemagick.org" rel="external">ImageMagick</a> 跨平臺的命令行圖像處理工具
 →<a href="http://www.portableappc.com/office/pdf-xchange-viewer-portable/" rel="external">PDF-XChange Viewer</a> 讀文本 PDF ，非常平滑，軟件也小。
 $<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Foxit Editor</a> 編輯文本 PDF 。
@@ -248,7 +248,6 @@ h3. 文件管理
 
 →Just Manager 快速而不失強大的 TotalCMD 替代品。
 →$Winrar 簡單好用，用戶習慣無敵。
-<a href="http://www.peazip.org/" rel="external">Peazip</a> 開源壓縮解壓軟件，支持格式非常豐富，安裝包有捆綁。
 →Unlocker 刪掉被鎖住的文件。
 Suction 合併文件夾。
 <a href="http://ipmsg.org/tools/fastcopy.html.en" rel="external">FastCopy</a> 最快的複製、移動軟件。
@@ -286,7 +285,6 @@ h3. 其他
 →$<a href="http://ishare.iask.sina.com.cn/f/7852628.html" rel="external">變速齒輪</a> 曹操傳必備。
 →<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLaunch</a> 日系快速啟動類軟件，同類軟件我都懶得試了阿魯。
 程序多開器 對於某些不支持多開的軟件，這玩意能起到比較好的效果。
-<a href="http://www.cygwin.com/" rel="external">CygWin</a> 比 WINE 還煩，我是用來 @wget -r -np@ 的。
 →<a href="http://railsinstaller.org" rel="external">RailsInstaller</a> 方便的 git 環境，以便上傳本站文件。
 Enigma Virtual Box 一個把綠色軟件打包成單文件軟件的東西。
 →<a href="http://keepass.info" rel="external">Keepass</a> 密碼管理。原本用 LastPass ，也不錯，但還是想自己來控制加密，所以改了。
@@ -329,15 +327,14 @@ IE: 除了部分網銀，誰還能給我一個用他的理由？
 ☭華爲網盤: 本來就很垃圾好伐！我都沒眞正用過，都是你們發佈資源讓我用的。
 ☭115: 傷不起。
 ☭金山 T 盤: 倒閉了。
-SugarSync: 界面傷眼，而且確實比不上 Dropbox 。
+SugarSync: 界面傷眼，而且確實比不上 Dropbox ，而且現在竟然全面收費了。
 MSN: 確實不如 TM 清爽和高效，音頻聊天也不如 Skype 。
 ☭迅雷: 光看這資源佔用，還以爲他母公司是 Adobe 呢。（你在黑 Adobe 吧。）
-Flashget: 新版亂七八糟又慢，舊版比不上 IDM 。
 Filezila: 倒不怪他，我在 FlashFXP 下的用戶習慣太強大了。
 NirCmd: 軟件本身很好，但你覺得我的記性會好到這些命令都記得麼……
 $Process Lasso: 都說能優化性能，我是感覺不到。
 殺毒軟件: 譬如性病，帶套喫藥不如潔身自好。當然電腦沒那麼絕對，懷疑中毒時隨便下載一個免費的就行了。
-7-Zip: 有了 Peazip 我想不通他還有什麼市場。用戶基數？
+7-Zip: 有了 Peazip 我想不通他還有什麼市場。用戶基數？平時其實 WinRAR 就夠了。
 ☭雲端軟件平臺: 有彈窗廣告之後就放棄了。
 
 
