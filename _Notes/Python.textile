@@ -19,7 +19,7 @@ h3. 有問題找模塊
 模塊的用法也很簡單，下載，解壓，放在 Lib 目錄，然後在腳本的開頭寫形如 import xlib 的，就行了。多個模塊用 , 分隔或寫多行 import xlib 。
 常用模塊：
 os 和 glob 處理文件與文件夾
-requests, urllib/urllib.request 和 httplib/http.client 網頁訪問與下載
+requests, urllib/urllib.request 和 httplib/http.client, <a href="http://pycurl.sourceforge.net/" rel="external">PycURL</a> 網頁訪問與下載
 re 正則表達式
 time 和 datetime 日期與時間
 math 數學

@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
+#使用 Python 3
 import http.client,urllib.request,os,re
 #一堆構造鏈接用的變量
 UserInput=input("The link or BookNum: ")
-FindNum=re.search(r'\d{8}',UserInput)
+FindNum=re.search(r'\d{8}',UserInput) #直接複製鏈接就可以了，原理是找到八位數字
 BookNum=FindNum.group(0)
 BookNum1=BookNum[:2]
 BookNum2=str((int(BookNum[2:5])+1)*1000).zfill(6)
@@ -32,21 +33,20 @@ for Type in BookType:
 			CatURL="http://210.32.137.91"+"/"+Lib+"/ebooks/"+Type+"/"+BookNum1+"/"+BookNum2+"/"+BookNum+"/meta/Catalog.xml"
 			DownCat=urllib.request.urlretrieve(CatURL,Path+"Catalog.xml")
 			for Page in range(1,99999999):
-				ThePage=str(Page).zfill(8)+".djvu"
+				ThePage=str(Page).zfill(8)+".djvu"#包含了一個把數字轉換爲字符串的動作
+				FileExist=os.path.isfile(Path+ThePage) #看看是否已經下載
 				#測試該頁是否存在，如果存在就下載，不存在說明下完了
-				if Check(URIPart+ThePage):
-					#看看是否已經下載，下過了就跳過
-					FileExist=os.path.isfile(Path+ThePage)
-					if FileExist == False:
+				if FileExist == False: #沒下就看是否存在，下過了就跳過
+					if Check(URIPart+ThePage):
 						print("Downloading page "+str(Page))
 						PageURL="http://210.32.137.91"+URIPart+ThePage
 						DownPage=urllib.request.urlretrieve(PageURL,Path+ThePage)
 					else:
-						pass
+						print("Finish!")#看不見這一句說明沒下載完。
+						input()
+						#用 break 會直接跳出，看不到回饋，所以來個 dirty hack
 				else:
-					print("Finish!")#看不見這一句說明沒下載完。
-					input()
-					#用 break 會直接跳出，看不到回饋，所以來個 dirty hack
+					pass
 		else:
 			pass
 print("Not found!")#看不見這一句說明沒試完所有鏈接程序就跳出了。
