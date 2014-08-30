@@ -85,9 +85,16 @@ w+ 讀寫，如果存在就覆蓋，不存在就創建
 
 h4. 輸出 print
 
-{% highlight python %}print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False){% endhighlight %}
+{% highlight python %}print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+{% endhighlight %}
 一般就寫個 value 和 file ， value 寫得最多。
 Python 2 可以用 print value 這個格式，但跟基本格式不同，所以在 3 中被拋棄了。
+還有一種比較特殊的寫法：
+v1="a"
+v2="b"
+{% highlight python %}print "1 %s 2 %s." % (v1, v2)
+{% endhighlight %}
+這樣實際出現的是 1 a 2 b 。這種寫法讓句子比較連貫一些，不過要小心數錯……
 
 h4. 其他
 
