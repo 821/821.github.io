@@ -213,7 +213,7 @@ h2. 函數
 
 {% highlight python linenos %}def FunctionName(parameters):
 	commands # 有很多行可以用 ; 來分割一下
-	return # 函數終結，返回一個値，可以返回 True False 這樣的邏輯判斷，或者數字、字符串、變量，還能順便運算一下，比如返回個 a+b
+	return # 函數終結，返回一個値，可以返回 True False 這樣的邏輯判斷，或者數字、字符串、變量，還能順便運算一下，比如返回個 a+b 。如果要返回多個値，這麼寫： return (a,b,c)
 # 下面來使用：
 FunctionName(independent parameters){% endhighlight %}
 回想一下初中代數，什麼是函數。其實這個寫法就相當說定義一個函數比如 f(x,y,z)= 什麼什麼。等到要用這個函數的時候，再塡寫一下具體的 x,y,z 就行了，當然塡寫 parameters 的時候可以用變量，可以放進循環裏寫， blablabla ，反正到處用。定義的使用沒有 parameter 也可以，但這樣使用的時候也沒有。
@@ -225,3 +225,5 @@ h2. 延伸學習
 <a href="http://woodpecker.org.cn/abyteofpython_cn/chinese/" rel="external">简明 Python 教程</a> 可以作爲簡易快速的備查。
 <a href="http://shop.oreilly.com/product/0636920028154.do" rel="external">Learning Python</a> 本文講得不詳細的地方找這本書就對了。
 <a href="http://shop.oreilly.com/product/0636920027072.do" rel="external">Python Cookbook</a> 惡俗一點的說，就是 Python 實戰寶典。這本和上一本都有中文版，網上很多，隨便下載。
+<a href="http://diveintopython.org/" rel="external">Dive into Python</a> 雖然有點舊，不過確實比較深入，再用比較惡俗的說法，叫 Python 高級敎程。
+<a href="www.codecademy.com/glossary/python" rel="external">Codecademy</a> 可以叫 Python 習題集吧，解答在 Google 。
