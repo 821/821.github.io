@@ -190,7 +190,7 @@ Linux 方案及點評： Linux 裝 TeX 會比較方便，但沒有書版，字�
 h3. 文本編輯器
 
 →$<a href="http://www.portablesoft.org/emeditor-pro/" rel="external">EmEditor</a> 適合作家，編程亦佳，原生支持便攜版。
-→<a href="http://www.everedit.net" rel="external">EverEdit</a> 國產文本編輯器，很好的山寨了 EmEditor ，速度快，體積較小。
+→<a href="http://www.everedit.net" rel="external">EverEdit</a> 國產文本編輯器，速度快，體積較小。我是正版用戶，不過是寫評論而非花錢獲得的。
 關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.hanzify.org/software/11742.html" rel="external">AkelPad</a>, $<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=5540#p5540" rel="external">EditPlus</a>
 Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor/EverEdit 是我的菜，所以 Windows 更好。這個結論太個人化了，不具備普遍參考價值。
 理想： EmEditor 基礎上提高性能，並加入收藏夾。
@@ -287,7 +287,7 @@ h3. 其他
 程序多開器 對於某些不支持多開的軟件，這玩意能起到比較好的效果。
 →<a href="http://railsinstaller.org" rel="external">RailsInstaller</a> 方便的 git 環境，以便上傳本站文件。
 Enigma Virtual Box 一個把綠色軟件打包成單文件軟件的東西。
-→<a href="http://keepass.info" rel="external">Keepass</a> 密碼管理。原本用 LastPass ，也不錯，但還是想自己來控制加密，所以改了。
+→$1Password 密碼管理。最初用 LastPass ，但還是想自己管理，就用 KeePass 。但 KeePass 在瀏覽器上各種不敏，記錄密碼也是根據 post 內容記錄的，有時會記成加密後的，造成很多問題，所以就用了這個盜版軟件。
 →<a href="http://freepiano.tiwb.com/" rel="external">FreePiano</a> 最好的免費鋼琴軟件。
 VirtualBox 虛擬機。
 
