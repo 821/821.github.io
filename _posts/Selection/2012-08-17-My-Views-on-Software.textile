@@ -171,7 +171,7 @@ Linux 方案及點評： Skype+Pidgin ，體驗不好，兼容較差， QQ 部�
 h3. 辦公套件
 
 <a href="http://libreoffice.org/" rel="external">LibreOffice</a> 用 Calc 和 Draw。以前老覺得不好用，現在熟透了。不過使用頻率也不高，畢竟打開速度不太行。
-$OneNote: 最有紙質筆記本感覺的筆記軟件。其實最想用 Marboo ，但沒有 Windows 版。
+$OneNote: 最有紙質筆記本感覺的筆記軟件。其實最想用 Marboo ，但沒有 Windows 版。我並不喜歡筆記軟件，因爲很多都是隨手記一點碎片，而認眞要記的多半要做很多格式方面的修正， OneNote 這種富文本的形式又不夠用——換言之，我很難使用「所見卽所得」類型的筆記軟件，我需要的是一個便捷的預覽器，並能夠直接從這個預覽器快速跳到文本編輯器，也就是 Marboo 幹的事。
 關注： <a href="http://xournal.sourceforge.net/" rel="external">Xournal</a>, <a href="http://jarnal.wikispaces.com/" rel="external">Jarnal</a>, <a href="http://basket.kde.org" rel="external">BasKet Note Pads</a>, Wiz
 Linux 方案及點評： Office 系統自帶， OneNote 由 Marboo 替代。
 理想：筆記分散式存儲，支持在敲入的文字上手寫塗畫，高度整合表格和畫圖軟件，界面高度自定義。不過整體來講我對辦公軟件的需求不大。
@@ -193,7 +193,7 @@ h3. 文本編輯器
 →<a href="http://www.everedit.net" rel="external">EverEdit</a> 國產文本編輯器，速度快，體積較小。我是正版用戶，不過是寫評論而非花錢獲得的。
 關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.hanzify.org/software/11742.html" rel="external">AkelPad</a>, $<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=5540#p5540" rel="external">EditPlus</a>
 Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor/EverEdit 是我的菜，所以 Windows 更好。這個結論太個人化了，不具備普遍參考價值。
-理想： EmEditor 基礎上提高性能，並加入收藏夾。
+理想： EmEditor 和 EverEdit 的優點聚合，並加入收藏夾。
 
 
 h3. 語言相關
