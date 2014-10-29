@@ -13,7 +13,7 @@ Tabbar 是個好插件，可以讓 Emacs 看起來更像一個 Windows 用的軟
 可以針對不同字符集設置不同字體。  
 顯示行號需要 linum 。  
 顏色主題比較煩人，但是網上很多現成貨。  
-安裝插件的好方法，相當於 Plugin Manager: M+x list-packages  
+安裝插件的好方法，相當於 Plugin Manager: M+x list-packages 。
 便攜化很簡單，寫個 bat 就行：  
     {% highlight bat %}
     @echo off
