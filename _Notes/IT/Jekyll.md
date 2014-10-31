@@ -10,7 +10,7 @@ title: Jekyll 常用知識合集
 <a href="http://jekyllrb.com/docs/templates/#gist" rel="external">插入 Gist</a>  
 
 ##Textile
-Textile 沒有噁心的兩個空格換行機制，所以一般都用他 (Markdown 功能確實比較若，不過現在支持用 Github Flavored 了，就還好，設置是 GFM) 。不喜歡把版面佈置得太複雜，衹記錄一部分就行了。其餘直接看<a href="http://redcloth.org/textile" rel="external">官方文檔</a>。  
+Textile 沒有噁心的兩個空格換行機制，所以一般都用他 (Markdown 功能確實比較弱，不過現在支持用 Github Flavored 了，換行就還好，設置是 GFM) 。不喜歡把版面佈置得太複雜，衹記錄一部分就行了。其餘直接看<a href="http://redcloth.org/textile" rel="external">官方文檔</a>。  
 ###大樣式
 （注意： . 後面都是有空格的，不然易出錯）  
 標題：形如 h1. ，數字可換  
