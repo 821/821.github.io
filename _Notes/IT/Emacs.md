@@ -8,7 +8,7 @@ title: Emacs 折騰錄
 環境： Windows 7 64 bit, G1620+B75H+8GB
 用 Emacs還是需要比較高的配置的，至少四年前的低配筆記本有點帶不動。
 配置的註釋用 ; 來寫。
-快捷鍵用形如 (global-set-key (kbd "C-x") 'kill-region) 的模式比較好， ErgoEmacs 和 ErgoEmacs Mode 都會嚴重拖慢啓動速度。 ErgoEmacs 配了個簡陋的右鍵菜單。
+快捷鍵用形如 (global-set-key (kbd "C-x") 'kill-region) 的模式比較好，不影響速度，但不能 C-c 。 ErgoEmacs 和 ErgoEmacs Mode 可以，但都會嚴重拖慢啓動速度。 ErgoEmacs 配了個簡陋的右鍵菜單。
 Tabbar 是個好插件，可以讓 Emacs 看起來更像一個 Windows 用的軟件。
 可以針對不同字符集設置不同字體。
 顯示行號需要 linum 。
@@ -21,3 +21,10 @@ set HOME=%CD%\config
 cd bin
 runemacs
 {% endhighlight %}
+存在問題：
+折行情況下的高亮當前行給高亮了整行而不是折後小行。
+沒有搜索框，難用。
+複製的快捷鍵衹能綁 M-x 了。
+列模式不好用。
+速度和右鍵不可兼得。
+工具欄沒搞好。
