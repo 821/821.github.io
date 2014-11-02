@@ -14,7 +14,7 @@ post_defaults:
 highlighter: pygments
 kramdown:
   input: GFM
-  toc_levels: 1,2,3,4,5,6
+  toc_levels: "1,2,3,4,5,6"
 
 timezone: Asia/Shanghai
 title : 奚適而惡乎待哉
