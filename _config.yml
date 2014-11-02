@@ -14,7 +14,6 @@ post_defaults:
 highlighter: pygments
 kramdown:
   input: GFM
-  smart_quotes: lsquo,rsquo
 
 timezone: Asia/Shanghai
 title : 奚適而惡乎待哉
