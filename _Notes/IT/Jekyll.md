@@ -13,26 +13,26 @@ title: Jekyll 常用知識合集
 Jekyll 支持使用人性化一些的 <a href="https://help.github.com/articles/github-flavored-markdown/" rel="external">GitHub Flavored Markdown</a> (GFM) 。其餘看官方就好：<a href="http://daringfireball.net/projects/markdown/syntax" rel="external">官方版</a>，<a href="http://markdown.tw/" rel="external">繁體版</a>，<a href="http://wowubuntu.com/markdown/" rel="external">簡化字版</a>
 ####實用語法
 需要加 \\ 的字符： \\ \` \* \_ \{ \} \[ \] \( \) \# \+ \- \. \!
-標題：在行首使用 \# ，幾級標題用幾個 \# ，行尾也可以加上等量的 \# 表示關閉標籤。
-淸單：無序淸單在行首加上 \* \+ \- 三選一，有序淸單是數字加 \. ，數字可亂寫。
-引用：在需要引用的部分每一行行首加上 \> ，引言中的引言加兩個。
-程序：行首加上一個 tab 或四個空格，則區塊被 pre code 兩個標籤包圍。如果衹要一小截，用一對 \` 包夾，這樣有 code 沒有 pre 。
-分割線：一行 * 或 - 。
-鏈接：形如 \[link\]\(http://example.net/\) \"Optional Title\" ，可以用相對路徑。
-參考：類似鏈接，寫作 \[example\]\[id\] ，二者之間可加空格。
-圖片：形如 \!\[Alt text\]\(http://example\.net/img\.jpg \"Optional title\"\) 。
-em: 一對 \* 或 \_ 包夾。
-strong: 一對 \*\* 或 \_\_ 包夾。
+標題：在行首使用 \# ，幾級標題用幾個 \# ，行尾也可以加上等量的 \# 表示關閉標籤
+淸單：無序淸單在行首加上 \* \+ \- 三選一，有序淸單是數字加 \. ，數字可亂寫
+引用：在需要引用的部分每一行行首加上 \> ，引言中的引言加兩個
+程序：行首加上一個 tab 或四個空格，則區塊被 pre code 兩個標籤包圍。如果衹要一小截，用一對 \` 包夾，這樣有 code 沒有 pre
+分割線：一行 * 或 -
+鏈接：形如 \[link\]\(http://example.net/\) \"Optional Title\" ，可以用相對路徑
+參考：類似鏈接，寫作 \[example\]\[id\] ，二者之間可加空格
+圖片：形如 \!\[Alt text\]\(http://example\.net/img\.jpg \"Optional title\"\)
+em: 一對 \* 或 \_ 包夾
+strong: 一對 \*\* 或 \_\_ 包夾
 ####GFM
 GFM 作爲 Markdown 最常用的「方言」，其實挺不錯的。
 首先是合理化了一些地方：
-行末不用加那兩個破空格。
-形如 what\_the\_fuck 的一整個詞裏的兩個 _ 包夾部分不會被轉換。
-標準的 URL 會自動變成鏈接。
+行末不用加那兩個破空格
+形如 what\_the\_fuck 的一整個詞裏的兩個 _ 包夾部分不會被轉換
+標準的 URL 會自動變成鏈接
 其次是加了一些功能：
-刪節線：一對 ~~ 包夾的詞會轉成刪節線。
-引用：兩行 \`\`\` 包夾的段落會轉成引用。
-代碼：引用的前一個如果寫成形如 \`\`\`ruby 這樣就是代碼高亮。
+刪節線：一對 ~~ 包夾的詞會轉成刪節線
+引用：兩行 \`\`\` 包夾的段落會轉成引用
+代碼：引用的前一個如果寫成形如 \`\`\`ruby 這樣就是代碼高亮
 表格：用 | 分列，一行 - 表示以上是欄頭， : 在 - 行中的位置表示靠哪邊
 
 ##Textile
@@ -74,7 +74,7 @@ ID ：形如 \*(\#special)strong\*
 Git 眞的相當複雜，命令的意義往往不是一兩個詞就能解釋淸楚的，所以就有了本文。本文的重點有兩個：一是對常用命令的列舉，可以看作是一種備查；二是對基本槪念的解釋，爲的是自己幾年後看本文還能快速上手。
 ####關係圖
 Git 的命令，基本上就是四個位置的相互操作。記住關係圖， Git 就掌握了一半。
-![Git](../Assets/Pic/Git.png)
+![Git]({{ site.url }}/Assets/Pic/Git.png)
 ####init 初始化
 ####add 添加
 將改動添加到索引中。
