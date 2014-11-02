@@ -3,11 +3,11 @@ layout: indexed
 title: Jekyll 常用知識合集
 ---
 ##Jekyll
-<a href="http://jekyllrb.com/docs/home/" rel="external">官方文檔</a>及其<a href="http://jekyllcn.com/docs/home/" rel="external">中文翻譯</a>其實解決了絕大多數用戶對於 Jekyll 本身的疑問。但有些問題他的索引不是直觀，幫他索引一下。
-<a href="http://jekyllrb.com/docs/configuration/#markdown-options" rel="external">Markdown 詳細設置</a>
-<a href="http://jekyllrb.com/docs/templates/#code-snippet-highlighting" rel="external">代碼高亮</a>
-<a href="http://jekyllrb.com/docs/templates/#post-url" rel="external">文章鏈接</a>
-<a href="http://jekyllrb.com/docs/templates/#gist" rel="external">插入 Gist</a>
+<a href="http://jekyllrb.com/docs/home/" rel="external">官方文檔</a>及其<a href="http://jekyllcn.com/docs/home/" rel="external">中文翻譯</a>其實解決了絕大多數用戶對於 Jekyll 本身的疑問。但有些問題他的索引不是直觀，幫他索引一下。  
+<a href="http://jekyllrb.com/docs/configuration/#markdown-options" rel="external">Markdown 詳細設置</a>  
+<a href="http://jekyllrb.com/docs/templates/#code-snippet-highlighting" rel="external">代碼高亮</a>  
+<a href="http://jekyllrb.com/docs/templates/#post-url" rel="external">文章鏈接</a>  
+<a href="http://jekyllrb.com/docs/templates/#gist" rel="external">插入 Gist</a>  
 
 ##Markdown
 Jekyll 支持使用人性化一些的 <a href="https://help.github.com/articles/github-flavored-markdown/" rel="external">GitHub Flavored Markdown</a> (GFM) 。其餘看官方就好：<a href="http://daringfireball.net/projects/markdown/syntax" rel="external">官方版</a>，<a href="http://markdown.tw/" rel="external">繁體版</a>，<a href="http://wowubuntu.com/markdown/" rel="external">簡化字版</a>
@@ -145,7 +145,7 @@ HEAD^n HEAD 的上 n 次提交
 HEAD~n HEAD 的上 n-1 次提交，或叫倒數第 n 次提交
 COMMIT_EDITMSG 最後一次提交的提交信息
 ####資料
-收集一些寫得比較好的，和 Git 有關的文章。
+收集一些寫得比較好的，和 Git 有關的文章。  
 <a href="http://git-scm.com/book" rel="external">Git Book</a> 官方書，但很多東西都沒寫。  
 <a href="http://gitready.com/" rel="external">git ready</a> 一份詳細敎程。  
 <a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html" rel="external">Git User’s Manual</a> 詳細得讓人不想看，推送失敗怎麼辦之類的細節都有介紹。  
