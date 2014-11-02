@@ -10,7 +10,7 @@ title: Jekyll 常用知識合集
 <a href="http://jekyllrb.com/docs/templates/#gist" rel="external">插入 Gist</a>  
 
 ##Markdown
-Jekyll 支持使用人性化一些的 <a href="https://help.github.com/articles/github-flavored-markdown/" rel="external">GitHub Flavored Markdown</a> (GFM) 。其餘看官方就好：<a href="http://daringfireball.net/projects/markdown/syntax" rel="external">官方版</a>，<a href="http://markdown.tw/" rel="external">繁體版</a>，<a href="http://wowubuntu.com/markdown/" rel="external">簡化字版</a>
+Jekyll 支持使用人性化一些的 <a href="https://help.github.com/articles/github-flavored-markdown/" rel="external">GitHub Flavored Markdown</a> (GFM) 。其餘看官方就好：<a href="http://daringfireball.net/projects/markdown/syntax" rel="external">官方版</a>，<a href="http://markdown.tw/" rel="external">繁體版</a>，<a href="http://wowubuntu.com/markdown/" rel="external">簡化字版</a>。
 ####實用語法
 需要加 \\ 的字符： \\ \` \* \_ \{ \} \[ \] \( \) \# \+ \- \. \!
 標題：在行首使用 \# ，幾級標題用幾個 \# ，行尾也可以加上等量的 \# 表示關閉標籤
