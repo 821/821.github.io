@@ -14,7 +14,7 @@ post_defaults:
 highlighter: pygments
 kramdown:
   input: GFM
-  toc_levels: "4"
+  smart_quotes: lsquo,rsquo
 
 timezone: Asia/Shanghai
 title : 奚適而惡乎待哉
