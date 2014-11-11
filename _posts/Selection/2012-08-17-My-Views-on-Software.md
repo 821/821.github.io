@@ -199,7 +199,7 @@ Linux 方案及點評： GoldenDict + Stardict ，後者用起來不太舒服。
 DjVuToy 處理 CADAL 的書籤文件，新版莫名去掉了這個功能……
 →$CxCandy: 下載 PDG 。我轉向 Linux 的最大阻力之一。我是 CxCandy 的正版用戶——免費的，不過需要有論壇帳號。
 <a href="http://www.imagemagick.org" rel="external">ImageMagick</a> 跨平臺的命令行圖像處理工具
-→<a href="http://www.portableappc.com/office/pdf-xchange-viewer-portable/" rel="external">PDF-XChange Viewer</a> 讀文本 PDF ，非常平滑，軟件也小。
+→<a href="http://blog.kowalczyk.info/software/sumatrapdf/download-free-pdf-viewer.html/" rel="external">Sumatra PDF</a> 新興的多格式閱讀器，文本 PDF 處理不錯，而且兼容 MOBI, DjVu, ePub 之類我實在不想專門找軟件開的格式。
 $<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Foxit Editor</a> 編輯文本 PDF 。
 $Adobe PDF Printer 誰讓他是標準呢。
 <a href="http://www.portableappc.com/office/cajviewer-portable/" rel="external">CAJViewer</a> 讀論文時被迫使用。
@@ -216,7 +216,7 @@ Linux 方案及點評： <a href="http://www.ironahk.net/" rel="external">IronAH
 理想： KeybMap+AHK+iMacros ，命令再豐富些。
 
 ###文件管理
-→Just Manager 快速而不失強大的 TotalCMD 替代品。
+Just Manager 快速而不失強大的 TotalCMD 替代品。
 →$Winrar 簡單好用，用戶習慣無敵。
 →Unlocker 刪掉被鎖住的文件。
 Suction 合併文件夾。
