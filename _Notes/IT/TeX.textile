@@ -149,7 +149,7 @@ h2. TeX 的「競爭對手」
 
 h3. 方正書版
 
-方正書版擁有很多 TeX 的優點，對古籍排版很有一套，發排速度飛快，程序也較清爽。那爲什麼我們還要研習 TeX 呢？
+方正書版擁有很多 TeX 的優點，對古籍排版很有一套，發排速度飛快（ TeX 編譯起來眞的相當慢，我編譯），程序也較清爽。那爲什麼我們還要研習 TeX 呢？
 TeX 開源。有問題慢慢想還是能解決的，而書版如果沒有某個功能，就衹好乾瞪眼。
 用 TeX 能接觸到更多較底層的東西（開源嘛），學習更多知識，增強排版能力，鍛煉堅強心性。
 TeX 免費。書版最新的破解版是十多年前的（但完成度穩定性都很高）， 2008 版價格 6460 人民幣。
@@ -212,13 +212,15 @@ h3. 概念混淆
 
 網上經常看到有人自稱用了將近十年 TeX 的，卻搞不清發行版、引擎、編輯器、宏包之間關係。老實講這種人該用商業軟件，而且實在不適合做研究。
 
-h2. 入門
+h2. 使用參考
+
+雖然 Plain TeX 也沒有多難，但是 LaTeX 更簡單，可用宏包、命令更多，所以初學一般從 LaTeX 開始比較好。上手後可以再考慮慢慢向其他過渡。
 
 h3. 幾個入門文檔
 
 "lnotes":http://www.dralpha.com/zh/tech/lnotes.pdf "lnotes2":http://www.dralpha.com/zh/tech/lnotes2.pdf 作者署名包太雷，個人判斷出生時間不晚於 1970 年，因爲他用了「馬尾巴的功能」 [2] 的典故。文章風趣詼諧，八卦信手拈來，而且排得較 fancy 。不過他的立場是 XeLaTeX ，直排不如 LuaLaTeX 。
 "大家來學 LaTeX":http://cle.linux.org.tw/~edt1023/tex/latex123/node1.html ，臺灣李果正撰，對中文的討論過時，不過 LaTeX 基礎都已覆蓋。
-很多人認爲 "lshort":http://mirrors.ctan.org/info/lshort/english/lshort.pdf 或其中文版 "lshort-zh-cn":ftp://ctan.tug.org/tex-archive/info/lshort/chinese/lshort-zh-cn.pdf 也不錯，個人覺得太囉嗦，僅最後一章有意思。
+很多人認爲 lshort 或其中文版也不錯，個人覺得太囉嗦，僅最後一章有意思。
 入門文檔本來不需看太多，但 TeX 很多基本概念必須掌握，多讀幾本入門文檔有助於將之灌入大腦。
 
 h3. The TeXbook
@@ -226,16 +228,29 @@ h3. The TeXbook
 Knuth 寫給 TeX 初學者的書，但不建議直接就讀他。該書也被廣大低手視爲「傳說中」的書，其實沒這麼恐怖。不關注公式編輯的，可以讀一下 10-15 和 20-25 這些章節，重點理解盒子。
 閱讀此書對進一步理解 TeX 宏包中的命令以及製作宏包有很大作用，適合對美有獨特追求的人。
 
+h3. TeX Reference Manual
+
+Plain TeX 有一堆 primitive ，掌握這些， Plain TeX 當然也就入門了。這本書就是專門講解這些知識點的，不過講得比較粗糙，很多地方還是看 The TeXbook 比較好。
+網頁版是 "TeX Primitive Control Sequences":http://www.tug.org/utilities/plain/cseq.html 。
+
 h3. 方正書版的入門文檔
 
 看這個不會直接有助於學習 TeX ，但可以瞭解中國出版業對版心、行距等方面的習慣。
 網上有很多不符合行規的模板，不忍直視。
 
+h3. A Guide to LaTeX
+
+有點長，可以作爲初級工具書來讀。該書分解了很多命令，比如一個 @\footnote@ 包含了 @thefootnote@, @\footnotemark@, @\footnotetext@ 等。讀到這本書說明你的要求很多很特殊，一般的模板和各種入門文檔已經不能滿足你了。
+
+h3. source2e + macros2e
+
+前者包含 LaTeX2e 所有源碼，後者包含常用內部宏。這兩本書的內容都能喫透，堪稱 LaTeX 高手。
+這兩個文檔和 lshort 都集成在很多發行版中，所以安裝發行版要記得勾選文檔。用 TeX 的祕訣就是讀文檔，改碼，測試編譯，再讀文檔……
+
 h3. 其他文檔
 
 基本上，用到什麼就讀到什麼文檔，這是開源軟件亙古不變的道理。
-而看示例文件有助於理解宏包，如果宏包附有示例，可以看看。
-一般文檔和示例都是隨包的，搜一下就有了。比如 Windows 下用 Everything 找文檔，就很方便。
+一般文檔和示例都是隨包的，搜一下就有了。比如 Windows 下用 Everything 找文檔，比用 TeX Live 的命令行還方便。
 
 h3. log
 
@@ -355,9 +370,37 @@ h3. LuaTeX-ja
 
 有了 luatexja-fontspec ，字體很好弄。 LuaTeX-ja 環境下直排時字體的問題相對少一點，但仍讓人心煩。
 
-h2. Dirty Hacks \& Monkey Patches
+h2. 常用命令
+
+記錄一下沒有壞處。
+
+h3. 定義
+
+大到宏的製作，小到自己定一堆便捷命令，都需要用到這裏。
+應參看 The TeXbook 第 20 章。
+@\def@: TeX, 定義新命令。最常見是 @\def\foo{\bar}@ 的樣子，也可以把字符定義成命令，如 @\def|{\bar}@ 。有時，命令衹打算作用於很小範圍，想用大括號框起來，可以這樣定義： @\def\foo#1{\bar{#1}}@ ，如果有多個變量： @\def\foo#1#2{\bar{#1}\fb{#2}}@ ， #1 之類可出現多次，隨你高興。大括號內的東西可以折行以便瀏覽。定義會覆蓋已有命令。定義不能帶有 @\par@ ，要 @\par@ 需在前面加上 @\long@ 。
+@\let@: TeX, 讓一個命令等同於另一命令。用法： @\let\foo=\bar@ 。
+@\newcommand@: LaTeX, 定義新命令。跟 @\def@ 很像，可以用 @\par@ ，但不能定義 end 開頭的命令，而且如果已有同名命令，則不起效。用法： @\newcommand{\foo}[2]{\bar{#1}\fb{#2}}@ 。
+@\renewcommand@: LaTeX, 重新定義命令，用來覆蓋已有命令。
+
+h3. 引入
+
+如果事無巨細全都自己寫，未免太痛苦，所以用點宏包什麼的不要太正常。
+自己寫模板來用，爲了方便管理，也會把模板和正文分開——這種做法在方正書板裏甚至是強制的。
+@\input@: TeX, 最原始的拉來就用。用法： @\input filename@ 或 @\input{filename}@ 。
+@\include@: LaTeX, 會開新一頁。用法： @\include{filename}@ ，默認帶 .tex 擴展名。
+@\includeonly@: LaTeX, 同 @\include@ 用於引入多文件。用法： @\includeonly{filename1,filename2,...}@ 。
+@\usepackage@: LaTeX, 套用宏包。如果宏包允許還可寫參數。用法： @\usepackage[optional]{thepackage}@ 。
+@\documentclass@: LaTeX, 套用一個文檔類。用法： @\documentclass[optional]{theclass}@ 。
+
+h2. Dirty Hacks
 
 這裏記錄一下自己弄的噁心貨。
+
+h3. 「一」字
+
+在 LuaTeX-ja 直排裏，「一」字的位置不知什麼原因上移了 0.3em 。
+使用控制序列修正後，用 @\kansuji@ 轉的頁碼、章節名還是錯的。
 
 h3. 直排標點
 
@@ -367,7 +410,6 @@ h4. 冒號
 
 冒號在直排下本來和橫排看起來一樣，但是很多字體加了 vert 會睡下來。這就需要專門爲冒號指定字體，但直接切換字體必然導致源文件看起來很醜且輸入麻煩，比如把冒號寫成 @{\sung{：}}@ 。
 這對平時以源文件編輯及檢閱爲主的本人根本不能忍，於是決定在導言區申明。然而卽使用 @def@ 命令，也最多衹能做到每次輸入冒號時寫作 @\：@ ，還是不能忍，於是就把冒號用 @active@ 寫進控制序列去了。
-這麼噁心的代碼讓處女座看見了一定吐血。
 
 h4. 破折號
 
@@ -380,7 +422,9 @@ U+2015 兩根線之間有明顯縫隙，但也勉強能用
 
 h4. 引號
 
-可能是 box 的緣故，引號
+可能是 box 的緣故，引號普遍靠上，本來應該顯示爲「這樣」的，卻有點像是「 這樣」，看起來很不舒服。
+於是在控制序列定的命令裏又加上了 @\kern0.3em@ ，動到盒子，後面又用 @\kern-0.3em@ 改回。
+所以說我寫的代碼處女座看了眼睛會瞎。
 
 h4. 專名與書名
 
