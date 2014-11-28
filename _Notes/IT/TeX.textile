@@ -347,7 +347,7 @@ h3. 中文字體
 我個人覺得最好看的書籍字體是仿宋（宋朝體），但現在多數仿宋一排長文就很難看。仿宋不是主流，一般字符集較小，日本的 Iwata Souchou Pro M 稍好，也不能滿足我的日常需求，所見最大的 AdobeFangsongStd-Regular 總有一種很呆板的感覺。
 退而求次，宋體（明朝體）也馬馬虎虎，但是新字形宋體總覺得不穩重。完整的舊字形字體貌似也就那「康煕字典體」，還是個 boundingbox 不正確的貨，排書宛如狗啃。現在暫時用「宋明體」和 蘋果在用的 Hiragino-Mincho-ProN-W3 。
 至於楷書，排短文是不錯，那要看原形和質量， A-OTF-OutaiKaiStd-Light 的質量是不錯，方正的瘦金也馬馬虎虎，不過楷書字體普遍字少，還是不好用。
-黑體是我最不想用的字體，但現在很多人在電腦上就是喜歡。眞是不明白啊，漢字不就是一種以變化爲美的字嗎？這種所有筆畫寬度都一樣彷彿用拖把刷出來的字體怎麼可能好看？
+黑體是我最不想用的字體，但現在很多人在電腦上就是喜歡。眞是不明白啊，漢字不就是一種以變化爲美的字嗎？這種所有筆畫寬度都一樣的字體怎麼可能好看？
 至於隸書和篆書，這兩個我眞不懂，也沒資格評論。
 
 h3. 製作方
@@ -392,6 +392,20 @@ h3. 引入
 @\includeonly@: LaTeX, 同 @\include@ 用於引入多文件。用法： @\includeonly{filename1,filename2,...}@ 。
 @\usepackage@: LaTeX, 套用宏包。如果宏包允許還可寫參數。用法： @\usepackage[optional]{thepackage}@ 。
 @\documentclass@: LaTeX, 套用一個文檔類。用法： @\documentclass[optional]{theclass}@ 。
+
+h3. 位移與粘連
+
+位移如果可以寫數字，這些數字都是可以正也可以負的。這些數字後面通常要帶單位，單位可以是 pt, pc, in, bp, cm, mm, dd, cc, sp 。
+單位的解釋在 The TeXbook 第 10 章，粘連是 12 章。
+h 開頭的換成 v 開頭就是縱向，不專門寫了（懶）。
+@\noindent@: TeX, 使當前行、段無縮進。用法：照寫。
+@\parindent@: TeX, 設置後文的段落縮進。用法： @\parindent=0em@ 。
+@\kern@: TeX, 右移，定長，不可換行，到了邊緣就凸出去。用法： @\kern1em@ 。
+@\hskip@: TeX, 右移，可伸展，可換行。用法： @\hskip1em@ 。
+@\hfil@: TeX, 向右塡充，相當於讓命令兩側的字符對齊兩側邊緣。用法：照寫。
+@\hfill@: TeX, 向右塡充，阻斷 @\hfil@ ，而不被 @\hfil@ 阻斷，相當於升級版。
+@\hfillneg@: TeX, 也就是 @\hfill@ 的負數。
+
 
 h2. Dirty Hacks
 
