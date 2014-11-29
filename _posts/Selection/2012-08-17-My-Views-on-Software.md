@@ -153,19 +153,18 @@ Linux 方案及點評： Skype+Pidgin ，體驗不好，兼容較差， QQ 部�
 理想： Skype 支持 QQ 和旺旺協議。
 
 ###辦公套件
-<a href="http://libreoffice.org/" rel="external">LibreOffice</a> 用 Calc 和 Draw。以前老覺得不好用，現在熟透了。不過使用頻率也不高，畢竟打開速度不太行。
-$OneNote: 最有紙質筆記本感覺的筆記軟件。其實最想用 Marboo ，但沒有 Windows 版。我並不喜歡筆記軟件，因爲很多都是隨手記一點碎片，而認眞要記的多半要做很多格式方面的修正， OneNote 這種富文本的形式又不夠用——換言之，我很難使用「所見卽所得」類型的筆記軟件，我需要的是一個便捷的預覽器，並能夠直接從這個預覽器快速跳到文本編輯器，也就是 Marboo 幹的事。
+<a href="http://libreoffice.org/" rel="external">LibreOffice</a> 用 Calc 和 Draw。以前老覺得不好用，現在熟透了。不過使用頻率也不高，畢竟打開速度不太行。其實 Excel 和 Visio 都是神器，我都很欣賞，但是用不到那麼多功能啊。
+$OneNote: 最有紙質筆記本感覺的筆記軟件。其實最想用 Marboo ，但沒有 Windows 版。我並不喜歡筆記軟件，因爲很多都是隨手記一點碎片，而認眞要記的多半要做很多格式方面的修正（最好寫完了發到本站哈哈）， OneNote 這種富文本的形式又不夠用——換言之，我很難使用「所見卽所得」類型的筆記軟件，我需要的是一個便捷的預覽器，並能夠直接從這個預覽器快速跳到文本編輯器，也就是 Marboo 幹的事。
 關注： <a href="http://xournal.sourceforge.net/" rel="external">Xournal</a>, <a href="http://jarnal.wikispaces.com/" rel="external">Jarnal</a>, <a href="http://basket.kde.org" rel="external">BasKet Note Pads</a>, Wiz
 Linux 方案及點評： Office 系統自帶， OneNote 由 Marboo 替代。
 理想：筆記分散式存儲，支持在敲入的文字上手寫塗畫，高度整合表格和畫圖軟件，界面高度自定義。不過整體來講我對辦公軟件的需求不大。
 
 ###排版
-→<a href="http://www.w32tex.org/" rel="external">W32TeX</a> 搞日本人開發的宏包必備。
-<a href="http://www.tug.org/texlive/" rel="external">TeX Live</a> 高大全的東西。
-→$☭方正書版：非常容易上手的命令排版。
-關注： <a href="http://miktex.org/" rel="external">MiKTeX</a>, <a href="http://www.ctex.org/" rel="external">CTeX</a>
+→<a href="http://www.tug.org/texlive/" rel="external">TeX Live</a> 高大全的東西。
+<a href="http://www.w32tex.org/" rel="external">W32TeX</a> 搞日本人開發的宏包必備。
+關注： <a href="http://miktex.org/" rel="external">MiKTeX</a>, 方正書版
 Linux 方案及點評： Linux 裝 TeX 會比較方便，但沒有書版，字體設置也比較討厭。
-理想： ConTeXt 爲基礎，完美整合 LuaTeX, XeTeX, Omega, 方正書版，簡化字體設置，提高編譯速度，發行版文件數量 200 個以內，根據古代刻本製作若干款舊字形字體，其餘完美實現飛行安裝。
+理想： ConTeXt 爲基礎，完美整合 LuaTeX, XeTeX, Omega, pTeX, 方正書版，文件數量 200 個以內，宏包豐富而不衝突，根據古代刻本製作若干款舊字形字體。
 
 ###文本編輯器
 →$<a href="http://www.portablesoft.org/emeditor-pro/" rel="external">EmEditor</a> 適合作家，編程亦佳，原生支持便攜版。
