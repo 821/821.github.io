@@ -233,6 +233,10 @@ h3. TeX Reference Manual
 Plain TeX 有一堆 primitive ，掌握這些， Plain TeX 當然也就入門了。這本書就是專門講解這些知識點的，不過講得比較粗糙，很多地方還是看 The TeXbook 比較好。
 網頁版是 "TeX Primitive Control Sequences":http://www.tug.org/utilities/plain/cseq.html 。
 
+h3. TeXbyTopic
+
+TeX Live 自帶的一篇文檔，也解釋了 primitive ，可與前者互補。
+
 h3. 方正書版的入門文檔
 
 看這個不會直接有助於學習 TeX ，但可以瞭解中國出版業對版心、行距等方面的習慣。
