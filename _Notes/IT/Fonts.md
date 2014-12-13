@@ -17,13 +17,13 @@ SonyReader Ming | 宋 | 舊 | A | ttf | 私有 | 同套字體還有隸、楷、�
 [全字庫正宋體](http://www.cns11643.gov.tw) | 宋 | 新 | D | ttf | 待考 | 分成兩個字體文件，另有楷體
 [BabelStone Han](http://www.babelstone.co.uk/Fonts/Han.html) | 宋 | 新 | 部分A-C | ttf | APL | 作者興趣不在繁體，在二簡
 [思源黑體](https://github.com/adobe-fonts/source-han-sans/) | 黑 | 新 | A+部分B-E | otf | Apache2 | TeX不能直接用，字形可針對三地各自標準
-Hiragino Mincho ProN W3| 宋 | 2004 | ProN | otf | 私有 | MAC OS字體
+Hiragino Mincho ProN W3| 宋 | 2004 | Pro | otf | 私有 | MAC OS字體
 Iwata Souchou Pro M | 仿宋 | 90 | Pro | otf | 私有 |
 方正新秀麗 | 宋 | 舊 | BIG-5 | ttf | 私有 |
 宋体-方正超大字符集| 宋 | 新 | 方正 | ttf | 私有 | 分成兩個字體文件，另有楷體
 方正宋體S-超大字符集 | 宋 | 新 | 2005 | ttf | 私有 | 分成兩個字體文件，另有楷體， Ubuntu 的字體
 [Unifonts 6.0](http://okuc.net/SoftWare/UniFonts6.0.exe) | 宋 | 新 | D | ttf | 盜版 | 實際上主要是中易宋體和華康明體
-Kozuka Mincho Pr6N | 宋 | 2004 | Pr6N | otf | 私有 | 有 1-6 榜粗細，另有黑體
+Kozuka Mincho Pr6N | 宋 | 2004 | Pr6 | otf | 私有 | 有 1-6 榜粗細，另有黑體
 
 ##說明
 
