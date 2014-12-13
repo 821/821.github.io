@@ -7,8 +7,8 @@ title: 若干電腦字體表
 
 ##正表
 
-名稱 | 書體 | 字形 | 字符集 | 擴展名 | 協議 | 備註
------|------|------|--------|-------|------|-----
+名稱 | 體 | 字形 | 字符集 | 擴展 | 協議 | 備註
+-----|----|------|--------|-----|------|-----
 SonyReader Ming | 宋 | 舊 | A | ttf | 私有 | 同套字體還有隸、楷、黑三體
 [I.BMing](http://founder.acgvlyric.org/iu/doku.php/) | 宋 | 舊 | D| ttf | IPA1 | 修改自IPAmjMincho，強行舊字形
 [Asebi Mincho](https://metasta.github.io/asebi/) | 宋 | 舊 |  | otf | IPA1 | 有[源碼](https://github.com/metasta/asebi)，基於IPAmjMincho等
@@ -23,7 +23,7 @@ Iwata Souchou Pro M | 仿宋 | 90 | Pro | otf | 私有 |
 宋体-方正超大字符集| 宋 | 新 | 方正 | ttf | 私有 | 分成兩個字體文件，另有楷體
 方正宋體S-超大字符集 | 宋 | 新 | 2005 | ttf | 私有 | 分成兩個字體文件，另有楷體， Ubuntu 的字體
 [Unifonts 6.0](http://okuc.net/SoftWare/UniFonts6.0.exe) | 宋 | 新 | D | ttf | 盜版 | 實際上主要是中易宋體和華康明體
-Kozuka Mincho Pr6N | 宋 | 2004 | Pr6 | otf | 私有 | 有 1-6 榜粗細，另有黑體
+Kozuka Mincho Pr6N | 宋 | 2004 | Pr6 | otf | 私有 | 有 1-6 磅粗細，另有黑體
 
 ##說明
 
@@ -41,7 +41,7 @@ GBK: 收漢字 21003 個，符號 882 個，留有 1894 個造字碼位。 GB-23
 GB18030-2000: 收漢字 27533 個。 GBK 和 Ext-A 之倂集。
 GB18030-2005: 收漢字 70244 個。 GB18030-2000 和 Ext-B 之倂集。表中簡稱 2005 。
 方正超大字符集：收漢字 64395 個， GB18030-2000 加 36862 個 Ext-B 所收字。表中簡稱方正。
-漢字構形資料庫：自成體系，收漢字 112533 個，其中楷書 62366 個（其餘是甲骨文、金文、小篆、簡帛等一般人不用的），另收異體字 12208 組。  
+漢字構形資料庫：自成體系，收漢字 112533 個，其中楷書 62366 個（其餘是甲骨文、金文、小篆、簡帛等一般人不用的），另收異體字 12208 組。<br>
 [Adobe Japan](http://www.adobe.com/content/dam/Adobe/en/devnet/font/pdfs/5078.Adobe-Japan1-6.pdf): 把字分爲六等。 1-3 有 9354 個，稱爲 Std ； 1-4 有 15444 個，稱爲 Pro ； 1-5 有 20317 個，稱爲 Pr5 ； 1-6 有 23058 個，稱爲 Pr6 。
 
 ####協議
