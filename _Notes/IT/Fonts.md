@@ -6,8 +6,9 @@ title: 若干電腦字體表
 爲了一目瞭然，就用表格模式配合各種縮寫和說明好了。
 
 ##正表
+
 名稱 | 書體 | 字形 | 字符集 | 擴展名 | 協議 | 備註
-------------------
+-----|------|------|--------|-------|------|-----
 SonyReader Ming | 宋 | 舊 | A | ttf | 私有 | 同套字體還有隸、楷、黑三體
 [I.BMing](http://founder.acgvlyric.org/iu/doku.php/) | 宋 | 舊 | D| ttf | IPA1 | 修改自IPAmjMincho，強行舊字形
 [Asebi Mincho](https://metasta.github.io/asebi/) | 宋 | 舊 |  | otf | IPA1 | 有[源碼](https://github.com/metasta/asebi)，基於IPAmjMincho等
