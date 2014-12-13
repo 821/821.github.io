@@ -14,16 +14,18 @@ SonyReader Ming | 宋 | 舊 | A | ttf | 私有 | 同套字體還有隸、楷、�
 [Asebi Mincho](https://metasta.github.io/asebi/) | 宋 | 舊 |  | otf | IPA1 | 有[源碼](https://github.com/metasta/asebi)，基於IPAmjMincho等
 [IPAmjMincho](http://mojikiban.ipa.go.jp/) | 宋 | 2004 | D | ttf | IPA1 |
 [HanaMinB](http://fonts.jp/hanazono/) | 宋 | 2004 | E | ttf | OFL | A 衹到 Ext-A ， B 纔全
-[全字庫正宋體](http://www.cns11643.gov.tw) | 宋 | 新 | D | ttf | 待考 | 分成兩個字體文件，另有楷體
+[全字庫正宋體](http://www.cns11643.gov.tw) | 宋 | 臺標 | D | ttf | 待考 | 分成兩個字體文件，另有楷體
 [BabelStone Han](http://www.babelstone.co.uk/Fonts/Han.html) | 宋 | 新 | 部分A-C | ttf | APL | 作者興趣不在繁體，在二簡
-[思源黑體](https://github.com/adobe-fonts/source-han-sans/) | 黑 | 新 | A+部分B-E | otf | Apache2 | TeX不能直接用，字形可針對三地各自標準
-Hiragino Mincho ProN W3| 宋 | 2004 | Pro | otf | 私有 | MAC OS字體
+[思源黑體](https://github.com/adobe-fonts/source-han-sans/) | 黑 | 各國 | A+部分B-E | otf | Apache2 | TeX不能直接用
+Hiragino Mincho ProN | 宋 | 2004 | Pro | otf | 私有 | MAC OS字體，磅重有 3 和 6
 Iwata Souchou Pro M | 仿宋 | 90 | Pro | otf | 私有 |
-方正新秀麗 | 宋 | 舊 | BIG-5 | ttf | 私有 |
-宋体-方正超大字符集| 宋 | 新 | 方正 | ttf | 私有 | 分成兩個字體文件，另有楷體
-方正宋體S-超大字符集 | 宋 | 新 | 2005 | ttf | 私有 | 分成兩個字體文件，另有楷體， Ubuntu 的字體
+方正新秀麗 | 宋 | 舊 | BIG-5 | ttf | 私有 | 強行舊字形
+宋体-方正超大字符集 | 宋 | 新 | 方正 | ttf | 私有 | 分成兩個字體文件，另有楷體
+FZSongS | 宋 | 新 | 2005 | ttf | 私有 | 分成兩個字體文件，另有楷體， Ubuntu 的字體
+AdobeFangsongStd-Regular | 宋 | 新 | A | otf | 私有 | 另有國標宋、臺標明、楷、黑等
 [Unifonts 6.0](http://okuc.net/SoftWare/UniFonts6.0.exe) | 宋 | 新 | D | ttf | 盜版 | 實際上主要是中易宋體和華康明體
 Kozuka Mincho Pr6N | 宋 | 2004 | Pr6 | otf | 私有 | 有 1-6 磅粗細，另有黑體
+新細明體+更新包 | 宋 | 臺標 | B | ttf | 私有 | 微軟默認繁體
 
 ##說明
 
@@ -65,6 +67,6 @@ GB18030-2005: 收漢字 70244 個。 GB18030-2000 和 Ext-B 之倂集。表中�
 不收：
 一、三無（無網站、無說明、找不到負責人）。
 二、太醜。
-三、同系列已收。
+三、同系列已收（同系列收錄優先級：仿宋-宋-楷-其他）。
 四、難用的（比如 GT2000 ，收字八萬多，但衹有 01 能用於 Unicode ）。
 五、日本字體，有 N 的都是 JIS2004 ，其對應無 N 的是 JIS90 ，就不收了。
