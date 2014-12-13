@@ -12,24 +12,24 @@ title: 若干電腦字體表
 SonyReader Ming | 宋 | 舊 | A | ttf | 私有 | 同套字體還有隸、楷、黑三體
 [I.BMing](http://founder.acgvlyric.org/iu/doku.php/) | 宋 | 舊 | D| ttf | IPA1 | 修改自IPAmjMincho，強行舊字形
 [Asebi Mincho](https://metasta.github.io/asebi/) | 宋 | 舊 |  | otf | IPA1 | 有[源碼](https://github.com/metasta/asebi)，基於IPAmjMincho等
-[IPAmjMincho](http://mojikiban.ipa.go.jp/) | 宋 | 日本 | D | ttf | IPA1 |
-[HanaMinB](http://fonts.jp/hanazono/) | 宋 | 日本 | E | ttf | OFL | A 衹到 Ext-A ， B 纔全
+[IPAmjMincho](http://mojikiban.ipa.go.jp/) | 宋 | 2004 | D | ttf | IPA1 |
+[HanaMinB](http://fonts.jp/hanazono/) | 宋 | 2004 | E | ttf | OFL | A 衹到 Ext-A ， B 纔全
 [全字庫正宋體](http://www.cns11643.gov.tw) | 宋 | 新 | D | ttf | 待考 | 分成兩個字體文件，另有楷體
 [BabelStone Han](http://www.babelstone.co.uk/Fonts/Han.html) | 宋 | 新 | 部分A-C | ttf | APL | 作者興趣不在繁體，在二簡
-[思源黑體](https://github.com/adobe-fonts/source-han-sans/) | 黑 | 新+臺 | A+部分B-E | otf | Apache2 | CMap問題 ，TeX不能直接用
-Hiragino Mincho ProN W3| 宋 | 日+舊 | ProN | otf | 私有 | MAC OS字體
-Iwata Souchou Pro M | 仿宋 | 日本 | Pro | otf | 私有 |
+[思源黑體](https://github.com/adobe-fonts/source-han-sans/) | 黑 | 新 | A+部分B-E | otf | Apache2 | TeX不能直接用，字形可針對三地各自標準
+Hiragino Mincho ProN W3| 宋 | 2004 | ProN | otf | 私有 | MAC OS字體
+Iwata Souchou Pro M | 仿宋 | 90 | Pro | otf | 私有 |
 方正新秀麗 | 宋 | 舊 | BIG-5 | ttf | 私有 |
 宋体-方正超大字符集| 宋 | 新 | 方正 | ttf | 私有 | 分成兩個字體文件，另有楷體
 方正宋體S-超大字符集 | 宋 | 新 | 2005 | ttf | 私有 | 分成兩個字體文件，另有楷體， Ubuntu 的字體
 [Unifonts 6.0](http://okuc.net/SoftWare/UniFonts6.0.exe) | 宋 | 新 | D | ttf | 盜版 | 實際上主要是中易宋體和華康明體
-Kozuka Mincho Pr6N | 宋 | 日本 | Pr6N | otf | 私有 | 有 1-6 榜粗細，另有黑體
+Kozuka Mincho Pr6N | 宋 | 2004 | Pr6N | otf | 私有 | 有 1-6 榜粗細，另有黑體
 
 ##說明
 
 ####字形
 中國基本上是新字形，臺灣各種矛盾，新舊混雜。
-日本在 JIS90 的時候是日式新字形，後來 JIS2004 的時候又參考回康煕字典，所以現在的 JIS2004 有較多舊字形成分。
+日本在 JIS90 的時候是日式新字形，後來 JIS2004 的時候又參考回康煕字典，所以現在的 JIS2004 有較多舊字形成分。表中省略 JIS 。
 
 ####字符集
 字符集表現的是字體的收字數量。當然越大越好，但是也需要一些標準來規範。
@@ -41,7 +41,7 @@ GBK: 收漢字 21003 個，符號 882 個，留有 1894 個造字碼位。 GB-23
 GB18030-2000: 收漢字 27533 個。 GBK 和 Ext-A 之倂集。
 GB18030-2005: 收漢字 70244 個。 GB18030-2000 和 Ext-B 之倂集。表中簡稱 2005 。
 方正超大字符集：收漢字 64395 個， GB18030-2000 加 36862 個 Ext-B 所收字。表中簡稱方正。
-漢字構形資料庫：自成體系，收漢字 112533 個，其中楷書 62366 個（其餘是甲骨文、金文、小篆、簡帛等一般人不用的），另收異體字 12208 組。
+漢字構形資料庫：自成體系，收漢字 112533 個，其中楷書 62366 個（其餘是甲骨文、金文、小篆、簡帛等一般人不用的），另收異體字 12208 組。  
 [Adobe Japan](http://www.adobe.com/content/dam/Adobe/en/devnet/font/pdfs/5078.Adobe-Japan1-6.pdf): 把字分爲六等。 1-3 有 9354 個，稱爲 Std ； 1-4 有 15444 個，稱爲 Pro ； 1-5 有 20317 個，稱爲 Pr5 ； 1-6 有 23058 個，稱爲 Pr6 。
 
 ####協議
