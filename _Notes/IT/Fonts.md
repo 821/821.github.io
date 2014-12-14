@@ -1,5 +1,5 @@
 ---
-layout: indexed
+layout: horizontal
 title: 若干電腦字體表
 ---
 字體本來就是我比較在意的，加上折騰 TeX ，越發覺得需要專帖收集。
