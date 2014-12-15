@@ -11,7 +11,7 @@ title: 若干電腦字體表
 -----|----|------|--------|-----|------|-----
 SonyReader Ming | 宋 | 舊 | A | ttf | 私有 | 同套字體還有隸、楷、黑三體
 [I.BMing](http://founder.acgvlyric.org/iu/doku.php/) | 宋 | 舊 | D| ttf | IPA1 | 修改自IPAmjMincho，強行舊字形
-[Asebi Mincho](https://metasta.github.io/asebi/) | 宋 | 舊 |  | otf | IPA1 | 有[源碼](https://github.com/metasta/asebi)，基於IPAmjMincho等
+[Asebi Mincho](https://metasta.github.io/asebi/) | 宋 | 舊 | Std | otf | IPA1 | 有[源碼](https://github.com/metasta/asebi)，基於IPAmjMincho等
 [IPAmjMincho](http://mojikiban.ipa.go.jp/) | 宋 | 2004 | D | ttf | IPA1 |
 [HanaMinB](http://fonts.jp/hanazono/) | 宋 | 2004 | E | ttf | OFL | A 衹到 Ext-A ， B 纔全
 [cwtex-q-fonts](https://code.google.com/p/cwtex-q-fonts/) | 多 | 舊 | BIG-5 | ttf | OFL+GPL2 | 有仿宋、宋、黑、楷、圓，cwTeX所附字體之修正
