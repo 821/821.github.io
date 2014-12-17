@@ -248,7 +248,7 @@ Linux 方案及點評：看片用 VLC/MPlayer ，聽歌沒有好工具。 Linux 
 程序多開器 對於某些不支持多開的軟件，這玩意能起到比較好的效果。
 →<a href="http://railsinstaller.org" rel="external">RailsInstaller</a> 方便的 git 環境，以便上傳本站文件。
 Enigma Virtual Box 一個把綠色軟件打包成單文件軟件的東西。
-→$1Password 密碼管理。最初用 LastPass ，但還是想自己管理，就用 KeePass 。但 KeePass 在瀏覽器上各種不敏，記錄密碼也是根據 post 內容記錄的，有時會記成加密後的，造成很多問題，所以就用了這個盜版軟件。
+→<a href="http://keepass.info/" rel="external">KeePass</a> 最初用 LastPass ，但想自己管理，就用 KeePass 。 KeePass 在瀏覽器上各種不敏，記錄密碼是根據 post 內容，有時會記成加密後的，就用了 1Password 。然而 1Password 太貴且反盜版太厲害，還是回來了。還試過 RoboForm ，不習慣，用不下來。
 →<a href="http://freepiano.tiwb.com/" rel="external">FreePiano</a> 最好的免費鋼琴軟件。
 VirtualBox 虛擬機。
 
