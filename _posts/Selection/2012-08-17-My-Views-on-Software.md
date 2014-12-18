@@ -215,6 +215,7 @@ Linux 方案及點評： <a href="http://www.ironahk.net/" rel="external">IronAH
 理想： KeybMap+AHK+iMacros ，命令再豐富些。
 
 ###文件管理
+→<a href="" rel="external">cmder</a> 套件，集成了 Git, curl, bash 等，還可以向 bin 文件夾添加 wget 之類的東西。雖然標榜便攜，不過實際用當然要加 path ，還有執行一下 Cmder.exe /REGISTER ALL 。
 Just Manager 快速而不失強大的 TotalCMD 替代品。
 →$Winrar 簡單好用，用戶習慣無敵。
 →Unlocker 刪掉被鎖住的文件。
@@ -246,7 +247,6 @@ Linux 方案及點評：看片用 VLC/MPlayer ，聽歌沒有好工具。 Linux 
 →$<a href="http://ishare.iask.sina.com.cn/f/7852628.html" rel="external">變速齒輪</a> 曹操傳必備。
 →<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLaunch</a> 日系快速啟動類軟件，同類軟件我都懶得試了阿魯。
 程序多開器 對於某些不支持多開的軟件，這玩意能起到比較好的效果。
-→<a href="http://railsinstaller.org" rel="external">RailsInstaller</a> 方便的 git 環境，以便上傳本站文件。
 Enigma Virtual Box 一個把綠色軟件打包成單文件軟件的東西。
 →<a href="http://keepass.info/" rel="external">KeePass</a> 最初用 LastPass ，但想自己管理，就用 KeePass 。 KeePass 在瀏覽器上各種不敏，記錄密碼是根據 post 內容，有時會記成加密後的，就用了 1Password 。然而 1Password 太貴且反盜版太厲害，還是回來了。還試過 RoboForm ，不習慣，用不下來。
 →<a href="http://freepiano.tiwb.com/" rel="external">FreePiano</a> 最好的免費鋼琴軟件。
