@@ -202,9 +202,9 @@ DjVuToy 處理 CADAL 的書籤文件，新版莫名去掉了這個功能……
 $<a href="http://forum.portableappc.com/viewtopic.php?f=4&#038;t=99" rel="external">Foxit Editor</a> 編輯文本 PDF 。
 $Adobe PDF Printer 誰讓他是標準呢。
 <a href="http://www.portableappc.com/office/cajviewer-portable/" rel="external">CAJViewer</a> 讀論文時被迫使用。
-關注： <a href="http://www.comicer.com/stronghorse/software/#ComicViewer" rel="external">ComicViewer</a>, <a href="http://www.irfanview.com" rel="external">IrfanView</a>, <a href="http://blog.kowalczyk.info/software/sumatrapdf/download-free-pdf-viewer.html" rel="external">Sumatra</a>
+關注： <a href="http://www.comicer.com/stronghorse/software/#ComicViewer" rel="external">ComicViewer</a>, <a href="http://www.irfanview.com" rel="external">IrfanView</a>
 Linux 方案及點評：由於我主要下載和看 PDG ，極少使用 PDF ， Windows 完勝。
-理想： PDF-XChange 能打開 PDG 和 DJVU 的話，我就滿足了。
+理想： Sumatra PDF 加上編輯 PDF 文本的功能。
 
 ###鍵鼠操作
 →<a href="http://www.autohotkey.com" rel="external">AutoHotkey</a> 小工具製作及快捷鍵設置。
