@@ -12,8 +12,8 @@ body{font:24px SonyReader Ming,serif;line-height:1.3em;color:#fff;background:#00
 ::selection{color:#F2F5A9;background:#004040;}
 a{color:#9f9;text-decoration:none;}
 a:hover{color:#1f75cc;}
-p{margin:0 0 1em;text-indent:0;}
-br{margin:0 0 0.5em;}
+p{margin:0 0 0.8em;text-indent:0;}
+br{margin:0 0 0.4em;}
 h1{font-size:1.6em;line-height:1em;}h2{font-size:1.5em;}h3{font-size:1.4em;}h4{font-size:1.3em;}h5{font-size:1.2em;}
 h2,h3,h4,h5{padding:0.2em 0 0.2em 0;}
 h1 a,h3,h3 a{color:#9cf;}h2,h2 a{color:yellow;}h4,h5{color:#F2F5A9;}h6{color:red;}
