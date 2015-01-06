@@ -1,4 +1,4 @@
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript">
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js" type="text/javascript"></script><script type="text/javascript">
 	$(document).ready(function(){
 			var isMobile = {
 				Android: function() {
@@ -25,7 +25,7 @@
 			var href = $(this).attr('href');
 			if(href){
 				if(href.indexOf('#') == 0){
-				}else if ( href.indexOf('/') == 0 || href.toLowerCase().indexOf('821.github.com')>-1 ){
+				}else if ( href.indexOf('/') == 0 || href.toLowerCase().indexOf('821.github.io')>-1 ){
 				}else if ($(element).has('img').length){
 				}else{
 					$(this).attr('target','_blank');
@@ -120,7 +120,7 @@
 				});
 			});
 			//用js计算屏幕的高度
-			$('#menuIndex').css('max-height',$(window).height()-80);
+			$('#menuIndex').css('max-height',$(window).height()-10);
 		}
 	});
 </script>
