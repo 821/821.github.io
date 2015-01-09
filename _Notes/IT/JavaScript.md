@@ -22,6 +22,7 @@ Beginning JavaScript with DOM Scripting and Ajax: From Novice to Professional (�
 Head First JavaScript (深入浅出JavaScript) 是的，和上面那麼撞了譯名。這本花哨、不得要領，浪費時間。
 Pro JavaScript Techniques (精通JavaScript) 完全不是人話，看不懂。
 ppk on JavaScript (ppk談JavaScript) 人話多一些，但也不能拿來入門呀。
+Accelerated DOM Scripting with Ajax, APIs, and Libraries (JavaScript捷径教程) 也屬於提高類，不過寫得還挺系統。
 
 好了，最常見的書都被我噴完了，那要怎麼快速入門？
 答案是，結合各種書籍、敎程，取長補短。
