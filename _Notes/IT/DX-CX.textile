@@ -123,6 +123,10 @@ mogrify -path newdir -rotate -90 *.png
 mogrify -path newdir -background white -deskew 40% *.tif
 以上都是簡單命令，還可以結合 CMD 設置複雜化的命令。
 
+h2. 隨手記
+
+*sslibrary.com 的頁面中，所有書籍都是通過點擊一個形如 javascript:readbook('showbook.do?dxNumber=12216071&d=7A09A5D8BF97916219FDE690CBBE0044&fenleiID=0B202030&username=shfddx'); 的鏈接來激活超星閱讀器看 pdg 的。其中， readbook 函數則是在一個 JavaScript 中寫成的 http://edu.sslibrary.com/sslibrary1.5/js/readbook.js ， dxNumber=12216071&d=7A09A5D8BF97916219FDE690CBBE0044&fenleiID=0B202030 部分則和讀秀的鏈接重合。在 consol 批量取 book 鏈的腳本呼之欲出了。
+
 
 h2. 結論
 

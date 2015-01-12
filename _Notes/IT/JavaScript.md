@@ -35,3 +35,62 @@ Accelerated DOM Scripting with Ajax, APIs, and Libraries (JavaScript捷径教程
 第四小時： RegExp 。敎材： Professional JavaScript 第五章第四節。如果之前沒學過，換成 Definitive Guide 第十章。 JavaScript 用個正則表達式也很繁瑣，看好返回値的特點，在 console 練一下。
 第五小時： jQuery 。敎材： Definitive Guide 第十九章，可跳讀。個人覺得 jQuery 討厭而過時，但別人用得很多。這個部分有個入門書 Beginning JavaScript and CSS Development with jQuery (jQuery JavaScript与CSS开发入门经典) ，差評很多，因爲眞的很入門，而且書名完全不對，應該叫 Beginning jQuery with JavaScript and CSS 。
 好了，Level 1 完成，可以開始抄點淺顯的代碼。
+
+##重點備忘
+隨便寫點，沒有普遍性。
+
+###基本寫法
+句末加個 ;
+註釋加 //
+
+###字符串
+字符串加 "" 或 '' ，分行要加 \\ 。
+雙引號內可以直接用單引號，反之亦然。
+雙引號內用雙引號要加 \\ ，單引號同此。
+屬性 length 偶爾能用上。
+
+###數組 (Array)
+比如 DOM 的 `getElementsByTagName` 和 RegExp 的 `match` ，結果就記在數組裏。
+JavaScript 數組很平常，可以混搭着放入任意類型的數據如函數、數組等作爲元素，低端用戶見得最多的當然是純字符串的形式了。
+每次寫完一個數組未免太傻，所以用一個變量來代表他：
+```javascript
+var a = ['abc', '123'];
+```
+抽取元素的方法也很平常，和別的語言一樣都是從 0 開始計數的：
+```javascript
+a[0] // 這就等於 'abc';
+```
+要添加元素還是很平常：
+```javascript
+a[2] = 'abc123';
+```
+數組也有其屬性，最常用的就是長度（不大於 2^32-1 ）：
+```javascript
+a.length // 現在是 3;
+a.length = 4 // 這樣就多出個空元素 undefined;
+a.length = 2 // 這樣就把後面的元素砍掉了;
+//至於會報錯的極端情況，腦洞不太大都不會碰到（比如設成負數、字符串）;
+```
+
+###循環 (loop)
+旣然用了數組，就免不了用到他的好基友循環。
+for 循環配合數組就要用到 for/in 循環，我們用上一節的數組犯個賤，連續彈對話框：
+```javascript
+for (var i in a){
+    alert(a[i]);
+}
+```
+用 for/in 還是挺方便的。如果改成單純的 for 循環，要這麼寫：
+```javascript
+for(var i = 0; i < a.length; i++){
+    alert(a[i]);
+}
+```
+如果改寫成 while 循環：
+```javascript
+var i = 0;
+while (i< a.length){
+    alert(a[i]);
+    i++;
+}
+```
