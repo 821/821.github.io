@@ -91,11 +91,11 @@ for (var i in a){
 
 用 for/in 還是挺方便的。如果改成單純的 for 循環，要這麼寫：
 
-```javascript
+{% highlight javascript %}
 for(var i = 0; i < a.length; i++){
     alert(a[i]);
 }
-```
+{% endhighlight %}
 
 如果改寫成 while 循環：
 
