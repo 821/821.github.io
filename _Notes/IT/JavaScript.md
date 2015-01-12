@@ -53,44 +53,38 @@ Accelerated DOM Scripting with Ajax, APIs, and Libraries (JavaScript捷径教程
 比如 DOM 的 `getElementsByTagName` 和 RegExp 的 `match` ，結果就記在數組裏。
 JavaScript 數組很平常，可以混搭着放入任意類型的數據如函數、數組等作爲元素，低端用戶見得最多的當然是純字符串的形式了。
 每次寫完一個數組未免太傻，所以用一個變量來代表他：
-
-```javascript
+{% highlight javascript %}
 var a = ['abc', '123'];
-```
+{% endhighlight %}
 
 抽取元素的方法也很平常，和別的語言一樣都是從 0 開始計數的：
-
-```javascript
+{% highlight javascript %}
 a[0] // 這就等於 'abc';
-```
+{% endhighlight %}
 
 要添加元素還是很平常：
-
-```javascript
+{% highlight javascript %}
 a[2] = 'abc123';
-```
+{% endhighlight %}
 
 數組也有其屬性，最常用的就是長度（不大於 2^32-1 ）：
-
-```javascript
+{% highlight javascript %}
 a.length // 現在是 3;
 a.length = 4 // 這樣就多出個空元素 undefined;
 a.length = 2 // 這樣就把後面的元素砍掉了;
 //至於會報錯的極端情況，腦洞不太大都不會碰到（比如設成負數、字符串）;
-```
+{% endhighlight %}
 
 ###循環 (loop)
 旣然用了數組，就免不了用到他的好基友循環。
 for 循環配合數組就要用到 for/in 循環，我們用上一節的數組犯個賤，連續彈對話框：
-
-```javascript
+{% highlight javascript %}
 for (var i in a){
     alert(a[i]);
 }
-```
+{% endhighlight %}
 
 用 for/in 還是挺方便的。如果改成單純的 for 循環，要這麼寫：
-
 {% highlight javascript %}
 for(var i = 0; i < a.length; i++){
     alert(a[i]);
@@ -98,11 +92,10 @@ for(var i = 0; i < a.length; i++){
 {% endhighlight %}
 
 如果改寫成 while 循環：
-
-```javascript
+{% highlight javascript %}
 var i = 0;
 while (i< a.length){
     alert(a[i]);
     i++;
 }
-```
+{% endhighlight %}
