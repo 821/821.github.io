@@ -23,6 +23,8 @@ Head First JavaScript (深入浅出JavaScript) 是的，和上面那麼撞了譯
 Pro JavaScript Techniques (精通JavaScript) 完全不是人話，看不懂。
 ppk on JavaScript (ppk談JavaScript) 人話多一些，但也不能拿來入門呀。
 Accelerated DOM Scripting with Ajax, APIs, and Libraries (JavaScript捷径教程) 也屬於提高類，不過寫得還挺系統。
+Dynamic HTML: The Definitive Reference (Dynamic HTML权威指南)
+JavaScript Bible (JavaScript宝典) 算是挺全面，但也囉嗦。用 WordPad 寫 JavaScript 也是醉了。
 
 好了，最常見的書都被我噴完了，那要怎麼快速入門？
 答案是，結合各種書籍、敎程，取長補短。
@@ -35,6 +37,14 @@ Accelerated DOM Scripting with Ajax, APIs, and Libraries (JavaScript捷径教程
 第四小時： RegExp 。敎材： Professional JavaScript 第五章第四節。如果之前沒學過，換成 Definitive Guide 第十章。 JavaScript 用個正則表達式也很繁瑣，看好返回値的特點，在 console 練一下。
 第五小時： jQuery 。敎材： Definitive Guide 第十九章，可跳讀。個人覺得 jQuery 討厭而過時，但別人用得很多。這個部分有個入門書 Beginning JavaScript and CSS Development with jQuery (jQuery JavaScript与CSS开发入门经典) ，差評很多，因爲眞的很入門，而且書名完全不對，應該叫 Beginning jQuery with JavaScript and CSS 。
 好了，Level 1 完成，可以開始抄點淺顯的代碼。
+
+##備查網頁
+除了之前提到的敎材，還有一些網頁可以備查：
+<a href="http://javascript.ruanyifeng.com/" rel="external">JavaScript 标准参考教程</a>：看過的中文版 JavaScript 相關文字裏最通透的一個。雖然還是 alpha 階段，且個別章節結構不夠淸晰，不過已經完勝其他的了。
+<a href="http://www.w3school.com.cn/js/" rel="external">JavaScript 教程</a>：中文 W3School 的特點是比較全面，但用語還算簡明。另外，由於兼顧多種網頁開發語言， W3School 非常適合當字典用。英文版還牆了，我去年買了個表。
+<a href="http://www.dreamdu.com/javascript/" rel="external">JavaScript 教程</a>：夢之都的敎程不及 W3School 全，排版也有點過於 fency ，但這篇關於 JavaScript 的還可以。
+<a href="http://try.jquery.com/" rel="external">Try jQuery</a>: 比入門高級的 jQuery 。英語不是我母語，不懂好不好。
+
 
 ##重點備忘
 隨便寫點，沒有普遍性。

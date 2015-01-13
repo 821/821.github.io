@@ -1,8 +1,8 @@
-.highlight {border:1px solid #9cf;background:#000;color:#fff}
+.highlight {border:1px solid #9cf;background:#000;color:#fff;width:80%;margin:0 15% 1em 5%}
 .highlight code{border:0px;}
 .highlight .hll{background-color:#333}
 .highlight .lineno{border-right:1px solid #fff;color:#9cf;background:#333} /* Line number */
-.highlight .c{color:#008800} /* Comment */
+.highlight .c{color:#009900} /* Comment */
 .highlight .err{color:#fff} /* Error */
 .highlight .g{color:#fff} /* Generic */
 .highlight .k{color:yellow;font-weight:bold} /* Keyword */
@@ -11,10 +11,10 @@
 .highlight .o{color:#fff} /* Operator */
 .highlight .x{color:#fff} /* Other */
 .highlight .p{color:#fff} /* Punctuation */
-.highlight .cm{color:#008800} /* Comment.Multiline */
+.highlight .cm{color:#009900} /* Comment.Multiline */
 .highlight .cp{color:#ff0007;font-weight:bold} /* Comment.Preproc */
-.highlight .c1{color:#008800} /* Comment.Single */
-.highlight .cs{color:#008800} /* Comment.Special */
+.highlight .c1{color:#009900} /* Comment.Single */
+.highlight .cs{color:#009900} /* Comment.Special */
 .highlight .gd{color:#fff} /* Generic.Deleted */
 .highlight .ge{color:#fff} /* Generic.Emph */
 .highlight .gr{color:#fff} /* Generic.Error */
