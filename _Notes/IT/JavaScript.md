@@ -1,6 +1,6 @@
 ---
 layout: indexed
-title: 簡單 JavaScript 入門
+title: JavaScript 入門
 ---
 ##前言
 隨便學學一個普通的編程語言，大槪是這樣：先來個 Hello world ，算算 1+1 ，看看字符串、變量、數組等的格式，熟悉書寫規範。然後看看語句，什麼 if else for while return break 。由於有很多模塊，所以讀讀所需模塊的 manuals 。好，現在可以開始邊抄代碼邊熟練了，甚至還沒熟練就滿足需求，不用再學了。
@@ -94,7 +94,7 @@ for (var i = 0; i < a.length; i++){
 如果改寫成 while 循環：
 {% highlight javascript %}
 var i = 0;
-while (i< a.length){
+while (i < a.length){
     alert(a[i]);
     i++;
 }
