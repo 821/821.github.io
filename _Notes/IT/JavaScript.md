@@ -86,7 +86,7 @@ for (var i in a){
 
 用 for/in 還是挺方便的。如果改成單純的 for 循環，要這麼寫：
 {% highlight javascript %}
-for(var i = 0; i < a.length; i++){
+for (var i = 0; i < a.length; i++){
     alert(a[i]);
 }
 {% endhighlight %}
