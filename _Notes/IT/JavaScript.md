@@ -15,6 +15,7 @@ title: JavaScript 入門
 
 JavaScript: The Good Parts (JavaScript 语言精粹) 要有點基礎再看。他畫的圖看起來很累。
 JavaScript: The Definitive Guide (JavaScript权威指南) 這本書給人便祕或難產的感覺。由於太過囉嗦，很難堅持下去。
+JavaScript Bible (JavaScript宝典) 算是挺全面，但也囉嗦。用 WordPad 寫 JavaScript 也是醉了。
 Professional JavaScript for Web Developers (JavaScript 高级程序设计) 有些章節結構淸晰又好讀，有些章節就馬馬虎虎。
 DOM Scripting: Web Design with JavaScript and the Document Object Model (JavaScript DOM 编程艺术) 一本常用於推薦給新手的書。一章講完基礎（而且這一章簡而明，讀起來比較順暢），再一章就進 DOM 了。但是從第四章開始又不講人話了。
 AdvancED DOM Scripting: Dynamic Web Design Techniques (JavaScript DOM高级程序设计) 書籍強調不要過度依賴庫而不理解其原理——也就是用輪子還要求知道輪子是怎麼造的。
@@ -23,8 +24,7 @@ Head First JavaScript (深入浅出JavaScript) 是的，和上面那麼撞了譯
 Pro JavaScript Techniques (精通JavaScript) 完全不是人話，看不懂。
 ppk on JavaScript (ppk談JavaScript) 人話多一些，但也不能拿來入門呀。
 Accelerated DOM Scripting with Ajax, APIs, and Libraries (JavaScript捷径教程) 也屬於提高類，不過寫得還挺系統。
-Dynamic HTML: The Definitive Reference (Dynamic HTML权威指南)
-JavaScript Bible (JavaScript宝典) 算是挺全面，但也囉嗦。用 WordPad 寫 JavaScript 也是醉了。
+Dynamic HTML: The Definitive Reference (Dynamic HTML权威指南) 從 DHTML 高度來講，不過也是太厚了，而且 JavaScript 的部分不夠多。
 
 好了，最常見的書都被我噴完了，那要怎麼快速入門？
 答案是，結合各種書籍、敎程，取長補短。
@@ -40,10 +40,10 @@ JavaScript Bible (JavaScript宝典) 算是挺全面，但也囉嗦。用 WordPad
 
 ##備查網頁
 除了之前提到的敎材，還有一些網頁可以備查：
-<a href="http://javascript.ruanyifeng.com/" rel="external">JavaScript 标准参考教程</a>：看過的中文版 JavaScript 相關文字裏最通透的一個。雖然還是 alpha 階段，且個別章節結構不夠淸晰，不過已經完勝其他的了。
-<a href="http://www.w3school.com.cn/js/" rel="external">JavaScript 教程</a>：中文 W3School 的特點是比較全面，但用語還算簡明。另外，由於兼顧多種網頁開發語言， W3School 非常適合當字典用。英文版還牆了，我去年買了個表。
-<a href="http://www.dreamdu.com/javascript/" rel="external">JavaScript 教程</a>：夢之都的敎程不及 W3School 全，排版也有點過於 fency ，但這篇關於 JavaScript 的還可以。
-<a href="http://try.jquery.com/" rel="external">Try jQuery</a>: 比入門高級的 jQuery 。英語不是我母語，不懂好不好。
+<a href="http://javascript.ruanyifeng.com/" rel="external">JavaScript 标准参考教程</a>：看過的中文版 JavaScript 相關文字裏最通透的一個。雖然還是 alpha 階段，且個別章節結構不夠淸晰，不過已經完勝其他的了。<br />
+<a href="http://www.w3school.com.cn/js/" rel="external">JavaScript 教程</a>：中文 W3School 的特點是比較全面，但用語還算簡明。另外，由於兼顧多種網頁開發語言， W3School 非常適合當字典用。不過他的敎程眞的不是一般多，比如 DOM 就專門開了一個 <a href="http://www.w3school.com.cn/htmldom/index.asp" rel="external">HTML DOM 教程</a>。<a href="http://www.w3schools.com/js/default.asp" rel="external">英文版</a>還牆了，我去年買了個表。<br />
+<a href="http://www.dreamdu.com/javascript/" rel="external">JavaScript 教程</a>：夢之都的敎程不及 W3School 全，排版也有點過於 fency ，但這篇關於 JavaScript 的還可以。<br />
+<a href="http://try.jquery.com/" rel="external">Try jQuery</a>: 比入門高級的 jQuery 。英語不是我母語，不懂好不好。<br />
 
 
 ##重點備忘
@@ -53,7 +53,7 @@ JavaScript Bible (JavaScript宝典) 算是挺全面，但也囉嗦。用 WordPad
 句末加個 ;
 註釋加 //
 
-###字符串
+###字符串 (String)
 字符串加 "" 或 '' ，分行要加 \\ 。
 雙引號內可以直接用單引號，反之亦然。
 雙引號內用雙引號要加 \\ ，單引號同此。
@@ -79,10 +79,10 @@ a[2] = 'abc123';
 
 數組也有其屬性，最常用的就是長度（不大於 2^32-1 ）：
 {% highlight javascript %}
-a.length // 現在是 3;
-a.length = 4 // 這樣就多出個空元素 undefined;
-a.length = 2 // 這樣就把後面的元素砍掉了;
-//至於會報錯的極端情況，腦洞不太大都不會碰到（比如設成負數、字符串）;
+a.length; // 現在是 3
+a.length = 4; // 這樣就多出個空元素 undefined
+a.length = 2; // 這樣就把後面的元素砍掉了
+//至於會報錯的極端情況，腦洞不太大都不會碰到（比如設成負數、字符串）
 {% endhighlight %}
 
 ###循環 (loop)
@@ -108,4 +108,45 @@ while (i < a.length){
     alert(a[i]);
     i++;
 }
+{% endhighlight %}
+
+###DOM 若干條
+選點基本的寫寫，主要是 document 方法，其他就蜻蜓點水。
+DOM 需要簡單的 HTML 知識。
+獲取網頁內容的基礎方法：
+{% highlight javascript %}
+document.documentElement // <html>...</html>
+document.head // <head>...</head>
+document.body // <body>...</body>
+document.defaultView // window
+{% endhighlight %}
+進階方法，選擇比較小的片段：
+{% highlight javascript %}
+// HTML 裏這麼寫：
+<div id="z">
+<p id="a">Hello</p>
+<p id="a">World</p>
+<p class="c">abc</p>
+</div>
+// JavaScript 裏這麼寫：
+var a = document.getElementById("a").innerHTML; // 得到 "Hello"
+var b = document.getElementsByTagName("p")[1].innerHTML; // 得到 "World"
+var c = document.getElementsByClassName("c").innerHTML; // 得到 "abc"
+document.getElementById("a").innerHTML="123"; // "Hello" 會變成 "123"
+{% endhighlight %}
+不加 `.innerHTML` 得到整個 element ，而不是 element 的 content 。
+`document.getElementsByTagName()` 返回的是數組，所以要提取元素。
+給網頁添加內容的方法：
+{% highlight javascript %}
+document.write("all"); // 苦大仇深的方法，覆蓋所有已渲染內容，較少用
+{% endhighlight %}
+{% highlight javascript %}
+var d = document.createTextNode("abc123"); // 創建包含段落的 node
+var e = document.getElementById("z"); // 找到 id 爲 z 的那個 div
+e.appendChild(d); // 把 abc123 塞進第一個 id 爲 z 的位置
+{% endhighlight %}
+{% highlight javascript %}
+var f = document.createElement("p"); // 添加 p h1 這樣的元素
+f.appendChild(d); // 把 abc123 塞進新建的 h1 元素裏面
+e.appendChild(f); // id 爲 z 的 div 裏面就多了 <p>abc123</p>
 {% endhighlight %}
