@@ -146,7 +146,7 @@ var e = document.getElementById("z"); // 找到 id 爲 z 的那個 div
 e.appendChild(d); // 把 abc123 塞進第一個 id 爲 z 的位置
 {% endhighlight %}
 {% highlight javascript %}
-var f = document.createElement("p"); // 添加 p h1 這樣的元素
+var f = document.createElement("p"); // 添加 p h1 div 這樣的元素
 f.appendChild(d); // 把 abc123 塞進新建的 h1 元素裏面
 e.appendChild(f); // id 爲 z 的 div 裏面就多了 <p>abc123</p>
 {% endhighlight %}
