@@ -2,15 +2,15 @@
 layout: indexed
 title: JavaScript 入門
 ---
-##前言
+## 前言
 隨便學學一個普通的編程語言，大槪是這樣：先來個 Hello world ，算算 1+1 ，看看字符串、變量、數組等的格式，熟悉書寫規範。然後看看語句，什麼 if else for while return break 。由於有很多模塊，所以讀讀所需模塊的 manuals 。好，現在可以開始邊抄代碼邊熟練了，甚至還沒熟練就滿足需求，不用再學了。
 坑爹的 JavaScript 又是怎樣的呢？ JavaScript 的功能是主要做網頁， HTML 和 CSS 要會吧？再學完一般編程的必由之路，是不是以爲可以開始抄代碼了？抄你妹！那堆 $ 是什麼？ document.getElementsByName 又是怎麼回事？許多年以後，你纔知道是 jQuery 和 DOM ……勉強能用的 JavaScript = HTML + CSS + DOM + jQuery + RegExp + JavaScript 基礎。一個看似純情的 Lambda 語言 JavaScript 裏竟然有這麼多花花腸子，無疑會給人造成許多困擾，而且樣樣去學，時間成本擺在那裏。卽使學了這些，抄代碼也常抄出翔，因爲裏面難免有點 XML, JSON, BOM, AJAX, 各種 API... 而且， JavaScript 也存在版本問題， ECMAScript 1 2 3 4 5 6 ……看到如此亂象，能不頭大嗎？還沒說 E4X, CoffeeScript, Node.js 呢。
 
-##學來幹嘛
+## 學來幹嘛
 首先是美化自己的網頁。很多複雜的功能如果通過 JavaScript 來完成會比較輕鬆。比如，本文的右側有個大綱，這玩意就是用 JavaScript 生成的，省卻我每次做索引之苦。嗯，不過其實這個代碼我沒怎麼讀過，是從別的網站「借」來的。
 其次是改動別人的網頁。比如，我常用的讀秀及其各種衍生物，這個體系中有大量的隱藏屬性有待發掘，但如果每次手動未免太累了，所以寫點腳本，把需要的東西便捷的挖出來。
 
-##敎材評介
+## 敎材評介
 學電腦學得要評介相關敎材，對我來說是第二次——上一次是 TeX ，原因是 TeX 體系龐雜，很多書華而不實。 JavaScript 也是龐雜混亂的，而且有過之而無不及，所以也要來一次——而且這次更嚴重，很多書都是業界「大牛」寫的，但是眞的不是很普適。
 
 JavaScript: The Good Parts (JavaScript 语言精粹) 要有點基礎再看。他畫的圖看起來很累。
@@ -29,7 +29,7 @@ Dynamic HTML: The Definitive Reference (Dynamic HTML权威指南) 從 DHTML 高�
 好了，最常見的書都被我噴完了，那要怎麼快速入門？
 答案是，結合各種書籍、敎程，取長補短。
 
-##學習計劃
+## 學習計劃
 這個「學習計劃」也非常適用於很久不用以後重新撿起。這裏假設讀者的閱讀速度跟本人一樣，如果跟不上，說明還沒達到閱讀的第四境界 XD
 準備：打開 Chrome ，按 F12 ，這就是練習環境， console 。下載好書籍。如果不懂 HTML 和 CSS ，滾去學一會。
 第一、二小時：基本命令、格式。敎材： DOM Scripting 第二章。不會編程的，時間加一倍。
@@ -38,7 +38,7 @@ Dynamic HTML: The Definitive Reference (Dynamic HTML权威指南) 從 DHTML 高�
 第五小時： jQuery 。敎材： Definitive Guide 第十九章，可跳讀。個人覺得 jQuery 討厭而過時，但別人用得很多。這個部分有個入門書 Beginning JavaScript and CSS Development with jQuery (jQuery JavaScript与CSS开发入门经典) ，差評很多，因爲眞的很入門，而且書名完全不對，應該叫 Beginning jQuery with JavaScript and CSS 。
 好了，Level 1 完成，可以開始抄點淺顯的代碼。
 
-##備查網頁
+## 備查網頁
 除了之前提到的敎材，還有一些網頁可以備查：
 <a href="http://javascript.ruanyifeng.com/" rel="external">JavaScript 标准参考教程</a>：看過的中文版 JavaScript 相關文字裏最通透的一個。雖然還是 alpha 階段，且個別章節結構不夠淸晰，不過已經完勝其他的了。<br />
 <a href="http://www.w3school.com.cn/js/" rel="external">JavaScript 教程</a>：中文 W3School 的特點是比較全面，但用語還算簡明。另外，由於兼顧多種網頁開發語言， W3School 非常適合當字典用。不過他的敎程眞的不是一般多，比如 DOM 就專門開了一個 <a href="http://www.w3school.com.cn/htmldom/index.asp" rel="external">HTML DOM 教程</a>。<a href="http://www.w3schools.com/js/default.asp" rel="external">英文版</a>還牆了，我去年買了個表。<br />
@@ -46,20 +46,20 @@ Dynamic HTML: The Definitive Reference (Dynamic HTML权威指南) 從 DHTML 高�
 <a href="http://try.jquery.com/" rel="external">Try jQuery</a>: 比入門高級的 jQuery 。英語不是我母語，不懂好不好。<br />
 
 
-##重點備忘
+## 重點備忘
 隨便寫點，沒有普遍性。
 
-###基本寫法
+### 基本寫法
 句末加個 ;
 註釋加 //
 
-###字符串 (String)
+### 字符串 (String)
 字符串加 "" 或 '' ，分行要加 \\ 。
 雙引號內可以直接用單引號，反之亦然。
 雙引號內用雙引號要加 \\ ，單引號同此。
 屬性 length 偶爾能用上。
 
-###數組 (Array)
+### 數組 (Array)
 比如 DOM 的 `getElementsByTagName` 和 RegExp 的 `match` ，結果就記在數組裏。
 JavaScript 數組很平常，可以混搭着放入任意類型的數據如函數、數組等作爲元素，低端用戶見得最多的當然是純字符串的形式了。
 每次寫完一個數組未免太傻，所以用一個變量來代表他：
@@ -85,7 +85,7 @@ a.length = 2; // 這樣就把後面的元素砍掉了
 //至於會報錯的極端情況，腦洞不太大都不會碰到（比如設成負數、字符串）
 {% endhighlight %}
 
-###循環 (loop)
+### 循環 (loop)
 旣然用了數組，就免不了用到他的好基友循環。
 for 循環配合數組就要用到 for/in 循環，我們用上一節的數組犯個賤，連續彈對話框：
 {% highlight javascript %}
@@ -110,7 +110,7 @@ while (i < a.length){
 }
 {% endhighlight %}
 
-###DOM 若干條
+### DOM 若干條
 選點基本的寫寫，主要是 document 方法，其他就蜻蜓點水。
 DOM 需要簡單的 HTML 知識。
 獲取網頁內容的基礎方法：
