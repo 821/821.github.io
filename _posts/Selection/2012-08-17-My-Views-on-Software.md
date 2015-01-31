@@ -134,8 +134,9 @@ Linux 方案及點評：該有的 Linux 都有，選擇還更廣，體驗高於 
 
 ### 科學衝浪
 →<a href="http://hostsman.abelhadigital.com/" rel="external">HostsMan</a> 幫助更新 hosts 文件。
-→<a href="https://code.google.com/p/wallproxy/" rel="external">Wallproxy</a> 在 <a href="http://code.google.com/p/goagent/" rel="external">GoAgent</a> 基礎上優化。
-關注： <a href="https://code.google.com/p/snova/" rel="external">Snova</a>, <a href="https://github.com/clowwindy/shadowsocks" rel="external">ShadowSocks</a>
+→<a href="http://code.google.com/p/goagent/" rel="external">GoAgent</a>
+→<a href="https://github.com/shadowsocks/shadowsocks-csharp" rel="external">ShadowSocks</a>
+關注： <a href="https://code.google.com/p/snova/" rel="external">Snova</a>, 
 Linux 方案及點評：程序員也要科學衝浪，所以不怕。
 
 ### 下載
