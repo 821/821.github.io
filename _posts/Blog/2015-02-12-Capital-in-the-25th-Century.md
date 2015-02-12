@@ -1,6 +1,6 @@
 ---
 title: 25 世紀資本論
-layout: horizontal
+layout: math
 tags:
 - 亂彈
 categories: 網誌
