@@ -25,6 +25,7 @@ Pro JavaScript Techniques (精通JavaScript) 完全不是人話，看不懂。
 ppk on JavaScript (ppk談JavaScript) 人話多一些，但也不能拿來入門呀。
 Accelerated DOM Scripting with Ajax, APIs, and Libraries (JavaScript捷径教程) 也屬於提高類，不過寫得還挺系統。
 Dynamic HTML: The Definitive Reference (Dynamic HTML权威指南) 從 DHTML 高度來講，不過也是太厚了，而且 JavaScript 的部分不夠多。
+Maintainable JavaScript (编写可维护的JavaScript) 作爲一本中級書籍，他是不錯的。
 
 好了，最常見的書都被我噴完了，那要怎麼快速入門？
 答案是，結合各種書籍、敎程，取長補短。
