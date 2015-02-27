@@ -25,8 +25,7 @@ re 正則表達式
 threading 多線程
 
 如果想知道自己引用的模塊有什麼命令，可以使用類似這樣的命令：
-{% highlight python %}print(dir(xlib))
-"many words"{% endhighlight %}
+{% highlight python %}print(dir(xlib)){% endhighlight %}
 由於絕大多數敎程都會把這一節放到書末且往往不得要領（比如大篇幅討論如何寫模塊，卻不告訴讀者早就有很多無比好用的模塊，簡直本末倒置），導致學習者讀到之前就失去耐心，卽使讀到也不知道是幹嘛用的，本文特地放到前面來。
 
 ### 讀文檔
@@ -41,10 +40,11 @@ Python 有 2 和 3 ，官方力推 3 ，但是可能改動太大還是怎麼了�
 用 3 有個福利，那就是對 unicode 的處理好。所以我還用 3 。
 
 ## 安裝與使用
-第一步，下載，安上。
-第二步，設置好環境變量。
+第一步：下載，安上。
+第二步：設置好環境變量（可能自動就設好了，免去這一步）。
 現在可以雙擊運行 .py 腳本了，但是如果有 bug 會閃退，怎麼辦呢？很簡單，在命令行打形如 python yourscript.py 的一串就行。
 也許還有第三步：裝模塊。有的模塊需要到官網下載，更多的常用模塊是 cmd 或 bash 跑一下 pip install blablabla 或 easy_install blablabla 就行了。
+第三步 pip 不成功的話，走第四步： http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 ## 基本要求與命令
 
