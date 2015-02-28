@@ -133,10 +133,9 @@ Linux 方案及點評：該有的 Linux 都有，選擇還更廣，體驗高於 
 理想： 插件多，速度快，其他和 K-Meleon 一樣。
 
 ### 科學衝浪
-→<a href="http://hostsman.abelhadigital.com/" rel="external">HostsMan</a> 幫助更新 hosts 文件。
-→<a href="http://code.google.com/p/goagent/" rel="external">GoAgent</a>
 →<a href="https://github.com/shadowsocks/shadowsocks-csharp" rel="external">ShadowSocks</a>
-關注： <a href="https://code.google.com/p/snova/" rel="external">Snova</a>, 
+→<a href="http://code.google.com/p/goagent/" rel="external">GoAgent</a>
+關注： <a href="https://code.google.com/p/snova/" rel="external">Snova</a>
 Linux 方案及點評：程序員也要科學衝浪，所以不怕。
 
 ### 下載
@@ -230,7 +229,7 @@ $Diskeeper: 快得讓人驚喜的磁盤碎片整理工具。
 $<a href="http://forum.portableappc.com/viewtopic.php?f=4&# 038;t=99" rel="external">Partition Magic</a> 偶爾用來分區。
 
 ### 光碟
-ONES: 小巧的刻錄軟件，何必 Nero 呢。
+ONES: 小巧的刻錄軟件，何必 Nero 呢。不過現在也不大刻了。
 $UltraISO 掛載、製作和修改虚拟光碟。
 關注： <a href="http://portableapps.com/apps/utilities/infrarecorder_portable" rel="external">InfraRecorder</a>, <a href="http://www.imgburn.com/" rel="external">ImgBurn</a>
 Linux 方案及點評： <a href="http://www.littlesvr.ca/isomaster/" rel="external">ISO Master</a>
@@ -244,8 +243,9 @@ Linux 方案及點評：看片用 VLC/MPlayer ，聽歌沒有好工具。 Linux 
 理想：歌曲如舊版 TTPlayer 即可，如果能擴展到視頻更佳。很少聽歌看電影，動畫都改看漫畫了，所以這類軟件不重要，不打算折騰。
 
 ### 其他
+→<a href="https://www.python.org/" rel="external">Python 3</a> 編點小玩意用，主要爲了讀秀。配合 AHK 或 CLaunch 都是極好的。
 →<a href="http://homepage1.nifty.com/kazubon/tclocklight/index.html" rel="external">Tclock</a> 好用的免費鬧鐘軟件。
-→$<a href="http://ishare.iask.sina.com.cn/f/7852628.html" rel="external">變速齒輪</a> 曹操傳必備。
+→$變速齒輪 曹操傳必備。
 →<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLaunch</a> 日系快速啟動類軟件，同類軟件我都懶得試了阿魯。
 程序多開器 對於某些不支持多開的軟件，這玩意能起到比較好的效果。
 Enigma Virtual Box 一個把綠色軟件打包成單文件軟件的東西。
@@ -333,10 +333,3 @@ Windows 下軟件很安逸， Linux 下較折騰。如果喜歡嘗試某些開�
 <a href="http://en.wikipedia.org/wiki/Comparison_of_spreadsheets" rel="external">Spreadsheets (comparison)</a>
 <a href="http://en.wikipedia.org/wiki/Comparison_of_video_player_software" rel="external">Video (comparison)</a>
 <a href="http://en.wikipedia.org/wiki/Comparison_of_audio_player_software" rel="external">Audio (comparison)</a>
-
-### 福利院
-@maricopa.edu 網上一大堆教程。有了這貨，你可以免費用半年 Office 365 ，免費用 Windows Sever ，享受各種教育半價優惠。
-http://mail.australia.edu/userhome/login/ 一個人工審核的 edu 郵箱。
-http://webmail.edu.ms/ 又一個免費 edu 。
-@californiacolleges.edu 再來一個
-@student.bfcc.edu 一個社區大學的
