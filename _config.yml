@@ -8,7 +8,7 @@ collections:
     output: true
     permalink: /:path/
 
-permalink: /:title
+permalink: /:title/
 post_defaults:
   layout: post
 highlighter: pygments
