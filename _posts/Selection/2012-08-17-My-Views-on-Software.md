@@ -127,6 +127,7 @@ Linux 方案及點評：同步盤不受影響，百度網盤有人用 Python 2.7
 iMacros 顧名思義，宏。
 cliget 一鍵獲得帶 cookie 、 user agent 等參數的 wget 或 curl 命令。
 Firebug 做、改網站的時候會用到，但最近不怎麼需要了。
+Live HTTP Headers 在 Chrome 抓 POST GET 信息。
 Vimium 在瀏覽器用 vi 命令，不是太好用。
 關注： <a href="http://portableapps.com/apps/internet/opera_portable" rel="external">Opera</a>
 Linux 方案及點評：該有的 Linux 都有，選擇還更廣，體驗高於 Windows 。
@@ -141,13 +142,13 @@ Linux 方案及點評：程序員也要科學衝浪，所以不怕。
 ### 下載
 →☭<a href="http://www.zdfans.com/502.html" rel="external">QQ 旋風</a> 免費離綫下載，不能下違法文件哦。
 FlashGet 1.7.3 是的，就是這個版本。
+→<a href="http://pycurl.sourceforge.net/" rel="external">PycURL</a> 雖然僅僅是 Python 的一個模塊，卻爲我下載了大量文件。
 Linux 方案及點評：網頁版+瀏覽器插件+wget/curl ，體驗略低於 Windows ，但 FTP 和 SFTP 及衍生物會更好。
 理想： QQ 旋風支持自定義下載批量文件和改鏈接續傳。
 
 ### 通訊
 →☭<a href="http://www.portableappc.com/internet/tencent-tm-portable/" rel="external">TM2009</a> 騰訊你夠了，一個聊天軟件用不用做這麼肥？
 →☭阿里旺旺 沒辦法不用，但使用頻率可想而知。
-<a href="http://portableapps.com/apps/internet/skype_portable" rel="external">Skype</a> 最好的網絡通話。
 <a href="https://www.10086china.com/" rel="external">說吧</a> 電腦打給手機。
 Linux 方案及點評： Skype+Pidgin ，體驗不好，兼容較差， QQ 部分功能缺失。
 理想： Skype 支持 QQ 和旺旺協議。
@@ -175,9 +176,9 @@ Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor/EverEdit 是�
 
 ### 語言相關
 →<a href="http://code.google.com/p/rimeime" rel="external">Rime</a> 原生支持繁體雙拼的開源輸入法平臺。該軟件問題很多，所以祗好自己寫碼表，自己鼓搗詞庫、詞頻。
-<a href="http://ntu.csie.org/~piaip/index.html" rel="external">pAppLocale</a> 打繁體遊戲專用。
+<a href="http://ntu.csie.org/~piaip/index.html" rel="external">pAppLocale</a> 打 Big5 遊戲專用。
 ☭<a href="http://www.china-language.gov.cn/tools/MyZiCiFreq.rar" rel="external">MyZiCiFreq</a> 字頻統計工具，官網竟然是個帶 gov.cn 的。
-→<a href="http://ishare.iask.sina.com.cn/f/7852836.html" rel="external">Convertz</a> 最好的繁簡切換器。 Open-CC 雖可更準確，功能很弱。
+→Convertz 最好的繁簡切換器。 Open-CC 雖可更準確，功能很弱。
 關注： <a href="http://cle.linux.org.tw/trac" rel="external">gcin</a>
 Linux 方案及點評： Rime/ibus-pinyin/gcin/scim/hime/fcitx 。繁體輸入還好，但按鍵等方面會不舒服，由於輸入法差一點會差很多，所以體驗還是差。其他小工具還是 Windows 的較好。 Convertz 的話， OpenCC 可以替代一部分，但 Convertz 最爽的功能是批量重命名，似乎沒有很好的工具。
 理想： Rime 繼承 QQ 拼音所有功能。
