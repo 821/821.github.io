@@ -219,7 +219,7 @@ def dxDown(url, fullpath):
 {% endhighlight %}
 
 ## 延伸學習
-<a href="http://www.amazon.com/Python-Essential-Reference-4th-Edition/dp/0672329786" rel="external">Python Essential Reference</a>一個較全面且不囉嗦的敎材。
+<a href="http://www.amazon.com/Python-Essential-Reference-4th-Edition/dp/0672329786" rel="external">Python Essential Reference</a> 一個較全面且不囉嗦的敎材，進階用爲主。
 <a href="http://www.amazon.com/Python-Standard-Library-Example-Developers/dp/0321767349" rel="external">The Python Standard Library by Example</a> 標準庫能讀完，也算民間高手了。
 <a href="https://docs.python.org/2.7/tutorial/index.html" rel="external">官方 Tutorial</a>，<a href="http://www.pythondoc.com/pythontutorial27/index.html" rel="external">中文版</a>
 <a href="http://woodpecker.org.cn/abyteofpython_cn/chinese/" rel="external">简明 Python 教程</a> 可以作爲簡易快速的備查。
