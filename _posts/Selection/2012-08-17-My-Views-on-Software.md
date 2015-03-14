@@ -252,10 +252,9 @@ My Calc 高級計算器。
 
 ### 其他
 →<a href="https://www.python.org/" rel="external">Python 3</a> 編點小玩意用，主要爲了讀秀。配合 AHK 或 CLaunch 都是極好的。
-→<a href="http://homepage1.nifty.com/kazubon/tclocklight/index.html" rel="external">Tclock</a> 好用的免費鬧鐘軟件。
+<a href="http://homepage1.nifty.com/kazubon/tclocklight/index.html" rel="external">Tclock</a> 好用的免費鬧鐘軟件。
 →$變速齒輪 曹操傳必備。
 →<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLaunch</a> 日系快速啟動類軟件，同類軟件我都懶得試了阿魯。
-程序多開器 對於某些不支持多開的軟件，這玩意能起到比較好的效果。
 Enigma Virtual Box 一個把綠色軟件打包成單文件軟件的東西。
 →<a href="http://keepass.info/" rel="external">KeePass</a> 最初用 LastPass ，但想自己管理，就用 KeePass 。 KeePass 在瀏覽器上各種不敏，記錄密碼是根據 post 內容，有時會記成加密後的，就用了 1Password 。然而 1Password 太貴且反盜版太厲害，還是回來了。還試過 RoboForm ，不習慣，用不下來。
 →<a href="http://freepiano.tiwb.com/" rel="external">FreePiano</a> 最好的免費鋼琴軟件。
