@@ -11,7 +11,7 @@ date: '2012/08/17 00:23:14'
 ---
 近來覺得自己的軟件觀受到懷疑，特此整理公示。（話說我發現我對自己觀念方面的東西特別有整理意識。大概是被思想家整慘了？哼哼，軟件使用思想能總結出一篇東西來，也算我的本事。）如果有參考價值，當然更好。
 
-## 戰略層面：軟件是服務我而非折磨我的。
+## 戰略層面：軟件是服務我而非折磨我的
 
 ### 不多折騰
 問題得不到解決纔嘗試新軟，熟悉軟件沒需要也不瞎玩。
@@ -111,15 +111,15 @@ date: '2012/08/17 00:23:14'
 <a href="https://cloud.mail.ru" rel="external">Cloud.mail.ru</a> 免費 100GB ，支持直鏈的同步盤。俄羅斯著名郵箱提供，僅有俄文版，不容易火。媽媽再也不擔心我被 Dropbox 和 Google Drive 噁心了。
 →<a href="https://spideroak.com/" rel="external">SpiderOak</a> 設置複雜，功能強大，全版本備份。對於重要且常更新的私密文件很有用。
 ☭<a href="http://www.kuaipan.cn/?channel=aoipf6" rel="external">金山快盤</a> 以前唯一的大容量網盤，存了很多書，但客戶端越做越差。尚未放棄的主因是有 Linux 版。
-☭<a href="https://weiyun.com" rel="external">微雲</a> 10TB 永久盤。單文件限制較蛋疼。
+☭<a href="https://weiyun.com" rel="external">微雲</a> 10TB 永久盤。單文件和流量限制較蛋疼。
 ☭<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=6054# p6054" rel="external">百度網盤</a> 速度快，資源多。客戶端也不錯。
 關注： <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>, <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a>, <a href="http://copy.com" rel="external">copy.com</a>, <a href="http://www.wuala.com" rel="external">Wuala</a>
 Linux 方案及點評：同步盤不受影響，百度網盤有人用 Python 2.7 做了 Linux 能用的客戶端，快盤本來就有，其餘沒辦法了。
 理想：支持同步和存儲式上傳，可選擇全版本保存，大容量，友好的轉存功能，其餘和 Wuala 一樣即可。
 
 ### 瀏覽器及插件
-→<a href="http://hi.baidu.com/jdchenjian/item/03236e0cfa3629f2a01034da" rel="external">Firefox</a> 插件多又好，無法割捨。
-→<a href="http://hi.baidu.com/jdchenjian/item/e04f06df3975724eddf9bedc" rel="external">Chrome</a> 用起來比較舒服，但 64 位版目前還不是很穩定。
+→<a href="http://code.taobao.org/p/MyFirefox/src/" rel="external">Firefox</a> 插件多又好，無法割捨。
+→<a href="http://code.taobao.org/p/mychrome/src/" rel="external">Chrome</a> 用起來比較舒服，但 64 位版目前還不是很穩定。
 <a href="http://kmeleon.sourceforge.net" rel="external">K-Meleon</a> 最清涼又輕量的瀏覽器，可惜停止開發了。
 →<a href="http://getfoxyproxy.org/" rel="external">Foxyproxy</a> 最強代理切換插件。
 →Greasemonkey/Tampermonkey 帶你進入腳本增強瀏覽器的世界。
@@ -141,15 +141,14 @@ Linux 方案及點評：程序員也要科學衝浪，所以不怕。
 
 ### 下載
 →☭<a href="http://www.zdfans.com/502.html" rel="external">QQ 旋風</a> 免費離綫下載，不能下違法文件哦。
-FlashGet 1.7.3 是的，就是這個版本。
+<a href="http://ugetdm.com/" rel="external">uGet</a> 支持命令行的 GUI 下載工具，且命令豐富。
 →<a href="http://pycurl.sourceforge.net/" rel="external">PycURL</a> 雖然僅僅是 Python 的一個模塊，卻爲我下載了大量文件。
 Linux 方案及點評：網頁版+瀏覽器插件+wget/curl ，體驗略低於 Windows ，但 FTP 和 SFTP 及衍生物會更好。
-理想： QQ 旋風支持自定義下載批量文件和改鏈接續傳。
+理想： QQ 旋風全面支持命令行和改鏈接續傳。
 
 ### 通訊
 →☭<a href="http://www.portableappc.com/internet/tencent-tm-portable/" rel="external">TM2009</a> 騰訊你夠了，一個聊天軟件用不用做這麼肥？
 →☭阿里旺旺 沒辦法不用，但使用頻率可想而知。
-<a href="https://www.10086china.com/" rel="external">說吧</a> 電腦打給手機。
 Linux 方案及點評： Skype+Pidgin ，體驗不好，兼容較差， QQ 部分功能缺失。
 理想： Skype 支持 QQ 和旺旺協議。
 
@@ -219,7 +218,7 @@ Linux 方案及點評： <a href="http://www.ironahk.net/" rel="external">IronAH
 →<a href="" rel="external">cmder</a> 套件，集成了 Git, curl, bash 等，還可以向 bin 文件夾添加 wget 之類的東西。雖然標榜便攜，不過實際用當然要加 path ，還有執行一下 Cmder.exe /REGISTER ALL 。
 Just Manager 快速而不失強大的 TotalCMD 替代品。
 →$Winrar 簡單好用，用戶習慣無敵。
-→Unlocker 刪掉被鎖住的文件。
+→Iobit Unlocker 刪掉被鎖住的文件。山寨了 Unlocker ，但更好用，而且支持 Windows 8.1 。
 Suction 合併文件夾。
 <a href="http://ipmsg.org/tools/fastcopy.html.en" rel="external">FastCopy</a> 最快的複製、移動軟件。
 Linux 方案及點評：命令行本身就能解決很多問題，配合 Free Commander 應該行了。
@@ -230,9 +229,8 @@ $Diskeeper: 快得讓人驚喜的磁盤碎片整理工具。
 $<a href="http://forum.portableappc.com/viewtopic.php?f=4&# 038;t=99" rel="external">Partition Magic</a> 偶爾用來分區。
 
 ### 光碟
-ONES: 小巧的刻錄軟件，何必 Nero 呢。不過現在也不大刻了。
 $UltraISO 掛載、製作和修改虚拟光碟。
-關注： <a href="http://portableapps.com/apps/utilities/infrarecorder_portable" rel="external">InfraRecorder</a>, <a href="http://www.imgburn.com/" rel="external">ImgBurn</a>
+關注： <a href="http://portableapps.com/apps/utilities/infrarecorder_portable" rel="external">InfraRecorder</a>
 Linux 方案及點評： <a href="http://www.littlesvr.ca/isomaster/" rel="external">ISO Master</a>
 
 ### 影音
@@ -242,6 +240,15 @@ Linux 方案及點評： <a href="http://www.littlesvr.ca/isomaster/" rel="exter
 關注： <a href="http://www.videolan.org/vlc/" rel="external">VLC</a>, <a href="http://sourceforge.net/projects/guliverkli/">Media Player Classic</a>, <a href="http://aimp.ru" rel="external">AIMP</a>, Foobar2000
 Linux 方案及點評：看片用 VLC/MPlayer ，聽歌沒有好工具。 Linux 娛樂還是差。
 理想：歌曲如舊版 TTPlayer 即可，如果能擴展到視頻更佳。很少聽歌看電影，動畫都改看漫畫了，所以這類軟件不重要，不打算折騰。
+
+### 安卓手機
+→MDict 手機查字典時，我衹隨便查個漢語大詞典，這個夠用。
+→ShadowSocks 必須的。
+→我查查 娛樂軟件。
+TotalCommander 不熟悉手機的文件夾系統，隨手下了個用。
+My Calc 高級計算器。
+觸寶電話 有免費的幹嘛不用？
+我用安卓手機完全是親戚非要我用微信，還專門送了我一個……
 
 ### 其他
 →<a href="https://www.python.org/" rel="external">Python 3</a> 編點小玩意用，主要爲了讀秀。配合 AHK 或 CLaunch 都是極好的。
