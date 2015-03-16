@@ -169,7 +169,7 @@ HEAD~n HEAD 的上 n-1 次提交，或叫倒數第 n 次提交
 COMMIT_EDITMSG 最後一次提交的提交信息
 
 #### 資料
-收集一些寫得比較好的，和 Git 有關的文章。  
+收集一些寫得比較好的，和 Git 有關的文章。
 <a href="http://git-scm.com/book" rel="external">Git Book</a> 官方書，但很多東西都沒寫。
 <a href="http://gitready.com/" rel="external">git ready</a> 一份詳細敎程。
 <a href="https://www.kernel.org/pub/software/scm/git/docs/user-manual.html" rel="external">Git User’s Manual</a> 詳細得讓人不想看，推送失敗怎麼辦之類的細節都有介紹。
@@ -179,3 +179,17 @@ COMMIT_EDITMSG 最後一次提交的提交信息
 <a href="http://blog.yorkxin.org/posts/2011/07/29/git-rebase" rel="external">Git-rebase 小筆記</a>
 <a href="http://www.ruanyifeng.com/blog/2014/06/git_remote.html" rel="external">Git远程操作详解</a>
 <a href="http://www.worldhello.net/gotgithub/index.html" rel="external">GotGitHub</a>
+
+## GitHub
+
+#### 半公開
+總有些東西，可公開又不希望太多人看到，尤其不希望別人用 Google 之類綜合搜索引擎找到。怎麼辦？
+首先可以用 Gist 。 Gist 雖然是 Git 管理的，但版本顯示、目錄等方面不如正常 repo 。
+其次是 private repo 。不過 GitHub 的 private repo 要錢，但我又想把代碼放在 GitHub ，好統一管理。
+於是觀察 <a href="https://github.com/robots.txt" rel="external">GitHub robots</a> ，發現其實每個 repo 衹有 master 會收錄，其餘是禁止蜘蛛的。那麼，對於可公開又不願大面積分享的內容，可以通過建立其他分支的方式上傳。比如建立一個叫 main 的分支：
+{% highlight git %}git checkout -b main
+git push -u origin main{% endhighlight %}
+在 repo 的 setting 可以把 main 指定爲 default branch 。以後每次進 repo 都會默認看到 main ——不過這樣代碼會曝露在 GitHub 本身的搜索引擎下，所以不設也罷。
+甚至可以刪掉 master ：
+{% highlight git %}git branch -d master
+git push origin :master{% endhighlight %}
