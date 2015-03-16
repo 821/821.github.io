@@ -114,7 +114,8 @@ git diff HEAD 本地倉庫和工作文件的差異
 git diff \[source branch\] \[target branch\] 比對分支差異
 
 #### checkout 調出
-直接從本地倉庫調出文件，覆蓋到工作文件。是個頗有風險的命令。
+直接從本地倉庫調出文件，覆蓋到工作文件。是個頗有風險的命令。分支不存在時新建一個。
+git checkout -b \[branch name\]
 
 #### branch 分支簡單操作
 git branch \[branch\] \[branch name\] 建立分支
@@ -186,12 +187,5 @@ COMMIT_EDITMSG 最後一次提交的提交信息
 總有些東西，可公開又不希望太多人看到，尤其不希望別人用 Google 之類綜合搜索引擎找到。怎麼辦？
 首先可以用 Gist 。 Gist 雖然是 Git 管理的，但版本顯示、目錄等方面不如正常 repo 。
 其次是 private repo 。不過 GitHub 的 private repo 要錢，但我又想把代碼放在 GitHub ，好統一管理。
-於是觀察 <a href="https://github.com/robots.txt" rel="external">GitHub robots</a> ，發現其實每個 repo 衹有 master 會收錄，其餘是禁止蜘蛛的。那麼，對於可公開又不願大面積分享的內容，可以通過建立其他分支的方式上傳。比如建立一個叫 main 的分支：
-{% highlight git %}git checkout -b main
-git push -u origin main
-{% endhighlight %}
+於是觀察 <a href="https://github.com/robots.txt" rel="external">GitHub robots</a> ，發現其實每個 repo 衹有 master 會收錄，其餘是禁止蜘蛛的。那麼，對於可公開又不願大面積分享的內容，可以通過建立其他分支的方式上傳。
 在 repo 的 setting 可以把 main 指定爲 default branch 。以後每次進 repo 都會默認看到 main ——不過這樣代碼會曝露在 GitHub 本身的搜索引擎下，所以不設也罷。
-甚至可以刪掉 master ：
-{% highlight git %}git branch -d master
-git push origin :master
-{% endhighlight %}
