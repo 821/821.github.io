@@ -12,7 +12,7 @@ body{font:24px SonyReader Ming,serif;line-height:1.3em;color:#fff;background:#00
 ::selection{color:#F2F5A9;background:#004040;}
 a{color:#9f9;text-decoration:none;}
 a:hover{color:#1f75cc;}
-p{margin:0 0 0.5em;text-indent:0;}
+p{margin:0 0 0.3em;text-indent:0;}
 br{margin:0 0 0.2em;}
 h1{font-size:1.6em;line-height:1em;}h2{font-size:1.5em;}h3{font-size:1.4em;}h4{font-size:1.3em;}h5{font-size:1.2em;}
 h2,h3,h4,h5{padding:0.5em 0 0.2em 0;}
