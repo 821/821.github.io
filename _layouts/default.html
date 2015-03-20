@@ -3,6 +3,18 @@
 	<head>
 		<meta charset='utf-8'>
 		<title>{{ page.title }}</title>
+		<script type="text/javascript">
+			function externalLinks() {
+				if (!document.getElementsByTagName) return;
+				var anchors = document.getElementsByTagName("a");
+				for (var i=0; i<ANCHORS.LENGTH; i++) {
+					var anchor = anchors;
+					if (anchor.getAttribute("href") &&
+					anchor.getAttribute("rel") == "external")
+						anchor.target = "_blank";
+				}
+			}
+		</script>
 		<link rel="icon" href="{{ site.url }}/Assets/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="{{ site.url }}/Assets/favicon.ico" type="image/x-icon" />
 		<link rel="Bookmark" href="{{ site.url }}/Assets/favicon.ico">
