@@ -3,9 +3,10 @@ layout: indexed
 title: Python 半小時上手
 date: '2014/08/08'
 ---
-Python 隨便學學就能用來解決很多小問題，比所謂最易學的「易語言」容易多了。很多時候，與其找一堆亂七八糟工具，不如動動手，寫一段十來行的腳本，效果反而更好，還能預防老年癡獃。
-Python 的好處極多，對一般用戶來說最明顯的兩點是腳本運行和環境簡單。 Python 寫出來的小玩意不需要編譯就能直接使用，不像 C, VB 等需要編譯。其次是 Python 是跨平臺的，集成在不少系統裏，沒有集成的系統也衹需要下載一個很小的安裝包，很多模塊也可通過 pip 等手段快速獲得。
-如果學時超過五小時還不能寫點實用小腳本，則必是以下幾種可能：
+Python 隨便學學就能解決很多小問題，是最易學習的編程語言之一。同樣一個問題，找 C 可能要寫 100 行代碼，但 Python 寫 20 行就夠了。 C 的那 100 行可能包含了 100 個知識點，而 Python 就是 20 個。
+ Python 好處極多，對一般用戶來說最明顯的是腳本運行和環境簡單。 Python 腳本可以直接使用，不像 C, VB 等需要編譯。 Python 是跨平臺的，集成在不少系統裏，沒集成的系統也衹需要下載很小的安裝包，模塊也可通過 pip 等手段快速獲得。
+
+學習 Python ，如果學時超過五小時還不能寫點實用小腳本，則必是以下幾種可能：
 一、跟電腦、編程八字不合或幾乎沒摸過電腦。
 二、智力發育不全、受敎育程度低或年過古稀。
 三、所讀敎程太專業或重點不淸。
@@ -15,12 +16,12 @@ Python 的好處極多，對一般用戶來說最明顯的兩點是腳本運行�
 ## 正確的學習方法
 
 ### 有問題找模塊
-江靑死了找不到，那就找模塊。模塊就像操作系統上的插件，需要就用。而 Python 正好模塊挺多，所以就像操作系統裏的 Windows 一樣，很容易找到解決方案。
+模塊就像軟件，需要就裝。 Python 模塊多，所以就像操作系統裏的 Windows 一樣，很容易找到解決方案。
 對一般人而言，記住這點， Python 就學會了一半。很多問題坐在那裏用基本命令想會想死的，有問題搜一下看哪個模塊能解決。比如下載，用基本命令搞死人，用模塊 urllib 馬上好。
 模塊的用法也很簡單，下載，解壓，放在 Lib 目錄，然後在腳本的開頭寫形如 import xlib 的，就行了。多個模塊用 , 分隔或寫多行 import xlib 。
 我的常用模塊：
 os, shutil 和 glob 處理文件與文件夾
-requests, urllib/urllib.request 和 httplib/http.client, <a href="http://pycurl.sourceforge.net/" rel="external">PycURL</a> 網頁訪問與下載
+urllib, httplib, <a href="http://pycurl.sourceforge.net/" rel="external">PycURL</a> 網頁訪問與下載
 re 正則表達式
 threading 多線程
 
@@ -36,8 +37,7 @@ threading 多線程
 使用時記住：反正 Python 是很強大的，無所不能的，遊戲 Civilization IV 和網盤 Dropbox 就是 Python 寫的，做不到說明自己水平不到而已。
 
 ### 搞淸版本
-Python 有 2 和 3 ，官方力推 3 ，但是可能改動太大還是怎麼了，反正遇到了很大的阻力，所以現在二者並存。 3 的命令格式更嚴格、規範一點， 2 比較鬆散。網上很多討論以及第三方模塊都是基於 2 的，不一定能直接使用。
-用 3 有個福利，那就是對 unicode 的處理好。所以我還用 3 。
+Python 有 2 和 3 ，官方力推 3 ，但是可能改動太大還是怎麼了，反正遇到了很大的阻力，所以現在二者並存。 3 的命令格式更嚴格、規範一點， 2 比較鬆散。網上很多討論以及第三方模塊都是基於 2 的，不一定能直接使用。用 3 有個福利，那就是對 unicode 的處理好。所以試了一段時間後，我決定用 3 。
 
 ## 安裝與使用
 第一步：下載，安上。
@@ -111,14 +111,14 @@ float(var) # 轉成浮點數
 str(var) # 轉成字符串{% endhighlight %}
 還有很多，記住這三個基本夠用了。
 
-#### 裁剪
+#### 切片
 {% highlight python %}str[m:n] # str 的第 m+1 到第 n 個字符
 str[m:] # str 的第 m+1 及以後的字符
 str[:n] # str 的第 1 到第 n 個字符
 list[m:n] # list 的第 m+1 到第 n 個元素，參照字符串的情況{% endhighlight %}
 
-#### 字符串類變量的一些處理
-可以先定義字符串，然後用形如 str.find("some") 的命令，也可以直接對字符串作用
+#### 字符串類變量的一些簡單處理
+可以先定義字符串，然後用形如 str1.find("some") 的命令，也可以直接對字符串作用
 {% highlight python %}"some texts".find("some") # 查找，會返回位置，比如這裏會返回 0 ，如果找不到就返回 -1
 "some texts".replase("some","no") # 替換{% endhighlight %}
 還有其他處理如 join, split, lower, translate, strip，這裏不討論。
@@ -173,7 +173,8 @@ for 循環也可以像 if 那樣嵌套起來。比如這個腳本，是列出所
 for year in range(1935,1985):
 	for month in range(1,13):
 		i=str(year)+str(month).zfill(2)
-		print >>f,i{% endhighlight %}
+		print >>f,i
+{% endhighlight %}
 
 ### break
 用於提前跳出循環，通常是一個循環裏面套了個 if ，滿足條件了就跳出來。
@@ -218,12 +219,16 @@ def dxDown(url, fullpath):
 		os.remove(fullpath) # 那就刪掉咯
 {% endhighlight %}
 
-## 延伸學習
+## 書籍
+<a href="http://www.amazon.com/Beginning-Python-From-Novice-Professional/dp/159059519X" rel="external">Beginning Python: from Novice to Professional</a> 本文沒有覆蓋的基礎內容。
 <a href="http://www.amazon.com/Python-Essential-Reference-4th-Edition/dp/0672329786" rel="external">Python Essential Reference</a> 一個較全面且不囉嗦的敎材，進階用爲主。
+<a href="http://shop.oreilly.com/product/0636920028154.do" rel="external">Learning Python</a> 囉嗦的來了。
 <a href="http://www.amazon.com/Python-Standard-Library-Example-Developers/dp/0321767349" rel="external">The Python Standard Library by Example</a> 標準庫能讀完，也算民間高手了。
-<a href="https://docs.python.org/2.7/tutorial/index.html" rel="external">官方 Tutorial</a>，<a href="http://www.pythondoc.com/pythontutorial27/index.html" rel="external">中文版</a>
+<a href="http://www.amazon.com/Python-Practice-Concurrency-Libraries-Developers/dp/0321905636" rel="external">Python in Practice: Create Better Programs Using Concurrency, Libraries, and Patterns</a> 進階書，用得到的話可以看。
+
+## 網頁
+<a href="https://docs.python.org/3/tutorial/" rel="external">官方 Tutorial</a>，<a href="http://www.pythondoc.com/pythontutorial3/index.html" rel="external">中文版</a>
 <a href="http://woodpecker.org.cn/abyteofpython_cn/chinese/" rel="external">简明 Python 教程</a> 可以作爲簡易快速的備查。
-<a href="http://shop.oreilly.com/product/0636920028154.do" rel="external">Learning Python</a> 本文講得不詳細的地方找這本書就對了。
-<a href="http://shop.oreilly.com/product/0636920027072.do" rel="external">Python Cookbook</a> 惡俗一點的說，就是 Python 實戰寶典。這本和上一本都有中文版，網上很多，隨便下載。
-<a href="http://diveintopython.org/" rel="external">Dive into Python</a> 雖然有點舊，不過確實比較深入，再用比較惡俗的說法，叫 Python 高級敎程。
-<a href="www.codecademy.com/glossary/python" rel="external">Codecademy</a> 可以叫 Python 習題集吧，解答在 Google 。
+<a href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000" rel="external">Python 教程</a>
+<a href="http://diveintopython.org/" rel="external">Dive into Python</a> 有點舊，不過確實較深入。
+<a href="www.codecademy.com/glossary/python" rel="external">Codecademy</a> Python 習題，容易得有回到幼兒園的感覺。
