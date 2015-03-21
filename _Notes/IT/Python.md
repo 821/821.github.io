@@ -21,7 +21,7 @@ Python 隨便學學就能解決很多小問題，是最易學習的編程語言�
 模塊的用法也很簡單，下載，解壓，放在 Lib 目錄，然後在腳本的開頭寫形如 import xlib 的，就行了。多個模塊用 , 分隔或寫多行 import xlib 。
 我的常用模塊：
 os, shutil 和 glob 處理文件與文件夾
-urllib, httplib, <a href="http://pycurl.sourceforge.net/" rel="external">PycURL</a> 網頁訪問與下載
+requests, urllib, httplib, <a href="http://pycurl.sourceforge.net/" rel="external">PycURL</a> 網頁訪問與下載
 re 正則表達式
 threading 多線程
 
