@@ -1,7 +1,7 @@
 collections:
   Notes:
     output: true
-    permalink: /:path/
+    permalink: /:name/
   blq:
     output: true
   Projects:
