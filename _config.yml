@@ -4,6 +4,7 @@ collections:
     permalink: /:name/
   blq:
     output: true
+    permalink: /:name/
   Projects:
     output: true
     permalink: /:name/
