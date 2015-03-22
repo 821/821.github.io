@@ -3,11 +3,13 @@ layout: indexed
 title: Jekyll 常用知識合集
 ---
 ## Jekyll
-<a href="http://jekyllrb.com/docs/home/" rel="external">官方文檔</a>及其<a href="http://jekyllcn.com/docs/home/" rel="external">中文翻譯</a>其實解決了絕大多數用戶對於 Jekyll 本身的疑問。但有些問題他的索引不是直觀，幫他索引一下。  
-<a href="http://jekyllrb.com/docs/configuration/#markdown-options" rel="external">Markdown 詳細設置</a>  
-<a href="http://jekyllrb.com/docs/templates/#code-snippet-highlighting" rel="external">代碼高亮</a>  
-<a href="http://jekyllrb.com/docs/templates/#post-url" rel="external">文章鏈接</a>  
-<a href="http://jekyllrb.com/docs/templates/#gist" rel="external">插入 Gist</a>  
+<a href="http://jekyllrb.com/docs/home/" rel="external">官方文檔</a>及其<a href="http://jekyllcn.com/docs/home/" rel="external">中文翻譯</a>其實解決了絕大多數用戶對於 Jekyll 本身的疑問。但有些問題他的索引不是直觀，幫他索引一下。
+<a href="http://jekyllrb.com/docs/configuration/#markdown-options" rel="external">Markdown 詳細設置</a>
+<a href="http://jekyllrb.com/docs/templates/#code-snippet-highlighting" rel="external">代碼高亮</a>
+<a href="http://jekyllrb.com/docs/templates/#post-url" rel="external">文章鏈接</a>
+<a href="http://jekyllrb.com/docs/templates/#gist" rel="external">插入 Gist</a>
+#### Permalinks 總結
+Jekyll 中有三種文件大量涉及 permalinks 的問題。首先是 posts ，這在 _config.yml 裏寫一句形如 permalink: /:title/ 的就行了，在每個文件裏寫也行。對於 collections ，在需要在對應的 collection 裏寫這句話。到了 pages 裏，索性不能總結性的寫了，衹能在每個 page 文件裏寫。
 
 ## Markdown
 Jekyll 支持使用人性化一些的 <a href="https://help.github.com/articles/github-flavored-markdown/" rel="external">GitHub Flavored Markdown</a> (GFM) 。其餘看官方就好：<a href="http://daringfireball.net/projects/markdown/syntax" rel="external">官方版</a>，<a href="http://markdown.tw/" rel="external">繁體版</a>，<a href="http://wowubuntu.com/markdown/" rel="external">簡化字版</a>。
