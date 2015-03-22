@@ -10,19 +10,20 @@ Python 隨便學學就能解決很多小問題，是最易學習的編程語言�
 一、跟電腦、編程八字不合或幾乎沒摸過電腦。
 二、智力發育不全、受敎育程度低或年過古稀。
 三、所讀敎程太專業或重點不淸。
-其中第三點的可能性最高，因爲前二者多半不會想學 Python ，或者乾脆不知道這是什麼玩意。其實五小時就已經是很長很長的時間，因爲正常人一天能高度集中精力的時間也就五小時左右，再多就容易精神渙散，衹能做複習、用舊貨之類相對輕鬆的活動。很多敎程容易陷入學術化的泥沼裏，忘記了其實用本質。這就像本來衹想敎別人如何計算圓的面積，結果一不小心把整個平面幾何和微積分全部講完。
-本文的目標是掛一漏萬、避難趨易，讓讀者自己提綱挈領、綱舉目張。多數人應能半小時內讀完並對大部分內容有印象，而且這些內容「剛好」是最重要的。
+其中第三點的可能性最高，因爲前二者多半不會想學 Python ，或者乾脆不知道這是什麼玩意。其實五小時就已經是很長很長的時間，因爲正常人一天能高度集中精力的時間也就五小時左右，再多就容易精神渙散，衹能做複習、用舊貨之類相對輕鬆的活動。很多敎程容易陷入學術化的泥沼裏，忘記了其實用本質。這就像本來衹想敎別人如何計算圓的面積，結果一不小心把整個平面幾何和微積分全部講完，而讀者在學到三角函數的時候已經決定放棄了。
+
+本文的目標是掛一漏萬、避難趨易，讓讀者自己提綱挈領、綱舉目張。多數人應能半小時內讀完並對大部分內容有印象，而且這些內容「剛好」是最重要的——至少我自己用到過，所以覺得重要。
 
 ## 正確的學習方法
 
 ### 有問題找模塊
-模塊就像軟件，需要就裝。 Python 模塊多，所以就像操作系統裏的 Windows 一樣，很容易找到解決方案。
-對一般人而言，記住這點， Python 就學會了一半。很多問題坐在那裏用基本命令想會想死的，有問題搜一下看哪個模塊能解決。比如下載，用基本命令搞死人，用模塊 urllib 馬上好。
-模塊的用法也很簡單，下載，解壓，放在 Lib 目錄，然後在腳本的開頭寫形如 import xlib 的，就行了。多個模塊用 , 分隔或寫多行 import xlib 。
+模塊之於編程語言，就像軟件之於操作系統，需要就裝。在操作系統裏，想下載就裝個下載軟件，想 P 圖就裝個 PS ，編程也是如此。記住這點，至少 Python 這門特別容易的語言就入門了一半。很多問題坐在那裏用基本命令想會想死的，但有了模塊就立馬解決。
+模塊的用法也很簡單，下載，解壓，放在 Lib 目錄，然後在腳本的開頭寫形如 import xlib 的就行了。有的大型模塊需要專門安裝，這些文檔裏都會有。多個模塊用 , 分隔或寫多行 import xlib 。
 我的常用模塊：
-os, shutil 和 glob 處理文件與文件夾
-requests, urllib, httplib, <a href="http://pycurl.sourceforge.net/" rel="external">PycURL</a> 網頁訪問與下載
+os, shutil 處理文件與文件夾
+requests 網頁訪問與下載
 re 正則表達式
+sys 與 bat 對接
 threading 多線程
 
 如果想知道自己引用的模塊有什麼命令，可以使用類似這樣的命令：
@@ -193,31 +194,6 @@ for year in range(1935,1985):
 FunctionName(independent parameters){% endhighlight %}
 回想一下初中代數，什麼是函數。其實這個寫法就相當說定義一個函數比如 f(x,y,z)= 什麼什麼。等到要用這個函數的時候，再塡寫一下具體的 x,y,z 就行了，當然塡寫 parameters 的時候可以用變量，可以放進循環裏寫， blablabla ，反正到處用。定義的使用沒有 parameter 也可以，但這樣使用的時候也沒有。
 其實所有命令都可以看作是函數。
-
-## Cheat Examples
-我不喜歡 cheatsheets ，脫離上下文的代碼經常讓人看不懂。所以我寫 cheat examples 。
-### PycURL
-一個簡單的下載函數。
-{% highlight python linenos %}
-import os, pycurl
-def dxDown(url, fullpath):
-	c=pycurl.Curl() # 縮寫一下
-	c.setopt(pycurl.PROXY, "127.0.0.1:1080") # 掛代理
-	c.setopt(pycurl.PROXYUSERPWD, "name:pass") # 代理的用戶名密碼
-	c.setopt(c.FOLLOWLOCATION, True) # 允許重定向
-	c.setopt(pycurl.TIMEOUT, 5000) # 超時設定
-	c.setopt(pycurl.USERAGENT, b"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)") # 模擬瀏覽器
-	c.setopt(pycurl.URL, url) # 訪問指定網址
-	c.setopt(pycurl.COOKIEJAR, 'cookie.txt') # 把 cookie 存到文件
-	c.setopt(pycurl.COOKIEFILE, "cookie.txt") # 用文件掛 cookie
-	f = open(fullpath, 'wb') # 定義一個文件
-	c.setopt(c.WRITEDATA, f) # 指定返回信息的寫入文件，或作 c.setopt(c.WRITEFUNCTION, f.write)
-	c.perform() # 獲得服務器返回信息
-	hc=c.getinfo(pycurl.HTTP_CODE) # HTTP 信息，如 200 、 404 ，需 perform
-	f.close() # 關閉文件，不然會一直佔用
-	if hc != 200: # 如果 HTTP_CODE 不是 200
-		os.remove(fullpath) # 那就刪掉咯
-{% endhighlight %}
 
 ## 書籍
 <a href="http://www.amazon.com/Beginning-Python-From-Novice-Professional/dp/159059519X" rel="external">Beginning Python: from Novice to Professional</a> 本文沒有覆蓋的基礎內容。

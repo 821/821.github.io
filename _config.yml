@@ -6,7 +6,7 @@ collections:
     output: true
   Projects:
     output: true
-    permalink: /:path/
+    permalink: /:name/
 
 permalink: /:title/
 post_defaults:
