@@ -1,0 +1,9 @@
+---
+layout: page
+title: 筆記
+---
+別人的文字，不管多通透，都難免有些「隔」。記筆記，就是爲了不「隔」。
+
+{% for Notes in site.Notes %}
+	<a href="{{ Notes.url }}">{{ Notes.title }}</a><br />
+{% endfor %}

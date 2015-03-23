@@ -2,6 +2,9 @@ collections:
   Notes:
     output: true
     permalink: /:name/
+  Pages:
+    output: true
+    permalink: /:name/
   blq:
     output: true
     permalink: /:name/
