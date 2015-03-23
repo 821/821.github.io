@@ -1,9 +1,9 @@
 發佈於<br />{{ page.date|date:"%Y-%m-%d" }}<br /><br />
 分類<br />
 {% for category in page.categories %}
-<span class="tag"><a href="/categories.html#{{category}}">{{category}}</a></span>
+<span class="tag"><a href="/categories/#{{category}}">{{category}}</a></span>
 {% endfor %}<br /><br />
 標籤<br />
 {% for tag in page.tags %}
-<span class="tag"><a href="/tags.html#{{tag}}">{{tag}}</a></span>
+<span class="tag"><a href="/tags/#{{tag}}">{{tag}}</a></span>
 {% endfor %}
