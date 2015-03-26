@@ -206,5 +206,6 @@ FunctionName(independent parameters){% endhighlight %}
 <a href="https://docs.python.org/3/tutorial/" rel="external">官方 Tutorial</a>，<a href="http://www.pythondoc.com/pythontutorial3/index.html" rel="external">中文版</a>
 <a href="http://woodpecker.org.cn/abyteofpython_cn/chinese/" rel="external">简明 Python 教程</a> 可以作爲簡易快速的備查。
 <a href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000" rel="external">Python 教程</a>
+<a href="http://docs.python-guide.org/en/latest/" rel="external">The Hitchhiker’s Guide to Python</a> 不少深入的話題。
 <a href="http://diveintopython.org/" rel="external">Dive into Python</a> 有點舊，不過確實較深入。
 <a href="www.codecademy.com/glossary/python" rel="external">Codecademy</a> Python 習題，容易得有回到幼兒園的感覺。
