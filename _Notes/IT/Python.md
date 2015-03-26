@@ -194,6 +194,12 @@ for year in range(1935,1985):
 FunctionName(independent parameters){% endhighlight %}
 回想一下初中代數，什麼是函數。其實這個寫法就相當說定義一個函數比如 f(x,y,z)= 什麼什麼。等到要用這個函數的時候，再塡寫一下具體的 x,y,z 就行了，當然塡寫 parameters 的時候可以用變量，可以放進循環裏寫， blablabla ，反正到處用。定義的使用沒有 parameter 也可以，但這樣使用的時候也沒有。
 其實所有命令都可以看作是函數。
+來個複雜一點的例子：
+{% highlight python linenos %}
+def func(a,b):
+	return a(b)
+{% endhighlight %}
+func 中的變量 a 同時也是一個函數，所以 func 就是個高階函數。實際上，有個叫 `map()` 的內置函數就跟這個 func 很類似。
 
 ## 書籍
 <a href="http://www.amazon.com/Beginning-Python-From-Novice-Professional/dp/159059519X" rel="external">Beginning Python: from Novice to Professional</a> 本文沒有覆蓋的基礎內容。
