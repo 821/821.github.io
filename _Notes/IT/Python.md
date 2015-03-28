@@ -209,10 +209,11 @@ func 中的變量 a 同時也是一個函數，所以 func 就是個高階函數
 <a href="http://www.amazon.com/Python-Practice-Concurrency-Libraries-Developers/dp/0321905636" rel="external">Python in Practice: Create Better Programs Using Concurrency, Libraries, and Patterns</a> 進階書，用得到的話可以看。
 
 ## 網頁
-<a href="https://docs.python.org/3/tutorial/" rel="external">官方 Tutorial</a>，<a href="http://www.pythondoc.com/pythontutorial3/index.html" rel="external">中文版</a>
+<a href="https://docs.python.org/3/" rel="external">官方文檔</a>，<a href="http://www.pythondoc.com/pythontutorial3/index.html" rel="external">中文版</a>
 <a href="http://woodpecker.org.cn/abyteofpython_cn/chinese/" rel="external">简明 Python 教程</a> 可以作爲簡易快速的備查。
 <a href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000" rel="external">Python 教程</a> 在中文 IT 敎程裏，也算佼佼者了。
 <a href="http://docs.python-guide.org/en/latest/" rel="external">The Hitchhiker’s Guide to Python</a> 不少深入的話題，値得認眞讀。
 <a href="https://docs.python.org/3/reference/index.html" rel="external">The Python Language Reference</a> 系統的手冊。
 <a href="http://diveintopython.org/" rel="external">Dive into Python</a> 有點舊，不過確實較深入。
+<a href="http://learnpythonthehardway.org/book/" rel="external">Learn Python the Hard Way</a> 用來學未免蠢，用來複習提高倒不錯。
 <a href="https://www.codecademy.com/glossary/python" rel="external">Codecademy</a> Python 習題，容易得有回到幼兒園的感覺。
