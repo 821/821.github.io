@@ -192,14 +192,35 @@ for year in range(1935,1985):
 	commands # 有很多行可以用 ; 來分割一下
 	return # 函數終結，返回一個値，可以返回 True False 這樣的邏輯判斷，或者數字、字符串、變量，還能順便運算一下，比如返回個 a+b 。如果要返回多個値，這麼寫： return (a,b,c)
 FunctionName(independent parameters){% endhighlight %}
-回想一下初中代數，什麼是函數。其實這個寫法就相當說定義一個函數比如 f(x,y,z)= 什麼什麼。等到要用這個函數的時候，再塡寫一下具體的 x,y,z 就行了，當然塡寫 parameters 的時候可以用變量，可以放進循環裏寫， blablabla ，反正到處用。定義的使用沒有 parameter 也可以，但這樣使用的時候也沒有。
+回想一下代數，什麼是函數。其實這寫法就相當說定義一個函數比如 f(x,y,z)= 什麼什麼。等到要用這函數的時候，再塡寫一下具體的 x,y,z 就行了。定義沒有 parameter 也可以，但這樣使用的時候也沒有。
 其實所有命令都可以看作是函數。
+如果想在函數外使用 return 回來的變量，最簡單的方法就是把變量全局化。比如：
+{% highlight python linenos %}
+def go(a):
+	global b,c
+	b = a+1
+	c = a+2
+	return (b,c)
+{% endhighlight %}
+執行完後，整個腳本都會獲得變量 b 和 c 。不然 b 和 c 在運行完腳本之後就不見了。
 來個複雜一點的例子：
 {% highlight python linenos %}
 def func(a,b):
 	return a(b)
 {% endhighlight %}
 func 中的變量 a 同時也是一個函數，所以 func 就是個高階函數。實際上，有個叫 `map()` 的內置函數就跟這個 func 很類似。
+
+## 異常處理
+有時候，代碼沒寫錯，但運行環境出錯，比如下載東西服務器的回饋出錯，或者用戶手賤之類。於是就有了異常處理。下面提供最簡單的例子：
+{% highlight python linenos %}
+try:
+	down(link)
+except BaseException:
+	print("die")
+else:
+	print("good")
+{% endhighlight %}
+例子中的 down 是個下載函數，函數說好回饋 200 時怎樣、 404 304 302 怎樣，但還是可能有各種問題，所以在 `except` 裏說，如果出現 `BaseException` 狀況，一律顯示 die 。 `BaseException` 指的是所有異常情況，具體見 <a href="https://docs.python.org/3/library/exceptions.html#concrete-exceptions" rel="external">文檔</a>，或快速查看<a href="http://www.w3cschool.cc/python/python-exceptions.html" rel="external">中文簡表</a>。
 
 ## 書籍
 <a href="http://www.amazon.com/Beginning-Python-From-Novice-Professional/dp/159059519X" rel="external">Beginning Python: from Novice to Professional</a> 本文沒有覆蓋的基礎內容。
