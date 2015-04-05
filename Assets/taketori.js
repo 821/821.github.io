@@ -1,9 +1,9 @@
 /* Taketori - Make Text Vertical 
- * Copyright 2010-2013 CMONOS. Co,Ltd (http://cmonos.jp)
+ * Copyright 2010-2015 CMONOS Co. Ltd. (http://cmonos.jp)
  *
- * Version: 1.3.5
+ * Version: 1.3.8
  * Lisence: MIT Lisence
- * Last-Modified: 2013-10-04
+ * Last-Modified: 2015-01-30
  */
 
 
@@ -149,9 +149,9 @@ TaketoriTool.prototype = {
 
 var Taketori = function () {};
 Taketori.prototype = {
-	isMSIE : ((navigator.appVersion.search(/MSIE/) != -1) ? ((document.documentMode) ? document.documentMode : 5) : 0),
+	isMSIE : ((document.documentMode) ? document.documentMode : (navigator.appVersion.search(/MSIE/) != -1) ? 5 : 0),
 	isWritingModeReady : ((
-							navigator.appVersion.search(/MSIE/) != -1
+							navigator.appVersion.search(/MSIE/) != -1 || document.documentMode
 						 || typeof (document.createElement('div')).style.MozWritingMode != 'undefined'
 						 || (typeof (document.createElement('div')).style.webkitWritingMode != 'undefined' && (!window.devicePixelRatio || window.devicePixelRatio < 2 || navigator.userAgent.search(/Chrome\/([0-9]+)/) == -1 || parseInt(RegExp.$1) > 30))
 						 || typeof (document.createElement('div')).style.OWritingMode != 'undefined'
@@ -588,7 +588,7 @@ Taketori.prototype = {
 		if (this.isWritingModeReady) {
 			return 'width:' + h + 'px;'
 				 + 'height:' + w + 'px;'
-				 + ((g) ? ((!o) ? 'padding-bottom:' : 'margin-bottom:') + g + 'px;' : '')
+				 + ((g) ? ((this.isMSIE && this.isMSIE == 9) ? (!o) ? 'padding-right:' : 'margin-right:' : (!o) ? 'padding-bottom:' : 'margin-bottom:') + g + 'px;' : '')
 				 + ((!o) ? 'position:relative;overflow:auto;overflow-x:auto;overflow-y:hidden;' : '');
 		} else {
 			return 'width:' + w + 'px;'
@@ -997,11 +997,18 @@ Taketori.prototype = {
 		element.style.MozColumnWidth = this.process.config.height + 'px';
 		element.style.webkitColumnWidth = this.process.config.height + 'px';
 		element.style.OColumnWidth = this.process.config.height + 'px';
+		element.style.msColumnWidth = this.process.config.height + 'px';
 		element.style.columnWidth = this.process.config.height + 'px';
 		element.style.MozColumnGap = this.process.config.gap + 'px';
 		element.style.webkitColumnGap = this.process.config.gap + 'px';
 		element.style.OColumnGap = this.process.config.gap + 'px';
+		element.style.msColumnGap = this.process.config.gap + 'px';
 		element.style.columnGap = this.process.config.gap + 'px';
+		element.style.MozColumnFill = 'auto';
+		element.style.webkitColumnFill = 'auto';
+		element.style.OColumnFill = 'auto';
+		element.style.msColumnFill = 'auto';
+		element.style.columnFill = 'auto';
 	},
 
 	setMultiColumnWidth : function (element) {
@@ -1567,6 +1574,7 @@ Taketori.prototype = {
 								columnNode.style.MozColumnWidth = w + 'px';
 								columnNode.style.webkitColumnWidth = w + 'px';
 								columnNode.style.OColumnWidth = w + 'px';
+								columnNode.style.msColumnWidth = w + 'px';
 								columnNode.style.columnWidth = w + 'px';
 							} else {
 								if (this.isWritingModeReady) {
