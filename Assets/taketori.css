@@ -44,7 +44,7 @@
 .taketori-ttb .italic span.cho-on{-moz-transform:scale(1.0,-1.0);-webkit-transform:scale(1.0,-1.0);-o-transform:scale(1.0,-1.0);transform:scale(1.0,-1.0);vertical-align:middle;}
 .taketori-ttb strong{font-weight:normal;}
 .taketori-ttb strong span.nocjk,.taketori-ttb strong .ltr,.taketori-ttb .ltr strong{font-weight:bold;}
-.taketori-ttb strong span.cjk:after{content:"\3001";display:-moz-inline-block;display:inline-block;position:absolute;top:0;left:0;margin:-0.3em 0 0 1em;}
+.taketori-ttb strong span.cjk:after{display:-moz-inline-block;display:inline-block;position:absolute;top:0;left:0;margin:-0.3em 0 0 1em;}
 .taketori-lang-ja-jp strong span.cjk:after{margin:-0.3em 0 0 1em;}
 .taketori-lang-zh-hant strong span.cjk:after{margin:0 0 0 0.75em;}
 .taketori-ttb strong span.ku-ten:after,.taketori-ttb strong span.tou-ten:after{content:"";}
@@ -65,7 +65,7 @@
 .taketori-writingmode-ttb .overline{text-decoration:underline;}
 .taketori-writingmode-ttb strong.bo-ten{font-weight:normal;-webkit-text-emphasis-style:filled;-moz-text-emphasis-style:filled;-o-text-emphasis-style:filled;-ms-text-emphasis-style:filled;text-emphasis-style:filled;}
 .taketori-writingmode-ttb strong.bo-ten span.cjk{display:inline-block;}
-.taketori-writingmode-ttb strong.bo-ten span.cjk:after{content:"\3001";display:inline-block;line-height:1;position:absolute;margin:-0.55em -0.05em 0.55em 0.05em;}
+.taketori-writingmode-ttb strong.bo-ten span.cjk:after{display:inline-block;line-height:1;position:absolute;margin:-0.55em -0.05em 0.55em 0.05em;}
 .taketori-lang-ja-jp strong.bo-ten span.cjk:after{margin:-0.55em -0.05em 0.55em 0.05em;}
 .taketori-lang-zh-hant strong.bo-ten span.cjk:after{margin:-1em 0.25em 1em -0.25em;}
 .taketori-writingmode-ttb ul.cjk,.taketori-writingmode-ttb ol.cjk{list-style-type:none;}
