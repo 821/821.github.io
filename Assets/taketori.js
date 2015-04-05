@@ -308,7 +308,6 @@ Taketori.prototype = {
 			if (p != null && !this.isCountedElement(elements,p)) {
 				var text = p.innerHTML;
 				var score = 0;
-				text.replace(/\u3002/g,function () { score++ } ).replace(/\u3001/g,function () { score+=0.5 } );
 				elements[elements.length] = {
 					element : p,
 					readabilityScore : score
