@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.taketori-ttb{overflow:hidden;position:relative;}
+.taketori-atsign-ja-jp,.taketori-atsign-zh-hant {font-family: '@£Í£Ó Ã÷³¯' !important;}.taketori-ttb{overflow:hidden;position:relative;}
 .taketori-ttb span{cursor:vertical-text;}
 .taketori-ttb a span{cursor:pointer !important;}
 .taketori-ttb .taketori-col{-moz-transform-origin:left bottom;-webkit-transform-origin:left bottom;-o-transform-origin:left bottom;transform-origin:left bottom;-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);}
