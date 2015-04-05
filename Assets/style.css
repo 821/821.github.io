@@ -8,7 +8,7 @@
 footer{text-align:center;clear:both;width:100%;border-top:1px solid #9cf;}
 .upper{vertical-align:super;color:#9f9;font-size:0.6em;}
 /*General*/
-body{font:24px 'SonyReader Ming','Hiragino Mincho ProN W3','Kozuka Mincho Pr6N','I.BMing','IPAmjMincho','AsebiMincho',serif;line-height:1.3em;color:#fff;background:#00142A;}
+body{font:24px 'I.BMing','SonyReader Ming','Hiragino Mincho ProN W3','Kozuka Mincho Pr6N','IPAmjMincho','AsebiMincho',serif;line-height:1.3em;color:#fff;background:#00142A;}
 ::selection{color:#F2F5A9;background:#004040;}
 a{color:#9f9;text-decoration:none;}
 a:hover{color:#1f75cc;}
