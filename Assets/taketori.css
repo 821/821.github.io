@@ -63,11 +63,6 @@
 .taketori-writingmode-ttb .ltr,.taketori-writingmode-ttb span.tcy{text-indent:0 !important;line-height:1 !important;-moz-writing-mode:horizontal-tb;-webkit-writing-mode:horizontal-tb;-o-writing-mode:horizontal-tb;-ms-writing-mode:lr-tb;/writing-mode:lr-tb;_writing-mode:lr-tb;vertical-align:middle\9;}
 .taketori-writingmode-ttb .underline{text-decoration:overline;}
 .taketori-writingmode-ttb .overline{text-decoration:underline;}
-.taketori-writingmode-ttb strong.bo-ten{font-weight:normal;-webkit-text-emphasis-style:filled;-moz-text-emphasis-style:filled;-o-text-emphasis-style:filled;-ms-text-emphasis-style:filled;text-emphasis-style:filled;}
-.taketori-writingmode-ttb strong.bo-ten span.cjk{display:inline-block;}
-.taketori-writingmode-ttb strong.bo-ten span.cjk:after{display:inline-block;line-height:1;position:absolute;margin:-0.55em -0.05em 0.55em 0.05em;}
-.taketori-lang-ja-jp strong.bo-ten span.cjk:after{margin:-0.55em -0.05em 0.55em 0.05em;}
-.taketori-lang-zh-hant strong.bo-ten span.cjk:after{margin:-1em 0.25em 1em -0.25em;}
 .taketori-writingmode-ttb ul.cjk,.taketori-writingmode-ttb ol.cjk{list-style-type:none;}
 .taketori-writingmode-ttb ul.cjk li:before,.taketori-writingmode-ttb ol.cjk li:before{display:-moz-inline-block;display:inline-block;content:attr(data-marker);-moz-writing-mode:horizontal-tb;-webkit-writing-mode:horizontal-tb;-o-writing-mode:horizontal-tb;-ms-writing-mode:lr-tb;/writing-mode:lr-tb;_writing-mode:lr-tb;font-size:0.8em;line-height:1;margin:-1.2em 0 0.2em -0.2em;text-align:center;vertical-align:text-bottom;}
 .taketori-in-progress{opacity:0 !important;-moz-opacity:0 !important;-webkit-opacity:0 !important;-o-opacity:0 !important;-ms-filter:"alpha(opacity=0)" !important;filter:alpha(opacity=0) !important;}
