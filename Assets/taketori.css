@@ -1,4 +1,13 @@
 @charset "UTF-8";
+.taketori-atsign-ja-jp,.taketori-atsign-zh-hant{font-family:'@ＭＳ 明朝' !important;}
+.taketori-sans-serif-zh-hant{font-family:'SonyReader Hei',sans-serif !important;}
+.taketori-serif-zh-hant{font-family:'I.BMing','SonyReader Ming','全字庫正宋體',serif !.taketori-cursive-zh-hant{font-family:'文悦古体仿宋','SonyReader Li',serif !important;}
+.taketori-kai-zh-hant{font-family:'SonyReader Kai','全字庫正楷體',serif !important;}
+.taketori-sans-serif-ja-jp{font-family:'Lucida Grande','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','HiraKakuProN-W3','メイリオ','Meiryo','ＭＳ ゴシック','MS Gothic',Osaka,Verdana,arial,helvetica,sans-serif !important;}
+.taketori-serif-ja-jp{font-family:'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','HiraMinProN-W3','ＭＳ 明朝','MS Mincho',serif !important;}
+important;}
+.taketori-cursive-ja-jp{font-family:'ＤＦＰ行書体','ＤＦ行書体','AGENDA人名行書体L1','HGP行書体','HGS行書体','HG行書体',cursive,'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','HiraMinProN-W3','ＭＳ 明朝','MS Mincho',serif !important;}
+.taketori-kai-ja-jp{font-family:'ＤＦＰ楷書体','HG正楷書体-PRO','ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','HiraMinProN-W3','ＭＳ 明朝','MS Mincho',serif !important;}
 .taketori-ttb{overflow:hidden;position:relative;}
 .taketori-ttb span{cursor:vertical-text;}
 .taketori-ttb a span{cursor:pointer !important;}
