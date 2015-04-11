@@ -4,7 +4,7 @@ title: Python 半小時上手
 date: '2014/08/08'
 ---
 Python 隨便學學就能解決很多小問題，是最易學習的編程語言之一。同樣一個問題，找 C 可能要寫 100 行代碼，但 Python 寫 20 行就夠了。 C 的那 100 行可能包含了 100 個知識點，而 Python 就是 20 個。
- Python 好處極多，對一般用戶來說最明顯的是腳本運行和環境簡單。 Python 腳本可以直接使用，不像 C, VB 等需要編譯。 Python 是跨平臺的，集成在不少系統裏，沒集成的系統也衹需要下載很小的安裝包，模塊也可通過 pip 等手段快速獲得。
+Python 好處極多，對一般用戶來說最明顯的是腳本運行和環境簡單。 Python 腳本可以直接使用，不像 C, VB 等需要編譯。 Python 是跨平臺的，集成在不少系統裏，沒集成的系統也衹需要下載很小的安裝包，模塊也可通過 pip 等手段快速獲得。
 
 學習 Python ，如果學時超過五小時還不能寫點實用小腳本，則必是以下幾種可能：
 一、跟電腦、編程八字不合或幾乎沒摸過電腦。
@@ -14,7 +14,7 @@ Python 隨便學學就能解決很多小問題，是最易學習的編程語言�
 
 本文的目標是掛一漏萬、避難趨易，讓讀者自己提綱挈領、綱舉目張。多數人應能半小時內讀完並對大部分內容有印象，而且這些內容「剛好」是最重要的——至少我自己用到過，所以覺得重要。
 
-## 正確的學習方法
+## 正確學習方法
 
 ### 有問題找模塊
 模塊之於編程語言，就像軟件之於操作系統，需要就裝。在操作系統裏，想下載就裝個下載軟件，想 P 圖就裝個 PS ，編程也是如此。記住這點，至少 Python 這門特別容易的語言就入門了一半。很多問題坐在那裏用基本命令想會想死的，但有了模塊就立馬解決。
@@ -106,6 +106,12 @@ var1,var2,var3=123,456,"string" # 簡寫模式
 var=raw_input("Prompt") # 請用戶輸入變量，屬性是字符串，這命令僅在 Python 2 可用
 var=input("Prompt") # 輸入的是可以運算的，比如輸入 1+1 ，得到不是字符串 "1+1" ，而是 2 ；但在 Python 3 效果等同與 2 中的 raw_input{% endhighlight %}
 
+#### 置換
+{% highlight python %}
+a,b =b,a
+{% endhighlight %}
+這就把 a 和 b 兩個變量的値對調了。
+
 #### 轉換
 {% highlight python %}int(var) # 轉成整數
 float(var) # 轉成浮點數
@@ -196,13 +202,19 @@ FunctionName(independent parameters){% endhighlight %}
 其實所有命令都可以看作是函數。
 如果想在函數外使用 return 回來的變量，最簡單的方法就是把變量全局化。比如：
 {% highlight python linenos %}
-def go(a):
-	global b,c
-	b = a+1
-	c = a+2
-	return (b,c)
+def func():
+	global a,b
+	return (a, b)
 {% endhighlight %}
-執行完後，整個腳本都會獲得變量 b 和 c 。不然 b 和 c 在運行完腳本之後就不見了。
+執行完後，整個腳本都會獲得變量 a 和 b 。不然 a 和 b 在運行完腳本之後就不見了。
+或者用另一種方法來傳遞：
+{% highlight python linenos %}
+def func():
+	return (a, b)
+c, d = func()
+{% endhighlight %}
+a 和 b 消失了，但他們的値被 c 和 d 繼承。
+### 高階函數
 來個複雜一點的例子：
 {% highlight python linenos %}
 def func(a,b):
@@ -235,6 +247,7 @@ else:
 <a href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000" rel="external">Python 教程</a> 在中文 IT 敎程裏，也算佼佼者了。
 <a href="http://docs.python-guide.org/en/latest/" rel="external">The Hitchhiker’s Guide to Python</a> 不少深入的話題，値得認眞讀。
 <a href="https://docs.python.org/3/reference/index.html" rel="external">The Python Language Reference</a> 系統的手冊。
-<a href="http://diveintopython.org/" rel="external">Dive into Python</a> 有點舊，不過確實較深入。
+<a href="http://diveintopython.org/" rel="external">Dive into Python</a> 確實較深入。
+<a href="https://github.com/qyuhen/book/" rel="external">Python 学习笔记</a> 講得比較深，但是用的是 Python 2 。
 <a href="http://learnpythonthehardway.org/book/" rel="external">Learn Python the Hard Way</a> 用來學未免蠢，用來複習提高倒不錯。
 <a href="https://www.codecademy.com/glossary/python" rel="external">Codecademy</a> Python 習題，容易得有回到幼兒園的感覺。
