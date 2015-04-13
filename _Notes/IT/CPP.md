@@ -4,7 +4,7 @@ title: C++
 date: '2015/04/11'
 ---
 學過 Python ， Python 是高級語言，高度抽象化，自帶垃圾淸理，免編譯，跨平臺。 Python 的這些特點讓人能夠比較專心編寫程序中對象的各種境遇，比如寫一個下載腳本，需要考慮的就衹是下載的事，要不要模擬瀏覽器，下載哪些鏈接，放進哪個文件夾之類，一切行爲都像自己平時下載東西，衹不過工具換了。
-C++ 是中級語言（以前 C 是高級，現在都算低級了， C++ 怎麼看都是中或低級），可以做對效率要求更高的事，但同時也比較難。所謂「難」包含很多方面，一是做同樣的事，需要掌握更多知識點；二是抽象化不足，沒有一些方便的寫法；三是和硬件更貼近，需要考慮的問題有時會多些。還是說下載，用 C++ 要自己下載並編譯相關的庫，想着命名空間，考慮參數怎麼傳遞，考慮內存有沒有釋放。弄得自己像電腦的僕人一樣。所以學 C++ 就莫名其妙的要學很多感覺跟自己做的事不那麼相關的事，當然難了。
+C++ 是中級語言（以前 C 是高級，現在都算低級了， C++ 怎麼看都是中或低級），可以做對效率要求更高的事，但同時也比較難。所謂「難」包含很多方面，一是做同樣的事，需要掌握更多知識點；二是抽象化不足，沒有一些方便的寫法；三是和硬件更貼近，需要考慮的問題有時會多些。還是說下載，用 C++ 要自己下載並編譯相關的庫，想着命名空間，考慮參數怎麼傳遞，考慮內存有沒有釋放。弄得自己像電腦的僕人一樣。所以學 C++ 就莫名其妙的要學很多感覺跟自己做的事不那麼相關的事，當然難了。學 Python 要有「三個月滅亡中國」的口氣，而學 C++ 則是「持久戰」了。
 旣然 C++ 難學難用，爲什麼還要學？就是因爲和 Python 非常不同，學 C++ 纔更好加深對 Python 的理解。其次， C++ 的應用範圍更廣，如果堅持學下去，能做的事比 Python 多。
 
 ## 書籍
@@ -12,6 +12,7 @@ C++ 的書籍可謂汗牛充棟，衹能擇其精要稍加介紹。
 C++ 之父 Stroustrup 出了 "A Tour of C++", "The C++ Programming Language", "Programming: Principles and Practice Using C++" 這三本。第一本很薄，宜粗學。後兩本看名字就知道側重點不同。最後一本時間較早，是 98 標準，代碼過時但思想不過時。
 "C++ Primer" 有聖經之稱，簡直是字典。所以作者又寫了一本 "Essential C++" 。
 "C++ Primer Plus" 這本更像敎材，不過有點囉嗦。
+"Sams Teach Yourself C++ in One Hour a Day" 一部簡明的入門書，不錯的選擇。
 "Effective C++" 提高書，好評後作者又寫了 "More Effective C++" 。
 
 ## 基礎
@@ -33,13 +34,14 @@ int main() // 每個 C++ 程序必須有一主函數，程序從 int 開始執�
 C++ 對於字符串也是可用單引號也可用雙引號的
 C++ 語句結束使用分號，而不是斷行，可以一行內很多分號
 endl 就是斷行，當然寫 "\n" 也行
+C++ 對縮進沒有要求，縮進是爲了好看
 這是跨行註釋 */
 	return 0; // 這一行可以不寫。
 }
 {% endhighlight %}
 
 ### 變量
-C++ 的變量有 bool(眞假), char(一字節，如字母 a), int(整數，四字節), unsigned(自然數), float(單精度浮點値), double(雙精度浮點値，八字節), void(空値), wchar_t(寬字符) 。
+C++ 的變量有 bool(眞假), char(一字節，如字母 a), int(整數，四字節), float(單精度浮點値), double(雙精度浮點値，八字節), void(空値), wchar_t(寬字符) 。
 沒有字符串？眞沒有，不過標準庫有。
 {% highlight cpp linenos %}
 extern int i, j; // extern 是聲明變量， int 指出類型
@@ -68,10 +70,9 @@ char∗ p = &v[3]; // 這個指針指向數組 v 的第四個元素
 其他暫時不需要掌握。
 
 ### 函數
-int 表示開始執行，其他情況：
-Elem 無變量，返回指針
-void 不返回
-double 返回 double 値
+int 表示開始執行，最後返回一個 int 。其他情況可以類推，比較特殊的是 Elem ，返回指針。
+函數的變量也要聲明，很麻煩。
+C++ 可以創建多個同名函數，叫重載、多態。
 
 ### if else
 {% highlight cpp linenos %}
@@ -87,7 +88,7 @@ else
 {% endhighlight %}
 
 ### switch
-C++ 沒有 elif ，而是用 switch 。
+C++ 沒有 elif ，而是用 `switch` 。
 {% highlight cpp linenos %}
 switch (expression)
 {
@@ -146,3 +147,38 @@ initialization 可以是任何合法 C++ 語句，不過一般用來創建一個
 action 也可以是任何合法 C++ 語句，不過一般用來遞增或遞減計數變量，比如 `i++` 。
 for 的 initialization, condition, action 三條都可以不寫，這叫空語句。但與其說可以不寫，不如說是在別處寫了。
 寫 Python 從不用 while ，但看見這麼囉嗦的 for ，頓時覺得 while 也不錯……
+
+## 面向對象
+其實我比較習慣函數編程，不過面向對象編程是 C++ 的重點。
+
+### 類
+創建一個汪星人對象，交配是隱私，年齡是半隱私（保護），顏色和叫聲可公開：
+{% highlight cpp linenos %}
+class Dog
+{
+	private:
+		void Mate();
+	protected:
+		int Age;
+	public:
+		std::string Color;
+		void Bark() const { cout << "Rough rough...\n";}
+}
+{% endhighlight %}
+
+### 對象
+接上，比如一隻叫 Obama 的狗。
+{% highlight cpp linenos %}
+Dog Obama;
+Obama.Age = 1;
+Obama.Color = "Black";
+// 想聽聽叫聲嗎？
+Obama.Bark();
+// 當然，看不見交配。
+{% endhighlight %}
+
+### 繼承
+比如哈士奇，繼承「狗」的屬性。
+{% highlight cpp linenos %}
+class Husky : public Dog
+{% endhighlight %}
