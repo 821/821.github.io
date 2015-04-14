@@ -25,6 +25,8 @@ requests 網頁訪問與下載
 re 正則表達式
 sys 與 bat 對接
 threading 多線程
+tkinter 簡單易上手的 GUI
+pyinstaller 打包 exe 給沒有 Python 的機子用
 
 如果想知道自己引用的模塊有什麼命令，可以使用類似這樣的命令：
 {% highlight python %}print(dir(xlib)){% endhighlight %}
@@ -35,7 +37,6 @@ threading 多線程
 
 ### 邊用邊學
 把本文迅速瀏覽一遍就可以寫了，寫自己想寫的。比如抓網站，或者按需生成文件，反正想幹嘛就幹嘛，別太複雜就行。至於那些 tutorial 、習題，對非專業人員就是浪費腦細胞，有空再說。
-使用時記住：反正 Python 是很強大的，無所不能的，遊戲 Civilization IV ，網站 YouTube ，網盤 Dropbox 就是 Python 寫的，做不到說明自己水平不到而已。
 
 ### 搞淸版本
 Python 有 2 和 3 ，官方力推 3 ，但是可能改動太大還是怎麼了，反正遇到了很大的阻力，所以現在二者並存。 3 的命令格式更嚴格、規範一點， 2 比較鬆散。網上很多討論以及第三方模塊都是基於 2 的，不一定能直接使用。用 3 有個福利，那就是對 unicode 的處理好。所以試了一段時間後，我決定用 3 。
@@ -141,7 +142,7 @@ var=var1+var2 # 變量之間{% endhighlight %}
 ## 語句
 
 ### if 條件
-{% highlight python %}
+{% highlight python linenos %}
 if 條件 : # 不同條件可以用 and 和 or 來連接
 	執行
 elif 條件 : # 這句可以不用，也可以用很多個
@@ -160,7 +161,7 @@ else:
 如果搞錯縮進就亂套了。
 
 ### while 循環
-{% highlight python %}
+{% highlight python linenos %}
 while 情況 :
 	執行
 else: # 這個不必要
@@ -168,7 +169,7 @@ else: # 這個不必要
 while 循環也可以像 if 那樣嵌套起來。
 
 ### for 循環
-{% highlight python %}
+{% highlight python linenos %}
 for var in list/string:
 	執行
 else: # 這個不必要
@@ -214,6 +215,7 @@ def func():
 c, d = func()
 {% endhighlight %}
 a 和 b 消失了，但他們的値被 c 和 d 繼承。
+
 ### 高階函數
 來個複雜一點的例子：
 {% highlight python linenos %}
@@ -221,6 +223,12 @@ def func(a,b):
 	return a(b)
 {% endhighlight %}
 func 中的變量 a 同時也是一個函數，所以 func 就是個高階函數。實際上，有個叫 `map()` 的內置函數就跟這個 func 很類似。
+
+### 匿名函數
+看起來有點雞肋，不過有時卻是必須的。
+{% highlight python %}
+lambda [arg1 [,arg2,.....argn]]:expression
+{% endhighlight %}
 
 ## 異常處理
 有時候，代碼沒寫錯，但運行環境出錯，比如下載東西服務器的回饋出錯，或者用戶手賤之類。於是就有了異常處理。下面提供最簡單的例子：
@@ -233,6 +241,36 @@ else:
 	print("good")
 {% endhighlight %}
 例子中的 down 是個下載函數，函數說好回饋 200 時怎樣、 404 304 302 怎樣，但還是可能有各種問題，所以在 `except` 裏說，如果出現 `BaseException` 狀況，一律顯示 die 。 `BaseException` 指的是所有異常情況，具體見 <a href="https://docs.python.org/3/library/exceptions.html#concrete-exceptions" rel="external">文檔</a>，或快速查看<a href="http://www.w3cschool.cc/python/python-exceptions.html" rel="external">中文簡表</a>。
+
+## 面向對象編程 *
+零基礎半小時內理解面向對象編程 (OOP) 思想幾乎是不可能的，而 Python 單用函數編程也行，所以這裏算是選學部分。不過 OOP 在處理較大量非常類似的物件時有很大優勢，還是有必要介紹一下的。
+
+#### 槪念
+類：比如四個東西， Washington, Jefferson, Roosevelt, Lincoln ，屬於什麼類？ Human 。
+對象：比如 Washington ，他就是 Human 的一個對象。
+繼承： Human 裏有很多類別，比如 Caucasian 這個子類。 Caucasian 具有 Human 的全部特性，這叫繼承。其中， Human 是父類， Caucasian 是子類。
+類可以有很多項屬性和動作，建立好類，每個對象像套用函數一樣用類來決定行爲就行了，類就像個模板一樣。所以 OOP 對於需要到很多個對象的編程是比較方便的。
+
+#### 例子
+{% highlight python linenos %}
+class Human (Object): # class 是聲明建立類， Human 是類名 ， Object 是常用的最高父類
+	def __init__(self, name, born): # __init__ 是個方法，第一個變量永遠是 self
+		self.name = name
+		self.born = born
+	def age(self): # 際要用到 name 和 born ，但現在衹需要寫 self 了
+		print (self.name+' is '+str(2015-self.born)+' years old')
+# 定義好類，再把一個對象的參數寫進去：
+w = Human('Washington', 1732)
+# 想看 w 記的是哪個名字時執行：
+w.name
+# 想要看 Washington 的年齡時執行：
+w.age()
+# 再建立個 Caucasian
+class Caucasian (Human):
+# 有了 Human 打底，不用再 __init__ ：
+	def skin(self):
+		print('White')
+{% endhighlight %}
 
 ## 書籍
 <a href="http://www.amazon.com/Beginning-Python-From-Novice-Professional/dp/159059519X" rel="external">Beginning Python: from Novice to Professional</a> 本文沒有覆蓋的基礎內容。
