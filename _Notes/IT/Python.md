@@ -3,50 +3,47 @@ layout: indexed
 title: Python 半小時上手
 date: '2014/08/08'
 ---
-Python 隨便學學就能解決很多小問題，是最易學習的編程語言之一。同樣一個問題，找 C 可能要寫 100 行代碼，但 Python 寫 20 行就夠了。 C 的那 100 行可能包含了 100 個知識點，而 Python 就是 20 個。
-Python 好處極多，對一般用戶來說最明顯的是腳本運行和環境簡單。 Python 腳本可以直接使用，不像 C, VB 等需要編譯。 Python 是跨平臺的，集成在不少系統裏，沒集成的系統也衹需要下載很小的安裝包，模塊也可通過 pip 等手段快速獲得。
-
 學習 Python ，如果學時超過五小時還不能寫點實用小腳本，則必是以下幾種可能：
 一、跟電腦、編程八字不合或幾乎沒摸過電腦。
 二、智力發育不全、受敎育程度低或年過古稀。
 三、所讀敎程太專業或重點不淸。
-其中第三點的可能性最高，因爲前二者多半不會想學 Python ，或者乾脆不知道這是什麼玩意。其實五小時就已經是很長很長的時間，因爲正常人一天能高度集中精力的時間也就五小時左右，再多就容易精神渙散，衹能做複習、用舊貨之類相對輕鬆的活動。很多敎程容易陷入學術化的泥沼裏，忘記了其實用本質。這就像本來衹想敎別人如何計算圓的面積，結果一不小心把整個平面幾何和微積分全部講完，而讀者在學到三角函數的時候已經決定放棄了。
-
+其中第三點的可能性最高，因爲前二者多半不會想學 Python ，或者乾脆不知道這是什麼玩意。問題就是第三點了。
+很多敎程容易陷入學術化的泥沼，忘記了實用本質。這就像本來衹想敎人計算圓的面積，結果一不小心把整個平面幾何和微積分全部講完，而讀者在學到三角函數的時候已決定放棄了。
 本文的目標是掛一漏萬、避難趨易，讓讀者自己提綱挈領、綱舉目張。多數人應能半小時內讀完並對大部分內容有印象，而且這些內容「剛好」是最重要的——至少我自己用到過，所以覺得重要。
+
+## 優勢
+當下流行的程序語言，都有其各自的優越性， Python 也不例外：
+1. 易學。編寫同樣一個程序， Python 需要的知識點往往是最少之一。
+2. 易讀。比如 C++ ，代碼常「詰屈聱牙」， Python 在設計之初就很注意可讀性。
+3. 易配。多數 Linux 發行版內置 Python ， Windows 下也衹需很小的安裝包。裝模塊也很方便。
+4. 易用。 Python 可以不編譯。
+5. 易抄。 Python 開源社區活躍，提問也很快得到解決。
 
 ## 正確學習方法
 
-### 有問題找模塊
-模塊之於編程語言，就像軟件之於操作系統，需要就裝。在操作系統裏，想下載就裝個下載軟件，想 P 圖就裝個 PS ，編程也是如此。記住這點，至少 Python 這門特別容易的語言就入門了一半。很多問題坐在那裏用基本命令想會想死的，但有了模塊就立馬解決。
-模塊的用法也很簡單，下載，解壓，放在 Lib 目錄，然後在腳本的開頭寫形如 import xlib 的就行了。有的大型模塊需要專門安裝，這些文檔裏都會有。多個模塊用 , 分隔或寫多行 import xlib 。
-我的常用模塊：
+#### 有問題找模塊
+模塊之於編程語言，就像軟件之於操作系統。在操作系統裏，想下載就裝下載軟件，想 P 圖就裝 PS ，編程也是如此。
+模塊的用法也很簡單，下載，解壓，放在 Lib 目錄，然後在腳本的開頭寫形如 `import libname` 的就行了。多個模塊用 , 分隔或寫多行 `import libname` 。
+Python 的標準庫就有很多很好用的模塊，不用安裝了。很多常用模塊可以用 `pip install libname` 和 `easy_install libname` 這樣的形式安裝。
+我的常用模塊（基本是標準庫）：
 os, shutil 處理文件與文件夾
 requests 網頁訪問與下載
 re 正則表達式
-sys 與 bat 對接
 threading 多線程
 tkinter 簡單易上手的 GUI
-pyinstaller 打包 exe 給沒有 Python 的機子用
 
-如果想知道自己引用的模塊有什麼命令，可以使用類似這樣的命令：
-{% highlight python %}print(dir(xlib)){% endhighlight %}
-由於絕大多數敎程都會把這一節放到書末且往往不得要領（比如大篇幅討論如何寫模塊，卻不告訴讀者早就有很多無比好用的模塊，簡直本末倒置），導致學習者讀到之前就失去耐心，卽使讀到也不知道是幹嘛用的，本文特地放到前面來。
+如果想知道自己引用的模塊有什麼命令，可以使用： `print(dir(libname))`
+由於絕大多數敎程都會把這一節放到書末且往往不得要領（比如大篇幅討論如何寫模塊，卻不告訴讀者早就有很多無比好用的模塊，簡直本末倒置），導致學習者讀到之前就失去耐心，卽使讀到也不知道是幹嘛用的，本文特地放到最前。
 
-### 讀文檔
+#### 讀文檔
 這在使用開源軟件裏面簡直是憲法第一條。用模塊肯定要看文檔的，不用說。
 
-### 邊用邊學
-把本文迅速瀏覽一遍就可以寫了，寫自己想寫的。比如抓網站，或者按需生成文件，反正想幹嘛就幹嘛，別太複雜就行。至於那些 tutorial 、習題，對非專業人員就是浪費腦細胞，有空再說。
+#### 邊用邊學
+把本文迅速瀏覽一遍就可以寫了，寫自己想寫的。比如抓網站，或者按需生成文件，想幹嘛就幹嘛，別太複雜就行。至於那些 tutorial 、習題，對非專業人員就是浪費腦細胞，有空再說。
 
-### 搞淸版本
-Python 有 2 和 3 ，官方力推 3 ，但是可能改動太大還是怎麼了，反正遇到了很大的阻力，所以現在二者並存。 3 的命令格式更嚴格、規範一點， 2 比較鬆散。網上很多討論以及第三方模塊都是基於 2 的，不一定能直接使用。用 3 有個福利，那就是對 unicode 的處理好。所以試了一段時間後，我決定用 3 。
-
-## 安裝與使用
-第一步：下載，安上。
-第二步：設置好環境變量（可能自動就設好了，免去這一步）。
-現在可以雙擊運行 .py 腳本了，但是如果有 bug 會閃退，怎麼辦呢？很簡單，在命令行打形如 python yourscript.py 的一串就行。
-也許還有第三步：裝模塊。有的模塊需要到官網下載，更多的常用模塊是 cmd 或 bash 跑一下 pip install blablabla 或 easy_install blablabla 就行了。
-第三步 pip 不成功的話，走第四步： http://www.lfd.uci.edu/~gohlke/pythonlibs/
+#### 搞淸版本
+Python 有 2 和 3 ，官方力推 3 ，但推廣遇到了很大的阻力，所以現在二者並存。 3 的命令格式更嚴格、規範， 2 比較鬆散。網上很多討論以及模塊都是基於 2 的，不一定能直接用。
+用 3 有個福利，那就是對 unicode 的處理好。所以試了一段時間後，我決定用 3 。
 
 ## 基本要求與命令
 
@@ -114,16 +111,22 @@ a,b =b,a
 這就把 a 和 b 兩個變量的値對調了。
 
 #### 轉換
-{% highlight python %}int(var) # 轉成整數
+{% highlight python %}
+int(var) # 轉成整數
 float(var) # 轉成浮點數
-str(var) # 轉成字符串{% endhighlight %}
-還有很多，記住這三個基本夠用了。
+str(var) # 轉成字符串
+str(var).zfill(3) # 控制位數，比如 1 轉成 '001'
+{% endhighlight %}
+還有很多，記住這些基本夠用。
 
 #### 切片
-{% highlight python %}str[m:n] # str 的第 m+1 到第 n 個字符
+{% highlight python %}
+str[n] # str 的第 n+1 個字符
+str[m:n] # str 的第 m+1 到第 n 個字符
 str[m:] # str 的第 m+1 及以後的字符
 str[:n] # str 的第 1 到第 n 個字符
-list[m:n] # list 的第 m+1 到第 n 個元素，參照字符串的情況{% endhighlight %}
+list[m:n] # 參照字符串，或者說字符串的本質就是 list
+{% endhighlight %}
 
 #### 字符串類變量的一些簡單處理
 可以先定義字符串，然後用形如 str1.find("some") 的命令，也可以直接對字符串作用
@@ -150,7 +153,7 @@ elif 條件 : # 這句可以不用，也可以用很多個
 else: # 其實也經常不寫
 	執行{% endhighlight %}
 需要注意的是縮進，縮進不對是不行的。而且有時還能用到嵌套：
-{% highlight python %}if 條件 :
+{% highlight python linenos %}if 條件 :
 	執行
 	if 條件 :
 		執行
@@ -184,14 +187,14 @@ for year in range(1935,1985):
 		print >>f,i
 {% endhighlight %}
 
-### break
+#### break
 用於提前跳出循環，通常是一個循環裏面套了個 if ，滿足條件了就跳出來。
 其實我個人更喜歡用 input() 來終止程序，因爲窗口會保留。
 
-### continue
+#### continue
 還是循環裏套了個 if ，比如一個循環內部有幾百行，很煩，走到若干行後一個 if 滿足條件，這輪循環不走了，直接開始走下一輪。
 
-### pass
+#### pass
 就是空語句，爲了保持完整性而使用。比如在 if 裏用 pass ，然後 else 的時候執行。
 
 ## 函數
@@ -272,20 +275,19 @@ class Caucasian (Human):
 		print('White')
 {% endhighlight %}
 
-## 書籍
+## 出版物
 <a href="http://www.amazon.com/Beginning-Python-From-Novice-Professional/dp/159059519X" rel="external">Beginning Python: from Novice to Professional</a> 本文沒有覆蓋的基礎內容。
 <a href="http://www.amazon.com/Python-Essential-Reference-4th-Edition/dp/0672329786" rel="external">Python Essential Reference</a> 一個較全面且不囉嗦的敎材，進階用爲主。
 <a href="http://shop.oreilly.com/product/0636920028154.do" rel="external">Learning Python</a> 囉嗦的來了。
 <a href="http://www.amazon.com/Python-Standard-Library-Example-Developers/dp/0321767349" rel="external">The Python Standard Library by Example</a> 標準庫能讀完，也算民間高手了。
 <a href="http://www.amazon.com/Python-Practice-Concurrency-Libraries-Developers/dp/0321905636" rel="external">Python in Practice: Create Better Programs Using Concurrency, Libraries, and Patterns</a> 進階書，用得到的話可以看。
+<a href="http://www.diveintopython3.net/" rel="external">Dive into Python 3</a> 確實較深入。
+<a href="http://learnpythonthehardway.org/book/" rel="external">Learn Python the Hard Way</a> 用來學未免蠢，用來複習提高倒不錯。
 
-## 網頁
+## 補充讀物
 <a href="https://docs.python.org/3/" rel="external">官方文檔</a>，<a href="http://www.pythondoc.com/pythontutorial3/index.html" rel="external">中文版</a>
 <a href="http://woodpecker.org.cn/abyteofpython_cn/chinese/" rel="external">简明 Python 教程</a> 可以作爲簡易快速的備查。
 <a href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000" rel="external">Python 教程</a> 在中文 IT 敎程裏，也算佼佼者了。
 <a href="http://docs.python-guide.org/en/latest/" rel="external">The Hitchhiker’s Guide to Python</a> 不少深入的話題，値得認眞讀。
-<a href="https://docs.python.org/3/reference/index.html" rel="external">The Python Language Reference</a> 系統的手冊。
-<a href="http://diveintopython.org/" rel="external">Dive into Python</a> 確實較深入。
 <a href="https://github.com/qyuhen/book/" rel="external">Python 学习笔记</a> 講得比較深，但是用的是 Python 2 。
-<a href="http://learnpythonthehardway.org/book/" rel="external">Learn Python the Hard Way</a> 用來學未免蠢，用來複習提高倒不錯。
-<a href="https://www.codecademy.com/glossary/python" rel="external">Codecademy</a> Python 習題，容易得有回到幼兒園的感覺。
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011" rel="external">Introduction to Computer Science and Programming</a> MIT 的編程課，有配套敎材，以前用 Lisp ，現在 Python 2 。涉及一些編程思想，能體會到代數和電腦的關係。
