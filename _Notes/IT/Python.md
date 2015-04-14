@@ -48,14 +48,14 @@ Python 有 2 和 3 ，官方力推 3 ，但推廣遇到了很大的阻力，所�
 ## 基本要求與命令
 
 #### 註釋
-同一行內 # 後的都算註釋。
-多行註釋在開頭和結尾後用 \"\"\" 。
+同一行內 `#` 後的都算註釋。
+多行註釋在開頭和結尾後用 `'''` 。
 
 #### 字符串
-字符串就是一串字符。凡字符串都加引號，數字不加，所以 "123" 和 123 是不同的。
+字符串就是一串字符。凡字符串都加引號，數字不加，所以 `"123"` 和 `123` 是不同的。
 {% highlight python %}'word'
 '\n' # 這是個換行
-"many words"{% endhighlight %}
+"It's a string."{% endhighlight %}
 
 #### 命令的格式
 基本上，命令遵循這樣的格式：
@@ -63,46 +63,33 @@ Python 有 2 和 3 ，官方力推 3 ，但推廣遇到了很大的阻力，所�
 其中， values 是被執行對象，而 others 通常是一些參數之類的，比如要不要緩存之類。
 但是，因爲命令經常被用來用去，次次寫很麻煩，所以我們經常會寫成一個變量的樣子：
 {% highlight python %}name=command(values,others){% endhighlight %}
+以後每次用 `name` 就可以了。
 
 #### 幫助
 格式是 help(command) ，記住就好，可以經常看看，非常有助於提高。
-
-#### 打開文件 open
-{% highlight python %}file1=open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None){% endhighlight %}
-記得加上引號。用完後加上個 closed 。
-這個命令裏展示了一堆默認模式，不寫就是默認的，當然可以寫別的。
-重點介紹幾個 mode ：
-r 直讀（默認）
-w 純寫入，如果存在就覆蓋，不存在就創建
-w+ 讀寫，如果存在就覆蓋，不存在就創建
 
 #### 輸出 print
 {% highlight python %}print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
 {% endhighlight %}
 一般就寫個 value 和 file ， value 寫得最多。
-Python 2 可以用 print value 這個格式，但跟基本格式不同，所以在 3 中被拋棄了。
-還有一種比較特殊的寫法：
-v1="a"
-v2="b"
-{% highlight python %}print "1 %s 2 %s." % (v1, v2)
-{% endhighlight %}
-這樣實際出現的是 1 a 2 b 。這種寫法讓句子比較連貫一些，不過要小心數錯……
+Python 2 可以用 `print value` 這個格式，但跟基本格式不同，所以在 3 中被拋棄了。
 
 #### 其他
 看<a href="http://www.cnblogs.com/vamei/archive/2012/11/09/2762224.html" rel="external">這裏</a>。
 
 ## 變量
 
+#### 類型
+數字、字符串、列表（一串字符串或數字或二者都有）、元組（衹讀的列表）、字典。
+
 #### 賦値
-變量的名稱除了那幾十個保留字隨便用。變量的類型有，有數字、字符串、列表（一串字符串或數字或二者都有）、元組（衹讀的列表）、字典。可以這麼定義：
 {% highlight python %}var=123 # 數字
 var="string" # 字符串
 var=[1,2,'ok'] # 列表
 var={'name':'Tom','age':15,'race':'Caucasian'} # 字典
 var1=var2=var3=123 # 賦予相同的値
 var1,var2,var3=123,456,"string" # 簡寫模式
-var=raw_input("Prompt") # 請用戶輸入變量，屬性是字符串，這命令僅在 Python 2 可用
-var=input("Prompt") # 輸入的是可以運算的，比如輸入 1+1 ，得到不是字符串 "1+1" ，而是 2 ；但在 Python 3 效果等同與 2 中的 raw_input{% endhighlight %}
+var=input("Prompt") # 請用戶輸入變量，屬性是字符串{% endhighlight %}
 
 #### 置換
 {% highlight python %}
@@ -130,17 +117,17 @@ list[m:n] # 參照字符串，或者說字符串的本質就是 list
 
 #### 字符串類變量的一些簡單處理
 可以先定義字符串，然後用形如 str1.find("some") 的命令，也可以直接對字符串作用
-{% highlight python %}"some texts".find("some") # 查找，會返回位置，比如這裏會返回 0 ，如果找不到就返回 -1
+{% highlight python %}"some texts".find("some") # 查找，會返回位置，本例是 0 ，找不到是 -1
 "some texts".replase("some","no") # 替換{% endhighlight %}
-還有其他處理如 join, split, lower, translate, strip，這裏不討論。
+還有其他處理如 join, split, lower, translate, strip 等，這裏不討論。
 
 #### 運算
 {% highlight python %}var=1+var1 # 與數字
 var="string"+var # 與字符串
 var=var1+var2 # 變量之間{% endhighlight %}
-算術運算符：除了最簡單的 + - * / % ，還有 ** 乘方， // 整除。
-比較運算符：== 等於， != 或 <> 不等於， > < >= <= 這四個比較簡單。
-賦値運算符：算術運算符後面加個等號，比如 a+=b 相當於 a=a+b 。
+算術運算符：除了最簡單的 `+` `-` `*` `/` `%` ，還有 `**` 乘方， `//` 整除。
+比較運算符：`==` 等於， `!=` 或 `<>` 不等於， `>` `<` `>=` `<=` 。
+賦値運算符：算術運算符後面加個等號，比如 `a+=b` 相當於 `a=a+b` 。
 
 ## 語句
 
@@ -179,7 +166,7 @@ else: # 這個不必要
 	執行{% endhighlight %}
 僅用於有一個列表或者字符串，不過列表可以用命令製造，比如最常見的 range(1,100) 。
 這個循環一出，等於定義了一個變量 var ，好好在循環裏用他就是了。
-for 循環也可以像 if 那樣嵌套起來。比如這個腳本，是列出所有 1935-1984 年的月份，並且寫成 yyyymm 格式，輸出到 yyyymm.txt：
+for 循環也可以像 if 那樣嵌套起來。比如這個腳本，是列出所有 1935-1984 年的月份，並且寫成 yyyymm 格式，輸出到 yyyymm.txt （這是個 Python 2 的例子）：
 {% highlight python linenos %}f=file("yyyymm.txt", "w")
 for year in range(1935,1985):
 	for month in range(1,13):
@@ -200,7 +187,9 @@ for year in range(1935,1985):
 ## 函數
 {% highlight python linenos %}def FunctionName(parameters):
 	commands # 有很多行可以用 ; 來分割一下
-	return # 函數終結，返回一個値，可以返回 True False 這樣的邏輯判斷，或者數字、字符串、變量，還能順便運算一下，比如返回個 a+b 。如果要返回多個値，這麼寫： return (a,b,c)
+	return # 可返回 True False 邏輯判斷，數字、字符串、變量
+# return 還能運算，比如返回 a+b 。返回多個値： return (a,b,c)
+# 使用函數：
 FunctionName(independent parameters){% endhighlight %}
 回想一下代數，什麼是函數。其實這寫法就相當說定義一個函數比如 f(x,y,z)= 什麼什麼。等到要用這函數的時候，再塡寫一下具體的 x,y,z 就行了。定義沒有 parameter 也可以，但這樣使用的時候也沒有。
 其實所有命令都可以看作是函數。
@@ -208,7 +197,7 @@ FunctionName(independent parameters){% endhighlight %}
 {% highlight python linenos %}
 def func():
 	global a,b
-	return (a, b)
+	return (a,b)
 {% endhighlight %}
 執行完後，整個腳本都會獲得變量 a 和 b 。不然 a 和 b 在運行完腳本之後就不見了。
 或者用另一種方法來傳遞：
@@ -243,7 +232,7 @@ except BaseException:
 else:
 	print("good")
 {% endhighlight %}
-例子中的 down 是個下載函數，函數說好回饋 200 時怎樣、 404 304 302 怎樣，但還是可能有各種問題，所以在 `except` 裏說，如果出現 `BaseException` 狀況，一律顯示 die 。 `BaseException` 指的是所有異常情況，具體見 <a href="https://docs.python.org/3/library/exceptions.html#concrete-exceptions" rel="external">文檔</a>，或快速查看<a href="http://www.w3cschool.cc/python/python-exceptions.html" rel="external">中文簡表</a>。
+例子中的 down 是個下載函數，函數說好回饋 200 時怎樣、 404 304 302 怎樣，但還是可能有各種問題，所以在 `except` 裏說，如果出現 `BaseException` 狀況，一律顯示 die 。 `BaseException` 指的是所有異常情況，具體見<a href="https://docs.python.org/3/library/exceptions.html#concrete-exceptions" rel="external">文檔</a>，或快速查看<a href="http://www.w3cschool.cc/python/python-exceptions.html" rel="external">中文簡表</a>。
 
 ## 面向對象編程 *
 零基礎半小時內理解面向對象編程 (OOP) 思想幾乎是不可能的，而 Python 單用函數編程也行，所以這裏算是選學部分。不過 OOP 在處理較大量非常類似的物件時有很大優勢，還是有必要介紹一下的。
