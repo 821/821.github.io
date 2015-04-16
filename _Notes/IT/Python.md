@@ -14,25 +14,21 @@ date: '2014/08/08'
 ## 優勢
 當下流行的程序語言，都有其各自的優越性， Python 也不例外：
 1. 易學。編寫同樣一個程序， Python 需要的知識點往往是最少之一。
-2. 易讀。比如 C++ ，代碼常「詰屈聱牙」， Python 在設計之初就很注意可讀性。
-3. 易配。多數 Linux 發行版內置 Python ， Windows 下也衹需很小的安裝包。裝模塊也很方便。
-4. 易用。 Python 可以不編譯。
+2. 易讀。 Python 簡潔、單一最優解、強制縮進，不故意噁心都好讀。
+3. 易配。多數 Linux 和 Unix 發行版內置， Windows 下也衹需很小的安裝包。
+4. 易用。 Python 不必手動編譯，雙擊腳本就能跑。
 5. 易抄。 Python 開源社區活躍，提問也很快得到解決。
 
 ## 正確學習方法
 
 #### 有問題找模塊
 模塊之於編程語言，就像軟件之於操作系統。在操作系統裏，想下載就裝下載軟件，想 P 圖就裝 PS ，編程也是如此。
-模塊的用法也很簡單，下載，解壓，放在 Lib 目錄，然後在腳本的開頭寫形如 `import libname` 的就行了。多個模塊用 , 分隔或寫多行 `import libname` 。
-Python 的標準庫就有很多很好用的模塊，不用安裝了。很多常用模塊可以用 `pip install libname` 和 `easy_install libname` 這樣的形式安裝。
 我的常用模塊（基本是標準庫）：
 os, shutil 處理文件與文件夾
 requests 網頁訪問與下載
 re 正則表達式
 threading 多線程
 tkinter 簡單易上手的 GUI
-
-如果想知道自己引用的模塊有什麼命令，可以使用： `print(dir(libname))`
 由於絕大多數敎程都會把這一節放到書末且往往不得要領（比如大篇幅討論如何寫模塊，卻不告訴讀者早就有很多無比好用的模塊，簡直本末倒置），導致學習者讀到之前就失去耐心，卽使讀到也不知道是幹嘛用的，本文特地放到最前。
 
 #### 讀文檔
@@ -47,23 +43,33 @@ Python 有 2 和 3 ，官方力推 3 ，但推廣遇到了很大的阻力，所�
 
 ## 基本要求與命令
 
+#### 文件名後綴
+`.py`: 最常見的後綴
+`.pyw`: 執行時不帶 console
+`.pyc`: Python 運行需要轉換成字節代碼 `.pyc` ，不需手動操作，想手動時在 console 執行：
+{% highlight python linenos %}
+import py_compile
+py_compile.compile('something.py')
+{% endhighlight %}
+`.pyo`: 優化的，在 Terminal 或 CMD 下執行： `python -O -m py_compile something.py`
+
+
+#### 文件頭
+在 *nix 下運行 Python 腳本，第一行應加 `#!/usr/bin/env python3.4` 。
+非 unicode 腳本，應加 `# -*- coding: gb18030 -*-` 之類的內容。
+
 #### 註釋
 同一行內 `#` 後的都算註釋。
 多行註釋在開頭和結尾後用 `'''` 。
 
 #### 字符串
 字符串就是一串字符。凡字符串都加引號，數字不加，所以 `"123"` 和 `123` 是不同的。
-{% highlight python %}'word'
+{% highlight python %}
+'word'
 '\n' # 這是個換行
-"It's a string."{% endhighlight %}
-
-#### 命令的格式
-基本上，命令遵循這樣的格式：
-{% highlight python %}command(values,others){% endhighlight %}
-其中， values 是被執行對象，而 others 通常是一些參數之類的，比如要不要緩存之類。
-但是，因爲命令經常被用來用去，次次寫很麻煩，所以我們經常會寫成一個變量的樣子：
-{% highlight python %}name=command(values,others){% endhighlight %}
-以後每次用 `name` 就可以了。
+'\u0020' # 支持 unicode
+"It's a string."
+{% endhighlight %}
 
 #### 幫助
 格式是 help(command) ，記住就好，可以經常看看，非常有助於提高。
@@ -79,6 +85,10 @@ Python 2 可以用 `print value` 這個格式，但跟基本格式不同，所�
 
 ## 變量
 
+#### 保留字
+這些詞是 Python 的內置命令，不能用作變量名：
+ArithmeticError, AssertionError, AttributeError, DeprecationWarning, EOFError, Ellipsis, EnvironmentError, Exception, False, FloatingPointError, FutureWarning, IOError, ImportError, IndentationError, IndexError, KeyError, KeyboardInterrupt, LookupError, MemoryError, NameError, None, NotImplemented, NotImplementedError, OSError, OverflowError,  PendingDeprecationWarning, ReferenceError, RuntimeError, RuntimeWarning, StandardError, StopIteration, SyntaxError, SyntaxWarning, SystemError, SystemExit, TabError, True, TypeError, UnboundLocalError, UnicodeDecodeError, UnicodeEncodeError, UnicodeError, UnicodeTranslateError, UserWarning, ValueError, Warning, WindowsError, ZeroDivisionError, _, __debug__, __doc__, __import__, __name__, abs, apply, basestring, bool, buffer, callable, chr, classmethod, cmp, coerce, compile, complex, copyright, credits, delattr, dict, dir, divmod, enumerate, eval, execfile, exit, file, filter, float, frozenset, getattr, globals, hasattr, hash, help, hex, id, input, int, intern, isinstance, issubclass, iter, len, license, list, locals, long, map, max, min, object, oct, open, ord, pow, property, quit, range, raw_input, reduce, reload, repr, reversed, round, set, setattr, slice, sorted, staticmethod, str, sum, super, tuple, type, unichr, unicode, vars, xrange, zip
+
 #### 類型
 數字、字符串、列表（一串字符串或數字或二者都有）、元組（衹讀的列表）、字典。
 
@@ -89,6 +99,7 @@ var=[1,2,'ok'] # 列表
 var={'name':'Tom','age':15,'race':'Caucasian'} # 字典
 var1=var2=var3=123 # 賦予相同的値
 var1,var2,var3=123,456,"string" # 簡寫模式
+var=print("123") # 用一個變量來代表一串命令
 var=input("Prompt") # 請用戶輸入變量，屬性是字符串{% endhighlight %}
 
 #### 置換
@@ -113,12 +124,15 @@ str[m:n] # str 的第 m+1 到第 n 個字符
 str[m:] # str 的第 m+1 及以後的字符
 str[:n] # str 的第 1 到第 n 個字符
 list[m:n] # 參照字符串，或者說字符串的本質就是 list
+a[0:2] = [1, 12] # 可以直接對切片賦値
 {% endhighlight %}
 
 #### 字符串類變量的一些簡單處理
-可以先定義字符串，然後用形如 str1.find("some") 的命令，也可以直接對字符串作用
-{% highlight python %}"some texts".find("some") # 查找，會返回位置，本例是 0 ，找不到是 -1
-"some texts".replase("some","no") # 替換{% endhighlight %}
+可以先定義字符串，然後用形如 `str1.find("some")` 的命令，也可以直接對字符串作用
+{% highlight python %}
+"some texts".find("some") # 查找，會返回位置，本例是 0 ，找不到是 -1
+"some texts".replase("some","no") # 替換
+{% endhighlight %}
 還有其他處理如 join, split, lower, translate, strip 等，這裏不討論。
 
 #### 運算
@@ -131,48 +145,46 @@ var=var1+var2 # 變量之間{% endhighlight %}
 
 ## 語句
 
-### if 條件
+### if
 {% highlight python linenos %}
+# 條件裏用得最多的就是比較運算符
 if 條件 : # 不同條件可以用 and 和 or 來連接
-	執行
+	幹活
 elif 條件 : # 這句可以不用，也可以用很多個
-	執行
+	幹活
 else: # 其實也經常不寫
-	執行{% endhighlight %}
+	幹活
+{% endhighlight %}
 需要注意的是縮進，縮進不對是不行的。而且有時還能用到嵌套：
-{% highlight python linenos %}if 條件 :
-	執行
+{% highlight python linenos %}
+if 條件 :
+	幹活
 	if 條件 :
-		執行
+		幹活
 	else:
-		執行
+		幹活
 else:
-	執行{% endhighlight %}
+	幹活
+{% endhighlight %}
 如果搞錯縮進就亂套了。
 
 ### while 循環
 {% highlight python linenos %}
 while 情況 :
-	執行
+	幹活
 else: # 這個不必要
-	執行{% endhighlight %}
+	幹活
+{% endhighlight %}
 while 循環也可以像 if 那樣嵌套起來。
 
 ### for 循環
 {% highlight python linenos %}
 for var in list/string:
-	執行
+	幹活
 else: # 這個不必要
-	執行{% endhighlight %}
-僅用於有一個列表或者字符串，不過列表可以用命令製造，比如最常見的 range(1,100) 。
-這個循環一出，等於定義了一個變量 var ，好好在循環裏用他就是了。
-for 循環也可以像 if 那樣嵌套起來。比如這個腳本，是列出所有 1935-1984 年的月份，並且寫成 yyyymm 格式，輸出到 yyyymm.txt （這是個 Python 2 的例子）：
-{% highlight python linenos %}f=file("yyyymm.txt", "w")
-for year in range(1935,1985):
-	for month in range(1,13):
-		i=str(year)+str(month).zfill(2)
-		print >>f,i
+	幹活
 {% endhighlight %}
+僅用於有一個列表或者字符串，不過列表可以用命令造，比如最常見的 `range(a,b)` 的形式。
 
 #### break
 用於提前跳出循環，通常是一個循環裏面套了個 if ，滿足條件了就跳出來。
@@ -185,14 +197,16 @@ for year in range(1935,1985):
 就是空語句，爲了保持完整性而使用。比如在 if 裏用 pass ，然後 else 的時候執行。
 
 ## 函數
-{% highlight python linenos %}def FunctionName(parameters):
+{% highlight python linenos %}
+def FunctionName(parameters):
 	commands # 有很多行可以用 ; 來分割一下
-	return # 可返回 True False 邏輯判斷，數字、字符串、變量
+	return # 可返回邏輯判斷、數字、字符串、變量
 # return 還能運算，比如返回 a+b 。返回多個値： return (a,b,c)
+# 不寫 return 後的內容或乾脆不寫 return 語句時，返回 None
 # 使用函數：
-FunctionName(independent parameters){% endhighlight %}
-回想一下代數，什麼是函數。其實這寫法就相當說定義一個函數比如 f(x,y,z)= 什麼什麼。等到要用這函數的時候，再塡寫一下具體的 x,y,z 就行了。定義沒有 parameter 也可以，但這樣使用的時候也沒有。
-其實所有命令都可以看作是函數。
+FunctionName(independent parameters)
+{% endhighlight %}
+回想一下代數，什麼是函數。其實這寫法就相當說定義一個函數如 f(x,y,z)= 什麼什麼。等到要用這函數的時候，再塡一下具體的 x,y,z 就行。沒有 parameter 也可以，形式用 `func()` 。
 如果想在函數外使用 return 回來的變量，最簡單的方法就是把變量全局化。比如：
 {% highlight python linenos %}
 def func():
@@ -222,20 +236,68 @@ func 中的變量 a 同時也是一個函數，所以 func 就是個高階函數
 lambda [arg1 [,arg2,.....argn]]:expression
 {% endhighlight %}
 
-## 異常處理
-有時候，代碼沒寫錯，但運行環境出錯，比如下載東西服務器的回饋出錯，或者用戶手賤之類。於是就有了異常處理。下面提供最簡單的例子：
+## 讀寫文件
+{% highlight python linenos %}
+f = open('1.txt', 'w') # 打開文件
+# 文件可帶路徑，也可不帶
+# 模式裏，默認爲 r 衹讀 ， r+ 是讀寫， w 覆蓋， a 追加
+# 對於二進制文件，如圖片， Windows 下應加 b ，寫法如 r+b
+f.read() # 看內容
+f.readline() # 逐行讀
+f.readlines() # 返回的是列表
+f.write(string) # 寫入
+f.close() # 關上之後就不能 read write 之類了
+{% endhighlight %}
+
+## 其他常用命令
+{% highlight python linenos %}
+del i
+# 刪掉變量
+exec("print('yes')")
+# 執行語句。看起來雞肋？用來批量生成變量就很好用。
+assert i = 1
+# 比如你很確定 i = 1 ，如果不是寧可程序 error ，那就用罷。
+
+{% endhighlight %}
+
+## 模塊
+掌握以上知識點卽可運用模塊進行稍微複雜一點的編程。
+{% highlight python linenos %}
+import modname # 基本引入形式
+print(dir(modname)) # 看看 modname 裏都有哪些命令
+modname.func(parameters) # 基本使用形式
+import modname2 as l # 縮寫引入
+l.func2(parameters) # 縮寫後
+from modname3 import * # 懶人引入
+func3(parameters) # 寫起來簡單了，但可能造成污染
+from modname4 import func4 # 小心的懶人
+func4(parameters) # 等於衹引入了一個命令，污染的可能性較小
+{% endhighlight %}
+
+#### 安裝非標準庫
+對於非標準庫，主要有四種形式。
+一：開 cmd ， `pip install modname` 。
+二：開 cmd ， `easy_install modname` 。
+三：下載，解壓，開 cmd ，進文件夾， `python setup.py install` 。
+四：下載，解壓，放進 Python 的 Lib 目錄。
+五：下載一個安裝包，像裝軟件一樣裝起來。
+
+## 異常處理*
+異常並不一定發生，本部分作爲選讀。
 {% highlight python linenos %}
 try:
 	down(link)
 except BaseException:
 	print("die")
+	raise # 抛出，這句可不寫
 else:
 	print("good")
 {% endhighlight %}
-例子中的 down 是個下載函數，函數說好回饋 200 時怎樣、 404 304 302 怎樣，但還是可能有各種問題，所以在 `except` 裏說，如果出現 `BaseException` 狀況，一律顯示 die 。 `BaseException` 指的是所有異常情況，具體見<a href="https://docs.python.org/3/library/exceptions.html#concrete-exceptions" rel="external">文檔</a>，或快速查看<a href="http://www.w3cschool.cc/python/python-exceptions.html" rel="external">中文簡表</a>。
+例中的 down 是個下載函數，函數說好回饋 200 時怎樣、 404 304 302 怎樣，但還是可能有各種問題，所以在 `except` 裏說，如果出現 `BaseException` 狀況，一律顯示 die 。 `BaseException` 指的是所有異常情況，具體見<a href="https://docs.python.org/3/library/exceptions.html#concrete-exceptions" rel="external">文檔</a>，或快速查看<a href="http://www.w3cschool.cc/python/python-exceptions.html" rel="external">中文簡表</a>。
 
 ## 面向對象編程 *
-零基礎半小時內理解面向對象編程 (OOP) 思想幾乎是不可能的，而 Python 單用函數編程也行，所以這裏算是選學部分。不過 OOP 在處理較大量非常類似的物件時有很大優勢，還是有必要介紹一下的。
+零基礎半小時內理解面向對象編程 (OOP) 思想幾乎是不可能的，這裏算選學部分。不過 OOP 在處理較大量非常類似的物件時有很大優勢，還是有必要介紹一下的。
+對於外行人來說， OOP 的主要功能其實是創建模板。
 
 #### 槪念
 類：比如四個東西， Washington, Jefferson, Roosevelt, Lincoln ，屬於什麼類？ Human 。
@@ -260,8 +322,7 @@ w.age()
 # 再建立個 Caucasian
 class Caucasian (Human):
 # 有了 Human 打底，不用再 __init__ ：
-	def skin(self):
-		print('White')
+	pass
 {% endhighlight %}
 
 ## 出版物
@@ -273,10 +334,11 @@ class Caucasian (Human):
 <a href="http://www.diveintopython3.net/" rel="external">Dive into Python 3</a> 確實較深入。
 <a href="http://learnpythonthehardway.org/book/" rel="external">Learn Python the Hard Way</a> 用來學未免蠢，用來複習提高倒不錯。
 
-## 補充讀物
+## 網絡資源
 <a href="https://docs.python.org/3/" rel="external">官方文檔</a>，<a href="http://www.pythondoc.com/pythontutorial3/index.html" rel="external">中文版</a>
 <a href="http://woodpecker.org.cn/abyteofpython_cn/chinese/" rel="external">简明 Python 教程</a> 可以作爲簡易快速的備查。
 <a href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000" rel="external">Python 教程</a> 在中文 IT 敎程裏，也算佼佼者了。
 <a href="http://docs.python-guide.org/en/latest/" rel="external">The Hitchhiker’s Guide to Python</a> 不少深入的話題，値得認眞讀。
 <a href="https://github.com/qyuhen/book/" rel="external">Python 学习笔记</a> 講得比較深，但是用的是 Python 2 。
-<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011" rel="external">Introduction to Computer Science and Programming</a> MIT 的編程課，有配套敎材，以前用 Lisp ，現在 Python 2 。涉及一些編程思想，能體會到代數和電腦的關係。
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011" rel="external">Introduction to Computer Science and Programming</a> MIT 的編程課，有配套敎材，以前用 Lisp 的方言 Scheme ，現在 Python 2 。涉及一些編程思想，能體會到代數和電腦的關係。
+<a href="http://www.jb51.net/list/list_97_1.htm" rel="external">腳本之家</a> 採集了很多腳本的網站。
