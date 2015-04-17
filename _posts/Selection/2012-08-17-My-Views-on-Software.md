@@ -141,8 +141,6 @@ Linux 方案及點評：程序員也要科學衝浪，所以不怕。
 
 ### 下載
 →☭<a href="http://www.zdfans.com/502.html" rel="external">QQ 旋風</a> 免費離綫下載，不能下違法文件哦。
-<a href="http://ugetdm.com/" rel="external">uGet</a> 支持命令行的 GUI 下載工具，且命令豐富。
-→<a href="http://pycurl.sourceforge.net/" rel="external">PycURL</a> 雖然僅僅是 Python 的一個模塊，卻爲我下載了大量文件。
 Linux 方案及點評：網頁版+瀏覽器插件+wget/curl ，體驗略低於 Windows ，但 FTP 和 SFTP 及衍生物會更好。
 理想： QQ 旋風全面支持命令行和改鏈接續傳。
 
