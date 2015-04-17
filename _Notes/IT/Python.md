@@ -92,7 +92,6 @@ NoneType: None
 bool: True, False
 int: 64 位的機子上就是 64 位以內的整數
 float: 小數
-long: int 超過 64 位自動轉
 complex: 複數
 str: 字符串，默認是 unicode 的
 byte: 字節——這是 Python 2 的 str 形式
