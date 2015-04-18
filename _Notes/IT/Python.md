@@ -58,7 +58,7 @@ py_compile.compile('something.py')
 `.pyo`: 優化的，在 Terminal 或 CMD 下執行： `python -O -m py_compile something.py`
 
 #### 文件頭
-在 *nix 下運行 Python 腳本，第一行應加 `#!/usr/bin/env python3.4` 。
+在 \*nix 下運行 Python 腳本，第一行應加 `#!/usr/bin/env python3.4` 。
 非 unicode 腳本，應加 `# -*- coding: gb18030 -*-` 之類的內容。
 
 #### 註釋
