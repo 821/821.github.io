@@ -5,6 +5,13 @@ date: '2014/08/08'
 ---
 本文代碼如無說明，均爲 Python 3 代碼。
 
+當下流行的程序語言，都有其各自的優越性， Python 也不例外：
+1. 易學。實現相同功能， Python 需要的知識點往往是最少之一。
+2. 易讀。簡潔、單一最優解、強制縮進，好讀得像個學院派語言。
+3. 易配。多數 *nix 發行版內置， Windows 下也衹需很小的安裝包。
+4. 易用。不必手動編譯，雙擊腳本就能跑。
+5. 易抄。開源社區活躍，以及單一最優解帶來的效率。
+
 學習 Python ，如果學時超過五小時還不能寫點實用小腳本，則必是以下幾種可能：
 一、跟電腦、編程八字不合或幾乎沒摸過電腦。
 二、智力發育不全、受敎育程度低或年過古稀。
@@ -12,14 +19,6 @@ date: '2014/08/08'
 其中第三點的可能性最高，因爲前二者多半不會想學 Python ，或者乾脆不知道這是什麼玩意。問題就是第三點了。
 很多敎程容易陷入學術化的泥沼，忘記了實用本質。這就像本來衹想敎人計算圓的面積，結果一不小心把整個平面幾何和微積分全部講完，而讀者在學到三角函數的時候已決定放棄了。
 本文的目標是掛一漏萬、避難趨易，讓讀者自己提綱挈領、綱舉目張。多數人應能半小時內讀完並對大部分內容有印象，而且這些內容「剛好」是最重要的——至少我自己用到過，所以覺得重要。系統的學習當然是好的，但如果能用前就喪失興趣就糟了。上手之後再進行系統學習，會覺得很輕鬆，而且更能專注於編程思想、美化代碼、易錯細節等方面。
-
-## 優勢
-當下流行的程序語言，都有其各自的優越性， Python 也不例外：
-1. 易學。實現相同功能， Python 需要的知識點往往是最少之一。
-2. 易讀。簡潔、單一最優解、強制縮進，好讀得像個學院派語言。
-3. 易配。多數 *nix 發行版內置， Windows 下也衹需很小的安裝包。
-4. 易用。不必手動編譯，雙擊腳本就能跑。
-5. 易抄。開源社區活躍，以及單一最優解帶來的效率。
 
 ## 方法論
 
@@ -197,6 +196,7 @@ else: # 這個不必要
 	幹活
 {% endhighlight %}
 while 循環也可以像 if 那樣嵌套起來。
+其實寫循環一般不建議用 `else` 。
 
 ### for 循環
 while 不太好用，因爲計數通常需要在循環內寫類似 `i = i + 1` 的東西。計數出現在不同位置還會影響程序運行，對思路不淸的新人來說有點危險，但更重要的還是太囉嗦。
@@ -317,7 +317,7 @@ try:
 	down(link)
 except BaseException:
 	print("die")
-	raise # 抛出，這句可不寫
+	raise MyException('message') # 抛出，這句可不寫
 else:
 	print("good")
 {% endhighlight %}
@@ -354,15 +354,13 @@ class Caucasian (Human):
 {% endhighlight %}
 說實話， Python 基礎裏看起來最不優美的就是 OOP 什麼 `__init__` ，還有一堆 `self.` ，簡直不要太醜。如果 `def` 能嵌套，我幾乎沒機會用 `class` ……
 
-## 出版物
+## 補充閱覽
 <a href="http://www.amazon.com/Beginning-Python-From-Novice-Professional/dp/159059519X" rel="external">Beginning Python: from Novice to Professional</a> 本文沒有覆蓋的基礎內容。
 <a href="http://www.amazon.com/Python-Essential-Reference-4th-Edition/dp/0672329786" rel="external">Python Essential Reference</a> 一個較全面且不囉嗦的敎材，進階用爲主。
 <a href="http://shop.oreilly.com/product/0636920028154.do" rel="external">Learning Python</a> 囉嗦的來了。
 <a href="http://www.amazon.com/Python-Standard-Library-Example-Developers/dp/0321767349" rel="external">The Python Standard Library by Example</a> 標準庫能讀完，也算民間高手了。
 <a href="http://www.amazon.com/Python-Practice-Concurrency-Libraries-Developers/dp/0321905636" rel="external">Python in Practice: Create Better Programs Using Concurrency, Libraries, and Patterns</a> 進階書，用得到的話可以看。
 <a href="http://www.diveintopython3.net/" rel="external">Dive into Python 3</a> 確實較深入，但編排有問題，不能作爲入門書。
-
-## 網絡資源
 <a href="https://docs.python.org/3/" rel="external">官方文檔</a>，<a href="http://www.pythondoc.com/pythontutorial3/index.html" rel="external">中文版</a>
 <a href="http://www.byteofpython.info/" rel="external">A Byte of Python</a> 可以作爲簡易快速的備查。
 <a href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000" rel="external">Python 教程</a> 在中文 IT 敎程裏，也算佼佼者了。
