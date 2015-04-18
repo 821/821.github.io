@@ -50,11 +50,10 @@ Google 和 StackOverflow 是學編程最好的朋友。
 `.py`: 最常見的後綴
 `.pyw`: 執行時不帶 console
 `.pyc`: Python 運行需要轉換成字節代碼 `.pyc` ，不需手動操作，想手動時在 console 執行：
-
-``` python
+{% highlight python %}
 import py_compile
 py_compile.compile('something.py')
-```
+{% endhighlight %}
 `.pyo`: 優化的，在 Terminal 或 CMD 下執行： `python -O -m py_compile something.py`
 
 #### 文件頭
@@ -73,7 +72,8 @@ py_compile.compile('something.py')
 格式是 help(command) ，記住就好，可以經常看看，非常有助於提高。
 
 #### 輸出 print
-{% highlight python %}print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+{% highlight python %}
+print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
 {% endhighlight %}
 一般就寫個 value 和 file ， value 寫得最多。
 Python 2 可以用 `print value` 這個格式，但跟基本格式不同，所以在 3 中被拋棄了。
@@ -157,9 +157,11 @@ a[0:2] = [1, 12] # 可以直接對切片賦値
 還有其他處理如 join, split, lower, translate, strip 等，這裏不討論。
 
 #### 運算
-{% highlight python %}var=1+var1 # 與數字
+{% highlight python %}
+var=1+var1 # 與數字
 var="string"+var # 與字符串
-var=var1+var2 # 變量之間{% endhighlight %}
+var=var1+var2 # 變量之間
+{% endhighlight %}
 算術運算符：除了最簡單的 `+` `-` `*` `/` `%` ，還有 `**` 乘方， `//` 整除。
 比較運算符：`==` 等於， `!=` 或 `<>` 不等於， `>` `<` `>=` `<=` 。
 賦値運算符：算術運算符後面加個等號，比如 `a+=b` 相當於 `a=a+b` 。
