@@ -50,10 +50,10 @@ Google 和 StackOverflow 是學編程最好的朋友。
 `.py`: 最常見的後綴
 `.pyw`: 執行時不帶 console
 `.pyc`: Python 運行需要轉換成字節代碼 `.pyc` ，不需手動操作，想手動時在 console 執行：
-{% highlight python %}
+``` python
 import py_compile
 py_compile.compile('something.py')
-{% endhighlight %}
+```
 `.pyo`: 優化的，在 Terminal 或 CMD 下執行： `python -O -m py_compile something.py`
 
 #### 文件頭
@@ -310,7 +310,7 @@ func4(parameters) # 等於衹引入了一個命令，污染的可能性較小
 四：下載，解壓，放進 Python 的 Lib 目錄。
 五：下載一個安裝包，像裝軟件一樣裝起來。
 
-## 異常處理*
+## 異常處理 *
 異常並不一定發生，本部分作爲選讀。
 {% highlight python %}
 try:
