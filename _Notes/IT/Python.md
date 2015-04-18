@@ -50,6 +50,7 @@ Google 和 StackOverflow 是學編程最好的朋友。
 `.py`: 最常見的後綴
 `.pyw`: 執行時不帶 console
 `.pyc`: Python 運行需要轉換成字節代碼 `.pyc` ，不需手動操作，想手動時在 console 執行：
+
 ``` python
 import py_compile
 py_compile.compile('something.py')
