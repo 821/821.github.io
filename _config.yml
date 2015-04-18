@@ -18,7 +18,7 @@ post_defaults:
 highlighter: pygments
 markdown: redcarpet
 redcarpet:
-  extensions: ["tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+  extensions: ["tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "hard_wrap"]
 
 timezone: Asia/Shanghai
 title : 奚適而惡乎待哉
