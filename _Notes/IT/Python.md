@@ -11,6 +11,8 @@ date: '2014/08/08'
 3. 易配。多數 *nix 發行版內置， Windows 下也衹需很小的安裝包。
 4. 易用。不必手動編譯，雙擊腳本就能跑。
 5. 易抄。開源社區活躍，以及單一最優解帶來的效率。
+Python 當然也有缺點，最大的缺點大約就是比起 C/C++ 效率相對低下。不過外行人很難寫到多麼在乎佔用效率的東西，而且需要效率不是可以升級機器麼。
+總而言之，「人生苦短，我用 Python 」。
 
 學習 Python ，如果學時超過五小時還不能寫點實用小腳本，則必是以下幾種可能：
 一、跟電腦、編程八字不合或幾乎沒摸過電腦。
@@ -327,13 +329,13 @@ else:
 例中的 down 是個下載函數，函數說好回饋 200 時怎樣、 404 304 302 怎樣，但還是可能有各種問題，所以在 `except` 裏說，如果出現 `BaseException` 狀況，一律顯示 die 。 `BaseException` 指的是所有異常情況，具體見<a href="https://docs.python.org/3/library/exceptions.html#concrete-exceptions" rel="external">文檔</a>，或快速查看<a href="http://www.w3cschool.cc/python/python-exceptions.html" rel="external">中文簡表</a>。
 
 ## 面向對象編程 *
-零基礎半小時內理解面向對象編程 (OOP) 思想幾乎是不可能的，這裏算選學部分。不過 OOP 在處理較大量非常類似的物件時有很大優勢，還是有必要介紹一下的。
-對於外行人來說， OOP 的主要意義其實是創建模板。
+Python 的 OOP 給我的印象很不好，滿天飛的 `self` 和下劃線，代碼的美感都毀了。而且，零基礎要半小時理解面向對象編程 (OOP) 思想過於困難，這裏算選學部分。
+對外行人來說， OOP 的主要意義其實是創建模板。
 
 #### 槪念
 類：比如四個東西， Washington, Jefferson, Roosevelt, Lincoln ，屬於什麼類？ Human 。
 對象：比如 Washington ，他就是 Human 的一個對象。
-繼承： Human 裏有很多類別，比如 Caucasian 這個子類。 Caucasian 具有 Human 的全部特性，這叫繼承。其中， Human 是父類， Caucasian 是子類。
+繼承： Human 裏有很多類別，比如 Caucasian 。 Caucasian 具有 Human 的全部特性，這叫繼承。其中， Human 是父類， Caucasian 是子類。
 類可以有很多項屬性和動作，建立好類，每個對象像套用函數一樣用類來決定行爲就行了，類就像個模板一樣。所以 OOP 對於需要到很多個對象的編程是比較方便的。
 
 #### 例子
