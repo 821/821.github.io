@@ -3,8 +3,26 @@ layout: indexed
 title: 漫遊 Python 庫
 date: '2015/04/20'
 ---
-## PyQt
+## GUI
+
+### Tkinter
+這個標準庫的命令非常規範，一個例子就夠了：
+{% highlight python %}
+from tkinter import *
+wd = Tk() # 做出一個窗口
+wd.title("My Title") # 標題
+def doit(): # 瞎編一個複雜的函數給按鈕
+	pass
+button = Button(wd, text='Do it', command=dl) # 按鈕及其命令
+button.pack() # 封裝起來
+wd.mainloop() # 把窗口放入主循環
+{% endhighlight %}
+
+Tkinter 的部件有 Button, Canvas, Checkbutton, Entry, Frame, Label, Listbox, Menubutton, Menu, Message, Radiobutton, Scale, Scrollbar, Text, Toplevel, Spinbox, PanedWindow, LabelFrame, tkMessageBox 這些，詳細的可以查閱 <a href="http://www.tutorialspoint.com/python/python_gui_programming.htm" rel="external">Tkinter Programming</a>
+
+### PyQt
 環境： Python 3.4.3, PyQt 4.11.3 。代碼不保證兼容 Python 2 和 PyQt 5 。
+安裝需要到官網下載安裝包。
 
 #### 基礎
 {% highlight python %}
