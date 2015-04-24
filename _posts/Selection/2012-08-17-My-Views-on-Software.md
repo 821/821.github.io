@@ -257,6 +257,8 @@ Enigma Virtual Box 一個把綠色軟件打包成單文件軟件的東西。
 →<a href="http://keepass.info/" rel="external">KeePass</a> 最初用 LastPass ，但想自己管理，就用 KeePass 。 KeePass 在瀏覽器上各種不敏，記錄密碼是根據 post 內容，有時會記成加密後的，就用了 1Password 。然而 1Password 太貴且反盜版太厲害，還是回來了。還試過 RoboForm ，不習慣，用不下來。
 →<a href="http://freepiano.tiwb.com/" rel="external">FreePiano</a> 最好的免費鋼琴軟件。
 VirtualBox 虛擬機。
+<a href="http://www.winntsetup.com/" rel="external">WinNTSetup</a> 方便重裝系統。
+
 
 ### 退伍名單
 嘗試過但終於放棄的。可以看到，帶 $ 和 ☭ 的很多。
@@ -313,9 +315,10 @@ Windows 下軟件很安逸， Linux 下較折騰。如果喜歡嘗試某些開�
 <a href="http://www.winpenpack.com/en/index.php" rel="external">WinPenPack</a> 類似 Portableapps ，不過是意大利的。
 <a href="http://www.hanzify.org/index.html" rel="external">漢化新世紀</a> 烈火的網站，專注於製作精美的漢化軟件。
 <a href="http://www.portablesoft.org/" rel="external">精品綠色便攜軟件</a> 孜孜不倦的更新、打包便攜軟件。比較欣賞的一點是他不拿新版本充數，軟件出新版他是用更新文章的方式，而且對於他常用的軟件，更新比較勤快。
-<a href="http://www.guofs.com/" rel="external">獨木成林</a> 專注於中國人常用軟件，現在放 M$ 家盜版軟件的名博不多了——他的 PR 是 4 ，算個小名博罷。
+<a href="http://www.guofs.com/" rel="external">獨木成林</a> 賣站後質量下降，但還留有不少有價値的舊貨。
 <a href="http://x-berry.com" rel="external">軟礦</a> 作品不多，但收藏不少。
 <a href="http://www.bzdiao.com/" rel="external">不着調軟件</a> 右下角的「猜你喜歡」略討厭。
+<a href="http://www.zdfans.com/" rel="external">zd423</a> 後起之秀，更新很勤快。
 
 ### 總參
 <a href="http://en.wikipedia.org/wiki/List_of_search_engines" rel="external">Search engines (list)</a>
