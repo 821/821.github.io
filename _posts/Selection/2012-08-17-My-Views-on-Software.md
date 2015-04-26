@@ -249,7 +249,7 @@ My Calc 高級計算器。
 我用安卓手機完全是親戚非要我用微信，還專門送了我一個……
 
 ### 其他
-→<a href="https://www.python.org/" rel="external">Python 3</a> 編點小玩意用，主要爲了讀秀。配合 AHK 或 CLaunch 都是極好的。
+→<a href="https://www.python.org/" rel="external">Python 3</a> 編點小玩意用，主要爲了讀秀。寫 2 的時候會用<a href="http://winpython.github.io/" rel="external">便攜版</a>。
 <a href="http://homepage1.nifty.com/kazubon/tclocklight/index.html" rel="external">Tclock</a> 好用的免費鬧鐘軟件。
 →$變速齒輪 曹操傳必備。
 →<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLaunch</a> 日系快速啟動類軟件，同類軟件我都懶得試了阿魯。

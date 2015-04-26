@@ -3,9 +3,31 @@ layout: indexed
 title: 漫遊 Python 庫
 date: '2015/04/20'
 ---
+## 多線程
+
+### threading
+Python 主要有兩個多線程標準庫， thread 和 threading 。前者低級，後者高級。對於不需要太底層的情況，一般使用後者。
+threading 有幾個常用方法： `start`, `run`, `join`, `name` 。
+最常見的寫法是以線程爲父類，建立特殊對象。但這麼寫邏輯顯得較混亂。
+{% highlight python %}
+import threading, time
+class Worker(threading.Thread):
+	def __init__(self, argument):
+		threading.Thread.__init__(self)
+		self.argument = argument
+	def run(self):
+		print(self.argument)
+		time.sleep(1)
+		print(self.argument)
+for i in range(20):
+	Worker(i).start()
+{% endhighlight %}
+單單是這個模塊，已沒有太多必須用例子來詮釋，看
+<a href="https://docs.python.org/3/library/threading.html" rel="external">文檔</a>就行了。
+
 ## GUI
 
-### Tkinter
+### tkinter
 這個標準庫的命令非常規範，一個例子就夠了：
 {% highlight python %}
 from tkinter import *
