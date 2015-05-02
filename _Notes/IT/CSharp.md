@@ -118,3 +118,4 @@ namespace CalculatorApplication
 	}
 }
 {% endhighlight %}
+總體來講，比 Python 繁瑣多了。
