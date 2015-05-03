@@ -37,7 +37,7 @@ def doit(): # 瞎編一個複雜的函數給按鈕
 	pass
 button = Button(wd, text='Do it', command=dl) # 按鈕及其命令
 # Tkinter 裏做命令都是這個格式，很簡單罷？
-button.pack() # 封裝起來
+button.pack() # 簡單封裝
 wd.mainloop() # 把窗口放入主循環
 {% endhighlight %}
 
@@ -46,6 +46,7 @@ Tkinter 的部件有 Button, Canvas, Checkbutton, Entry, Frame, Label, Listbox, 
 ### PyQt
 環境： Python 3.4.3, PyQt 4.11.3 。代碼不保證兼容 Python 2 和 PyQt 5 。
 安裝需要到官網下載安裝包。
+PyQt 也有 Designer ，一個看起來很 Visual Basic 的東西。反正我沒想過要用。
 
 #### 基礎
 {% highlight python %}

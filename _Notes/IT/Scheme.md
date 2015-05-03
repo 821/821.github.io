@@ -5,7 +5,7 @@ date: '2015/05/02'
 ---
 函數編程是命令編程的鏡子，命令編程的缺點就是函數編程的優點，反之亦然。雖然由於歷史因素，函數編程並非主流，但學習一下或許能有一些啓發。
 最常見的函數編程語言就是 Lisp, Scheme, Racket, Haskell 。 Scheme 是 MIT 出的 Lisp 方言， Racket 是 Lisp 較實用的方言，而 Haskell 是一門漸漸火起來的新興語言。 Scheme 是很多北美高校第一門語言（現在地位漸漸被 Python 替代），用 Scheme 來闡釋程序設計一般原理的「名著」就有 ["SICP"](http://mitpress.mit.edu/sicp/) 和 ["How to Design Programs"](http://www.ccs.neu.edu/home/matthias/HtDP2e/) 。另外 "The Little Schemer" 和 ["TSPL"](http://www.scheme.com/tspl3/) 則是比較專門的 Scheme 敎材。
-本文的願景是，讀完後可直接讀 SICP ，而不必糾結於 Scheme 的語法，看 Emacs 配置文件時也不要那麼驚訝。
+Scheme 不是實用語言，代碼可讀性很差（比如反人類的括號，用肉眼很難看對應關係），運行效率低，語法太靈活。所以，幾乎沒人用 Scheme 作爲開發語言。本文的願景是，讀完後可直接讀 SICP ，而不必糾結於 Scheme 的語法，看 Emacs 配置文件時也不要那麼驚訝。
 
 ## 環境
 最常用的是 MIT Scheme ，安裝得到 Edwin ，一個類似 Emacs 的編輯器。
@@ -19,6 +19,11 @@ Scheme 的標準文件名後綴是 scm 。
 (load "F:\\my.scm")
 {% endhighlight %}
 如果要編譯，可以用 [Racket](http://download.racket-lang.org/) 。
+如果衹是當腳本用，在 *nix 下，則應保存爲 `.scm` 文件，並在頭部加上：
+{% highlight scheme %}
+#! /usr/local/bin/guile -s
+!#
+{% endhighlight %}
 
 ## 函數
 爲了學習函數的格式，我們先通過計算來看看 Scheme 的函數格式：
@@ -35,15 +40,17 @@ Scheme 的標準文件名後綴是 scm 。
 {% endhighlight %}
 眞是一股邪祟之氣外露……
 
-### 命名與調用
-旣然是函數編程，命名變量和命名函數是一樣的格式。
+### 定義與調用
+旣然是函數編程，定義變量和定義函數是一樣的格式。
 {% highlight scheme %}
-; 命名變量，相當於 Python 的 var = 1
+; 定義變量，相當於 Python 的 var = 1
 (define var 1)
-; 命名函數
+; 定義函數
 (define (add i j) (+ i j))
 ; 調用函數
 (add 1 2) ; (+ 1 2)
+; 內置函數，比如類似 print 的 display
+(display "hello world")
 {% endhighlight %}
 
 ### 局部
@@ -81,4 +88,16 @@ Scheme 的標準文件名後綴是 scm 。
 (null? list) ; 檢驗是否空表
 (string? str) ; 檢驗是否字符串
 ; 還有很多這類函數
+{% endhighlight %}
+
+## 遞歸
+Scheme 的又一個邪祟之處就是，他沒有循環，衹有遞歸。比如做個階乘：
+{% highlight scheme %}
+(define (fact n)
+	(if (= n 1)
+		1
+		(* n (fact (- n 1)))))
+; 或者用 do 來寫：
+(define (fact-do n)
+	(do ((n1 n (- n1 1)) (p n (* p (- n1 1)))) ((= n1 1) p)))
 {% endhighlight %}

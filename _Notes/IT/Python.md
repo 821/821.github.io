@@ -7,20 +7,19 @@ date: '2014/08/08'
 
 當下流行的程序語言，都有其各自的優越性， Python 也不例外：
 1. 易學。實現相同功能， Python 需要的知識點往往是最少之一。
-2. 易讀。簡潔、單一最優解、強制縮進，好讀得像個學院派語言。
-3. 易配。多數 *nix 發行版內置， Windows 下也衹需很小的安裝包。
-4. 易用。不必手動編譯，雙擊腳本就能跑。
-5. 易抄。開源社區活躍，以及單一最優解帶來的效率。
-Python 當然也有缺點，最大的缺點大約就是比起 C/C++ 效率相對低下。不過外行人很難寫到多麼在乎佔用效率的東西，而且需要效率不是可以升級機器麼。
+2. 易讀。簡潔、單一最優解、強制縮進，很好的敎學語言。
+3. 易配。多數 *nix 發行版內置， Windows 安裝包也很小。運行還不用手動編譯。
+4. 易用。標準庫就很強，第三方庫也很豐富，各種移植也全面。
+5. 易抄。開源社區活躍，代碼雷同特好抄，反編譯輕鬆（但不提倡）。
 總而言之，「人生苦短，我用 Python 」。
+Python 當然也有缺點：
+1. 慢。速度遠低於 C/C++ ，甚至不如 C#/Java 。
+2. 版本。 Python 2 和 3 區別較大，很多人還不肯遷移到 3 。
+3. 高級。和 C 相比， Python 更高級，寫不了操作系統這麼底層的東西。
+無視某一版本，花點錢升級電腦，然後不要抱着寫操作系統的野心， Python 就沒缺點了。
 
-學習 Python ，如果學時超過五小時還不能寫點實用小腳本，則必是以下幾種可能：
-一、跟電腦、編程八字不合或幾乎沒摸過電腦。
-二、智力發育不全、受敎育程度低或年過古稀。
-三、所讀敎程太專業或重點不淸。
-其中第三點的可能性最高，因爲前二者多半不會想學 Python ，或者乾脆不知道這是什麼玩意。問題就是第三點了。
-很多敎程容易陷入學術化的泥沼，忘記了實用本質。這就像本來衹想敎人計算圓的面積，結果一不小心把整個平面幾何和微積分全部講完，而讀者在學到三角函數的時候已決定放棄了。
-本文的目標是掛一漏萬、避難趨易，讓讀者自己提綱挈領、綱舉目張。多數人應能半小時內讀完並對大部分內容有印象，而且這些內容「剛好」是最重要的——至少我自己用到過，所以覺得重要。系統的學習當然是好的，但如果能用前就喪失興趣就糟了。上手之後再進行系統學習，會覺得很輕鬆，而且更能專注於編程思想、美化代碼、易錯細節等方面。
+很多敎程容易陷入學術化的泥沼，忘記實用本質。這就像本來衹想敎一個小學生計算圓的面積，結果變成講圓面積公式的來歷，結果把整個平面幾何、解析幾何、微積分全部講完，小學生在學到三角函數時已吐血身亡。
+所以本文的目標是掛一漏萬、避難趨易，讓讀者自己提綱挈領、綱舉目張。多數人應能半小時內讀完並對大部分內容有印象，而且這些內容「剛好」是最重要的——至少我自己用到過，所以覺得重要。系統的學習當然是好的，但如果能用前就喪失興趣就糟了。上手之後再進行系統學習，會覺得很輕鬆，而且更能專注於編程思想、美化代碼、易錯細節等方面。
 
 ## 方法論
 
@@ -32,7 +31,7 @@ requests 網頁訪問與下載
 re 正則表達式
 threading 多線程
 tkinter 簡單易上手的 GUI
-由於絕大多數敎程都會把這一節放到書末且往往不得要領（比如大篇幅討論如何寫模塊，卻不告訴讀者早就有很多無比好用的模塊，簡直本末倒置），導致學習者讀到之前就失去耐心，卽使讀到也不知道是幹嘛用的，本文特地放到最前。
+絕大多數敎程都會把這一節放到書末且往往不得要領（比如大篇幅討論如何寫模塊，卻不告訴讀者早就有很多無比好用的模塊），導致學習者讀到之前就失去耐心，卽使讀到也不知道是幹嘛用的，本文特地放到最前。
 
 #### 讀文檔
 這在使用開源軟件裏面簡直是憲法第一條。用模塊肯定要看文檔的，不用說。
@@ -51,12 +50,13 @@ Google 和 StackOverflow 是學編程最好的朋友。
 #### 文件名後綴
 `.py`: 最常見的後綴
 `.pyw`: 執行時不帶 console
-`.pyc`: Python 運行需要轉換成字節代碼 `.pyc` ，不需手動操作，想手動時在 console 執行：
+`.pyc`: Python 運行需轉換成字節代碼 `.pyc` ，這是自動的，手動可在 Python console 執行：
 {% highlight python %}
 import py_compile
 py_compile.compile('something.py')
 {% endhighlight %}
-`.pyo`: 優化的，在 Terminal 或 CMD 下執行： `python -O -m py_compile something.py`
+`.pyo`: 優化的，在 cmd/shell 執行： `python -O -m py_compile something.py`
+一般我們不編譯 Python 腳本，會用 `py` 和 `pyw` 就好。
 
 #### 文件頭
 在 \*nix 下運行 Python 腳本，第一行應加 `#!/usr/bin/env python3.4` 。
@@ -71,23 +71,23 @@ py_compile.compile('something.py')
 多行可以用 `\` 連接一個語句。
 
 #### 幫助
-格式是 help(command) ，記住就好，可以經常看看，非常有助於提高。
+格式是 help(command) ，記住就好，可以經常看看。
 
 #### 輸出 print
 {% highlight python %}
 print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+# 這麼寫不好懂，換平常的例子，衹放點 value 相關的：
+print('hello, world') # hello, world
+print('hello' + 'world') # helloworld
+print('hello', 'world') # hello world
 {% endhighlight %}
-一般就寫個 value 和 file ， value 寫得最多。
-Python 2 可以用 `print value` 這個格式，但跟基本格式不同，所以在 3 中被拋棄了。
-
-#### 其他
-看<a href="http://www.cnblogs.com/vamei/archive/2012/11/09/2762224.html" rel="external">這裏</a>。
+Python 2 可用 `print value` 格式。
 
 ## 變量
 
 #### 保留字
 這些詞是 Python 的內置命令，不能用作變量名：
-False, None, True, and, as, assert, break, class, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield
+None, False, True, and, or, not, as, assert, break, class, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, pass, raise, return, try, while, with, yield
 
 #### 類型
 NoneType: None
@@ -120,6 +120,7 @@ var = {1,2} # 集合
 {% highlight python %}
 var1 = var2 = var3 = 123 # 賦予相同的値
 var1, var2, var3 = 123, 456, 'string' # 簡寫模式
+# 不要亂用簡寫，會降低代碼可讀性的
 var = input('Prompt') # 用一個變量來代表一串命令
 var = (1, 2, True)
 (a, b, c) = var # 一種比較酷的方法
@@ -127,7 +128,7 @@ var = (1, 2, True)
 
 #### 置換
 {% highlight python %}
-a,b =b,a
+a,b = b,a
 {% endhighlight %}
 這就把 a 和 b 兩個變量的値對調了。
 
@@ -160,13 +161,14 @@ a[0:2] = [1, 12] # 可以直接對切片賦値
 
 #### 運算
 {% highlight python %}
-var=1+var1 # 與數字
-var="string"+var # 與字符串
-var=var1+var2 # 變量之間
+var=1 + var1 # 與數字
+var="string" + var # 與字符串
+var=var1 + var2 # 變量之間
 {% endhighlight %}
 算術運算符：除了最簡單的 `+` `-` `*` `/` `%` ，還有 `**` 乘方， `//` 整除。
 比較運算符：`==` 等於， `!=` 或 `<>` 不等於， `>` `<` `>=` `<=` 。
 賦値運算符：算術運算符後面加個等號，比如 `a+=b` 相當於 `a=a+b` 。
+運算符兩邊的空格隨意。
 
 ## 語句
 
@@ -270,10 +272,11 @@ lambda [arg1 [,arg2,.....argn]]:expression
 
 ## 讀寫文件
 {% highlight python %}
-f = open('1.txt', 'w') # 打開文件
+f = open('1.txt', 'w', encoding='utf-8') # 打開文件
 # 文件可帶路徑，也可不帶
 # 模式裏，默認爲 r 衹讀 ， r+ 是讀寫， w 覆蓋， a 追加
 # 對於二進制文件，如圖片， Windows 下應加 b ，寫法如 r+b
+# encoding 是不必寫的
 f.read() # 看內容
 f.readline() # 逐行讀
 f.readlines() # 返回的是列表
@@ -286,12 +289,13 @@ f.close() # 關上之後就不能 read write 之類了
 del i
 # 刪掉變量
 assert i = 1
-# 比如你很確定 i = 1 ，如果不是寧可程序 error ，那就用罷。
+# 確定 i = 1 ，如果不是則程序出錯
 exec("print('yes')")
-# 執行語句。看起來雞肋？用來批量生成變量就很好用。
+# 執行語句。看起來雞肋？批量生成變量就很好用
 type(var)
 # 看看 var 是個什麼類型
 {% endhighlight %}
+這裏爲 `assert` 閒扯一句。實際上這貨是爲調試而生的。測試 (test) 是通過給出 input 看看程序是否按照自己的意願回饋 output ，而調試 (debug) 按字面意思就是找到並排除 bug 。一般的，我們可以通過 `print` 顯示變量這方法來調試，用完之後需要註釋掉。用 `assert` 的話，不註釋掉也不影響，可以提高調試效率。
 
 ## 模塊
 掌握以上知識點卽可運用模塊進行稍微複雜一點的編程。
@@ -357,7 +361,7 @@ class Caucasian (Human):
 # 有了 Human 打底，不用再 __init__ ：
 	pass
 {% endhighlight %}
-說實話， Python 基礎裏看起來最不優美的就是 OOP 什麼 `__init__` ，還有一堆 `self.` ，簡直不要太醜。如果 `def` 能嵌套，我幾乎沒機會用 `class` ……
+說實話， Python 基礎裏看起來最不優美的就是 OOP 。什麼 `__init__` ，還有一堆 `self.` ，簡直不要太醜。如果 `def` 能嵌套，我幾乎沒機會用 `class` ……
 
 ## 補充閱覽
 <a href="http://www.amazon.com/Beginning-Python-From-Novice-Professional/dp/159059519X" rel="external">Beginning Python: from Novice to Professional</a> 本文沒有覆蓋的基礎內容。
@@ -366,10 +370,12 @@ class Caucasian (Human):
 <a href="http://www.amazon.com/Python-Standard-Library-Example-Developers/dp/0321767349" rel="external">The Python Standard Library by Example</a> 標準庫能讀完，也算民間高手了。
 <a href="http://www.amazon.com/Python-Practice-Concurrency-Libraries-Developers/dp/0321905636" rel="external">Python in Practice: Create Better Programs Using Concurrency, Libraries, and Patterns</a> 進階書，用得到的話可以看。
 <a href="http://www.diveintopython3.net/" rel="external">Dive into Python 3</a> 確實較深入，但編排有問題，不能作爲入門書。
-<a href="https://docs.python.org/3/" rel="external">官方文檔</a>，<a href="http://www.pythondoc.com/pythontutorial3/index.html" rel="external">中文版</a>
+<a href="https://docs.python.org/3/" rel="external">官方文檔</a> <a href="http://www.pythondoc.com/pythontutorial3/index.html" rel="external">中文版</a> 不用解釋其重要性了。
 <a href="http://www.byteofpython.info/" rel="external">A Byte of Python</a> 可以作爲簡易快速的備查。
 <a href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000" rel="external">Python 教程</a> 在中文 IT 敎程裏，也算佼佼者了。
 <a href="http://docs.python-guide.org/en/latest/" rel="external">The Hitchhiker’s Guide to Python</a> 不少深入的話題，値得認眞讀。
 <a href="https://github.com/qyuhen/book/" rel="external">Python 学习笔记</a> 講得比較深，但是用的是 Python 2 。
 <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011" rel="external">Introduction to Computer Science and Programming</a> MIT 的編程課，有配套敎材，以前用 Lisp 的方言 Scheme ，現在 Python 2 。涉及一些編程思想，能體會到代數和電腦的關係。
 <a href="http://www.jb51.net/list/list_97_1.htm" rel="external">腳本之家</a> 採集了很多腳本的網站。
+<a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html" rel="external">Code Like a Pythonista</a> 不需要強求，但是看看也好。
+建議：半小時後，搜一下庫，寫幾個自己的剛需腳本。然後過一遍官方文檔，看完 MIT 那門課，就可以着手寫複雜的東西了。這時再看前面幾本出版物，除了標準庫發現不了幾個新知識點，會覺得都很簡單。
