@@ -5,8 +5,8 @@ title: Emacs 折騰錄
 本人折騰過若干次 Emacs ，都沒有成功。雖然沒成功實現需要的樣子，不過總是一次比一次好的。由於記憶不佳，所以決定以後記錄一下每次折騰時的心得。
 
 ## 2014-10
-環境： Windows 7 64 bit G1620+B75H+8GB
-用 Emacs還是需要比較高的配置的，至少四年前的低配筆記本有點帶不動。
+環境： Windows 7 64 bit, G1620+B75H+8GB
+用 Emacs 還是需要比較高的配置的，至少四年前的低配筆記本有點帶不動。
 配置的註釋用分號來寫。
 快捷鍵用形如 `(global-set-key (kbd "C-x") 'kill-region)` 的模式比較好，不影響速度，但不能 `C-c` 。 ErgoEmacs 和 ErgoEmacs Mode 可以，但都會嚴重拖慢啓動速度。 ErgoEmacs 配了個簡陋的右鍵菜單。
 Tabbar 是個好插件，可以讓 Emacs 看起來更像一個 Windows 用的軟件。

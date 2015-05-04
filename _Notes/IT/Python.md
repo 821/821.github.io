@@ -49,7 +49,7 @@ Google 和 StackOverflow 是學編程最好的朋友。
 
 #### 文件名後綴
 `.py`: 最常見的後綴
-`.pyw`: 執行時不帶 console
+`.pyw`: 執行不帶 console ，在 cmd 下跑也看不見回饋和錯誤，不適合做測試用
 `.pyc`: Python 運行需轉換成字節代碼 `.pyc` ，這是自動的，手動可在 Python console 執行：
 {% highlight python %}
 import py_compile
@@ -376,6 +376,7 @@ class Caucasian (Human):
 <a href="http://docs.python-guide.org/en/latest/" rel="external">The Hitchhiker’s Guide to Python</a> 不少深入的話題，値得認眞讀。
 <a href="https://github.com/qyuhen/book/" rel="external">Python 学习笔记</a> 講得比較深，但是用的是 Python 2 。
 <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011" rel="external">Introduction to Computer Science and Programming</a> MIT 的編程課，有配套敎材，以前用 Lisp 的方言 Scheme ，現在 Python 2 。涉及一些編程思想，能體會到代數和電腦的關係。
+<a href="http://www-inst.eecs.berkeley.edu/~cs61a/fa11/" rel="external">Structure and Interpretation of Computer Programs</a> UCB 的編程課，跟 MIT 那門用相同敎材，但 Python 版本是 3 。相比 MIT 那門，好處是文檔多，壞處是沒視頻。這課 2 mid-terms + 4 projects + 一堆作業，而且上機用 Unix + Emacs 。不知道 UCB 新生會不會有退學重考的衝動？
 <a href="http://www.jb51.net/list/list_97_1.htm" rel="external">腳本之家</a> 採集了很多腳本的網站。
 <a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html" rel="external">Code Like a Pythonista</a> 不需要強求，但是看看也好。
-建議：半小時後，搜一下庫，寫幾個自己的剛需腳本。然後過一遍官方文檔，看完 MIT 那門課，就可以着手寫複雜的東西了。這時再看前面幾本出版物，除了標準庫發現不了幾個新知識點，會覺得都很簡單。
+建議：爲了快速上手，本文把很多「高級玩法」（比如遞歸、動態）都被隱藏了。半小時後，搜一下庫，寫幾個自己的剛需腳本。然後過一遍官方文檔，看完 MIT 那門課，就可以着手寫複雜的東西了。這時再看前面幾本出版物，除了標準庫發現不了幾個新知識點，會覺得都很簡單。

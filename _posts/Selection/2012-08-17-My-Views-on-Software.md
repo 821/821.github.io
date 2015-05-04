@@ -160,6 +160,7 @@ Linux 方案及點評： Office 系統自帶， OneNote 由 Marboo 替代。
 ### 排版
 →<a href="http://www.tug.org/texlive/" rel="external">TeX Live</a> 高大全的東西。
 <a href="http://www.w32tex.org/" rel="external">W32TeX</a> 搞日本人開發的宏包必備。
+<a href="http://pandoc.org/index.html" rel="external">Pandoc</a> 比如 docx 直轉 md 。
 關注： <a href="http://miktex.org/" rel="external">MiKTeX</a>, 方正書版
 Linux 方案及點評： Linux 裝 TeX 會比較方便，但沒有書版，字體設置也比較討厭。
 理想： ConTeXt 爲基礎，完美整合 LuaTeX, XeTeX, Omega, pTeX, 方正書版，文件數量 200 個以內，宏包豐富而不衝突，根據古代刻本製作若干款舊字形字體。
