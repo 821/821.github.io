@@ -9,6 +9,7 @@ date: '2015/04/20'
 Python 主要有兩個多線程標準庫， thread 和 threading 。前者低級，後者高級。對於不需要太底層的情況，一般使用後者。
 threading 有幾個常用方法： `start`, `run`, `join`, `name` 。
 最常見的寫法是以線程爲父類，建立特殊對象。但這麼寫邏輯顯得較混亂。
+
 ```python
 import threading, time
 class Worker(threading.Thread):
@@ -29,6 +30,7 @@ for i in range(20):
 
 ### tkinter
 這個標準庫的命令非常規範，一個例子就夠了：
+
 ```python
 from tkinter import *
 wd = Tk() # 做出一個窗口
@@ -49,6 +51,7 @@ Tkinter 的部件有 Button, Canvas, Checkbutton, Entry, Frame, Label, Listbox, 
 PyQt 也有 Designer ，一個看起來很 Visual Basic 的東西。反正我沒想過要用。
 
 #### 基礎
+
 ```python
 import sys
 from PyQt4.QtGui import *
@@ -67,6 +70,7 @@ QWidget 還有很多子類，在文檔都有介紹。
 
 #### 窗口
 接上一代碼，在 `widget.show()` 前加入各種奇怪的東西：
+
 ```python
 widget.resize(500, 500) # 窗口大小
 widget.move(0, 0) # 窗口位置，原點是左上角
@@ -78,6 +82,7 @@ QWidget 的方法很多，還有 `hide`, `close`, `activateWindow`, `setToolTip`
 
 #### 按鈕
 把 widget 部分去掉（剩下的，後面都叫骨頭了），替換成：
+
 ```python
 button = QPushButton('Example') # 按鈕文字
 button.resize(50, 50)
@@ -92,6 +97,7 @@ button.show()
 
 #### 文本框
 骨頭加上這些：
+
 ```python
 le = QLineEdit()
 le.show()
@@ -99,6 +105,7 @@ le.show()
 
 #### 簡單結合與排版
 骨頭加上這些：
+
 ```python
 le = QLineEdit()
 b0 = QPushButton('0')

@@ -14,6 +14,7 @@ VS 下編譯 C# 的命令是 `csc file.cs` 。 Mono 是 `mcs file.cs` 。
 
 ### 基本形態
 C# 旣然有個 C ，很多基本語法和 C++ 還是比較接近的。
+
 ```csharp
 using System; // 使用命名空間
 class HelloWorld // 類
@@ -46,6 +47,7 @@ double: 64 位雙精度浮點
 decimal: 128 位十進制値
 char: 16 位 unicode 字符
 賦値和轉換舉例：
+
 ```csharp
 double d = 1.23;
 int i, j;
@@ -58,6 +60,7 @@ Console.WriteLine(i.ToString());
 對象 object: System.Object 的別名，最高父類
 動態 dynamic: 類似 object
 字符串 string: System.String 的別名
+
 ```csharp
 //兩個等價例子
 string str = @"C:\Windows";
@@ -80,6 +83,7 @@ protected internal 當前程序中，類內部子類可訪問
 
 ### 方法
 方法的功能很像 Python 的函數，但更強大。格式：
+
 ```csharp
 <Access Specifier> <Return Type> <Method Name>(Parameters)
 {
@@ -90,6 +94,7 @@ Access Specifier 在「封裝」部分有介紹。
 Return Type 在「値』部分有介紹。
 Parameters 部分別忘了定義類型。方法外已定義參數稱爲實際參數，而方法去改變了的那些參數也會被內存保留，稱爲形式參數。Parameters 的類型前如果不加關鍵字，雖然也產生形式參數，但方法外再次調用該參數時還是會調用到實際參數，也就是表現爲那個參數沒有變化。如果在每個 parameters 類型前面加上關鍵字 `ref` ，則形式參數覆蓋實際參數。由於 `return` 語句衹能返回一個値，在 parameters 前加上 `out` 可以返回多個値。
 C# 裏的方法可以引用自己，這叫作遞歸。比如做個階乘：
+
 ```csharp
 using System;
 namespace CalculatorApplication

@@ -51,6 +51,7 @@ Google 和 StackOverflow 是學編程最好的朋友。
 `.py`: 最常見的後綴
 `.pyw`: 執行不帶 console ，在 cmd 下跑也看不見回饋和錯誤，不適合做測試用
 `.pyc`: Python 運行需轉換成字節代碼 `.pyc` ，這是自動的，手動可在 Python console 執行：
+
 ```python
 import py_compile
 py_compile.compile('something.py')
@@ -74,6 +75,7 @@ py_compile.compile('something.py')
 格式是 help(command) ，記住就好，可以經常看看。
 
 #### 輸出 print
+
 ```python
 print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
 # 這麼寫不好懂，換平常的例子，衹放點 value 相關的：
@@ -102,6 +104,7 @@ tuple: 元組，可看作衹讀列表
 dict: 字典
 set: 集合，存儲無序不重複對象，實際上是一種類
 frozenset: 衹讀集合
+
 ```python
 var = 1 # int
 var = 1.5 # float
@@ -117,6 +120,7 @@ var = {1,2} # 集合
 
 #### 賦値
 除了最簡單的形式，還有：
+
 ```python
 var1 = var2 = var3 = 123 # 賦予相同的値
 var1, var2, var3 = 123, 456, 'string' # 簡寫模式
@@ -127,12 +131,14 @@ var = (1, 2, True)
 ```
 
 #### 置換
+
 ```python
 a,b = b,a
 ```
 這就把 a 和 b 兩個變量的値對調了。
 
 #### 轉換
+
 ```python
 int(var) # 轉成整數
 float(var) # 轉成浮點數
@@ -142,6 +148,7 @@ str(var).zfill(3) # 控制位數，比如 1 轉成 '001'
 還有很多，記住這些基本夠用。
 
 #### 切片
+
 ```python
 # 這裏的 m 和 n 都是自然數
 str[n] # str 的第 n+1 個字符
@@ -155,6 +162,7 @@ a[0:2] = [1, 12] # 可以直接對切片賦値
 
 #### 字符串類變量的一些簡單處理
 可以先定義字符串，然後用形如 `str1.find("some")` 的命令，也可以直接對字符串作用
+
 ```python
 "some texts".find("some") # 查找，會返回位置，本例是 0 ，找不到是 -1
 "some texts".replase("some","no") # 替換
@@ -162,6 +170,7 @@ a[0:2] = [1, 12] # 可以直接對切片賦値
 還有其他處理如 join, split, lower, translate, strip 等，這裏不討論。
 
 #### 運算
+
 ```python
 var=1 + var1 # 與數字
 var="string" + var # 與字符串
@@ -175,6 +184,7 @@ var=var1 + var2 # 變量之間
 ## 語句
 
 ### if
+
 ```python
 # 條件裏用得最多的就是比較運算符
 if 條件 : # 不同條件可以用 and 和 or 來連接
@@ -185,6 +195,7 @@ else: # 其實也經常不寫
 	幹活
 ```
 需要注意的是縮進，縮進不對是不行的。而且有時還能用到嵌套：
+
 ```python
 if 條件 :
 	幹活
@@ -198,6 +209,7 @@ else:
 如果搞錯縮進就亂套了。
 
 ### while 循環
+
 ```python
 while 情況 :
 	幹活
@@ -210,6 +222,7 @@ while 循環也可以像 if 那樣嵌套起來。
 ### for 循環
 while 不太好用，因爲計數通常需要在循環內寫類似 `i = i + 1` 的東西。計數出現在不同位置還會影響程序運行，對思路不淸的新人來說有點危險，但更重要的還是太囉嗦。
 還是咱們 for 好：
+
 ```python
 for var in list/string:
 	幹活
@@ -229,6 +242,7 @@ else: # 這個不必要
 就是空語句，爲了保持完整性而使用。比如在 if 裏用 pass ，然後 else 的時候執行。
 
 ## 函數
+
 ```python
 def FunctionName(parameters):
 # 沒有 parameter 也可以，形式用 func()
@@ -244,6 +258,7 @@ FunctionName(independent parameters)
 ```
 回想一下代數，什麼是函數。其實這寫法就相當說定義一個函數如 f(x,y,z)= 什麼什麼。等到要用這函數的時候，再塡一下具體的 x,y,z 就行。
 如果想在函數外使用 return 回來的變量，最簡單的方法就是把變量全局化。比如：
+
 ```python
 def func():
 	global a,b
@@ -251,6 +266,7 @@ def func():
 ```
 執行完後，整個腳本都會獲得變量 a 和 b 。不然 a 和 b 在運行完腳本之後就不見了。
 或者用另一種方法來傳遞：
+
 ```python
 def func():
 	return (a, b)
@@ -260,6 +276,7 @@ a 和 b 消失了，但他們的値被 c 和 d 繼承。
 
 ### 高階函數
 來個複雜一點的例子：
+
 ```python
 def func(a,b):
 	return a(b)
@@ -268,11 +285,13 @@ func 中的變量 a 同時也是一個函數，所以 func 就是個高階函數
 
 ### 匿名函數
 看起來有點雞肋，不過有時卻是必須的。
+
 ```python
 lambda [arg1 [,arg2,.....argn]]:expression
 ```
 
 ## 讀寫文件
+
 ```python
 f = open('1.txt', 'w', encoding='utf-8') # 打開文件
 # 文件可帶路徑，也可不帶
@@ -288,6 +307,7 @@ f.close() # 關上之後就不能 read write 之類了
 ```
 
 ## 其他常用命令
+
 ```python
 del i
 # 刪掉變量
@@ -302,6 +322,7 @@ type(var)
 
 ## 模塊
 掌握以上知識點卽可運用模塊進行稍微複雜一點的編程。
+
 ```python
 import modname # 基本引入形式
 print(dir(modname)) # 看看 modname 裏都有哪些命令
@@ -324,6 +345,7 @@ func4(parameters) # 等於衹引入了一個命令，污染的可能性較小
 
 ## 異常處理 \*
 異常並不一定發生，本部分作爲選讀。
+
 ```python
 try:
 	down(link)
@@ -346,6 +368,7 @@ Python 的 OOP 給我的印象很不好，滿天飛的 `self` 和下劃線，代
 類可以有很多項屬性和動作，建立好類，每個對象像套用函數一樣用類來決定行爲就行了，類就像個模板一樣。所以 OOP 對於需要到很多個對象的編程是比較方便的。
 
 #### 例子
+
 ```python
 class Human (Object): # class 是聲明建立類， Human 是類名 ， Object 是常用的最高父類
 	def __init__(self, name, born): # __init__ 是個方法，第一個變量永遠是 self

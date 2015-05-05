@@ -19,6 +19,7 @@ C++ 之父 Stroustrup 出了 "A Tour of C++", "The C++ Programming Language", "P
 
 ### 基本形態
 C++ 第一次讓我覺得他很「中級」，就是因爲基本形態都不一樣，程序寫起來很囉嗦。比如 Hello World ，在 Python 就一行、兩個知識點，而 C++ 有八行、十幾個知識點。
+
 ```cpp
 // 註釋用雙斜槓
 #include <iostream> // 使用 iostream 這個頭文件
@@ -43,6 +44,7 @@ C++ 對縮進沒有要求，縮進是爲了好看
 ### 變量
 C++ 的變量有 bool(眞假), char(一字節，如字母 a), int(整數，四字節), float(單精度浮點値), double(雙精度浮點値，八字節), void(空値), wchar_t(寬字符) 。
 沒有字符串？眞沒有，不過標準庫有。
+
 ```cpp
 extern int i, j; // extern 是聲明變量， int 指出類型
 i = 3, j = 5; // 初始化 i 和 j
@@ -50,6 +52,7 @@ int a = 1 // 聲明並初始化
 ```
 
 ### 數組
+
 ```cpp
 char v[6] = [1,2,3,4,5,6]; // 六個 char 的數組 v
 ```
@@ -57,6 +60,7 @@ char v[6] = [1,2,3,4,5,6]; // 六個 char 的數組 v
 ### 指針
 這是很多語言沒有的槪念。在 C++ 的世界裏，每個變量都有內存位置，可以使用指針來管理內存。
 指針也是變量，也有變量的那幾種形式。
+
 ```cpp
 char *p; // 類似聲明變量， * 表明了指針的身份
 char∗ p = &v[3]; // 這個指針指向數組 v 的第四個元素
@@ -76,6 +80,7 @@ int 表示開始執行，最後返回一個 int 。其他情況可以類推，�
 C++ 可以創建多個同名函數，叫重載、多態。
 
 ### if else
+
 ```cpp
 if (condition)
 {
@@ -90,6 +95,7 @@ else
 
 ### switch
 C++ 沒有 elif ，而是用 `switch` 。
+
 ```cpp
 switch (expression)
 {
@@ -107,6 +113,7 @@ switch (expression)
 
 ### goto
 goto 被認爲容易導致混亂、應該避免，所以很多語言比如 Python 都沒有。存在卽合理，不存在也不一定不合理。我就很喜歡 goto ，寫 goto 就混亂那是因爲自己本來就混亂。
+
 ```cpp
 lable: // 這就設置了 goto 的標籤
 goto lable // 跳到標籤的位置
@@ -114,6 +121,7 @@ goto lable // 跳到標籤的位置
 不過寫循環當然沒必要用 goto 這麼囉嗦的方法。
 
 ### while
+
 ```cpp
 while (condition) // 如有多條件，可用運算符 && 或 || 連接
 {
@@ -128,6 +136,7 @@ break 是跳出循環。
 一般跟 if 語句結合使用。
 
 #### do while
+
 ```cpp
 do
 {
@@ -138,6 +147,7 @@ while (condition);
 跟直接 while 不同， do while 中的 statement 至少會執行一次。
 
 ### for
+
 ```cpp
 for (initialization; condition; action)
 {
@@ -155,6 +165,7 @@ for 那句如果寫成 `for (; ; )` ，那就永遠停不下來了。
 
 ### 類
 創建一個汪星人對象，交配是隱私，年齡是半隱私（保護），顏色和叫聲可公開：
+
 ```cpp
 class Dog
 {
@@ -170,6 +181,7 @@ class Dog
 
 ### 對象
 接上，比如一隻叫 Obama 的狗。
+
 ```cpp
 Dog Obama;
 Obama.Age = 1;
@@ -181,6 +193,7 @@ Obama.Bark();
 
 ### 繼承
 比如哈士奇，繼承「狗」的屬性。
+
 ```cpp
 class Husky : public Dog
 ```

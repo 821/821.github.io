@@ -64,65 +64,75 @@ Maintainable JavaScript (编写可维护的JavaScript) 作爲一本中級書籍�
 比如 DOM 的 `getElementsByTagName` 和 RegExp 的 `match` ，結果就記在數組裏。
 JavaScript 數組很平常，可以混搭着放入任意類型的數據如函數、數組等作爲元素，低端用戶見得最多的當然是純字符串的形式了。
 每次寫完一個數組未免太傻，所以用一個變量來代表他：
-{% highlight javascript %}
+
+```javascript
 var a = ['abc', '123'];
-{% endhighlight %}
+```
 
 抽取元素的方法也很平常，和別的語言一樣都是從 0 開始計數的：
-{% highlight javascript %}
+
+```javascript
 a[0] // 這就等於 'abc';
-{% endhighlight %}
+```
 
 要添加元素還是很平常：
-{% highlight javascript %}
+
+```javascript
 a[2] = 'abc123';
-{% endhighlight %}
+```
 
 數組也有其屬性，最常用的就是長度（不大於 2^32-1 ）：
-{% highlight javascript %}
+
+```javascript
 a.length; // 現在是 3
 a.length = 4; // 這樣就多出個空元素 undefined
 a.length = 2; // 這樣就把後面的元素砍掉了
 //至於會報錯的極端情況，腦洞不太大都不會碰到（比如設成負數、字符串）
-{% endhighlight %}
+```
 
 ### 循環 (loop)
 旣然用了數組，就免不了用到他的好基友循環。
 for 循環配合數組就要用到 for/in 循環，我們用上一節的數組犯個賤，連續彈對話框：
-{% highlight javascript %}
+
+```javascript
 for (var i in a){
     alert(a[i]);
 }
-{% endhighlight %}
+```
 
 用 for/in 還是挺方便的。如果改成單純的 for 循環，要這麼寫：
-{% highlight javascript %}
+
+```javascript
 for (var i = 0; i < a.length; i++){
     alert(a[i]);
 }
-{% endhighlight %}
+```
 
 如果改寫成 while 循環：
-{% highlight javascript %}
+
+```javascript
 var i = 0;
 while (i < a.length){
     alert(a[i]);
     i++;
 }
-{% endhighlight %}
+```
 
 ### DOM 若干條
 選點基本的寫寫，主要是 document 方法，其他就蜻蜓點水。
 DOM 需要簡單的 HTML 知識。
 獲取網頁內容的基礎方法：
-{% highlight javascript %}
+
+```javascript
 document.documentElement // <html>...</html>
 document.head // <head>...</head>
 document.body // <body>...</body>
 document.defaultView // window
-{% endhighlight %}
+```
+
 進階方法，選擇比較小的片段：
-{% highlight javascript %}
+
+```javascript
 // HTML 裏這麼寫：
 <div id="z">
 <p id="a">Hello</p>
@@ -134,20 +144,24 @@ var a = document.getElementById("a").innerHTML; // 得到 "Hello"
 var b = document.getElementsByTagName("p")[1].innerHTML; // 得到 "World"
 var c = document.getElementsByClassName("c").innerHTML; // 得到 "abc"
 document.getElementById("a").innerHTML="123"; // "Hello" 會變成 "123"
-{% endhighlight %}
+```
+
 不加 `.innerHTML` 得到整個 element ，而不是 element 的 content 。
 `document.getElementsByTagName()` 返回的是數組，所以要提取元素。
 給網頁添加內容的方法：
-{% highlight javascript %}
+
+```javascript
 document.write("all"); // 苦大仇深的方法，覆蓋所有已渲染內容，較少用
-{% endhighlight %}
-{% highlight javascript %}
+```
+
+```javascript
 var d = document.createTextNode("abc123"); // 創建包含段落的 node
 var e = document.getElementById("z"); // 找到 id 爲 z 的那個 div
 e.appendChild(d); // 把 abc123 塞進第一個 id 爲 z 的位置
-{% endhighlight %}
-{% highlight javascript %}
+```
+
+```javascript
 var f = document.createElement("p"); // 添加 p h1 div 這樣的元素
 f.appendChild(d); // 把 abc123 塞進新建的 h1 元素裏面
 e.appendChild(f); // id 爲 z 的 div 裏面就多了 <p>abc123</p>
-{% endhighlight %}
+```

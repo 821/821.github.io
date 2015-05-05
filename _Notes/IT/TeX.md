@@ -245,10 +245,12 @@ W32TeX: 小鬼子作品，沒有整體打包下載，東西也不齊，安裝器
 日文 <a href="http://oku.edu.mie-u.ac.jp/~okumura/texwiki/" rel="external">TeX Wiki</a> 裏有個「統合環境」，介紹了主流開源文本編輯器的配置方法。
 本文給一個該站沒有的例子—— EmEditor 下 upLaTeX 一次性二步編譯爲 PDF：
 先寫好一個 bat 文件放在 upLaTeX 的文件夾裏——比如 W32TeX 就是在 bin 文件夾。
+
 ```bat
 `echo off
 uplatex -synctex=1 -jobname="%~n1" -kanji=utf8 -guess-input-enc "%1" && dvipdfmx "%~n1"
 ```
+
 再在 EmEditor —工具—外部工具—自定義工具下，標題隨便寫，命令寫剛纔那個 bat 的完整路徑，比如我的就是 `D:\W32TeX\bin\pdfuplatex.bat` ，自變量 `$(Path)` ，原始目錄 `$(Dir)` ，如果需要看 log 就勾選 「使用輸出窗」並把編碼設爲 UTF-8 。其實這就是個文本編輯器使用外部工具的典型例子而已。
 upLaTeX 設定相對比較複雜，因爲他編譯成 PDF 需要兩步且有一堆參數而且 EmEditor 不是直接調用 cmd 。如果是 LuaTeX ，不用寫 bat 了，直接調用 exe 就行了。
 網上也有很多專門針對 TeX 開發的文本編輯器，比如 WinEdt, WinShell, Kile, TeXstudio, TeXnicCenter, TeXworks, SWP, Bakoma 等等，其中有的是商業軟件。我個人的觀點還是用自己喜歡的 general 文本編輯器，而非專門爲 TeX 找，免得不習慣。
