@@ -16,8 +16,17 @@ permalink: /:title/
 post_defaults:
   layout: post
 highlighter: pygments
-kramdown:
-  input: GFM
+redcarpet:
+  extensions:
+    - fenced_code_blocks
+    - no_intra_emphasis
+    - strikethrough
+    - no_intra_emphasis
+    - autolink
+    - tables
+    - with_toc_data
+#kramdown:
+#  input: GFM
 
 timezone: Asia/Shanghai
 title : 奚適而惡乎待哉
