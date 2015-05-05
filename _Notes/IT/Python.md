@@ -143,10 +143,12 @@ str(var).zfill(3) # 控制位數，比如 1 轉成 '001'
 
 #### 切片
 {% highlight python %}
+# 這裏的 m 和 n 都是自然數
 str[n] # str 的第 n+1 個字符
 str[m:n] # str 的第 m+1 到第 n 個字符
 str[m:] # str 的第 m+1 及以後的字符
 str[:n] # str 的第 1 到第 n 個字符
+str[-n:] # str 的最後 n 個字符
 list[m:n] # 參照字符串，或者說字符串的本質就是 list
 a[0:2] = [1, 12] # 可以直接對切片賦値
 {% endhighlight %}
@@ -279,7 +281,8 @@ f = open('1.txt', 'w', encoding='utf-8') # 打開文件
 # encoding 是不必寫的
 f.read() # 看內容
 f.readline() # 逐行讀
-f.readlines() # 返回的是列表
+f.readlines() # 返回的是列表，除了末行，都帶 '\n'
+f.read().splitlines() # 返回逐行讀出的列表，不帶 '\n'
 f.write(string) # 寫入
 f.close() # 關上之後就不能 read write 之類了
 {% endhighlight %}
@@ -319,7 +322,7 @@ func4(parameters) # 等於衹引入了一個命令，污染的可能性較小
 四：下載，解壓，放進 Python 的 Lib 目錄。
 五：下載一個安裝包，像裝軟件一樣裝起來。
 
-## 異常處理 *
+## 異常處理 \*
 異常並不一定發生，本部分作爲選讀。
 {% highlight python %}
 try:
@@ -332,7 +335,7 @@ else:
 {% endhighlight %}
 例中的 down 是個下載函數，函數說好回饋 200 時怎樣、 404 304 302 怎樣，但還是可能有各種問題，所以在 `except` 裏說，如果出現 `BaseException` 狀況，一律顯示 die 。 `BaseException` 指的是所有異常情況，具體見<a href="https://docs.python.org/3/library/exceptions.html#concrete-exceptions" rel="external">文檔</a>，或快速查看<a href="http://www.w3cschool.cc/python/python-exceptions.html" rel="external">中文簡表</a>。
 
-## 面向對象編程 *
+## 面向對象編程 \*
 Python 的 OOP 給我的印象很不好，滿天飛的 `self` 和下劃線，代碼的美感都毀了。而且，零基礎要半小時理解面向對象編程 (OOP) 思想過於困難，這裏算選學部分。
 對外行人來說， OOP 的主要意義其實是創建模板。
 
@@ -378,5 +381,7 @@ class Caucasian (Human):
 <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011" rel="external">Introduction to Computer Science and Programming</a> MIT 的編程課，有配套敎材，以前用 Lisp 的方言 Scheme ，現在 Python 2 。涉及一些編程思想，能體會到代數和電腦的關係。
 <a href="http://www-inst.eecs.berkeley.edu/~cs61a/fa11/" rel="external">Structure and Interpretation of Computer Programs</a> UCB 的編程課，跟 MIT 那門用相同敎材，但 Python 版本是 3 。相比 MIT 那門，好處是文檔多，壞處是沒視頻。這課 2 mid-terms + 4 projects + 一堆作業，而且上機用 Unix + Emacs 。不知道 UCB 新生會不會有退學重考的衝動？
 <a href="http://www.jb51.net/list/list_97_1.htm" rel="external">腳本之家</a> 採集了很多腳本的網站。
-<a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html" rel="external">Code Like a Pythonista</a> 不需要強求，但是看看也好。
+<a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html" rel="external">Code Like a Pythonista</a> 個人來講不需要強求，但是看看也好。
+<a href="https://www.python.org/dev/peps/pep-0008/" rel="external">Style Guide for Python Code</a> 同樣不強求。
+
 建議：爲了快速上手，本文把很多「高級玩法」（比如遞歸、動態）都被隱藏了。半小時後，搜一下庫，寫幾個自己的剛需腳本。然後過一遍官方文檔，看完 MIT 那門課，就可以着手寫複雜的東西了。這時再看前面幾本出版物，除了標準庫發現不了幾個新知識點，會覺得都很簡單。
