@@ -51,10 +51,10 @@ Google 和 StackOverflow 是學編程最好的朋友。
 `.py`: 最常見的後綴
 `.pyw`: 執行不帶 console ，在 cmd 下跑也看不見回饋和錯誤，不適合做測試用
 `.pyc`: Python 運行需轉換成字節代碼 `.pyc` ，這是自動的，手動可在 Python console 執行：
-{% highlight python %}
+```python
 import py_compile
 py_compile.compile('something.py')
-{% endhighlight %}
+```
 `.pyo`: 優化的，在 cmd/shell 執行： `python -O -m py_compile something.py`
 一般我們不編譯 Python 腳本，會用 `py` 和 `pyw` 就好。
 
@@ -74,13 +74,13 @@ py_compile.compile('something.py')
 格式是 help(command) ，記住就好，可以經常看看。
 
 #### 輸出 print
-{% highlight python %}
+```python
 print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
 # 這麼寫不好懂，換平常的例子，衹放點 value 相關的：
 print('hello, world') # hello, world
 print('hello' + 'world') # helloworld
 print('hello', 'world') # hello world
-{% endhighlight %}
+```
 Python 2 可用 `print value` 格式。
 
 ## 變量
@@ -102,7 +102,7 @@ tuple: 元組，可看作衹讀列表
 dict: 字典
 set: 集合，存儲無序不重複對象，實際上是一種類
 frozenset: 衹讀集合
-{% highlight python %}
+```python
 var = 1 # int
 var = 1.5 # float
 var = "123" # 字符串
@@ -113,36 +113,36 @@ var = [1,2,'ok'] # 列表
 var = (1,2,'ok') # 元組
 var = {'name':'Tom','age':15,'race':'Caucasian'} # 字典
 var = {1,2} # 集合
-{% endhighlight %}
+```
 
 #### 賦値
 除了最簡單的形式，還有：
-{% highlight python %}
+```python
 var1 = var2 = var3 = 123 # 賦予相同的値
 var1, var2, var3 = 123, 456, 'string' # 簡寫模式
 # 不要亂用簡寫，會降低代碼可讀性的
 var = input('Prompt') # 用一個變量來代表一串命令
 var = (1, 2, True)
 (a, b, c) = var # 一種比較酷的方法
-{% endhighlight %}
+```
 
 #### 置換
-{% highlight python %}
+```python
 a,b = b,a
-{% endhighlight %}
+```
 這就把 a 和 b 兩個變量的値對調了。
 
 #### 轉換
-{% highlight python %}
+```python
 int(var) # 轉成整數
 float(var) # 轉成浮點數
 str(var) # 轉成字符串
 str(var).zfill(3) # 控制位數，比如 1 轉成 '001'
-{% endhighlight %}
+```
 還有很多，記住這些基本夠用。
 
 #### 切片
-{% highlight python %}
+```python
 # 這裏的 m 和 n 都是自然數
 str[n] # str 的第 n+1 個字符
 str[m:n] # str 的第 m+1 到第 n 個字符
@@ -151,22 +151,22 @@ str[:n] # str 的第 1 到第 n 個字符
 str[-n:] # str 的最後 n 個字符
 list[m:n] # 參照字符串，或者說字符串的本質就是 list
 a[0:2] = [1, 12] # 可以直接對切片賦値
-{% endhighlight %}
+```
 
 #### 字符串類變量的一些簡單處理
 可以先定義字符串，然後用形如 `str1.find("some")` 的命令，也可以直接對字符串作用
-{% highlight python %}
+```python
 "some texts".find("some") # 查找，會返回位置，本例是 0 ，找不到是 -1
 "some texts".replase("some","no") # 替換
-{% endhighlight %}
+```
 還有其他處理如 join, split, lower, translate, strip 等，這裏不討論。
 
 #### 運算
-{% highlight python %}
+```python
 var=1 + var1 # 與數字
 var="string" + var # 與字符串
 var=var1 + var2 # 變量之間
-{% endhighlight %}
+```
 算術運算符：除了最簡單的 `+` `-` `*` `/` `%` ，還有 `**` 乘方， `//` 整除。
 比較運算符：`==` 等於， `!=` 或 `<>` 不等於， `>` `<` `>=` `<=` 。
 賦値運算符：算術運算符後面加個等號，比如 `a+=b` 相當於 `a=a+b` 。
@@ -175,7 +175,7 @@ var=var1 + var2 # 變量之間
 ## 語句
 
 ### if
-{% highlight python %}
+```python
 # 條件裏用得最多的就是比較運算符
 if 條件 : # 不同條件可以用 and 和 or 來連接
 	幹活
@@ -183,9 +183,9 @@ elif 條件 : # 這句可以不用，也可以用很多個
 	幹活
 else: # 其實也經常不寫
 	幹活
-{% endhighlight %}
+```
 需要注意的是縮進，縮進不對是不行的。而且有時還能用到嵌套：
-{% highlight python %}
+```python
 if 條件 :
 	幹活
 	if 條件 :
@@ -194,28 +194,28 @@ if 條件 :
 		幹活
 else:
 	幹活
-{% endhighlight %}
+```
 如果搞錯縮進就亂套了。
 
 ### while 循環
-{% highlight python %}
+```python
 while 情況 :
 	幹活
 else: # 這個不必要
 	幹活
-{% endhighlight %}
+```
 while 循環也可以像 if 那樣嵌套起來。
 其實寫循環一般不建議用 `else` 。
 
 ### for 循環
 while 不太好用，因爲計數通常需要在循環內寫類似 `i = i + 1` 的東西。計數出現在不同位置還會影響程序運行，對思路不淸的新人來說有點危險，但更重要的還是太囉嗦。
 還是咱們 for 好：
-{% highlight python %}
+```python
 for var in list/string:
 	幹活
 else: # 這個不必要
 	幹活
-{% endhighlight %}
+```
 僅用於有一個列表或者字符串，不過列表可以用命令造，比如最常見的 `range(a,b)` 的形式，當 a 爲 1 時，可以衹寫 b 。
 
 #### break
@@ -229,7 +229,7 @@ else: # 這個不必要
 就是空語句，爲了保持完整性而使用。比如在 if 裏用 pass ，然後 else 的時候執行。
 
 ## 函數
-{% highlight python %}
+```python
 def FunctionName(parameters):
 # 沒有 parameter 也可以，形式用 func()
 # 可以有多個 parameters ，用逗號區隔
@@ -241,39 +241,39 @@ def FunctionName(parameters):
 # 不寫 return 後的內容或乾脆不寫 return 語句時，返回 None
 # 使用函數：
 FunctionName(independent parameters)
-{% endhighlight %}
+```
 回想一下代數，什麼是函數。其實這寫法就相當說定義一個函數如 f(x,y,z)= 什麼什麼。等到要用這函數的時候，再塡一下具體的 x,y,z 就行。
 如果想在函數外使用 return 回來的變量，最簡單的方法就是把變量全局化。比如：
-{% highlight python %}
+```python
 def func():
 	global a,b
 	return (a,b)
-{% endhighlight %}
+```
 執行完後，整個腳本都會獲得變量 a 和 b 。不然 a 和 b 在運行完腳本之後就不見了。
 或者用另一種方法來傳遞：
-{% highlight python %}
+```python
 def func():
 	return (a, b)
 c, d = func()
-{% endhighlight %}
+```
 a 和 b 消失了，但他們的値被 c 和 d 繼承。
 
 ### 高階函數
 來個複雜一點的例子：
-{% highlight python %}
+```python
 def func(a,b):
 	return a(b)
-{% endhighlight %}
+```
 func 中的變量 a 同時也是一個函數，所以 func 就是個高階函數。實際上，有個叫 `map()` 的內置函數就跟這個 func 很類似。
 
 ### 匿名函數
 看起來有點雞肋，不過有時卻是必須的。
-{% highlight python %}
+```python
 lambda [arg1 [,arg2,.....argn]]:expression
-{% endhighlight %}
+```
 
 ## 讀寫文件
-{% highlight python %}
+```python
 f = open('1.txt', 'w', encoding='utf-8') # 打開文件
 # 文件可帶路徑，也可不帶
 # 模式裏，默認爲 r 衹讀 ， r+ 是讀寫， w 覆蓋， a 追加
@@ -285,10 +285,10 @@ f.readlines() # 返回的是列表，除了末行，都帶 '\n'
 f.read().splitlines() # 返回逐行讀出的列表，不帶 '\n'
 f.write(string) # 寫入
 f.close() # 關上之後就不能 read write 之類了
-{% endhighlight %}
+```
 
 ## 其他常用命令
-{% highlight python %}
+```python
 del i
 # 刪掉變量
 assert i = 1
@@ -297,12 +297,12 @@ exec("print('yes')")
 # 執行語句。看起來雞肋？批量生成變量就很好用
 type(var)
 # 看看 var 是個什麼類型
-{% endhighlight %}
+```
 這裏爲 `assert` 閒扯一句。實際上這貨是爲調試而生的。測試 (test) 是通過給出 input 看看程序是否按照自己的意願回饋 output ，而調試 (debug) 按字面意思就是找到並排除 bug 。一般的，我們可以通過 `print` 顯示變量這方法來調試，用完之後需要註釋掉。用 `assert` 的話，不註釋掉也不影響，可以提高調試效率。
 
 ## 模塊
 掌握以上知識點卽可運用模塊進行稍微複雜一點的編程。
-{% highlight python %}
+```python
 import modname # 基本引入形式
 print(dir(modname)) # 看看 modname 裏都有哪些命令
 modname.func(parameters) # 基本使用形式
@@ -312,7 +312,7 @@ from modname3 import * # 懶人引入
 func3(parameters) # 寫起來簡單了，但可能造成污染
 from modname4 import func4 # 小心的懶人
 func4(parameters) # 等於衹引入了一個命令，污染的可能性較小
-{% endhighlight %}
+```
 
 #### 安裝非標準庫
 對於非標準庫，主要有四種形式。
@@ -324,7 +324,7 @@ func4(parameters) # 等於衹引入了一個命令，污染的可能性較小
 
 ## 異常處理 \*
 異常並不一定發生，本部分作爲選讀。
-{% highlight python %}
+```python
 try:
 	down(link)
 except BaseException:
@@ -332,7 +332,7 @@ except BaseException:
 	raise MyException('message') # 抛出，這句可不寫
 else:
 	print("good")
-{% endhighlight %}
+```
 例中的 down 是個下載函數，函數說好回饋 200 時怎樣、 404 304 302 怎樣，但還是可能有各種問題，所以在 `except` 裏說，如果出現 `BaseException` 狀況，一律顯示 die 。 `BaseException` 指的是所有異常情況，具體見<a href="https://docs.python.org/3/library/exceptions.html#concrete-exceptions" rel="external">文檔</a>，或快速查看<a href="http://www.w3cschool.cc/python/python-exceptions.html" rel="external">中文簡表</a>。
 
 ## 面向對象編程 \*
@@ -346,7 +346,7 @@ Python 的 OOP 給我的印象很不好，滿天飛的 `self` 和下劃線，代
 類可以有很多項屬性和動作，建立好類，每個對象像套用函數一樣用類來決定行爲就行了，類就像個模板一樣。所以 OOP 對於需要到很多個對象的編程是比較方便的。
 
 #### 例子
-{% highlight python %}
+```python
 class Human (Object): # class 是聲明建立類， Human 是類名 ， Object 是常用的最高父類
 	def __init__(self, name, born): # __init__ 是個方法，第一個變量永遠是 self
 		self.name = name
@@ -363,7 +363,7 @@ w.age()
 class Caucasian (Human):
 # 有了 Human 打底，不用再 __init__ ：
 	pass
-{% endhighlight %}
+```
 說實話， Python 基礎裏看起來最不優美的就是 OOP 。什麼 `__init__` ，還有一堆 `self.` ，簡直不要太醜。如果 `def` 能嵌套，我幾乎沒機會用 `class` ……
 
 ## 補充閱覽

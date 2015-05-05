@@ -19,7 +19,7 @@ C++ 之父 Stroustrup 出了 "A Tour of C++", "The C++ Programming Language", "P
 
 ### 基本形態
 C++ 第一次讓我覺得他很「中級」，就是因爲基本形態都不一樣，程序寫起來很囉嗦。比如 Hello World ，在 Python 就一行、兩個知識點，而 C++ 有八行、十幾個知識點。
-{% highlight cpp linenos %}
+```cpp
 // 註釋用雙斜槓
 #include <iostream> // 使用 iostream 這個頭文件
 using namespace std; // 使用 std 這個 namespace
@@ -38,29 +38,29 @@ C++ 對縮進沒有要求，縮進是爲了好看
 這是跨行註釋 */
 	return 0; // 這一行可以不寫。
 }
-{% endhighlight %}
+```
 
 ### 變量
 C++ 的變量有 bool(眞假), char(一字節，如字母 a), int(整數，四字節), float(單精度浮點値), double(雙精度浮點値，八字節), void(空値), wchar_t(寬字符) 。
 沒有字符串？眞沒有，不過標準庫有。
-{% highlight cpp linenos %}
+```cpp
 extern int i, j; // extern 是聲明變量， int 指出類型
 i = 3, j = 5; // 初始化 i 和 j
 int a = 1 // 聲明並初始化
-{% endhighlight %}
+```
 
 ### 數組
-{% highlight cpp linenos %}
+```cpp
 char v[6] = [1,2,3,4,5,6]; // 六個 char 的數組 v
-{% endhighlight %}
+```
 
 ### 指針
 這是很多語言沒有的槪念。在 C++ 的世界裏，每個變量都有內存位置，可以使用指針來管理內存。
 指針也是變量，也有變量的那幾種形式。
-{% highlight cpp linenos %}
+```cpp
 char *p; // 類似聲明變量， * 表明了指針的身份
 char∗ p = &v[3]; // 這個指針指向數組 v 的第四個元素
-{% endhighlight %}
+```
 
 ### 運算
 算術： `+` `-` `*` `/` `%` `++` `--`
@@ -76,7 +76,7 @@ int 表示開始執行，最後返回一個 int 。其他情況可以類推，�
 C++ 可以創建多個同名函數，叫重載、多態。
 
 ### if else
-{% highlight cpp linenos %}
+```cpp
 if (condition)
 {
 	statement;
@@ -86,11 +86,11 @@ else
 {
 	statement;
 }
-{% endhighlight %}
+```
 
 ### switch
 C++ 沒有 elif ，而是用 `switch` 。
-{% highlight cpp linenos %}
+```cpp
 switch (expression)
 {
 	case valueOne: statement;
@@ -102,24 +102,24 @@ switch (expression)
 		break;
 	default: statement;
 }
-{% endhighlight %}
+```
 有點像 if... elif... else 。比如 expression 寫 `i` ， case 那邊寫個 `case 1:` ，這就和 `if (i = 1)` 是等效的。
 
 ### goto
 goto 被認爲容易導致混亂、應該避免，所以很多語言比如 Python 都沒有。存在卽合理，不存在也不一定不合理。我就很喜歡 goto ，寫 goto 就混亂那是因爲自己本來就混亂。
-{% highlight cpp linenos %}
+```cpp
 lable: // 這就設置了 goto 的標籤
 goto lable // 跳到標籤的位置
-{% endhighlight %}
+```
 不過寫循環當然沒必要用 goto 這麼囉嗦的方法。
 
 ### while
-{% highlight cpp linenos %}
+```cpp
 while (condition) // 如有多條件，可用運算符 && 或 || 連接
 {
 	statement;
 }
-{% endhighlight %}
+```
 condition 也有可能衹是一個 true 。程序會一直跑下去，所以要小心使用。
 
 #### continue 和 break
@@ -128,22 +128,22 @@ break 是跳出循環。
 一般跟 if 語句結合使用。
 
 #### do while
-{% highlight cpp linenos %}
+```cpp
 do
 {
 	statement;
 }
 while (condition);
-{% endhighlight %}
+```
 跟直接 while 不同， do while 中的 statement 至少會執行一次。
 
 ### for
-{% highlight cpp linenos %}
+```cpp
 for (initialization; condition; action)
 {
 	statement;
 }
-{% endhighlight %}
+```
 initialization 可以是任何合法 C++ 語句，不過一般用來創建一個計數的變量，比如 `i = 1` 。
 action 也可以是任何合法 C++ 語句，不過一般用來遞增或遞減計數變量，比如 `i++` 。
 for 的 initialization, condition, action 三條都可以不寫，這叫空語句。但與其說可以不寫，不如說是在別處寫了。
@@ -155,7 +155,7 @@ for 那句如果寫成 `for (; ; )` ，那就永遠停不下來了。
 
 ### 類
 創建一個汪星人對象，交配是隱私，年齡是半隱私（保護），顏色和叫聲可公開：
-{% highlight cpp linenos %}
+```cpp
 class Dog
 {
 	private:
@@ -166,21 +166,21 @@ class Dog
 		std::string Color;
 		void Bark() const { cout << "Rough rough...\n";}
 }
-{% endhighlight %}
+```
 
 ### 對象
 接上，比如一隻叫 Obama 的狗。
-{% highlight cpp linenos %}
+```cpp
 Dog Obama;
 Obama.Age = 1;
 Obama.Color = "Black";
 // 想聽聽叫聲嗎？
 Obama.Bark();
 // 當然，看不見交配。
-{% endhighlight %}
+```
 
 ### 繼承
 比如哈士奇，繼承「狗」的屬性。
-{% highlight cpp linenos %}
+```cpp
 class Husky : public Dog
-{% endhighlight %}
+```
