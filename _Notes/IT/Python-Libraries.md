@@ -42,7 +42,7 @@ button = Button(wd, text='Do it', command=dl) # 按鈕及其命令
 button.pack() # 簡單封裝
 wd.mainloop() # 把窗口放入主循環
 ```
-
+但是也不要小看他， IDLE 就是用他來寫的。
 Tkinter 的部件有 Button, Canvas, Checkbutton, Entry, Frame, Label, Listbox, Menubutton, Menu, Message, Radiobutton, Scale, Scrollbar, Text, Toplevel, Spinbox, PanedWindow, LabelFrame, tkMessageBox 這些，詳細的可以查閱 <a href="http://www.tutorialspoint.com/python/python_gui_programming.htm" rel="external">Tkinter Programming</a>
 
 ### PyQt

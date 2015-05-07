@@ -12,7 +12,7 @@ title: 若干電腦字體表
 SonyReader Ming | 宋 | 舊 | A | ttf | 私有 | 同套字體還有隸、楷、黑三體
 [I.BMing](http://founder.acgvlyric.org/iu/doku.php/) | 宋 | 舊 | D| ttf | IPA1 | 修改自IPAmjMincho，強行舊字形
 [Asebi Mincho](https://metasta.github.io/asebi/) | 宋 | 舊 | Std | otf | IPA1 | 有[源碼](https://github.com/metasta/asebi)，基於IPAmjMincho等
-[IPAmjMincho](http://mojikiban.ipa.go.jp/) | 宋 | 2004 | D | ttf | IPA1 |
+[IPAmjMincho](http://mojikiban.ipa.go.jp/) | 宋 | 2004 | D | ttf | IPA1 | |
 [HanaMin](http://fonts.jp/hanazono/) | 宋 | 2004 | E | ttf | OFL | 分成兩個字體文件
 [cwtex-q-fonts](https://code.google.com/p/cwtex-q-fonts/) | 多 | 舊 | BIG-5 | ttf | OFL+GPL2 | 有仿宋、宋、黑、楷、圓，cwTeX所附字體之修正
 [全字庫正宋體](http://www.cns11643.gov.tw) | 宋 | 臺標 | D | ttf | [自有](http://www.cns11643.gov.tw/AIDB/copyright.do) | 分成兩個字體文件，另有楷體
@@ -20,7 +20,7 @@ SonyReader Ming | 宋 | 舊 | A | ttf | 私有 | 同套字體還有隸、楷、�
 [思源黑體](https://github.com/adobe-fonts/source-han-sans/) | 黑 | 各國 | A+部分B-E | otf | Apache2 | TeX不能直接用
 [文悅古體仿宋](http://wytype.com/typeface/WyueGutiFangsong/) | 仿宋 | 舊 | 特殊 | otf | 私有 | 復刻聚珍仿宋
 Hiragino Mincho ProN | 宋 | 2004 | Pro | otf | 私有 | MAC OS 字體，磅重有 3 和 6
-Iwata Souchou Pro M | 仿宋 | 90 | Pro | otf | 私有 |
+Iwata Souchou Pro M | 仿宋 | 90 | Pro | otf | 私有 | |
 方正新秀麗 | 宋 | 舊 | BIG-5 | ttf | 私有 | 強行舊字形
 宋体-方正超大字符集 | 宋 | 新 | 方正 | ttf | 私有 | 分成兩個字體文件，另有楷體
 FZSongS | 宋 | 新 | 2005 | ttf | 私有 | 分成兩個字體文件，另有楷體， Ubuntu 的字體

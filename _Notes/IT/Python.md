@@ -319,6 +319,7 @@ type(var)
 # 看看 var 是個什麼類型
 ```
 這裏爲 `assert` 閒扯一句。實際上這貨是爲調試而生的。測試 (test) 是通過給出 input 看看程序是否按照自己的意願回饋 output ，而調試 (debug) 按字面意思就是找到並排除 bug 。一般的，我們可以通過 `print` 顯示變量這方法來調試，用完之後需要註釋掉。用 `assert` 的話，不註釋掉也不影響，可以提高調試效率。
+內置函數的總表見<a href="https://docs.python.org/3.4/library/functions.html" rel="external">文檔</a>。
 
 ## 模塊
 掌握以上知識點卽可運用模塊進行稍微複雜一點的編程。
