@@ -97,7 +97,7 @@ bool: True, False
 int: 64 位的機子上就是 64 位以內的整數
 float: 小數
 complex: 複數
-str: 字符串，默認是 unicode 的
+str: 字符串，默認 unicode ，實際是一種特殊的列表
 byte: 字節——這是 Python 2 的 str 形式
 list: 列表
 tuple: 元組，可看作衹讀列表
@@ -394,10 +394,11 @@ class Caucasian (Human):
 <a href="http://www.amazon.com/Beginning-Python-From-Novice-Professional/dp/159059519X" rel="external">Beginning Python: from Novice to Professional</a> 本文沒有覆蓋的基礎內容。
 <a href="http://www.amazon.com/Python-Essential-Reference-4th-Edition/dp/0672329786" rel="external">Python Essential Reference</a> 一個較全面且不囉嗦的敎材，進階用爲主。
 <a href="http://shop.oreilly.com/product/0636920028154.do" rel="external">Learning Python</a> 囉嗦的來了。
+<a href="http://www.diveintopython3.net/" rel="external">Dive into Python 3</a> 確實較深入，但編排有問題，不能作爲入門書。
 <a href="http://www.amazon.com/Python-Standard-Library-Example-Developers/dp/0321767349" rel="external">The Python Standard Library by Example</a> 標準庫能讀完，也算民間高手了。
 <a href="http://www.amazon.com/Python-Practice-Concurrency-Libraries-Developers/dp/0321905636" rel="external">Python in Practice: Create Better Programs Using Concurrency, Libraries, and Patterns</a> 進階書，用得到的話可以看。
-<a href="http://www.diveintopython3.net/" rel="external">Dive into Python 3</a> 確實較深入，但編排有問題，不能作爲入門書。
-<a href="https://docs.python.org/3/" rel="external">官方文檔</a> <a href="http://www.pythondoc.com/pythontutorial3/index.html" rel="external">中文版</a> 不用解釋其重要性了。
+<a href="https://www.packtpub.com/application-development/expert-python-programming" rel="external">Expert Python Programming</a> 進階書。
+<a href="https://docs.python.org/3/" rel="external">官方文檔</a> 不用解釋其重要性了。
 <a href="http://www.byteofpython.info/" rel="external">A Byte of Python</a> 可以作爲簡易快速的備查。
 <a href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000" rel="external">Python 教程</a> 在中文 IT 敎程裏，也算佼佼者了。
 <a href="http://docs.python-guide.org/en/latest/" rel="external">The Hitchhiker’s Guide to Python</a> 不少深入的話題，値得認眞讀。
