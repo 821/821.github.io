@@ -192,3 +192,6 @@ COMMIT_EDITMSG 最後一次提交的提交信息
 其次是 private repo 。不過 GitHub 的 private repo 要錢，但我又想把代碼放在 GitHub ，好統一管理。
 於是觀察 <a href="https://github.com/robots.txt" rel="external">GitHub robots</a> ，發現其實每個 repo 衹有 master 會收錄，其餘是禁止蜘蛛的。那麼，對於可公開又不願大面積分享的內容，可以通過建立其他分支的方式上傳。
 在 repo 的 setting 可以把 main 指定爲 default branch 。以後每次進 repo 都會默認看到 main ——不過這樣代碼會曝露在 GitHub 本身的搜索引擎下，所以不設也罷。
+
+#### 發行版
+在 repo 的鏈接後面加上 `/releases` ，卽可發佈發行版。
