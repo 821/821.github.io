@@ -104,7 +104,6 @@ tuple: 元組，可看作衹讀列表
 dict: 字典
 set: 集合，存儲無序不重複對象，實際上是一種類
 frozenset: 衹讀集合
-
 ```python
 var = 1 # int
 var = 1.5 # float
