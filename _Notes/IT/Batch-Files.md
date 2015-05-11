@@ -34,7 +34,6 @@ REM 整行
 :: 整行
 
 ### 回顯
-
 ```bat
 ECHO ON|OFF
 ECHO [message]
@@ -45,7 +44,6 @@ ECHO [message]
 `PAUSE` 有兩個用法：一是避免窗口自動關閉，二是等待用戶操作
 
 ### 標籤與跳轉☯
-
 ```bat
 :lable ::設置標籤
 GOTO lable ::運行到這一行時，跳轉到設置了標籤的地方繼續運行
@@ -60,14 +58,12 @@ GOTO lable ::運行到這一行時，跳轉到設置了標籤的地方繼續運�
 ## 文件夾類
 
 #### 查看
-
 ```bat
 DIR [drive:][path][filename] [/A[[:]attributes]] [/B] [/C] [/D] [/L] [/N] [/O[[:]sortorder]] [/P] [/Q] [/R] [/S] [/T[[:]timefield]] [/W] [/X] [/4] [drive:][path][filename]
 ```
 查看本目錄下的文件和文件夾
 
 ### 切換☯
-
 ```bat
 CHDIR|CD [/D] [drive:][path]
 CD ::顯示當前目錄的路徑
@@ -80,7 +76,6 @@ Drive: ::進入特定驅動器
 ```
 
 #### 創建
-
 ```bat
 MKDIR|MD [drive:]path
 MD drive:path ::在特定驅動器下建立文件夾
@@ -88,7 +83,6 @@ MD path ::在當前文件夾下建立子文件夾
 ```
 
 #### 刪除
-
 ```bat
 RMDIR|RM [drive]:path [/S] [/Q]
 ```
@@ -97,7 +91,6 @@ RMDIR|RM [drive]:path [/S] [/Q]
 ## 文件類
 
 ### 移動
-
 ```bat
 MOVE [/Y|/-Y] [drive:][path]dirname1 dirname2
 MOVE [/Y|/-Y] [source] [destination]
@@ -105,20 +98,17 @@ MOVE [/Y|/-Y] [source] [destination]
 前面是官方的，但我認爲後者淸楚一點
 
 #### 重命名
-
 ```bat
 RENAME|REN [drive:][path]filename1 filename2
 ```
 
 #### 刪除
-
 ```bat
 DEL|ERASE [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
 ```
 
 ### 複製與合倂☯
 #### COPY
-
 ```bat
 COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/L] [/A | /B ] source [/A | /B] [+ source [/A | /B] [+ ...]] [destination [/A | /B]]
 ```
@@ -126,7 +116,6 @@ COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/L] [/A | /B ] source [/A | /B] [+ source [
 
 #### XCOPY
 複製文件和目錄樹，一般用不上這麼強悍的命令
-
 ```bat
 XCOPY source [destination] [/A | /M] [/D[:date]] [/P] [/S [/E]] [/V] [/W] [/C] [/I] [/Q] [/F] [/L] [/G] [/H] [/R] [/T] [/U] [/K] [/N] [/O] [/X] [/Y] [/-Y] [/Z] [/B] [/EXCLUDE:file1[+file2][+file3]...]
 ```
@@ -138,7 +127,6 @@ XCOPY source [destination] [/A | /M] [/D[:date]] [/P] [/S [/E]] [/V] [/W] [/C] [
 `~x,y` 表示字符串的第 x 到 y 個字符，但注意他數數從 0 開始，不是 1 。比如 `%date:~0,10%` ，就是形如 2014/01/01 這樣的東西
 
 ### 設定
-
 ```bat
 SET [variable=[string]]
 ```
@@ -149,14 +137,12 @@ SET [variable=[string]]
 可以一次設定很多個變量，不同變量用空格隔開
 
 ### 用戶輸入
-
 ```bat
 SET /P variable=[promptString]
 ```
 參數 `/P` 允許用戶在運行腳本時輸入變量，而 promptString 會作爲提示顯示，比如可以設置成「請輸入一個數」，用戶輸入一個數後，變量的値從「請輸入一個數」變成用戶輸入的數
 
 ### 運算
-
 ```bat
 SET /A expression
 ```
@@ -176,7 +162,6 @@ SET /A expression
 以上不用說，剩下不重要，眞省事
 
 #### 臨時設置環境變量
-
 ```bat
 PATH=[%path%;][drive:]path
 SET PATH=%path%;[drive:]path
@@ -184,7 +169,6 @@ SET PATH=%path%;[drive:]path
 臨時設置環境變量，僅在批處理內有效，多個文件夾用 `;` 分隔，後者是在 DOS 中的用法
 
 ## IF 語句☯
-
 ```bat
 IF [NOT] ERRORLEVEL number command
 IF [NOT] string1==string2 command
@@ -203,7 +187,6 @@ IF [NOT] EXIST filename command
 
 ### 循環
 IF 結合 GOTO 可以變成循環，是個不錯的用法：
-
 ```bat
 @ECHO OFF
 SET var=0
@@ -217,7 +200,6 @@ PAUSE
 
 ## FOR 語句☯
 這一節複雜度比較高，囉嗦的話寫幾萬字都講不完。
-
 ```bat
 FOR [[drive:]path]] %variable IN (set) DO command [command-parameters]
 ```
@@ -229,26 +211,22 @@ FOR [[drive:]path]] %variable IN (set) DO command [command-parameters]
 擴展命令：
 
 ### 僅匹配文件夾
-
 ```bat
 FOR /D %variable IN (set) DO command [command-parameters]
 ```
 
 ### 檢查整個目錄樹
-
 ```bat
 FOR /R [[drive:]path] %variable IN (set) DO command [command-parameters]
 ```
 
 ### 等差數列
-
 ```bat
 FOR /L %variable IN (start,step,end) DO command [command-parameters]
 ```
 程序會根據 `(start,step,end)` 生成等差數列，再執行任務
 
 ### 逐行分析文件
-
 ```bat
 FOR /F ["options"] %variable IN (file-set|"string"|'command') DO command [command-parameters]
 ```
@@ -273,13 +251,11 @@ x, y, m, n 都是數字或者 * 號
 單獨使用時，表示截取第 x, y, 還有 m-n 個字符
 可與 `delims` 結合變成新的奇葩用法，比如 `"delims=, tokens=3"` ，被截取對象是 hello,world,hi,bat ，則截取 hi 。
 與 `delims` 結合時，如果 `tokens` 有多個，則截取後分配到多個變量中。比如
-
 ```bat
 FOR /F "delims=, tokens=1,3-4" %%i IN (test.txt) DO ECHO %%i %%j
 ```
 假設 test.txt 就是 hello,world,hi,bat 則輸出 hello hi bat
 * 號不單獨用，表示剩下的。比如
-
 ```bat
 FOR /F "delims=, tokens=1-2,*" %i IN (test.txt) DO ECHO %i %j
 ```
@@ -292,7 +268,6 @@ FOR /F "delims=, tokens=1-2,*" %i IN (test.txt) DO ECHO %i %j
 `('command')` 也隨之改成 `(\`command\`)`
 
 #### 額外處理 variable今有一個變量 %%I ，當他加上其他參數時：
-
 ```bat
 %%~I ::刪除引號
 %%~fI ::合法的完整路徑 full
@@ -314,7 +289,6 @@ VBScript 或 PowerShell 。
 
 #### 打包器
 WinRAR 的逐個文件夾打包功能會把文件夾包進去，用這個腳本來剃掉文件夾。
-
 ```bat
 FOR /D %%I IN (*) DO (
 CD %%I
@@ -325,7 +299,6 @@ MOVE /Y "%%I".zip F:\s&CD ..
 
 #### 永久添加環境變量
 原理是利用註冊表來添加環境變量。
-
 ```bat
 @echo off
 SET regpath=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment

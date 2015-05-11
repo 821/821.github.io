@@ -245,7 +245,6 @@ W32TeX: 小鬼子作品，沒有整體打包下載，東西也不齊，安裝器
 日文 <a href="http://oku.edu.mie-u.ac.jp/~okumura/texwiki/" rel="external">TeX Wiki</a> 裏有個「統合環境」，介紹了主流開源文本編輯器的配置方法。
 本文給一個該站沒有的例子—— EmEditor 下 upLaTeX 一次性二步編譯爲 PDF：
 先寫好一個 bat 文件放在 upLaTeX 的文件夾裏——比如 W32TeX 就是在 bin 文件夾。
-
 ```bat
 `echo off
 uplatex -synctex=1 -jobname="%~n1" -kanji=utf8 -guess-input-enc "%1" && dvipdfmx "%~n1"

@@ -11,7 +11,6 @@ Scheme 不是實用語言，代碼可讀性很差（比如反人類的括號，�
 最常用的是 MIT Scheme ，安裝得到 Edwin ，一個類似 Emacs 的編輯器。
 在 Edwin 使用 `C-x z` 進入 Scheme 命令交互狀態。可以用 `(edit)` 再次回到 Edwin 。
 Scheme 的標準文件名後綴是 scm 。
-
 ```scheme
 ; Scheme 用分號註釋
 ; 訪問文件夾
@@ -21,7 +20,6 @@ Scheme 的標準文件名後綴是 scm 。
 ```
 如果要編譯，可以用 [Racket](http://download.racket-lang.org/) 。
 如果衹是當腳本用，在 *nix 下，則應保存爲 `.scm` 文件，並在頭部加上：
-
 ```scheme
 #! /usr/local/bin/guile -s
 !#
@@ -29,7 +27,6 @@ Scheme 的標準文件名後綴是 scm 。
 
 ## 函數
 爲了學習函數的格式，我們先通過計算來看看 Scheme 的函數格式：
-
 ```scheme
 (+ 1 2 3) ; 1+2+3
 (quotient 3 2) ; 整除
@@ -45,7 +42,6 @@ Scheme 的標準文件名後綴是 scm 。
 
 ### 定義與調用
 旣然是函數編程，定義變量和定義函數是一樣的格式。
-
 ```scheme
 ; 定義變量，相當於 Python 的 var = 1
 (define var 1)
@@ -59,7 +55,6 @@ Scheme 的標準文件名後綴是 scm 。
 
 ### 局部
 聲明一個局部變量，我們通常用 `let` 。
-
 ```scheme
 (let ((i 1) (j 2))
 (let* ((i 1) (j (+ i 1)))
@@ -69,7 +64,6 @@ Scheme 的標準文件名後綴是 scm 。
 ## 分支
 
 ### if
-
 ```scheme
 (define (abs x)
 	(if (or (> x 0) (= x 0))
@@ -80,7 +74,6 @@ Scheme 的標準文件名後綴是 scm 。
 
 ### cond
 比較像 switch 。
-
 ```scheme
 (define (abs x)
 	(cond ((> x 0) x)
@@ -89,7 +82,6 @@ Scheme 的標準文件名後綴是 scm 。
 ```
 
 ### 檢驗
-
 ```scheme
 (equal? "hello" "hello") ; 比較
 (list? (list 1 2 3)) ; 檢驗是否列表，空表不算列表
@@ -100,7 +92,6 @@ Scheme 的標準文件名後綴是 scm 。
 
 ## 遞歸
 Scheme 的又一個邪祟之處就是，他沒有循環，衹有遞歸。比如做個階乘：
-
 ```scheme
 (define (fact n)
 	(if (= n 1)
