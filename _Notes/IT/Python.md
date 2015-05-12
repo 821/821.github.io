@@ -385,5 +385,6 @@ class Caucasian (Human):
 <a href="http://www.jb51.net/list/list_97_1.htm" rel="external">腳本之家</a> 採集了很多腳本的網站。
 <a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html" rel="external">Code Like a Pythonista</a> 個人來講不需要強求，但是看看也好。
 <a href="https://www.python.org/dev/peps/pep-0008/" rel="external">Style Guide for Python Code</a> 同樣不強求。
+<a href="https://leetcode.com/" rel="external">LeetCode</a> 自虐向代碼題庫，支持多門語言。
 
-建議：爲了快速上手，本文把很多「高級玩法」（比如遞歸、動態）都被隱藏了。半小時後，搜一下庫，寫幾個自己的剛需腳本。然後過一遍官方文檔，看完 MIT 那門課，就可以着手寫複雜的東西了。這時再看前面幾本出版物，除了標準庫發現不了幾個新知識點，會覺得都很簡單。
+建議：爲了快速上手，本文把很多「高級玩法」（比如遞歸、動態）都被隱藏了。半小時後，搜一下庫，寫幾個自己的剛需腳本。然後過一遍官方文檔，看完 MIT 那門課，就可以着手寫複雜的東西了。這時再看前面幾本出版物，除了標準庫發現不了幾個新知識點，會覺得都很簡單。當然，做 LeetCode 還是會經常 Time limit exceeded 。
