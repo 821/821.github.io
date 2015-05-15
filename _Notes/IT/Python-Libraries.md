@@ -4,7 +4,6 @@ title: 漫遊 Python 庫
 date: '2015/04/20'
 ---
 ## 多線程
-
 ### threading
 Python 主要有兩個多線程標準庫， thread 和 threading 。前者低級，後者高級。對於不需要太底層的情況，一般使用後者。
 threading 有幾個常用方法： `start`, `run`, `join`, `name` 。
@@ -25,8 +24,40 @@ for i in range(20):
 單單是這個模塊，已沒有太多必須用例子來詮釋，看
 <a href="https://docs.python.org/3/library/threading.html" rel="external">文檔</a>就行了。
 
-## GUI
+## 正則表達式
 
+```python
+import re
+text = 'ABabcd1234'
+# 匹配，衹從字符串的開頭找起，沒有就返回 None
+# 格式： re.match(pattern, string, flags=0)
+# flags 爲特殊選項，選項間用 | 隔開
+mtext = re.match(r'([a-z])([a-z])', text, re.I)
+if mtext:
+	# 讀取 mtext 兩個方法： group(n) 和 groups()
+	# group 的 n 不寫時表示第一個整體被匹配的字串
+	print(mtext.group()) # AB
+	# 而 n 表示正則表達式裏的圓括號分組
+	print(mtext.group(1)) # A
+	# groups 則是用元祖來返回所有的 group
+	print(mtext.groups()) # ('A', 'B')
+# 搜索，會一直找整個字符串，直到找到第一個
+# 格式： re.search(pattern, string, flags=0)
+stext = re.search(r'([a-z])(\d)', text, re.I)
+if stext:
+	print(stext.group()) # d1
+# 替換
+# 格式： re.sub(pattern, replacement, string, max=0)
+newtext = re.sub(r'\d', "a", text)
+print(newtext) # ABabcdaaaa
+```
+常用選項：
+`re.I` 大小寫不敏感
+`re.M` 多行
+`re.S` `.` 也能包含 `\n` 之類很特殊的符號
+`re.U` 使用 Unicode
+
+## GUI
 ### tkinter
 這個標準庫的命令非常規範，一個例子就夠了：
 ```python
