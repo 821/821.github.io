@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: indexed
 title: VBScript
 ---
 VBScript ，一個有點過氣的玩意，但偶爾還會秀一下存在感。
