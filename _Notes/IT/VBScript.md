@@ -22,7 +22,7 @@ Error：錯誤號
 ## 變量
 命名必須以字母開頭，不可用 . ， 255 字符以內。
 定義與賦値：
-```vbscript
+```vb.net
 Dim var
 var = "abc"
 ```
