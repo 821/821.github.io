@@ -71,13 +71,15 @@ GUI 對於一次性操作的便捷度有很大的提升，當然也不能丟棄�
 加 → 的軟件是特別常用的，屬於衹要裝了系統，就會裝上的。
 
 ### 網盤
-<a href="https://cloud.mail.ru" rel="external">Cloud.mail.ru</a> 免費 100GB ，支持直鏈的同步盤。俄羅斯著名郵箱提供，僅有俄文版，不容易火。媽媽再也不擔心我被 Dropbox 和 Google Drive 噁心了。
-<a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a> 自帶版本功能，支持 Webdav ，全平臺客戶端，而且沒被牆。
-<a href="https://spideroak.com/" rel="external">SpiderOak</a> 設置複雜，功能強大，全版本備份。對於重要且常更新的私密文件很有用。
-☭<a href="http://www.kuaipan.cn/?channel=aoipf6" rel="external">金山快盤</a> 以前唯一的大容量網盤，存了很多書，但客戶端越做越差。尚未放棄的主因是有 Linux 版。
+<a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a> 自帶版本功能，支持 WebDAV ，全平臺客戶端，而且沒被牆。
+<a href="https://box.com" rel="external">box.com</a> 網頁版牆了，但 WebDAV 速度挺好又沒牆。
+<a href="https://cloud.mail.ru" rel="external">Cloud.mail.ru</a> 免費 100GB ，支持直鏈的同步盤。俄羅斯著名郵箱提供，僅有俄文版。
+<a href="https://disk.yandex.com/invite/?hash=59G79LUD" rel="external">Yandex</a> 慢出翔的俄國網盤，有 WebDAV 。
+<a href="https://spideroak.com/" rel="external">SpiderOak</a> 設置複雜，功能強大，全版本備份。對於重要且常更新的私密文件很有用。可惜這個以 Python 開發的軟件竟沒提供 Python SDK 。
+☭<a href="http://www.kuaipan.cn/" rel="external">金山快盤</a> 以前唯一的大容量網盤，存了很多書，但客戶端越做越差。尚未放棄的主因是有 Linux 版。
 ☭<a href="https://weiyun.com" rel="external">微雲</a> 10TB 永久盤。單文件和流量限制較蛋疼。
 ☭<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=6054# p6054" rel="external">百度網盤</a> 速度快，資源多。客戶端也不錯。
-關注： <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>, <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="https://disk.yandex.com/invite/?hash=59G79LUD" rel="external">Yandex</a>, <a href="http://copy.com" rel="external">copy.com</a>, <a href="http://www.wuala.com" rel="external">Wuala</a>
+關注： <a href="http://sparkleshare.org/" rel="external">SparkleShare</a>, <a href="http://www.syncany.org/" rel="external">Syncany</a>, <a href="http://copy.com" rel="external">copy.com</a>
 Linux 方案及點評：同步盤不受影響，百度網盤有人用 Python 2.7 做了 Linux 能用的客戶端，快盤本來就有，其餘沒辦法了。
 理想：支持同步和存儲式上傳，可選擇全版本保存，大容量，友好的轉存功能，其餘和 Wuala 一樣即可。
 

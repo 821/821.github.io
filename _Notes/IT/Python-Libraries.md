@@ -157,7 +157,24 @@ mw.show()
 ```
 排版不限於 `QHBoxLayout` 和 `QVBoxLayout` ，但這兩個無疑是最簡單、直觀的。
 
+## 郵件
+Python 標準庫把發郵件分爲兩個部分：處理和服務器打交道的 smtp 和製作郵件的 email 。
 
-
+### smtp
 ```python
+import smtplib
+def sendemail(fromwho, towhom, smtp, port, password, content):
+	server = smtplib.SMTP(smtp, port)
+	server.set_debuglevel(1)
+	server.starttls() # 加密
+	server.login(fromwho, password)
+	server.sendmail(fromwho, [towhom], content)
+	server.quit()
+fromwho = 'example@outlook.com'
+towhom = 'example@gmail.com'
+smtp = 'smtp.live.com'
+port = 587 # starttls 一般用 587 口
+password = 'password'
+content = 'hello'
+sendemail(fromwho, towhom, smtp, port, password, content)
 ```
