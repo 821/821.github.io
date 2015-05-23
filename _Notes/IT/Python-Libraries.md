@@ -160,8 +160,8 @@ mw.show()
 ## 郵件
 Python 標準庫把發郵件分爲兩個部分：處理和服務器打交道的 smtplib, poplib, imaplib 和製作郵件的 email 。
 
-### smtp
-smtp 用於發郵件。
+### smtplib
+用於發郵件。
 ```python
 import smtplib
 def sendemail(fromwho, towhom, smtp, port, password, content):
@@ -180,7 +180,7 @@ content = 'hello'
 sendemail(fromwho, towhom, smtp, port, password, content)
 ```
 以上用了 TLS 加密，如不涉及隱私，則去掉 `server.starttls()` ， `port` 用 25 ，速度更快。
-如果想用 SSL 加密，則把 server 那行改成 `server = smtplib.SMTP_SSL(host = smtp, port = 465)` ， `port` 和 TLS 部分當然也要去掉
+如果想用 SSL 加密，則把 server 那行改成 `server = smtplib.SMTP_SSL(host = smtp, port = 465)` ， `port` 和 TLS 部分當然也要去掉。
 
 ### email
 smtp 部分裏的 content 顯然太簡陋了，標題都沒有，所以用 email 模塊來加強一下。
@@ -188,6 +188,27 @@ smtp 部分裏的 content 顯然太簡陋了，標題都沒有，所以用 email
 from email.mime.text import MIMEText
 from email.header import Header
 msg = MIMEText('hello', 'plain', 'utf-8') # msg 這裏建立成 list
-msg['Subject'] = Header(u'標題', 'utf-8').encode() # 添加標題
+msg['Subject'] = Header('標題', 'utf-8').encode() # 添加標題
 content = msg.as_string() # 再轉成 string 來發送
+```
+帶附件：
+```python
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.base import MIMEBase
+from email.header import Header # 不用的話，在某些郵箱裏可能亂碼
+from email import encoders # 最後再 base64 一下，不要亂碼
+def format(title, body, filepath, fname):
+	msg = MIMEMultipart()
+	msg['Subject'] = Header(title, 'utf-8').encode()
+	msg.attach(MIMEText(body, 'plain', 'utf-8'))
+	f = open(filepath, 'rb')
+	mime = MIMEBase('text', 'plain', filename=fname)
+	mime.add_header('Content-Disposition', 'attachment', filename=Header(fname, 'utf-8').encode())
+	mime.set_payload(f.read())
+	encoders.encode_base64(mime)
+	msg.attach(mime)
+	f.close
+	return msg.as_bytes()
+content = format('標題', '正文', 'E:/測試.txt', '測試.txt')
 ```
