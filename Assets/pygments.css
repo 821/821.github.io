@@ -1,4 +1,4 @@
-pre {white-space: pre; overflow: auto; word-wrap: normal;}
+pre {white-space: pre; word-wrap: normal;}
 .highlight {border:1px solid #9cf;background:#000;color:#fff;width:95%;margin:0 0 1em 5%}
 .highlight code{border:0px;}
 .highlight .hll{background-color:#333}
