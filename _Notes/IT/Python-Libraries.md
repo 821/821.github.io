@@ -158,23 +158,36 @@ mw.show()
 排版不限於 `QHBoxLayout` 和 `QVBoxLayout` ，但這兩個無疑是最簡單、直觀的。
 
 ## 郵件
-Python 標準庫把發郵件分爲兩個部分：處理和服務器打交道的 smtp 和製作郵件的 email 。
+Python 標準庫把發郵件分爲兩個部分：處理和服務器打交道的 smtplib, poplib, imaplib 和製作郵件的 email 。
 
 ### smtp
+smtp 用於發郵件。
 ```python
 import smtplib
 def sendemail(fromwho, towhom, smtp, port, password, content):
 	server = smtplib.SMTP(smtp, port)
 	server.set_debuglevel(1)
-	server.starttls() # 加密
+	server.starttls() # TLS 加密
 	server.login(fromwho, password)
 	server.sendmail(fromwho, [towhom], content)
 	server.quit()
 fromwho = 'example@outlook.com'
 towhom = 'example@gmail.com'
 smtp = 'smtp.live.com'
-port = 587 # starttls 一般用 587 口
+port = 587 # tls 一般用 587 口
 password = 'password'
 content = 'hello'
 sendemail(fromwho, towhom, smtp, port, password, content)
+```
+以上用了 TLS 加密，如不涉及隱私，則去掉 `server.starttls()` ， `port` 用 25 ，速度更快。
+如果想用 SSL 加密，則把 server 那行改成 `server = smtplib.SMTP_SSL(host = smtp, port = 465)` ， `port` 和 TLS 部分當然也要去掉
+
+### email
+smtp 部分裏的 content 顯然太簡陋了，標題都沒有，所以用 email 模塊來加強一下。
+```python
+from email.mime.text import MIMEText
+from email.header import Header
+msg = MIMEText('hello', 'plain', 'utf-8') # msg 這裏建立成 list
+msg['Subject'] = Header(u'標題', 'utf-8').encode() # 添加標題
+content = msg.as_string() # 再轉成 string 來發送
 ```
