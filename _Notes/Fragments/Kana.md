@@ -1,6 +1,6 @@
 ---
-layout- horizontal
-title- 假名
+layout: horizontal
+title: 假名
 ---
 附漢字原型，對學過音韻學的人來說好記點。
 
