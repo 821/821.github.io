@@ -174,7 +174,7 @@ def sendemail(fromwho, towhom, smtp, port, password, content):
 fromwho = 'example@outlook.com'
 towhom = 'example@gmail.com'
 smtp = 'smtp.live.com'
-port = 587 # tls 一般用 587 口
+port = 587 # TLS 一般用 587 口
 password = 'password'
 content = 'hello'
 sendemail(fromwho, towhom, smtp, port, password, content)
