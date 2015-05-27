@@ -354,7 +354,7 @@ Python 的 OOP 給我的印象很不好，滿天飛的 `self` 和下劃線，代
 ```python
 class Human (Object): # class 是聲明建立類， Human 是類名 ， Object 是常用的最高父類
 	def __init__(self, name, born): # __init__ 是個方法，第一個變量永遠是 self
-		self.name = name
+		self.name = name # 寫了這句，外部就能調用這個變量了
 		self.born = born
 	def age(self): # 際要用到 name 和 born ，但現在衹需要寫 self 了
 		print (self.name+' is '+str(2015-self.born)+' years old')

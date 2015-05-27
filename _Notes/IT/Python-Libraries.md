@@ -156,6 +156,7 @@ mw.setGeometry(0, 100, 400, 300)
 mw.show()
 ```
 排版不限於 `QHBoxLayout` 和 `QVBoxLayout` ，但這兩個無疑是最簡單、直觀的。
+PyQt 的強大，三天三夜也講不完，一般的小項目衹能用到冰山一角。詳細看<a href="http://pyqt.sourceforge.net/Docs/PyQt4/index.html" rel="external">文檔</a>。
 
 ## 郵件
 Python 標準庫把發郵件分爲兩個部分：處理和服務器打交道的 smtplib, poplib, imaplib 和製作郵件的 email 。
