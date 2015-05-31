@@ -165,7 +165,7 @@ Python 標準庫把發郵件分爲兩個部分：處理和服務器打交道的 
 用於發郵件。
 ```python
 import smtplib
-def sendemail(fromwho, towhom, smtp, port, password, content):
+def fullemail(fromwho, towhom, smtp, port, password, content):
 	server = smtplib.SMTP(smtp, port)
 	server.set_debuglevel(1)
 	server.starttls() # TLS 加密
@@ -178,7 +178,7 @@ smtp = 'smtp.live.com'
 port = 587 # TLS 一般用 587 口
 password = 'password'
 content = 'hello'
-sendemail(fromwho, towhom, smtp, port, password, content)
+fullemail(fromwho, towhom, smtp, port, password, content)
 ```
 以上用了 TLS 加密，如不涉及隱私，則去掉 `server.starttls()` ， `port` 用 25 ，速度更快。
 如果想用 SSL 加密，則把 server 那行改成 `server = smtplib.SMTP_SSL(host = smtp, port = 465)` ， `port` 和 TLS 部分當然也要去掉。
@@ -212,4 +212,18 @@ def format(title, body, filepath, fname):
 	f.close
 	return msg.as_bytes()
 content = format('標題', '正文', 'E:/測試.txt', '測試.txt')
+```
+
+## 系統
+與系統交互用的標準庫，最主要的就是 sys 和 os 。
+
+### sys
+sys 其實衹有一條命令是常用的，就是 `sys.argv` 。 `sys.argv` 返回的是一個 list 。
+要使用 `sys.argv` ，在命令行就不能任性了。比如有個腳本 `1.py` ，在很多情況下我們會直接在命令行敲 `1.py` 來執行，但爲了使用 `sys.argv` ，則應使用 `python 1.py` 的格式執行。
+假設我們在命令行用 `python 1.py a bcdef g123` 這個命令
+```python
+import sys
+print(sys.argv) # ['1.py', 'a', 'bcdef', 'g123']
+# 所以，比如要調用其中的 a 時：
+print(sys.argv[1]) # 'a'
 ```

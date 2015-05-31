@@ -14,7 +14,7 @@ title: 假名
 <th align="left">ま m</th>
 <th align="left">は h</th>
 <th align="left">な n</th>
-<th align="left">たt</th>
+<th align="left">た t</th>
 <th align="left">さ s</th>
 <th align="left">か k</th>
 <th align="left">あ</th>
@@ -142,7 +142,7 @@ title: 假名
 <td align="left">-</td>
 <td align="left">遠乎</td>
 <td align="left">呂</td>
-<td align="left">与</td>
+<td align="left">與</td>
 <td align="left">毛</td>
 <td align="left">保</td>
 <td align="left">乃</td>
