@@ -115,6 +115,7 @@ Linux 方案及點評： Linux 裝 TeX 會比較方便，但沒有書版，字�
 →$<a href="http://www.portablesoft.org/emeditor-pro/" rel="external">EmEditor</a> 適合作家，編程亦佳，原生支持便攜版。
 →$<a href="http://www.everedit.net" rel="external">EverEdit</a> 國產文本編輯器，速度快，體積較小。
 →<a href="https://www.python.org/" rel="external">Python 3</a> 編點小玩意用，主要爲了讀秀。寫 2 的時候會用<a href="http://winpython.github.io/" rel="external">便攜版</a>。
+<a href="https://github.com/821/Daily/blob/master/Note-.pyw" rel="external">Note-</a> 自己寫的筆記「軟件」。
 關注： <a href="http://jedit.org" rel="external">jEdit</a>, <a href="http://www.hanzify.org/software/11742.html" rel="external">AkelPad</a>, $<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=5540# p5540" rel="external">EditPlus</a>, Visual Studio Code
 Linux 方案及點評：考慮 jEdit 和 SciTE 。因爲 EmEditor/EverEdit 是我的菜，所以 Windows 更好。這個結論太個人化了，不具備普遍參考價值。
 理想： EmEditor 和 EverEdit 的優點聚合，並加入收藏夾。

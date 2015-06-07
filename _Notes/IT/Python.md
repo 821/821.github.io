@@ -381,9 +381,9 @@ class Caucasian (Human):
 <a href="https://www.packtpub.com/application-development/expert-python-programming" rel="external">Expert Python Programming</a> 進階書。
 <a href="https://docs.python.org/3/" rel="external">官方文檔</a> 不用解釋其重要性了。
 <a href="http://www.byteofpython.info/" rel="external">A Byte of Python</a> 可以作爲簡易快速的備查。
-<a href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000" rel="external">Python 教程</a> 在中文 IT 敎程裏，也算佼佼者了。
+<a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" rel="external">Python 教程</a> 在中文 IT 敎程裏，也算佼佼者了。原本是 2 的，升級了。
 <a href="http://docs.python-guide.org/en/latest/" rel="external">The Hitchhiker’s Guide to Python</a> 不少深入的話題，値得認眞讀。
-<a href="https://github.com/qyuhen/book/" rel="external">Python 学习笔记</a> 講得比較深，但是用的是 Python 2 。
+<a href="https://github.com/qyuhen/book/" rel="external">Python 学习笔记</a> 講得比較深，但用的是 Python 2 。
 <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011" rel="external">Introduction to Computer Science and Programming</a> MIT 的編程課，有配套敎材，以前用 Lisp 的方言 Scheme ，現在 Python 2 。涉及一些編程思想，能體會到代數和電腦的關係。
 <a href="http://www-inst.eecs.berkeley.edu/~cs61a/fa11/" rel="external">Structure and Interpretation of Computer Programs</a> UCB 的編程課，跟 MIT 那門用相同敎材，但 Python 版本是 3 。相比 MIT 那門，好處是文檔多，壞處是沒視頻。這課 2 mid-terms + 4 projects + 一堆作業，而且上機用 Unix + Emacs 。不知道 UCB 新生會不會有退學重考的衝動？
 <a href="http://www.jb51.net/list/list_97_1.htm" rel="external">腳本之家</a> 採集了很多腳本的網站。
