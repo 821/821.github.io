@@ -18,7 +18,7 @@ post_defaults:
 highlighter: pygments
 markdown: redcarpet
 redcarpet:
-  extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify", "hard_wrap", "footnotes", "lax_spacing"]
+  extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify", "hard_wrap", "footnotes", "lax_spacing", "no_intra_emphasis"]
 #kramdown:
 #  input: GFM
 
