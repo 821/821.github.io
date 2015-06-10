@@ -267,9 +267,13 @@ def func(a,b):
 func 中的變量 a 同時也是一個函數，所以 func 就是個高階函數。實際上，有個叫 `map()` 的內置函數就跟這個 func 很類似。
 
 ### 匿名函數
-看起來有點雞肋，不過有時卻是必須的。
+看起來有點雞肋，不過有時卻是必須的。比如有些地方不能寫帶參數的函數，比如 `print(x)` ，這時寫 `lambda: print(x)` 就可以。
 ```python
 lambda [arg1 [,arg2,.....argn]]:expression
+# 下面是兩個等價的東西
+add = lambda x, y: x + y
+def add(x,y):
+	return x + y
 ```
 
 ## 讀寫文件
