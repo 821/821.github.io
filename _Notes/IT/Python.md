@@ -5,7 +5,7 @@ date: '2014/08/08'
 ---
 本文代碼如無說明，均爲 Python 3 代碼。
 
-當下流行的程序語言，都有其各自的優越性， Python 也不例外：
+學會編程，就能打開人機交互的新篇章，做很多以前做不到的事。當下流行的程序語言，都有其各自的優越性， Python 也不例外：
 1. 易學。實現相同功能， Python 需要的知識點往往是最少之一。
 2. 易讀。簡潔、單一最優解、強制縮進，很好的敎學語言。
 3. 易配。多數 *nix 發行版內置， Windows 安裝包也很小。運行還不用手動編譯。
@@ -122,7 +122,6 @@ var1 = var2 = var3 = 123 # 賦予相同的値
 var1, var2, var3 = 123, 456, 'string' # 簡寫模式
 # 不要亂用簡寫，會降低代碼可讀性的
 var = input('Prompt') # 用一個變量來代表一串命令
-var = (1, 2, True)
 (a, b, c) = var # 一種比較酷的方法
 ```
 
@@ -376,23 +375,25 @@ class Caucasian (Human):
 說實話， Python 基礎裏看起來最不優美的就是 OOP 。什麼 `__init__` ，還有一堆 `self.` ，簡直不要太醜。如果 `def` 能嵌套，我幾乎沒機會用 `class` ……
 
 ## 補充閱覽
+#### 書籍
 <a href="http://www.amazon.com/Beginning-Python-From-Novice-Professional/dp/159059519X" rel="external">Beginning Python: from Novice to Professional</a> 本文沒有覆蓋的基礎內容。
 <a href="http://www.amazon.com/Python-Essential-Reference-4th-Edition/dp/0672329786" rel="external">Python Essential Reference</a> 一個較全面且不囉嗦的敎材，進階用爲主。
 <a href="http://shop.oreilly.com/product/0636920028154.do" rel="external">Learning Python</a> 囉嗦的來了。
+Think Python 簡短，知識點梳理比較到位。
 <a href="http://www.diveintopython3.net/" rel="external">Dive into Python 3</a> 確實較深入，但編排有問題，不能作爲入門書。
 <a href="http://www.amazon.com/Python-Standard-Library-Example-Developers/dp/0321767349" rel="external">The Python Standard Library by Example</a> 標準庫能讀完，也算民間高手了。
 <a href="http://www.amazon.com/Python-Practice-Concurrency-Libraries-Developers/dp/0321905636" rel="external">Python in Practice: Create Better Programs Using Concurrency, Libraries, and Patterns</a> 進階書，用得到的話可以看。
-<a href="https://www.packtpub.com/application-development/expert-python-programming" rel="external">Expert Python Programming</a> 進階書。
+<a href="https://www.packtpub.com/application-development/expert-python-programming" rel="external">Expert Python Programming</a> 進階書，涉及很多細節，讓你的代碼更 Pythonic 。
+
+#### 網絡資源
 <a href="https://docs.python.org/3/" rel="external">官方文檔</a> 不用解釋其重要性了。
-<a href="http://www.byteofpython.info/" rel="external">A Byte of Python</a> 可以作爲簡易快速的備查。
 <a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" rel="external">Python 教程</a> 在中文 IT 敎程裏，也算佼佼者了。原本是 2 的，升級了。
 <a href="http://docs.python-guide.org/en/latest/" rel="external">The Hitchhiker’s Guide to Python</a> 不少深入的話題，値得認眞讀。
 <a href="https://github.com/qyuhen/book/" rel="external">Python 学习笔记</a> 講得比較深，但用的是 Python 2 。
-<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011" rel="external">Introduction to Computer Science and Programming</a> MIT 的編程課，有配套敎材，以前用 Lisp 的方言 Scheme ，現在 Python 2 。涉及一些編程思想，能體會到代數和電腦的關係。
-<a href="http://www-inst.eecs.berkeley.edu/~cs61a/fa11/" rel="external">Structure and Interpretation of Computer Programs</a> UCB 的編程課，跟 MIT 那門用相同敎材，但 Python 版本是 3 。相比 MIT 那門，好處是文檔多，壞處是沒視頻。這課 2 mid-terms + 4 projects + 一堆作業，而且上機用 Unix + Emacs 。不知道 UCB 新生會不會有退學重考的衝動？
+<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011" rel="external">Introduction to Computer Science and Programming</a> MIT 的編程課，有配套敎材，以前用 Lisp 的方言 Scheme ，現在 Python 2 ，涉及一些編程思想。
+<a href="http://www-inst.eecs.berkeley.edu/~cs61a/fa11/" rel="external">Structure and Interpretation of Computer Programs</a> UCB 的編程課，跟 MIT 那門用相同敎材，但 Python 版本是 3 。相比 MIT 那門，好處是文檔多，壞處是沒視頻。
 <a href="http://www.jb51.net/list/list_97_1.htm" rel="external">腳本之家</a> 採集了很多腳本的網站。
 <a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html" rel="external">Code Like a Pythonista</a> 個人來講不需要強求，但是看看也好。
-<a href="https://www.python.org/dev/peps/pep-0008/" rel="external">Style Guide for Python Code</a> 同樣不強求。
 <a href="https://leetcode.com/" rel="external">LeetCode</a> 自虐向代碼題庫，支持多門語言。
 
 建議：爲了快速上手，本文把很多「高級玩法」（比如遞歸、動態）都被隱藏了。半小時後，搜一下庫，寫幾個自己的剛需腳本。然後過一遍官方文檔，看完 MIT 那門課，就可以着手寫複雜的東西了。這時再看前面幾本出版物，除了標準庫發現不了幾個新知識點，會覺得都很簡單。當然，做 LeetCode 還是會經常 Time limit exceeded 。
