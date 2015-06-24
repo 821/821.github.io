@@ -4,9 +4,10 @@ title: 辭書
 ---
 ## 格式與軟件
 衹討論 GoldenDict PC 版支持的格式。
+
 軟件|擴展|特色
 ----|----|----
-dictzip|dz|其他格式通過 dictzip 壓縮而成，可用 7-Zip 等解壓
+dictzip|dz|實爲 gzip 加一個表，可用 7-Zip 等解壓
 Lingvo|dsl|開源，俄文辭書多， LDOCE 等多種英文辭書的源頭
 Lingvo|lsd|dsl 的封裝結果，有反封裝軟件
 StarDict|ifo dict idx syn|多轉自 dsl ，排版普遍很差
@@ -14,45 +15,47 @@ MDict|mdx mdd|中國電子辭書集散地，源文件本質爲 html ，反編譯
 EPWING| - |各種日文辭書的源頭， GoldenDict 索引速度慢
 
 ## 漢語類
-### 說文 + 段注
+#### 說文 + 段注
 衹有特殊情況會用。另有詁林，高大全而已。
 
-### 康煕字典
-現在用有點過時了。
+#### 康煕字典
+現在用有點過時，不過這麼小一部書有這麼大容量，還是値得稱讚。
 
-### 中華大字典
+#### 中華大字典
 康煕字典的中華書局修正增補版。
 
-### 辭源
+#### 辭源
 解釋不錯，收詞量略小。
 
-### 大漢和辭典
+#### 大漢和辭典
 猜猜也能用。收詞的日本背景較強烈。
 
-### 中文大辭典
+#### 中文大辭典
 大漢和辭典中譯、去日本化、加書體。
 由於是基於大漢和辭典的，可說是胎裏弱，收詞量不夠用。
+大漢和對異體字標註頁碼，很貼心，中文大辭典抄都不知道把好的抄起來。
 
-### 漢語大詞典
-中文大辭典基礎上再改，詞條變化較多。字方面較弱化，詞方面繼續胎裏弱。
+#### 漢語大詞典
+中文大辭典基礎上再改，詞條變化較多。
+字方面較弱化，詞方面雖然有所加強，總體來說還是繼續胎裏弱。
 
-### 漢語大字典
+#### 漢語大字典
 比中文大辭典的書體更豐富，收字更多。
 
-### 故訓匯纂
+#### 故訓匯纂
 收字不多，但顧名思義，該有的解釋都有了。
 
-### 近代漢語大詞典
+#### 近代漢語大詞典
 質量不錯，就是名字起錯，應該叫「近古漢語口頭語大詞典」。
 
-### 現代漢語大詞典
+#### 現代漢語大詞典
 同名的很多，但大多根本不「大」。
 衹有阮版還行，利用漢語大詞典成果編寫，有一定用途。
 
-### 中日大辭典
+#### 中日大辭典
 可看作大漢和簡寫版。
 
-### 難副盛名者簡介
+#### 難副盛名者簡介
 辭海：主打現代卻過時了。
 教育部重編國語辭典：收詞不多，例句多生造，輕聲詞注音錯誤極多。
 現代漢語詞典：定位欠準，詞量硬傷，幾乎沒例句，好處是注音正確率高、有詞性。
@@ -61,55 +64,55 @@ EPWING| - |各種日文辭書的源頭， GoldenDict 索引速度慢
 ## 英語類
 一般的英語辭書，大抵有四個境界：學習型、大學型、高級型、全本型。 ESL 會覺得學習型比較舒服，大學型開始痛苦，高級型不知所云，全本型純屬擺設。
 
-### LONGMAN Dictionary of Contemporary English (LDOCE)
+#### LONGMAN Dictionary of Contemporary English (LDOCE)
 同義、搭配、例句什麼都有一點。出名的是電子版。
 
-### Collins COBUILD Advanced Learner's English Dictionary
+#### Collins COBUILD Advanced Learner's English Dictionary
 雙解裏最好的。
 
-### Cambridge Advanced Learner’s Dictionary (CALD)
+#### Cambridge Advanced Learner’s Dictionary (CALD)
 較易讀，特色不甚鮮明。
 
-### Oxford Collocations Dictionary
+#### Oxford Collocations Dictionary
 這本書上沒有的搭配就別用。
 
-### Oxford English Dictionary (OED)
+#### Oxford English Dictionary (OED)
 應該這麼看：這貨就是牛津自己的數據庫，用來編纂其他辭書。
 
-### The Shorter Oxford English Dictionary (SOED)
+#### The Shorter Oxford English Dictionary (SOED)
 OED 的簡寫版， ESL 能用到這本就不錯了，基本也是怪物級。
 
-### Concise Oxford English Dictionary and Thesaurus (CODT)
+#### Concise Oxford English Dictionary and Thesaurus (CODT)
 兩本字典的合倂。幾乎沒例句。
 
-### Oxford Dictionary of English (ODE)
+#### Oxford Dictionary of English (ODE)
 不同於 OED 的一本新詞典，不收古典詞。釋義對 ESL 來說比較可讀。有網絡版，季更。
 還出了雙解：新牛津英漢雙解大詞典，是最大的雙解詞典。
 
-### Webster's New World College Dictionary
+#### Webster's New World College Dictionary
 讀美媒用。
 
-### Merriam-Webster's Collegiate Dictionary
+#### Merriam-Webster's Collegiate Dictionary
 特點是解釋簡潔，義項較少。
 
-### 英漢大詞典
+#### 英漢大詞典
 英漢裏最有名。
 
 ## 日語類
 日語在我看來就是個皮欽語 (Pidgin) 。日語的辭書也反映了這一現象。卽，日語辭書分裂成了兩類，第一類是大漢和、中日大辭典那樣僅以漢文詞爲索引的辭書，第二類是平、片假名和漢文詞都有的辭書。後者是典型的日本人用的「国語辞典」，前者則可看作「中日辭典」。本節衹討論純「国語辞典」。
 日本人把「国語辞典」分爲大型（五十萬級）、中型（十至二十萬級）、小型（六至十萬級）。其他國家編纂辭書雖然也若有若無的有點標準，但不會像日本這麼明確。
 
-### 日本国語大辞典
+#### 日本国語大辞典
 唯一的大型「国語辞典」。
 
-### 広辞苑
+#### 広辞苑
 中型「国語辞典」三巨頭之一，輕度古語向。釋義較古典，所以中國人較易懂。
 
-### 大辞林
+#### 大辞林
 中型「国語辞典」三巨頭之一，現代向，外來語較多。
 
-### 大辞泉
+#### 大辞泉
 中型「国語辞典」三巨頭之一，百科向。其實是三巨頭裏的新人。
 
-### 新明解国語辞典
+#### 新明解国語辞典
 最暢銷的小型「国語辞典」。口語化、個人化。
