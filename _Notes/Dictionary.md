@@ -70,8 +70,11 @@ EPWING| - |各種日文辭書的源頭， GoldenDict 索引速度慢
 #### Collins COBUILD Advanced Learner's English Dictionary
 雙解裏最好的。
 
-#### Cambridge Advanced Learner’s Dictionary (CALD)
+#### Cambridge Advanced Learner's Dictionary (CALD)
 較易讀，特色不甚鮮明。
+
+#### MacMillan English Dictionary for Advanced Learners (MEDAL)
+強項是同義詞辨析。
 
 #### Oxford Collocations Dictionary
 這本書上沒有的搭配就別用。
