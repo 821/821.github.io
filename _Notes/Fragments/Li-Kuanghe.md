@@ -134,6 +134,7 @@ http://mhdb.mh.sinica.edu.tw/diary/example.php?main=xyc&listno=408698
 > 陸軍一級上將何應欽。
 > 陸軍中將錢卓倫、劉祖舜、葉肇、李文彬。
 > 陸軍少將趙學顏、劉守愚、張楓宸、曹謨、李樹元、方光圻、王永安、陳倬、林為周、張家閒、陳瑜、高植明、朱致一、鄧希賢、曾潛英、王乾元、楊寶穀、賴光大、史宏熹、王和樸、李待琛等。
+
 #### 1953/05/04
 http://mhdb.mh.sinica.edu.tw/diary/example.php?main=xyc&listno=408890
 午前齊次青來，晚飯後詣賈宅，聞李廣和病死。
