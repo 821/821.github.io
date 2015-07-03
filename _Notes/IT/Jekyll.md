@@ -21,7 +21,7 @@ Jekyll 支持使用人性化一些的 <a href="https://help.github.com/articles/
 淸單：無序淸單在行首加上 \* \+ \- 三選一，有序淸單是數字加 \. ，數字可亂寫
 引用：在需要引用的部分每一行行首加上 \> ，引言中的引言加兩個
 程序：行首加上一個 tab 或四個空格，則區塊被 pre code 兩個標籤包圍。如果衹要一小截，用一對 \` 包夾，這樣有 code 沒有 pre
-分割線：一行 * 或 -
+分割線：一行 \* 或 \-
 鏈接：形如 \[link\]\(http://example.net/\) \"Optional Title\" ，可以用相對路徑
 參考：類似鏈接，寫作 \[example\]\[id\] ，二者之間可加空格
 圖片：形如 \!\[Alt text\]\(http://example\.net/img\.jpg \"Optional title\"\)

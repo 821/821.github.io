@@ -12,7 +12,7 @@ Lingvo|lsd|dsl 的封裝結果，有反封裝軟件
 StarDict|ifo dict idx syn|多轉自 dsl ，排版普遍差，基本過氣
 MDict|mdx mdd|中國電子辭書集散地，源文件本質爲 html ，反編譯時順序會亂
 EPWING| - |日文辭書源頭， GoldenDict 索引速度慢，反編譯很困難
-Babylon|bgl|多轉自 dsl ，拆包常出錯
+Babylon|bgl|以色列貨，多轉自 dsl ，拆包常出錯
 AARD|aar|主要是維基百科，見<a href="http://aarddict.org/1/" rel="external">官網</a>
 Slob|slob|AARD2 ，見<a href="http://aarddict.org/" rel="external">官網</a>
 dictzip|dz|實爲 gzip 加一個表，可用 7-Zip 等解壓，可壓縮 dsl 和 dict 文件
