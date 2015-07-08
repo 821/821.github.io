@@ -2,37 +2,22 @@
 layout: indexed
 title: 辭書
 ---
-## 格式與軟件
-衹討論 GoldenDict PC 版支持的格式。
-
-軟件|擴展|特色
-----|----|----
-Lingvo|dsl|開源，俄文辭書多， LDOCE 等多種英文辭書的源頭
-Lingvo|lsd|dsl 的封裝結果，有反封裝軟件
-StarDict|ifo dict idx syn|多轉自 dsl ，排版普遍差，基本過氣
-MDict|mdx mdd|中國電子辭書集散地，源文件本質爲 html ，反編譯時順序會亂
-EPWING| - |日文辭書源頭， GoldenDict 索引速度慢，反編譯很困難
-Babylon|bgl|以色列貨，多轉自 dsl ，拆包常出錯
-AARD|aar|主要是維基百科，見<a href="http://aarddict.org/1/" rel="external">官網</a>
-Slob|slob|AARD2 ，見<a href="http://aarddict.org/" rel="external">官網</a>
-dictzip|dz|實爲 gzip 加一個表，可用 7-Zip 等解壓，可壓縮 dsl 和 dict 文件
-
 ## 漢語類
-漢語辭書，如果規模稍大，錯誤率基本上都不可能達到中國自己制定的標準。對於自己的母語，絕大多數解釋都衹是參考，例句纔是理解生僻字詞的最佳方式，所以直接取自原典的例句纔能保證質，而兩句以上纔能保證量。符合這個條件的，基本上就是「大漢和辞典」系列。
+漢語類辭書，如果規模稍大，錯誤率基本上都不可能達到中國自己制定的標準。對於自己的母語，絕大多數解釋都衹是參考，例句纔是理解生僻字詞的最佳方式，所以直接取自原典的例句纔能保證質，而兩句以上纔能保證量。符合這個條件的，基本上就是「大漢和辞典」系列。
 #### 說文 + 段注
 衹有特殊情況會用。另有詁林，高大全而已。
 #### 康煕字典
-現在用有點過時，不過這麼小一部書有這麼大容量，還是値得稱讚。
+現在用有點過時，不過這麼小一部書有這麼大容量，還是値得稱讚。可惜對正字通的抄襲不夠完整。
 #### 中華大字典
 康煕字典的中華書局修正增補版。
 #### 辭源
 解釋不錯，收詞量略小。
 #### 中文大辭典
-大漢和中譯、去日本化、加書體。
+大漢和中譯、去日本化、加書體、增例句。
 由於是基於大漢和的，可說是胎裏弱，收詞量不夠用。
 大漢和對異體字標註頁碼，很貼心，中文大辭典抄都不知道把好的抄起來。
 #### 漢語大詞典
-中文大辭典基礎上再改，詞條變化較多。
+中文大辭典基礎上再改，詞條變化較多，義項更細分，例句也繼續增加。
 字方面較弱化，詞方面雖然有所加強，總體來說還是繼續胎裏弱。
 #### 漢語大字典
 比中文大辭典的書體更豐富，收字更多。
@@ -53,7 +38,7 @@ dictzip|dz|實爲 gzip 加一個表，可用 7-Zip 等解壓，可壓縮 dsl 和
 一般的英語辭書，大抵有四個境界：學習型、大學型、高級型、全本型。 ESL 會覺得學習型比較舒服，大學型開始痛苦，高級型不知所云，全本型純屬擺設。
 #### LONGMAN Dictionary of Contemporary English (LDOCE)
 同義、搭配、例句什麼都有一點。出名的是電子版。
-#### Collins COBUILD Advanced Learner's English Dictionary
+#### Collins COBUILD Advanced Learner's English Dictionary (CCALD)
 雙解裏最好的。
 #### Cambridge Advanced Learner's Dictionary (CALD)
 較易讀，特色不甚鮮明。
@@ -128,6 +113,20 @@ OED 的美國版，但對考古沒不太強調。
 ## GoldenDict tips
 GoldenDict 是當下電腦端最強的電子辭書查詢軟件。他免費，開源，跨平臺，可以在幾乎所有電腦上安裝。他支持的格式廣泛，通喫 AARD, Babylon, Dictd, EPWING, Lingoes, Lingvo, ,MDict, SDict, Slob, StarDict, XDXF, Zim 等離線格式，也可以使用 Wikipedia, Oxford 等在線辭書，所以 GoldenDict 在手，天下我有。
 GoldenDict 支持的格式裏最値得推崇的就是 Lingvo 的 dsl ，因爲這是一種完全開放的格式，可以直接用文本編輯器打開修改，而不必擔心出現什麼有損過程。如果嫌他佔空間，可以用 dictzip 壓縮。如果需要圖片和聲音，可以用 WinRAR 或 7-Zip 等壓縮軟件打包。總而言之， dsl 跟 GoldenDict 就是最搭的。
+
+### 格式與特色
+
+軟件|擴展|特色
+----|----|----
+Lingvo|dsl|開源，俄文辭書多， LDOCE 等多種英文辭書的源頭
+Lingvo|lsd|dsl 的封裝結果，有反封裝軟件
+StarDict|ifo dict idx syn|多轉自 dsl ，排版普遍差，基本過氣
+MDict|mdx mdd|中國電子辭書集散地，源文件本質爲 html ，反編譯時順序會亂
+EPWING| - |日文辭書源頭， GoldenDict 索引速度慢，反編譯很困難
+Babylon|bgl|以色列貨，多轉自 dsl ，拆包常出錯
+AARD|aar|主要是維基百科，見<a href="http://aarddict.org/1/" rel="external">官網</a>
+Slob|slob|AARD2 ，見<a href="http://aarddict.org/" rel="external">官網</a>
+dictzip|dz|實爲 gzip 加一個表，可用 7-Zip 等解壓，可壓縮 dsl 和 dict 文件
 
 ### GoldenDict 的便攜
 GoldenDict 原生支持便攜，便攜情況下，根目錄會有一個 `Portable` 文件夾。這個文件夾內可以寫一個 `qt-style.css` ，用以定義軟件各部件的樣式。還有一個 `article-style.css` ，則可決定詞條的樣式。
