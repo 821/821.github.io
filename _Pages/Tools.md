@@ -15,7 +15,8 @@ title: 欽定工具集成
 →☭<a href="http://www.portableappc.com/internet/tencent-tm-portable/" rel="external">TM2009</a> - 沒廣告的輕量級 QQ
 
 ## 傳輸
-→<a href="http://portableapps.com/apps/internet/free-download-manager-portable" rel="external">Free Download Manager</a> - 強大型下載器，不支持 eMule
+→<a href="http://sourceforge.net/projects/aria2/files/stable/" rel="external">Aria2</a> + <a href="http://aria2c.com/usage.html" rel="external">控制臺</a> - 命令行下載器，打配合下批量最佳
+<a href="http://portableapps.com/apps/internet/free-download-manager-portable" rel="external">Free Download Manager</a> - 強大型下載器
 →<a href="http://winscp.net/" rel="external">WinSCP</a> - 命令行 FTP/WebDAV
 <a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a> - 全版本備份，功能豐富
 <a href="https://spideroak.com/" rel="external">SpiderOak</a> - 全版本備份，隱私高
@@ -32,7 +33,7 @@ title: 欽定工具集成
 <a href="http://www.comicer.com/stronghorse/software/# Pdg2Pic" rel="external">Pdg2Pic</a> PDG 轉圖像和 PDF
 
 ## 創造
-→<a href="https://github.com/821/Daily/blob/master/Note-.pyw" rel="external">Note-</a> 自製的創作向筆記管理工具
+→<a href="https://github.com/821/Daily/blob/master/Note-.pyw" rel="external">Note-</a> 自製的創作向筆記瀏覽管理工具
 →<a href="http://rime.im/download/" rel="external">Rime</a> - 輸入法框架
 →<a href="http://120.25.123.149/EmEditor/" rel="external">EmEditor</a> - 寫作型編輯器
 →<a href="http://www.everedit.net" rel="external">EverEdit</a> - 高速編輯器
@@ -81,6 +82,7 @@ title: 欽定工具集成
 <a href="http://portableapptrash.blogspot.com/2014/10/the-bat-pro-672-multilingual.html" rel="external">The Bat!</a> - 功能型郵件管理器
 <a href="http://portableappz.blogspot.com/2014/01/tor-02420.html" rel="external">Tor</a>
 <a href="http://portableappz.blogspot.com/2014/02/pidgin-2109-multilingual.html" rel="external">Pidgin</a> - 陽春的多協議聊天工具
+<a href="https://desktop.telegram.org/" rel="external">Telegram</a> - 再好的聊天工具也要有人聊
 
 ### 傳輸
 <a href="http://120.25.123.149/IDM/" rel="external">IDM</a> - 多管閒事的下載器
