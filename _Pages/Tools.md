@@ -49,6 +49,7 @@ title: 欽定工具集成
 →<a href="http://www.zdfans.com/778.html" rel="external">WinRAR</a> - 簡易壓縮解壓
 →<a href="http://www.voidtools.com/" rel="external">Everything</a> - 本地文件搜索
 <a href="http://www.bulkrenameutility.co.uk/Download.php" rel="external">Bulk Rename Utility</a> - 最強批量重命名
+<a href="http://sourceforge.net/p/doublecmd/wiki/Download/" rel="external">Double Commander</a> - 免費文件管理器
 <a href="http://ipmsg.org/tools/fastcopy.html.en" rel="external">FastCopy</a> 快速剪切複製
 <a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&start=1185#p6950" rel="external">Clover</a> - 帶 tab 和收藏夾的 explorer
 →<a href="https://git-scm.com/downloads" rel="external">Git</a> - 最強版本控制
@@ -87,7 +88,7 @@ title: 欽定工具集成
 ### 傳輸
 <a href="http://120.25.123.149/IDM/" rel="external">IDM</a> - 多管閒事的下載器
 ☭<a href="http://www.zdfans.com/502.html" rel="external">QQ 旋風</a> - 博而不精的下載器
-<a href="https://www.dropbox.com/" rel="external">Dropbox</a> - 功能型網盤
+<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4702#p4702" rel="external">Dropbox</a> - 功能型網盤，但我不愛用客戶端
 <a href="https://onedrive.com/" rel="external">OneDrive</a> - 微軟監視下的網盤
 ☭<a href="http://115.com" rel="external">115</a> - 空間型網盤，離線下載，善變
 ☭<a href="http://yunpan.360.cn" rel="external">360雲盤</a> - 流氓出的空間型網盤
@@ -107,6 +108,7 @@ title: 欽定工具集成
 <a href="http://portableapps.com/apps/office/gnumeric_portable" rel="external">Gnumeric</a> - 單單是表格
 
 ### 文件
+<a href="http://www.softwareok.com/?seite=Freeware/Q-Dir" rel="external">Q-Dir</a> - 稍微增強一下 explorer
 <a href="http://portableappz.blogspot.com/2014/06/xplorer-2504-32-64-bit-multilingual.html" rel="external">xplorer²</a> - 邪僻的 Office 2007 風格工具欄
 <a href="http://portableappz.blogspot.com/2012/08/total-commander-801-32-64-bit.html" rel="external">TotelCommander</a> - 過度輕視 GUI
 
