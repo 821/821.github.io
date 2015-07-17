@@ -95,6 +95,7 @@ title: 欽定工具集成
 ☭<a href="https://kanbox.com/" rel="external">酷盤</a> - 阿里頭腦發熱買下的網盤
 
 ### 學習
+<a href="http://tutor.ksana.tw/accelon3/" rel="external">Accelon3</a> - 搜索快但有點怪的電子辭典
 <a href="http://120.25.123.149/PDF-XChange/" rel="external">PDF XChange Viewer</a> - 文本 PDF 渲染最佳
 <a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4989#p4989" rel="external">Evernote</a> - 又慢又笨的筆記軟件
 <a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4987#p4987" rel="external">Wiz</a> - 較慢的功能型筆記軟件
@@ -116,6 +117,7 @@ title: 欽定工具集成
 <a href="http://portableapps.com/apps/graphics_pictures/gimp_portable" rel="external">GIMP</a> - 圖片編輯器
 <a href="http://portableapps.com/apps/graphics_pictures/irfanview_portable" rel="external">IrfanView</a> - 圖片查看器
 <a href="http://portableapps.com/apps/music_video/mpc-hc-portable" rel="external">MPC-HC</a> - 不連續播放的視頻播放器
+<a href="http://www.zdfans.com/3050.html" rel="external">PotPlayer</a> - 日漸臃腫的播放器
 
 ### 系統
 <a href="https://www.virtualbox.org/" rel="external">VirtualBox</a> - 虛擬機
