@@ -45,11 +45,13 @@ title: 辭書
 #### MacMillan English Dictionary for Advanced Learners (MEDAL)
 強項是同義詞辨析。
 #### Oxford Collocations Dictionary
-這本書上沒有的搭配就別用。
+這本書上沒有的搭配就別用。小学館出有英日雙解版。
 #### Oxford English Dictionary (OED)
 應該這麼看：這貨就是牛津自己的數據庫，用來編纂其他辭書。
+對於讀者來說，他的作用是提供大量例句。
 #### The Shorter Oxford English Dictionary (SOED)
 OED 的簡寫版， ESL 能用到這本就不錯了，基本也是怪物級。
+第四版添了些東西，又出了一本 Oxford Talking Dictionary 。
 #### Concise Oxford English Dictionary and Thesaurus (CODT)
 兩本字典的合倂。幾乎沒例句。
 #### Oxford Dictionary of English (ODE)
@@ -63,7 +65,7 @@ OED 的簡寫版， ESL 能用到這本就不錯了，基本也是怪物級。
 OED 的美國版，但對考古沒不太強調。
 1961 年的第三版竟然把第二版的規定派轉爲描寫派了。結果是，現在看來收了一堆過時俚語。
 #### American Heritage Dictionary
-典型的規定派， usage notes 感人。
+典型的規定派， usage notes 感人。但就是沒什麼例句。
 #### 英漢大詞典
 英漢裏最有名。
 #### 新編英和活用大辞典
