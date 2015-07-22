@@ -111,7 +111,9 @@ title: 欽定工具集成
 ### 文件
 <a href="http://www.softwareok.com/?seite=Freeware/Q-Dir" rel="external">Q-Dir</a> - 稍微增強一下 explorer
 <a href="http://portableappz.blogspot.com/2014/06/xplorer-2504-32-64-bit-multilingual.html" rel="external">xplorer²</a> - 邪僻的 Office 2007 風格工具欄
-<a href="http://portableappz.blogspot.com/2012/08/total-commander-801-32-64-bit.html" rel="external">TotelCommander</a> - 過度輕視 GUI
+<a href="http://portableappz.blogspot.com/2012/08/total-commander-801-32-64-bit.html" rel="external">Totel Commander</a> - 過度輕視 GUI ，有的人會推其 <a href="http://tcup.pl/" rel="external">Ultima Prime</a>
+Directory Opus - GUI 向，笨重
+<a href="http://portableapps.com/apps/utilities/freecommander_portable" rel="external">FreeCommander</a> - 欠流暢
 
 ### 多媒體
 <a href="http://portableapps.com/apps/graphics_pictures/gimp_portable" rel="external">GIMP</a> - 圖片編輯器
