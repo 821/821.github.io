@@ -9,9 +9,11 @@ title: 辭書
 #### 五侯鯖字海
 收字七萬，衹有四庫全書存目叢書第 192 冊能見到。權威性較差。
 #### 康煕字典
-言簡意賅，還是値得稱讚，可惜對正字通的抄襲不夠完整。現在用略過時，比如「叮」「咚」就查不到。
-不少出版社出了標點本，比如上海辭書出版社和中國書店，不過我比較欣賞的是社會科學文獻出版社的本子，格式上極大的保留了原貌，卻是繁體橫排標點本，還出了利用 Unicode 5.0 製作的光碟。
-網上影印版很多，文字版主要有 StarDict 的超級簡陋版、 MDict 的馬馬虎虎版和「開放康煕字典」的較爲正常版。
+言簡意賅，還是値得稱讚，可惜對正字通的抄襲不夠完整。現在用略過時，比如「叮」「咚」就查不到，錯誤率也較高，但仍有一定參考價値。
+版本極多，姑且記些重要的。早期本有康煕內府本（賞賜用，網上見哈佛藏本）和武英殿本（網上見早稻田藏本）。道光間又有王引之奉命校改本，但不甚通行，上海古籍有印，且配日本出的「考異正誤」。最通行的是同文書局石印本，配有篆書，中華書局在印的時候加了索引，較便利。
+不少出版社出了標點本，比如上海辭書出版社（基於王引之版）和中國書店，不過我比較欣賞的是社會科學文獻出版社的本子，格式上極大的保留了原貌，卻是繁體橫排標點本，還出了利用 Unicode 5.0 製作的光碟。
+閉源的數字化版本有書同文（基於同文版）、中易（基於北師大版）、漢珍（基於同文版）三家公司做。
+開源的主要有某純文本版及其各種近似衍生（ Word, Excel, StarDict 等）、 MDict 的馬馬虎虎版（把 Ext-B 字頭用 gif 圖片做了一遍）和「開放康煕字典」的較爲正常版（ Unicode 沒有的字用圖片）。
 #### 中華大字典
 康煕字典的中華書局修正增補版。
 #### 辭源
@@ -44,6 +46,7 @@ title: 辭書
 一般的英語辭書，大抵有四個境界：學習型、大學型、高級型、全本型。 ESL 會覺得學習型比較舒服，大學型開始痛苦，高級型不知所云，全本型純屬擺設。
 #### LONGMAN Dictionary of Contemporary English (LDOCE)
 同義、搭配、例句什麼都有一點。出名的是電子版。
+應該說例句是最大亮點，都是 Longman Corpus Network 裏的眞實句子。
 #### Collins COBUILD Advanced Learner's English Dictionary (CCALD)
 雙解裏最好的。
 #### Cambridge Advanced Learner's Dictionary (CALD)
@@ -131,7 +134,7 @@ Lingvo|lsd|dsl 的封裝結果，有反封裝軟件
 StarDict|ifo dict idx syn|多轉自 dsl ，排版普遍差，基本過氣
 MDict|mdx mdd|中國電子辭書集散地，源文件本質爲 html ，反編譯時順序會亂
 EPWING| - |日文辭書源頭， GoldenDict 索引速度慢，反編譯很困難
-Babylon|bgl|以色列貨，多轉自 dsl ，拆包常出錯
+Babylon|bgl|以色列貨，多轉自 dsl ，拆包常出錯，<a href="https://drive.google.com/folderview?id=0BzrQwK2v03aKWjlsQ3NsaWJKalU#list" rel="external">這裏</a>有貨
 AARD|aar|主要是維基百科，見<a href="http://aarddict.org/1/" rel="external">官網</a>
 Slob|slob|AARD2 ，見<a href="http://aarddict.org/" rel="external">官網</a>
 dictzip|dz|實爲 gzip 加一個表，可用 7-Zip 等解壓，可壓縮 dsl 和 dict 文件
