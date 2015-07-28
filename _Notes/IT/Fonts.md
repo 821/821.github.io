@@ -28,6 +28,7 @@ AdobeFangsongStd-Regular | 宋 | 新 | A | otf | 私有 | 另有國標宋、臺�
 [Unifonts 6.0](http://okuc.net/SoftWare/UniFonts6.0.exe) | 宋 | 新 | D | ttf | 盜版 | 實際主要是中易宋體和華康明體
 Kozuka Mincho Pr6N | 宋 | 2004 | Pr6 | otf | 私有 | 有 1-6 磅粗細，另有黑體
 新細明體+更新包 | 宋 | 臺標 | B | ttf | 私有 | 微軟默認繁體
+開心宋體 | 宋 | 新 | E | ttf | 不詳 | 源頭不明，在國學數典見到的
 
 ## 說明
 
