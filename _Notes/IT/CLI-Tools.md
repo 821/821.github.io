@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: indexed
 title: CLI 工具常用命令
 ---
 ## aria2
