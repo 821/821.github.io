@@ -2,6 +2,10 @@
 layout: indexed
 title: CLI 工具常用命令
 ---
+凡例
+衹記錄自己認爲常用的命令。
+以實例和實例一部分爲主。
+
 ## aria2
 官方文檔： http://aria2.sourceforge.net/manual/en/html/
 最普通的下載： `aria2c http://example.com/1.txt`
@@ -18,4 +22,8 @@ http://example.com/1.txt	http://mirror.example.com/1.txt
 	out=2.txt
 ```
 保存進度： `--save-session=D:\2.txt`
+開啓續傳： `-c` 或 `--continue=true`
+允許覆蓋： `--allow-overwrite=true`
 同時進行的任務數量： `-j 20` 或 `--max-concurrent-downloads=10`
+跳過已有文件： `--auto-file-renaming=false` 已有文件默認是改名下載
+不要寫太多 log ： `--console-log-level=error` 不然一不小心 log 文件有幾 GB
