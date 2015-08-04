@@ -47,7 +47,8 @@ title: 欽定工具集成
 ## 文件
 →<a href="http://www.7-zip.org/" rel="external">7-zip</a> - 多種壓縮解壓
 →<a href="http://www.zdfans.com/778.html" rel="external">WinRAR</a> - 簡易壓縮解壓
-→<a href="http://www.voidtools.com/" rel="external">Everything</a> - 本地文件搜索
+→<a href="http://www.voidtools.com/" rel="external">Everything</a> - 本地文件特高速搜索
+→<a href="https://sourceforge.net/projects/grepwin/files" rel="external">grepWin</a> - 文件內容正則高速搜索替換
 <a href="http://www.bulkrenameutility.co.uk/Download.php" rel="external">Bulk Rename Utility</a> - 最強批量重命名
 <a href="http://sourceforge.net/p/doublecmd/wiki/Download/" rel="external">Double Commander</a> - 免費文件管理器
 <a href="http://ipmsg.org/tools/fastcopy.html.en" rel="external">FastCopy</a> 快速剪切複製
