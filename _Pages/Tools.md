@@ -73,6 +73,7 @@ title: 欽定工具集成
 →<a href="http://www.mympc.org/down/1/2005-11-26_0111998067.html" rel="external">KeybMap</a> - 修改鍵盤
 →<a href="http://portableapps.com/apps/utilities/iobit-unlocker-portable" rel="external">Iobit Unlocker</a> - 文件解鎖
 <a href="http://www.zdfans.com/716.html" rel="external">CCleaner</a> - 系統淸理
+<a href="https://github.com/bmatzelle/gow/releases" rel="external">Gow</a> - 輕量的 CLI 工具包
 
 ## 編外名軟
 以及吐槽。
@@ -93,7 +94,6 @@ title: 欽定工具集成
 <a href="https://onedrive.com/" rel="external">OneDrive</a> - 微軟監視下的網盤
 ☭<a href="http://115.com" rel="external">115</a> - 空間型網盤，離線下載，善變
 ☭<a href="http://yunpan.360.cn" rel="external">360雲盤</a> - 流氓出的空間型網盤
-☭<a href="https://kanbox.com/" rel="external">酷盤</a> - 阿里頭腦發熱買下的網盤
 
 ### 學習
 <a href="http://tutor.ksana.tw/accelon3/" rel="external">Accelon3</a> - 搜索快但有點怪的電子辭典
