@@ -40,6 +40,7 @@ http://example.com/1.txt	http://mirror.example.com/1.txt
 
 #### 主命令
 壓縮、添加： `7z a abc.7z *.txt`
+添加某目錄下所有文件、文件夾： `7z a abc.7z D:\abc\`
 解壓： `7z e abc.7z`
 完整路徑解壓： `7z x abc.7z`
 刪除一些文件： `7z d abc.7z a*`
@@ -49,6 +50,7 @@ http://example.com/1.txt	http://mirror.example.com/1.txt
 #### 輔命令
 輔命令的特點是前面有 `-` ，然後是命令的字母（一或兩個），緊接着是命令的參數。
 
+遞歸： `7z a abc.7z *.txt -r`
 格式與壓縮程度： `7z a -tzip jpg.zip *.jpg -m0` 這表示不壓縮，衹打包成 zip 。其中的 `m` 可以選 0-9 。
 包括某文件： `7z e abc.7z -i*.txt`
 排除某文件： `7z e abc.7z -x*.txt`
