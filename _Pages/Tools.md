@@ -3,11 +3,11 @@ layout: indexed
 title: 欽定工具集成
 ---
 ## 網絡
-→<a href="http://keepass.info/" rel="external">KeePass</a> - 密碼管理
+→<a href="http://keepass.info/" rel="external">KeePass</a> + 相應瀏覽器插件 - 密碼管理
 →<a href="http://code.taobao.org/p/mychrome/" rel="external">Chrome</a> - 速度型瀏覽器
 →<a href="http://getfoxyproxy.org/" rel="external">Foxyproxy</a> - 代理切換插件
 →Greasemonkey/Tampermonkey - 腳本總管
-→AdBlock - 去廣告
+→uBlock Origin - 低 CPU 佔用的去廣告
 <a href="http://portableapps.com/apps/internet/popman_portable" rel="external">PopMan</a> - 郵件提醒、查看、刪除
 →<a href="https://github.com/breakwa11/shadowsocks-rss" rel="external">ShadowSocksR</a> - 加強版 <a href="https://github.com/shadowsocks/shadowsocks-csharp" rel="external">ShadowSocks</a>
 <a href="https://github.com/XX-net/XX-Net" rel="external">XX-Net</a> - 加強版 <a href="https://github.com/goagent/goagent" rel="external">GoAgent</a>
@@ -73,7 +73,7 @@ title: 欽定工具集成
 →<a href="http://www.mympc.org/down/1/2005-11-26_0111998067.html" rel="external">KeybMap</a> - 修改鍵盤
 →<a href="http://portableapps.com/apps/utilities/iobit-unlocker-portable" rel="external">Iobit Unlocker</a> - 文件解鎖
 <a href="http://www.zdfans.com/716.html" rel="external">CCleaner</a> - 系統淸理
-<a href="https://github.com/bmatzelle/gow/releases" rel="external">Gow</a> - 輕量的 CLI 工具包
+<a href="https://github.com/bmatzelle/gow/releases" rel="external">Gow</a> - 輕量 CLI 工具包
 
 ## 編外名軟
 以及吐槽。

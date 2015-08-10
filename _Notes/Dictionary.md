@@ -40,6 +40,9 @@ title: 辭書
 衹有阮版還行，利用漢語大詞典成果編寫，有一定用途。
 #### 漢韓大辭典
 棒子貨，所以收了很多垃圾的韓國漢字。網上未見，質量待攷，但旣然是大型辭書，姑且收錄於此。
+#### 異體字字典
+臺灣敎育部出品。這貨先給每個字定一個「正字」，然後其他就是異體。可惜定「正字」的標準是臺灣敎育部現行標準，實際上很多都是異體。
+網上主要見第五和第六版，第六版可以直接搜索一些字，有些辭書的圖片更換成裁切過的版本，淸晰度略有提升。
 #### 難副盛名者簡介
 辭海：主打現代卻過時了。
 教育部重編國語辭典：收詞不多，例句多生造，輕聲詞注音錯誤極多。
@@ -58,7 +61,8 @@ title: 辭書
 #### MacMillan English Dictionary for Advanced Learners (MEDAL)
 強項是同義詞辨析。
 #### Oxford Collocations Dictionary
-這本書上沒有的搭配就別用。小学館出有英日雙解版。
+這本書上沒有的搭配就別用。
+小学館出有英日雙解版。
 #### Oxford English Dictionary (OED)
 應該這麼看：這貨就是牛津自己的數據庫，用來編纂其他辭書。
 對於讀者來說，他的作用是提供大量例句。
@@ -74,8 +78,9 @@ OED 的簡寫版， ESL 能用到這本就不錯了，基本也是怪物級。
 讀美媒用。
 #### Merriam-Webster's Collegiate Dictionary
 特點是解釋簡潔，義項較少。
+同時也是 merriam-webster.com 的母本。
 #### Merriam-Webster Third New International Dictionary
-OED 的美國版，但對考古沒不太強調。
+堪稱 OED 的美國版，但對考古沒不太強調。
 1961 年的第三版竟然把第二版的規定派轉爲描寫派了。結果是，現在看來收了一堆過時俚語。
 #### American Heritage Dictionary
 典型的規定派， usage notes 感人。但就是沒什麼例句。
