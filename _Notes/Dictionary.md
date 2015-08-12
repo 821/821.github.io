@@ -41,8 +41,9 @@ title: 辭書
 #### 漢韓大辭典
 棒子貨，所以收了很多垃圾的韓國漢字。網上未見，質量待攷，但旣然是大型辭書，姑且收錄於此。
 #### 異體字字典
-臺灣敎育部出品。這貨先給每個字定一個「正字」，然後其他就是異體。可惜定「正字」的標準是臺灣敎育部現行標準，實際上很多都是異體。
-網上主要見第五和第六版，第六版可以直接搜索一些字，有些辭書的圖片更換成裁切過的版本，淸晰度略有提升。
+臺灣敎育部出品，全在線版，無紙本。這貨先給每個字定一個「正字」，然後其他就是異體。可惜定「正字」的標準是臺灣敎育部現行標準，實際上很多都是異體。
+主要見第五和第六版，第六版可以直接搜索一些字，有些辭書的圖片更換成裁切過的版本，淸晰度略有提升。有很多書籍圖片是隱藏的，但實際上查看網頁源碼又已經有了。
+存在一些電子化錯誤，比如「http://dict2.variants.moe.edu.tw:80/variants/rbt/file:///C:/DOCUME%7E1/moejsmpc/LOCALS%7E1/Temp/msohtml1/01/clip_image004.jpg」這樣的鏈接是什麼鬼？又比如「http://dict2.variants.moe.edu.tw:80/variants/tmp/2f836.png」，很正常的鏈接，但是圖片又不存在。
 #### 難副盛名者簡介
 辭海：主打現代卻過時了。
 教育部重編國語辭典：收詞不多，例句多生造，輕聲詞注音錯誤極多。
@@ -143,7 +144,7 @@ Lingvo|lsd|dsl 的封裝結果，有反封裝軟件
 StarDict|ifo dict idx syn|多轉自 dsl ，排版普遍差，基本過氣
 MDict|mdx mdd|中國電子辭書集散地，源文件本質爲 html ，反編譯時順序會亂
 EPWING| - |日文辭書源頭， GoldenDict 索引速度慢，反編譯很困難
-Babylon|bgl|以色列貨，多轉自 dsl ，拆包常出錯，<a href="https://drive.google.com/folderview?id=0BzrQwK2v03aKWjlsQ3NsaWJKalU#list" rel="external">這裏</a>有貨
+Babylon|bgl|以色列貨，多轉自 dsl ，拆包常出錯，<a href="https://drive.google.com/folderview?id=0BzrQwK2v03aKWjlsQ3NsaWJKalU#list" rel="external">這裏</a>有貨，源文件爲 utf-8 的 gls 格式
 AARD|aar|主要是維基百科，見<a href="http://aarddict.org/1/" rel="external">官網</a>
 Slob|slob|AARD2 ，見<a href="http://aarddict.org/" rel="external">官網</a>
 dictzip|dz|實爲 gzip 加一個表，可用 7-Zip 等解壓，可壓縮 dsl 和 dict 文件
