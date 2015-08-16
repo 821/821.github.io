@@ -51,7 +51,7 @@ title: 欽定工具集成
 →<a href="https://sourceforge.net/projects/grepwin/files" rel="external">grepWin</a> - 文件內容正則高速搜索替換
 <a href="http://www.bulkrenameutility.co.uk/Download.php" rel="external">Bulk Rename Utility</a> - 最強批量重命名
 <a href="http://sourceforge.net/p/doublecmd/wiki/Download/" rel="external">Double Commander</a> - 免費文件管理器
-<a href="http://ipmsg.org/tools/fastcopy.html.en" rel="external">FastCopy</a> 快速剪切複製
+<a href="http://ipmsg.org/tools/fastcopy.html" rel="external">FastCopy</a> 快速剪切複製
 <a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&start=1185#p6950" rel="external">Clover</a> - 帶 tab 和收藏夾的 explorer
 →<a href="https://git-scm.com/downloads" rel="external">Git</a> - 最強版本控制
 →<a href="http://briian.com/?p=5784" rel="external">Convertz</a> - 功能型繁簡轉換
@@ -74,6 +74,7 @@ title: 欽定工具集成
 →<a href="http://portableapps.com/apps/utilities/iobit-unlocker-portable" rel="external">Iobit Unlocker</a> - 文件解鎖
 <a href="http://www.zdfans.com/716.html" rel="external">CCleaner</a> - 系統淸理
 <a href="https://github.com/bmatzelle/gow/releases" rel="external">Gow</a> - 輕量 CLI 工具包
+<a href="http://conemu.github.io/" rel="external">ConEmu</a> - 美化的 CMD
 
 ## 編外名軟
 以及吐槽。

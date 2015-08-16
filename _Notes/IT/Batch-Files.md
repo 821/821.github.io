@@ -283,6 +283,12 @@ FOR /F "delims=, tokens=1-2,*" %i IN (test.txt) DO ECHO %i %j
 ```
 可以搭配使用，比如 `%%~nxI` ，就是文件名加擴展名
 
+## 特殊命令
+#### 改編碼
+默認情況下， CMD 的編碼是 ANSI 的，這樣處理其他編碼會亂碼。
+`CHCP` 查看當前編碼，返回値是數字，比如 936 是簡中
+`CHCP 65001` 指定編碼爲 65001 ，也就是 UTF-8
+
 ## 功能增強
 VBScript 或 PowerShell 。
 
