@@ -13,6 +13,7 @@ title: 欽定工具集成
 <a href="https://github.com/XX-net/XX-Net" rel="external">XX-Net</a> - 加強版 <a href="https://github.com/goagent/goagent" rel="external">GoAgent</a>
 <a href="http://portableapps.com/apps/internet/skype_portable" rel="external">Skype</a> - 高質量視頻通話
 →☭<a href="http://www.portableappc.com/internet/tencent-tm-portable/" rel="external">TM2009</a> - 沒廣告的輕量級 QQ
+<a href="http://bbs.kafan.cn/thread-1133619-1-1.html" rel="external">Ad Muncher</a> - 對付日益猖獗的視頻網站廣告
 
 ## 傳輸
 →<a href="http://sourceforge.net/projects/aria2/files/stable/" rel="external">Aria2</a> + <a href="http://aria2c.com/usage.html" rel="external">控制臺</a> - 命令行下載器，打配合下批量最佳
@@ -125,3 +126,4 @@ Directory Opus - GUI 向，笨重
 
 ### 系統
 <a href="https://www.virtualbox.org/" rel="external">VirtualBox</a> - 虛擬機
+<a href="https://chocolatey.org/" rel="external">Chocolatey</a> - 仿 aptget 不成的玩意
