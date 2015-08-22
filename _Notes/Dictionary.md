@@ -144,9 +144,10 @@ Lingvo|lsd|dsl 的封裝結果，有反封裝軟件
 StarDict|ifo dict idx syn|多轉自 dsl ，排版普遍差，基本過氣
 MDict|mdx mdd|中國電子辭書集散地，源文件本質爲 html ，反編譯時順序會亂
 EPWING| - |日文辭書源頭， GoldenDict 索引速度慢，反編譯很困難
-Babylon|bgl|以色列貨，多轉自 dsl ，拆包常出錯，<a href="https://drive.google.com/folderview?id=0BzrQwK2v03aKWjlsQ3NsaWJKalU#list" rel="external">這裏</a>有貨，源文件爲 utf-8 的 gls 格式
+Babylon|bgl|以色列貨，多轉自 dsl ，<a href="https://drive.google.com/folderview?id=0BzrQwK2v03aKWjlsQ3NsaWJKalU#list" rel="external">這裏</a>有貨，源文件叫 gls
 AARD|aar|主要是維基百科，見<a href="http://aarddict.org/1/" rel="external">官網</a>
-Slob|slob|AARD2 ，見<a href="http://aarddict.org/" rel="external">官網</a>
+Slob|slob|AARD2 ，見<a href="http://aarddict.org/" rel="external">官網</a>，<a href="http://aarddict.org/docs/" rel="external">文檔</a>頗詳
+Kiwix|zim|主要是維基百科，見<a href="http://www.kiwix.org/wiki/Content_in_all_languages" rel="external">官網</a>
 dictzip|dz|實爲 gzip 加一個表，可用 7-Zip 等解壓，可壓縮 dsl 和 dict 文件
 
 ### GoldenDict 的便攜
@@ -198,10 +199,15 @@ https://css-tricks.com/snippets/css/named-colors-and-hex-equivalents/
 以下劃線爲例， GoldenDict 會把 `[u]文字[/u]` 轉換成 `<span class="dsl_u">文字</span>` 。這樣，就可以通過 `article-style.css` 來決定下劃線的背景色了。
 如果不知道一個部件具體的 class ，可以通過「右鍵—審查元素」得知。
 
+### 進擊的 DSLGD
+俄國佬還是相當能折騰的， dsl 格式相對比較簡單，就出了加強版 DSLGD 。
+http://forum.ru-board.com/topic.cgi?forum=5&topic=45338&start=0
+支持更多 HTML 標籤，而且可以使用 JavaScript 和 CSS 了。
+
 ### MDict 反編譯
 首先要注意， MdxBuilder 會重新排序，所以 MDict 反編譯得到的文件和源文件順序是不同的。
-很多人使用 GetDict ，但無法拆出 mdd 裏的文件，也不能拆出 mdx 裏獨立的 style 文件。
-高級一點用 <a href="https://bitbucket.org/xwang/mdict-analysis" rel="external">MDict-Analysis</a> ，以 Python 2.7 環境運行。 Python 3 環境也可以跑，但效果基本同 GetDict 。
+很多人使用 GetDict ， 2.6 解決了多數問題，但有些文件拆到一半就會出錯退出。
+高級一點用 <a href="https://bitbucket.org/xwang/mdict-analysis" rel="external">MDict-Analysis</a> ，以 Python 2.7 環境運行。 Python 3 環境也可以跑，但缺支持包，不能拆 mdd 。
 
 ### EPWING 討論
 一個<a href="http://kazuo.fc2web.com/dic/ddwin2.htm" rel="external">神奇的資源文</a>。
@@ -210,7 +216,10 @@ EPWING 反編譯是比較困難的，因爲現有工具普遍衹支持 Shift-JIS
 方法一： EPDump 提取，可以取得圖像、聲音，但文字部分爲難。
 方法二： <a href="http://homepage2.nifty.com/ddwin/" rel="external">DDWIN</a> 提取。沒有圖像、聲音。
 
+### Babylon 製作與拆包
+對漢語來說，源文件應爲 utf-8 編碼的文本，也可以用 Excel 文件。製作器是 <a href="http://www.babylon.com/products/glossary-builder.html" rel="external">Babylon Glossary Builder</a> 。其他可看官方出的<a href="https://support.babylon.com/index.php?/Knowledgebase/Article/View/65/47/how-do-i-build-a-glossary" rel="external">說明</a>。
+拆包可用 UnpackBGL.exe ，成功率不高。
+
 ### 其他格式反編譯
-Babylon: UnpackBGL.exe ，成功率不高。
 Lingoes: <a href="https://github.com/windylea/lingoes-converter" rel="external">Lingoes Converter</a>
 StarDict: Stardict-Editor

@@ -289,6 +289,16 @@ FOR /F "delims=, tokens=1-2,*" %i IN (test.txt) DO ECHO %i %j
 `CHCP` 查看當前編碼，返回値是數字，比如 936 是簡中
 `CHCP 65001` 指定編碼爲 65001 ，也就是 UTF-8
 
+#### 註冊表
+用得最多的是 `reg` 裏的 `reg add` 。對於已經存在的項目，不用管 DataType ，其他按實際情況塡。
+```bat
+reg add <KeyName> [{/v ValueName | /ve}] [/t DataType] [/s Separator] [/d Data] [/f]
+:: 比如修改 path ：
+set more=D:\Program Files\git\cmd\;D:\Program Files\git\bin\;
+reg add "%regpath%" /v path /d "%more%%path%" /f
+```
+詳情可看<a href="https://technet.microsoft.com/en-us/library/cc742162.aspx" rel="external">原版手冊</a>。
+
 ## 功能增強
 VBScript 或 PowerShell 。
 
