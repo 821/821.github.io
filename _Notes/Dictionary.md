@@ -158,7 +158,7 @@ GoldenDict 原生支持便攜，便攜情況下，根目錄會有一個 `Portabl
 大批量進行正則表達式替換則應使用 EverEdit ，速度最快，還不容易死機。
 修圖用 UnicornViewer 比較省事，一次過做完糾斜、切邊、單色化等工作。
 
-### dsl 的自定義
+### dsl 自定義
 基本格式：
 ```
 詞條
@@ -204,10 +204,11 @@ https://css-tricks.com/snippets/css/named-colors-and-hex-equivalents/
 http://forum.ru-board.com/topic.cgi?forum=5&topic=45338&start=0
 支持更多 HTML 標籤，而且可以使用 JavaScript 和 CSS 了。
 
-### MDict 反編譯
+### MDict 討論
 首先要注意， MdxBuilder 會重新排序，所以 MDict 反編譯得到的文件和源文件順序是不同的。
 很多人使用 GetDict ， 2.6 解決了多數問題，但有些文件拆到一半就會出錯退出。
 高級一點用 <a href="https://bitbucket.org/xwang/mdict-analysis" rel="external">MDict-Analysis</a> ，以 Python 2.7 環境運行。 Python 3 環境也可以跑，但缺支持包，不能拆 mdd 。
+MDict 的優勢在於可以直接寫 HTML ，而且 Android 上有現成的客戶端。
 
 ### EPWING 討論
 一個<a href="http://kazuo.fc2web.com/dic/ddwin2.htm" rel="external">神奇的資源文</a>。

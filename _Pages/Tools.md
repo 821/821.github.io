@@ -70,7 +70,8 @@ title: 欽定工具集成
 ## 系統
 <a href="http://www.winntsetup.com/" rel="external">WinNTSetup</a> - 重裝系統
 <a href="http://www.chuyu.me/thread-510-1-1.html" rel="external">Dism++</a> - 有 GUI 的 DISM
-→<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLauch</a> - 快速啓動
+→<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLaunch</a> - GUI 快速啓動
+<a href="https://github.com/chenall/ALMRun/releases" rel="external">ALMRun</a> - CLI 快速啓動
 →<a href="http://www.mympc.org/down/1/2005-11-26_0111998067.html" rel="external">KeybMap</a> - 修改鍵盤
 →<a href="http://portableapps.com/apps/utilities/iobit-unlocker-portable" rel="external">Iobit Unlocker</a> - 文件解鎖
 <a href="http://www.zdfans.com/716.html" rel="external">CCleaner</a> - 系統淸理
