@@ -331,6 +331,7 @@ func4(parameters) # 等於衹引入了一個命令，污染的可能性較小
 #### 關於 pip
 pip 的升級：在命令行執行 `python -m pip install -U pip` ，如果是 *nix 系統則執行 `pip install -U pip`
 pip 的單獨安裝：下載 <a href="https://bootstrap.pypa.io/get-pip.py" rel="external">get pip</a> ，然後 `python get-pip.py`
+pip 可以直接安裝帶 `setup.py` 的開源項目，命令形如 `pip install git+https://github.com/user/project` 。
 
 ## 異常處理 \*
 異常並不一定發生，本部分作爲選讀。

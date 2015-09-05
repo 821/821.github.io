@@ -10,10 +10,11 @@ title: 若干電腦字體表
 名稱 | 體 | 字形 | 字符集 | 擴展 | 協議 | 備註
 -----|----|------|--------|-----|------|-----
 SonyReader Ming | 宋 | 舊 | A | ttf | 私有 | 同套字體還有隸、楷、黑三體
+[醍醐明朝](http://en.glyphwiki.org/wiki/Group:nobu_%E9%86%8D%E9%86%90%E6%9B%B8%E9%AB%94A) | 宋 | 舊 | B | ttf | 不詳 | 分 A B 二文件
 [I.BMing](http://founder.acgvlyric.org/iu/doku.php/) | 宋 | 舊 | D| ttf | IPA1 | 修改自IPAmjMincho，強行舊字形
 [Asebi Mincho](https://metasta.github.io/asebi/) | 宋 | 舊 | Std | otf | IPA1 | 有[源碼](https://github.com/metasta/asebi)，基於IPAmjMincho等
 [IPAmjMincho](http://mojikiban.ipa.go.jp/) | 宋 | 2004 | D | ttf | IPA1 | |
-[HanaMin](http://fonts.jp/hanazono/) | 宋 | 2004 | E | ttf | OFL | 分成兩個字體文件
+[HanaMin](http://fonts.jp/hanazono/) | 宋 | 2004 | E | ttf | OFL | 分 A B 二文件
 [cwtex-q-fonts](https://code.google.com/p/cwtex-q-fonts/) | 多 | 舊 | BIG-5 | ttf | OFL+GPL2 | 有仿宋、宋、黑、楷、圓，cwTeX所附字體之修正
 [全字庫正宋體](http://www.cns11643.gov.tw) | 宋 | 臺標 | D | ttf | [自有](http://www.cns11643.gov.tw/AIDB/copyright.do) | 分成兩個字體文件，另有楷體
 [BabelStone Han](http://www.babelstone.co.uk/Fonts/Han.html) | 宋 | 新 | 部分A-C | ttf | APL | 作者興趣不在繁體，在二簡
@@ -47,7 +48,7 @@ GBK: 收漢字 21003 個，符號 882 個，留有 1894 個造字碼位。 GB-23
 GB18030-2000: 收漢字 27533 個。 GBK 和 Ext-A 之倂集。
 GB18030-2005: 收漢字 70244 個。 GB18030-2000 和 Ext-B 之倂集。表中簡稱 2005 。
 方正超大字符集：收漢字 64395 個， GB18030-2000 加 36862 個 Ext-B 所收字。表中簡稱方正。
-漢字構形資料庫：自成體系，收漢字 112533 個，其中楷書 62366 個（其餘是甲骨文、金文、小篆、簡帛等一般人不用的），另收異體字 12208 組。<br>
+漢字構形資料庫：自成體系，收漢字 112533 個，其中楷書 62366 個（其餘是甲骨文、金文、小篆、簡帛等一般人不用的），另收異體字 12208 組。
 [Adobe Japan](http://www.adobe.com/content/dam/Adobe/en/devnet/font/pdfs/5078.Adobe-Japan1-6.pdf): 把字分爲六等。 1-3 有 9354 個，稱爲 Std ； 1-4 有 15444 個，稱爲 Pro ； 1-5 有 20317 個，稱爲 Pr5 ； 1-6 有 23058 個，稱爲 Pr6 。
 
 #### 協議
@@ -58,7 +59,7 @@ GB18030-2005: 收漢字 70244 個。 GB18030-2000 和 Ext-B 之倂集。表中�
 
 單條充分非必要條件：
 一、全舊字形宋體或舊字形仿宋。
-二、收字包含全 CJK Basic + Ext-A 和絕大多數 Ext-B 。
+二、收字包含全 CJK Basic + Ext-A 和絕大多數 Ext-B ，且製作不算太粗陋。
 
 符合三條以上必收，符合兩條選收：
 一、以書法家字跡、古籍爲原型且不經過多干預。
@@ -72,5 +73,5 @@ GB18030-2005: 收漢字 70244 個。 GB18030-2000 和 Ext-B 之倂集。表中�
 一、三無（無網站、無說明、找不到負責人）。
 二、太醜。
 三、同系列已收（同系列收錄優先級：仿宋-宋-楷-其他）。
-四、難用的（比如 GT2000 ，收字八萬多，但衹有 01 能用於 Unicode ）。
+四、難用（比如 GT2000 ，收字八萬多，但衹有 01 能用於 Unicode ）。
 五、日本字體，有 N 的都是 JIS2004 ，其對應無 N 的是 JIS90 ，就不收了。
