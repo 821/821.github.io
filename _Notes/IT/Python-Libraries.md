@@ -24,8 +24,9 @@ for i in range(20):
 單單是這個模塊，已沒有太多必須用例子來詮釋，看
 <a href="https://docs.python.org/3/library/threading.html" rel="external">文檔</a>就行了。
 
-## 正則表達式
-
+## 文本處理
+### re
+正則表達式。
 ```python
 import re
 text = 'ABabcd1234'
@@ -56,6 +57,23 @@ print(newtext) # ABabcdaaaa
 `re.M` 多行
 `re.S` `.` 也能包含 `\n` 之類很特殊的符號
 `re.U` 使用 Unicode
+
+### BeautifulSoup
+網頁內容提取。
+本代碼使用 request 來爬鏈接。
+```
+from bs4 import BeautifulSoup
+import requests
+r = requests.post("http://google.com")
+r.encoding = 'utf-8'
+soup = BeautifulSoup(r.text, "html.parser", from_encoding = 'utf-8') # 形成 soup 來進行後續操作
+print(soup.prettify()) # 按標準格式排布
+print(soup.title) # HTML 代碼中的 title 部分
+print(soup.find_all('a')) # 找到所有 <a> 標籤的內容
+print(soup.find(id="123")) # 通過 id 找
+print(soup.find(class_="123")) # class 的寫法比較特殊
+```
+詳情看<a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/" rel="external">文檔</a>。
 
 ## GUI
 ### tkinter
