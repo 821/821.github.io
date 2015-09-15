@@ -6,6 +6,28 @@ title: CLI 工具常用命令
 衹記錄自己認爲常用的命令。
 以實例和實例一部分爲主。
 
+## ImageMagick
+簡介：圖像處理工具。鼓搗掃描書頁最合適。
+主要命令：
+`convert [options] input output` 用得最多的一條，很多參數，後面再講。
+`montage [options] input` 跟 `convert` 差不多，但直接覆蓋源文件。
+`montage inputs output` 生成縮略圖並拼合。
+`identify input` 獲得圖片參數。有了這個，就有了 if else 。
+其他還有若干就不提了，下面專門介紹 convert 的掃描書相關的必知必會參數：
+`-crop axb+x+y` 以 (x,y) 爲原點，裁切一塊 a * b 大小的圖片
+`-shave axb` 去掉圖片上下 a 像素、左右 b 像素
+`-trim` 自動切邊
+`-fuzz n%` 與邊界顏色相差 n% 內都視爲同色，與 `-trim` 合用可去掃描黑邊，單色文件當然是無效的
+`-deskew n%` 糾斜
+`+repage` 處理後根據情況決定圖片大小，不然會是原樣
+`-resize a%xb%` 圖片縮放
+`-flip` 上下翻轉
+`-flop` 左右翻轉
+`-despeckle` 去斑、去背透
+`-transparent` 設置透明背景
+`-monochrome` 轉爲單色
+`-compress [None, BZip, Fax, Group4, JPEG, JPEG2000, Lossless, LZW, RLE, Zip]` 壓縮類型
+
 ## aria2
 簡介：下載工具。單是 CLI 下載的工具其實很多，但 aria2 的特點是有 RPC ，所以有比如妖妖舞網盤直接添加到 aria2 的瀏覽器插件。
 

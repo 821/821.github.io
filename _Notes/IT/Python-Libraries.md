@@ -61,7 +61,7 @@ print(newtext) # ABabcdaaaa
 ### BeautifulSoup
 網頁內容提取。
 本代碼使用 request 來爬鏈接。
-```
+```python
 from bs4 import BeautifulSoup
 import requests
 r = requests.post("http://google.com")
