@@ -28,6 +28,11 @@ Syncretext 是 Syncretismus 和 Syncrepedia 的延伸，製作對象主要是各
 由於 Syncretismus 和 Syncrepedia 的做法是「文本索引—圖像查看」的模式，不能全文檢索和直接複製，而且直排辭書往往不好讀，所以希望能找到對應的文本數據。由於有原書可供參照， Syncretext 並不會讓人陷入文本化錯誤的泥沼，衹是方便而已。
 目前可用辭書：漢語大詞典（基於網上根據光碟版製作成 mdx 的版本）、康煕字典（基於開放康煕字典）、異體字字典（通過網頁抓取完成，附加效果是能看到網頁版沒主動顯示的內容）。
 
+## 攞你命三兆 (Apalaci)
+本項目開工於 2015 年 9 月 22 日。
+Apalaci 是 Syncretext 的延伸。 Syncretext 做的是中文辭書，而 Apalaci 做的是外文。
+幾十年前，南寧市小孩對外語的統稱讀音爲 [apalaçi] ，故名。外文工具書的電子化數量比中文工具書大得多，故中文名用兆。
+
 ## 語料庫庫 (Classical Chinese Corpus Cluster, CCCC)
 本項目開工於 2011 年 10 月。
 CCCC 是本人不滿於北大的 <a href="http://ccl.pku.edu.cn:8080/ccl_corpus/" rel="external">CCL 語料庫</a>而自行收集的海量文本。衹要是古人寫的（但若是翻譯的，如佛經，就不打算收太多），且網上有純文本，就可收入 CCCC 。目的在於給自己看了辭書還是沒有把握的字詞提供例句。
