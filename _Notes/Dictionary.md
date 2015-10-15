@@ -60,8 +60,9 @@ title: 辭典
 #### LONGMAN Dictionary of Contemporary English (LDOCE)
 同義、搭配、例句什麼都有一點。出名的是電子版。
 應該說例句是最大亮點，都是 Longman Corpus Network 裏的眞實句子。
+從第五版開始存在兩個問題：一是風格不統一，有些釋義刻意模仿 CCALD 的明瞭風格，有的還是原風格。二是其公司和多數出版公司一樣，近年很不好過，新版修訂不如舊版精細。所以說輝煌的過去不代表未來也很光明。
 #### Collins COBUILD Advanced Learner's English Dictionary (CCALD)
-雙解裏最好的。
+雙解裏最好的。釋義採 "if you blablabla, you dadada " 形式，在多數情況下對 ESL 來說最舒服。
 #### Cambridge Advanced Learner's Dictionary (CALD)
 較易讀，特色不甚鮮明。
 #### MacMillan English Dictionary for Advanced Learners (MEDAL)
