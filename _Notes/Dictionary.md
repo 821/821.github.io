@@ -5,14 +5,23 @@ title: 辭典
 本來想兼顧百科，不過貌似沒幾本可寫，那就縮小範圍，專注語言類辭書好了。
 基本框架確定，根據心情不定期更新。
 簡化字一律改繁體，日本簡體不改。
+排序儘量按照歷史順序，但也會把非常類似的幾本辭書放在一起。
 
 ## 漢語類
 漢語類辭典，如果規模稍大，錯誤率基本上都不可能達到中國自己制定的標準。對於自己的母語，絕大多數解釋都衹是參考，例句纔是理解生僻字詞的最佳方式，所以直接取自原典的例句纔能保證質，而兩句以上纔能保證量。符合這個條件的，基本上就是「大漢和辞典」系列。
 #### 說文 + 段注
 衹有特殊情況會用。另有詁林，高大全而已。
+#### 廣韻
+韻書，做音韻用爲主，平時用的情況不多。附帶的釋義很簡略。
+#### 集韻
+同上。
+#### 中原音韻
+同上，無釋義。
+#### 洪武正韻
+同上。
 #### 五侯鯖字海
 收字七萬，衹有四庫全書存目叢書第 192 冊能見到。權威性較差。
-#### 康煕字典
+### 康煕字典
 言簡意賅，還是値得稱讚，可惜對正字通的抄襲不夠完整。現在用略過時，比如「叮」「咚」就查不到，錯誤率也較高，但仍有一定參考價値。
 版本極多，姑且記些重要的。早期本有康煕內府本（賞賜用，網上見哈佛藏本）。道光間又有王引之奉命校改本，但不甚通行，上海古籍有印，且配日本人渡部温的「考異正誤」。最通行的是同文書局石印本，配有篆書，中華書局在印的時候加了索引，較便利。
 不少出版社出了標點本，比如上海辭書出版社（基於王引之版）、中國書店（號稱一直吸收到王力的音讀訂誤）、九州出版社（配了很多插圖）、燕山出版社，不過我比較欣賞的是社會科學文獻出版社的本子，格式上極大的保留了原貌，卻是繁體橫排標點本，吸收王引之、渡部温、王力等的成果，還出了利用 Unicode 5.0 製作的光碟。
@@ -20,31 +29,31 @@ title: 辭典
 開源的主要有某純文本版及其各種近似衍生（ Word, Excel, StarDict 等）、 MDict 的馬馬虎虎版（把 Ext-B 字頭用 gif 圖片做了一遍）和「開放康煕字典」的較爲正常版（ Unicode 沒有的字用圖片）。
 #### 中華大字典
 康煕字典的中華書局修正增補版。
-#### 辭源
+### 辭源
 解釋不錯，收詞量略小。由於篇幅和定價問題，一般個人最多買到本書。臺灣和大陸均有修訂版本，陸版較佳。最新爲百年版（待出，情況未知），次新爲建國六十年版（跟 1979 年版差別可忽略不計），網上最淸晰的是 1988 合訂本。
-#### 中文大辭典
+### 中文大辭典
 大漢和中譯、去日本化、加書體、增例句。
 由於是基於大漢和的，可說是胎裏弱，收詞量不夠用。
 大漢和對異體字標註頁碼，很貼心，中文大辭典抄都不知道把好的抄起來。
-#### 王力古漢語字典
+### 王力古漢語字典
 參考辭源而成，三古專業日用品，質量較高，收字量不大。合倂相似義項、標僻義爲備考、後起詞、辨析都是重要特色，不愧是知名語言學家的眼界。
 存在字形不統一的問題，比如以「呂」爲正，卻又以「侣」爲正；以「吳」爲正，又以「娱」、「悮」爲正。其他的新舊字形選用也比較隨意，用新字形的比如兑、内、册、彦、黄、遥、絶、丢、没、别、户、熙等，用就字形的比如綠、爭、眞、奐、強、虛、拋等。凡例上有解釋，這是跟隨辭源的結果。
-#### 漢語大詞典
+### 漢語大詞典
 中文大辭典基礎上再改，詞條變化較多，義項更細分，例句也繼續增加。
 字方面較弱化，詞方面雖然有所加強，總體來說還是繼續胎裏弱。
 編寫顯得很不規範，字頭的立場是繁體，偏用簡化字解釋，古代例句是繁體，但書名還是簡化字。字頭採用新字形，結果與繁體的事實規範不甚相符，比如用「录」不用「彔」（綠、剝、碌、淥等亦然），用「兑」不用「兌」（說、悅、脫、銳、閱等亦然），用「争」不用「爭」（靜、淨、猙、掙、崢、睜、箏亦然），用「真」不用「眞」（愼、塡、鎭、顚、巓、瑱等亦然），用「册」不用「冊」（刪、姍、柵等亦然），用「吴」不用「吳」（娛、悞等亦然），用「吕」不用「呂」（侶、宮等亦然），用「奂」不用「奐」（喚、換、瘓、煥、渙等亦然），用「昷」不用「𥁕」（溫、媼、慍、搵、榲、氳、熅、膃、縕、薀、蘊、轀、醞等亦然），用「强」不用「強」（繈、襁等亦然），用「内」不用「內」（吶等亦然），用「黄」不用「黃」（橫等亦然），用「户」不用「戶」，用「虚」不用「虛」（噓等亦然），用「彦」不用「彥」（顏等亦然），用「産」不用「產」，用「遥」不用「遙」，用「摇」不用「搖」，用「謡」不用「謠」，用「瑶」不用「瑤」，用「熙」不用「煕」，用「没」不用「沒」，用「絶」不用「絕」，用「别」不用「別」，用「丢」不用「丟」，用「抛」不用「拋」。但「爲」系列用的卻是舊字形。
-#### 漢語大字典
+### 漢語大字典
 比中文大辭典的書體更豐富，收字更多。
-#### 故訓匯纂
+### 故訓匯纂
 收字不多，但顧名思義，該有的解釋都有了。
-#### 近代漢語大詞典
+### 近代漢語大詞典
 質量不錯，就是名字起錯，應該叫「近古白話大詞典」。
 #### 現代漢語大詞典
 同名的很多，但大多根本不「大」。
 衹有阮版還行，利用漢語大詞典成果編寫，有一定用途。
 #### 漢韓大辭典
 棒子貨，所以收了很多垃圾的韓國漢字。網上未見，質量待攷，但旣然是大型辭典，姑且收錄於此。
-#### 異體字字典
+### 異體字字典
 臺灣敎育部出品，全在線版，無紙本。這貨先給每個字定一個「正字」，然後其他就是異體。可惜定「正字」的標準是臺灣敎育部現行標準，實際上很多都是異體。
 主要見第五和第六版，第六版可以直接搜索一些字，有些辭典的圖片更換成裁切過的版本，淸晰度略有提升。有很多書籍圖片是隱藏的，但實際上查看網頁源碼又已經有了。
 存在一些電子化錯誤，比如「http://dict2.variants.moe.edu.tw:80/variants/rbt/file:///C:/DOCUME%7E1/moejsmpc/LOCALS%7E1/Temp/msohtml1/01/clip_image004.jpg」這樣的鏈接是什麼鬼？又比如「http://dict2.variants.moe.edu.tw:80/variants/tmp/2f836.png」，很正常的鏈接，但是圖片又不存在。
@@ -145,24 +154,20 @@ GoldenDict 支持的格式裏最値得推崇的就是 Lingvo 的 dsl ，因爲�
 
 軟件|擴展|特色
 ----|----|----
-Lingvo|dsl|開源，俄文辭書多， LDOCE 等多種英文辭書的源頭
+Lingvo|dsl|開源，俄文辭書多，多種精美英文辭書的源頭
 Lingvo|lsd|dsl 的封裝結果，有反封裝軟件
-StarDict|ifo dict idx syn|多轉自 dsl ，排版普遍差，基本過氣
-MDict|mdx mdd|中國電子辭書集散地，源文件本質爲 html ，反編譯時順序會亂
-EPWING| - |日文辭書源頭， GoldenDict 索引速度慢，反編譯很困難
+StarDict|ifo dict idx syn|多轉自 dsl ，排版普遍差，編譯時順序會亂
+MDict|mdx mdd|中國電子辭書集散地，源文件本質爲 html ，編譯時順序會亂
+EPWING| - |日文辭書集散地， GoldenDict 索引速度慢，反編譯很困難
 Babylon|bgl|以色列貨，多轉自 dsl ，<a href="https://drive.google.com/folderview?id=0BzrQwK2v03aKWjlsQ3NsaWJKalU#list" rel="external">這裏</a>有貨，源文件叫 gls
 AARD|aar|主要是維基百科，見<a href="http://aarddict.org/1/" rel="external">官網</a>
 Slob|slob|AARD2 ，見<a href="http://aarddict.org/" rel="external">官網</a>，<a href="http://aarddict.org/docs/" rel="external">文檔</a>頗詳
 Kiwix|zim|主要是維基百科，見<a href="http://www.kiwix.org/wiki/Content_in_all_languages" rel="external">官網</a>
 dictzip|dz|實爲 gzip 加一個表，可用 7-Zip 等解壓，可壓縮 dsl 和 dict 文件
 
-### GoldenDict 的便攜
+### 軟件使用
 GoldenDict 原生支持便攜，便攜情況下，根目錄會有一個 `Portable` 文件夾。這個文件夾內可以寫一個 `qt-style.css` ，用以定義軟件各部件的樣式。還有一個 `article-style.css` ，則可決定詞條的樣式。
-
-### GoldenDict 辭書編寫工具
-小修改用 EmEditor, AkelPad 等工具都可以，衹要開大文件比較流暢就行。
-大批量進行正則表達式替換則應使用 EverEdit ，速度最快，還不容易死機。
-修圖用 UnicornViewer 比較省事，一次過做完糾斜、切邊、單色化等工作。
+用戶自己製作辭書時，小修改用 EmEditor, AkelPad 等工具都可以，衹要開大文件比較流暢就行。大批量進行正則表達式替換則應使用 EverEdit ，速度最快，還不容易死機。修圖用 ComicsEnhancerPro 比較省事，一次過做完糾斜、切邊、單色化等工作，不嫌麻煩用 Imagemagik 甚至 PhotoShop 也行。
 
 ### dsl 自定義
 基本格式：
@@ -205,32 +210,33 @@ https://css-tricks.com/snippets/css/named-colors-and-hex-equivalents/
 以下劃線爲例， GoldenDict 會把 `[u]文字[/u]` 轉換成 `<span class="dsl_u">文字</span>` 。這樣，就可以通過 `article-style.css` 來決定下劃線的背景色了。
 如果不知道一個部件具體的 class ，可以通過「右鍵—審查元素」得知。
 
-### 進擊的 DSLGD
+### 其他格式
+
+#### 進擊的 DSLGD
 俄國佬還是相當能折騰的， dsl 格式相對比較簡單，就出了加強版 DSLGD 。
 http://forum.ru-board.com/topic.cgi?forum=5&topic=45338&start=0
 支持更多 HTML 標籤，而且可以使用 JavaScript 和 CSS 了。
 
-### MDict 討論
+#### MDict
 首先要注意， MdxBuilder 會重新排序，所以 MDict 反編譯得到的文件和源文件順序是不同的。
 很多人使用 GetDict ， 2.6 解決了多數問題，但有些文件拆到一半就會出錯退出。
 高級一點用 <a href="https://bitbucket.org/xwang/mdict-analysis" rel="external">MDict-Analysis</a> ，以 Python 2.7 環境運行。 Python 3 環境也可以跑，但缺支持包，不能拆 mdd 。
 MDict 的優勢在於可以直接寫 HTML ，而且 Android 上有現成的客戶端。
 
-### EPWING 討論
+#### EPWING
 一個<a href="http://kazuo.fc2web.com/dic/ddwin2.htm" rel="external">神奇的資源文</a>。
 
 EPWING 反編譯是比較困難的，因爲現有工具普遍衹支持 Shift-JIS 字符集，超出字符集的叫「外字」，會變成「hA26D」，所以還要再批量轉換掉。
 方法一： EPDump 提取，可以取得圖像、聲音，但文字部分爲難。
 方法二： <a href="http://homepage2.nifty.com/ddwin/" rel="external">DDWIN</a> 提取。沒有圖像、聲音。
 
-### Babylon 製作與拆包
+#### Babylon
 對漢語來說，源文件應爲 utf-8 編碼的文本，也可以用 Excel 文件。製作器是 <a href="http://www.babylon.com/products/glossary-builder.html" rel="external">Babylon Glossary Builder</a> 。其他可看官方出的<a href="https://support.babylon.com/index.php?/Knowledgebase/Article/View/65/47/how-do-i-build-a-glossary" rel="external">說明</a>。
 拆包可用 UnpackBGL.exe ，成功率不高。
 
-### StarDict 討論
+#### StarDict
 StarDict 在歷史上曾統治過開源電子辭典界一段時間，開發者胡正收羅了當時市面上幾乎所有主要語種辭書，包括大量有版權的辭書。後來一方面是胡正瘋了，一方面是 GoldenDict 崛起，現在還用 StarDict 軟件的人已經不多，但使用 GoldenDict 來兼容 StarDict 文件的倒不少。中國國內更多人喜歡用 MDict 。
 就格式而言， StarDict 和 MDict 比較相似，都是以 HTML 爲基礎的。 StarDict 形成的文件較多， MDict 較少。和 MDict 一樣的還有一個地方，就是編譯後的文件，其順序會按照 Unicode 來排列，所以源文件的順序也會遺失。
 
-### 其他格式反編譯
-Lingoes: <a href="https://github.com/windylea/lingoes-converter" rel="external">Lingoes Converter</a>
-StarDict: Stardict-Editor
+#### Lingoes
+<a href="https://github.com/windylea/lingoes-converter" rel="external">Lingoes Converter</a>
