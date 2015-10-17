@@ -227,6 +227,10 @@ EPWING 反編譯是比較困難的，因爲現有工具普遍衹支持 Shift-JIS
 對漢語來說，源文件應爲 utf-8 編碼的文本，也可以用 Excel 文件。製作器是 <a href="http://www.babylon.com/products/glossary-builder.html" rel="external">Babylon Glossary Builder</a> 。其他可看官方出的<a href="https://support.babylon.com/index.php?/Knowledgebase/Article/View/65/47/how-do-i-build-a-glossary" rel="external">說明</a>。
 拆包可用 UnpackBGL.exe ，成功率不高。
 
+### StarDict 討論
+StarDict 在歷史上曾統治過開源電子辭典界一段時間，開發者胡正收羅了當時市面上幾乎所有主要語種辭書，包括大量有版權的辭書。後來一方面是胡正瘋了，一方面是 GoldenDict 崛起，現在還用 StarDict 軟件的人已經不多，但使用 GoldenDict 來兼容 StarDict 文件的倒不少。中國國內更多人喜歡用 MDict 。
+就格式而言， StarDict 和 MDict 比較相似，都是以 HTML 爲基礎的。 StarDict 形成的文件較多， MDict 較少。和 MDict 一樣的還有一個地方，就是編譯後的文件，其順序會按照 Unicode 來排列，所以源文件的順序也會遺失。
+
 ### 其他格式反編譯
 Lingoes: <a href="https://github.com/windylea/lingoes-converter" rel="external">Lingoes Converter</a>
 StarDict: Stardict-Editor

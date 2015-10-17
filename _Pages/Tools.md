@@ -26,7 +26,7 @@ title: 欽定工具集成
 ☭<a href="http://www.kuaipan.cn/" rel="external">金山快盤</a> - 空間大
 
 ## 學習
-→<a href="https://github.com/goldendict/goldendict/wiki/_pages" rel="external">GoldenDict</a> - 電子辭書工具
+→<a href="http://sourceforge.net/projects/goldendict/files/early%20access%20builds/" rel="external">GoldenDict</a> - 電子辭書工具
 →<a href="http://hanbox.cnblogs.com/" rel="external">漢文博士</a> - 花式查字
 →<a href="http://www.sumatrapdfreader.org/free-pdf-reader.html" rel="external">Sumatra PDF</a> - PDF, DjVu, ePub, Mobi, CHM 等格式
 →<a href="http://www.readfree.net/bbs/read.php?tid=4851231&keyword=cxcandy" rel="external">CxCandy</a> - PDG 下載
