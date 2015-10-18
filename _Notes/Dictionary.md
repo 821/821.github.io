@@ -59,8 +59,8 @@ title: 辭典
 存在一些電子化錯誤，比如「http://dict2.variants.moe.edu.tw:80/variants/rbt/file:///C:/DOCUME%7E1/moejsmpc/LOCALS%7E1/Temp/msohtml1/01/clip_image004.jpg」這樣的鏈接是什麼鬼？又比如「http://dict2.variants.moe.edu.tw:80/variants/tmp/2f836.png」，很正常的鏈接，但是圖片又不存在。
 #### 難副盛名者簡介
 辭海：主打現代卻過時了。
-教育部重編國語辭典：收詞不多，例句多生造，輕聲詞注音錯誤極多。
-現代漢語詞典：定位欠準，詞量硬傷，幾乎沒例句（有也是非常生造句），好處是注音正確率高、有詞性。
+教育部重編國語辭典：收詞不多，例句多生造，輕聲詞注音錯誤極多，其他注音錯誤也不少（比如把「劉禪」的「禪」就標錯了，看來編纂者不知道還有個「劉封」）。
+現代漢語詞典：定位欠準，詞量硬傷，幾乎沒例句（有也是生造句），好處是注音正確率高、有詞性。
 新華字典：小學生寫語文作業，歷來每個字要組三個詞，這本垃圾經常組不出。
 中華字海：無限類推簡化字，收字標準過於寬鬆，反正毛病不少。
 
@@ -71,7 +71,7 @@ title: 辭典
 應該說例句是最大亮點，都是 Longman Corpus Network 裏的眞實句子。
 從第五版開始存在兩個問題：一是風格不統一，有些釋義刻意模仿 CCALD 的明瞭風格，有的還是原風格。二是其公司和多數出版公司一樣，近年很不好過，新版修訂不如舊版精細。所以說輝煌的過去不代表未來也很光明。
 #### Collins COBUILD Advanced Learner's English Dictionary (CCALD)
-雙解裏最好的。釋義採 "if you blablabla, you dadada " 形式，在多數情況下對 ESL 來說最舒服。
+雙解裏最好的。釋義採 "if you blablabla, you dadada" 形式，在多數情況下對 ESL 來說最舒服。
 #### Cambridge Advanced Learner's Dictionary (CALD)
 較易讀，特色不甚鮮明。
 #### MacMillan English Dictionary for Advanced Learners (MEDAL)
