@@ -175,6 +175,11 @@ mw.show()
 ```
 排版不限於 `QHBoxLayout` 和 `QVBoxLayout` ，但這兩個無疑是最簡單、直觀的。
 
+#### PyQt5 的新內容
+與 4 的區別主要在這裏 http://pyqt.sourceforge.net/Docs/PyQt5/pyqt4_differences.html 。
+最重大的差別是 QtGui 被拆分，非常常用的 QApplication 和 QMainWindow 放到了 QtWidgets 。
+另外，新出的 QtWebEngineWidgets 也很有意義，是個基於 Chromium 的瀏覽器模塊，比已有的 QtWebKit 要強。
+
 #### 其他
 PyQt 的強大，三天三夜也講不完，一般的小項目衹能用到冰山一角。詳細看<a href="http://pyqt.sourceforge.net/Docs/PyQt4/index.html" rel="external">文檔</a>。
 
