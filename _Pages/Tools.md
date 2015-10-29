@@ -31,7 +31,7 @@ title: 欽定工具集成
 →<a href="http://www.sumatrapdfreader.org/free-pdf-reader.html" rel="external">Sumatra PDF</a> - PDF, DjVu, ePub, Mobi, CHM 等格式
 →<a href="http://www.readfree.net/bbs/read.php?tid=4851231&keyword=cxcandy" rel="external">CxCandy</a> - PDG 下載
 →UnicornViewer - PDG 閱讀
-<a href="http://www.comicer.com/stronghorse/software/# Pdg2Pic" rel="external">Pdg2Pic</a> PDG 轉圖像和 PDF
+<a href="http://pan.baidu.com/s/1jGrnmsA" rel="external">Pdg2Pic</a> PDG 轉圖像和 PDF
 
 ## 創造
 →<a href="https://github.com/821/Daily/blob/master/Note-.pyw" rel="external">Note-</a> 自製的創作向筆記瀏覽管理工具
@@ -59,7 +59,7 @@ title: 欽定工具集成
 <a href="https://github.com/BYVoid/OpenCC" rel="external">OpenCC</a> - 基礎型繁簡轉換
 
 ## 多媒體
-→<a href="http://www.comicer.com/stronghorse/software/#%20ComicEnhancerPro" rel="external">ComicEnhancerPro</a> - GUI 型圖像處理
+→<a href="http://pan.baidu.com/s/1jGrnmsA" rel="external">ComicEnhancerPro</a> - GUI 型圖像處理
 <a href="http://www.imagemagick.org/" rel="external">ImageMagick</a> - CLI 型圖像處理
 <a href="http://portableapps.com/apps/graphics_pictures/xnview_portable" rel="external">XnView</a> - 多格式圖片查看
 <a href="https://www.bunkus.org/videotools/mkvtoolnix/" rel="external">MKVToolNix</a> - 視頻處理
