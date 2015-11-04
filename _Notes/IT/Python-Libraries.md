@@ -3,7 +3,7 @@ layout: indexed
 title: 漫遊 Python 庫
 date: '2015/04/20'
 ---
-## 多線程
+## 多線程與多進程
 ### threading
 Python 主要有兩個多線程標準庫， thread 和 threading 。前者低級，後者高級。對於不需要太底層的情況，一般使用後者。
 threading 有幾個常用方法： `start`, `run`, `join`, `name` 。
@@ -21,8 +21,17 @@ class Worker(threading.Thread):
 for i in range(20):
 	Worker(i).start()
 ```
-單單是這個模塊，已沒有太多必須用例子來詮釋，看
-<a href="https://docs.python.org/3/library/threading.html" rel="external">文檔</a>就行了。
+單單是這個模塊，已沒有太多必須用例子來詮釋，看<a href="https://docs.python.org/3/library/threading.html" rel="external">文檔</a>就行了。
+
+### multiprocessing
+和 threading 相比，在處理 loop 時方便得要死。
+```python
+import multiprocessing as mp
+if __name__ == '__main__':
+	with mp.Pool(5) as p:
+		p.map(print, range(500))
+```
+例子中的 print 可以換成你的主函數， range(500) 就是那個 loop —— for 都不用寫了啊。
 
 ## 文本處理
 ### re
