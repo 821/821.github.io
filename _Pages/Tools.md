@@ -9,7 +9,7 @@ title: 欽定工具集成
 →Greasemonkey/Tampermonkey - 腳本總管
 →uBlock Origin - 低 CPU 佔用的去廣告
 <a href="http://portableapps.com/apps/internet/popman_portable" rel="external">PopMan</a> - 郵件提醒、查看、刪除
-→<a href="https://github.com/breakwa11/shadowsocks-rss" rel="external">ShadowSocksR</a> - 加強版 <a href="https://github.com/shadowsocks/shadowsocks-csharp" rel="external">ShadowSocks</a>
+→<a href="https://github.com/breakwa11/shadowsocks-rss" rel="external">ShadowSocksR</a> - 加強版 <a href="https://github.com/shadowsocks/shadowsocks-csharp" rel="external">ShadowSocks</a>，而且目前還在更新
 <a href="https://github.com/XX-net/XX-Net" rel="external">XX-Net</a> - 加強版 <a href="https://github.com/goagent/goagent" rel="external">GoAgent</a>
 <a href="http://portableapps.com/apps/internet/skype_portable" rel="external">Skype</a> - 高質量視頻通話
 →☭<a href="http://www.portableappc.com/internet/tencent-tm-portable/" rel="external">TM2009</a> - 沒廣告的輕量級 QQ
@@ -32,6 +32,7 @@ title: 欽定工具集成
 →<a href="http://www.readfree.net/bbs/read.php?tid=4851231&keyword=cxcandy" rel="external">CxCandy</a> - PDG 下載
 →UnicornViewer - PDG 閱讀
 <a href="http://pan.baidu.com/s/1jGrnmsA" rel="external">Pdg2Pic</a> PDG 轉圖像和 PDF
+<a href="http://pan.baidu.com/s/1jGrnmsA" rel="external">DjVuToy</a> 處理中美百萬圖書
 
 ## 創造
 →<a href="https://github.com/821/Daily/blob/master/Note-.pyw" rel="external">Note-</a> 自製的創作向筆記瀏覽管理工具
@@ -77,6 +78,8 @@ title: 欽定工具集成
 <a href="http://www.zdfans.com/716.html" rel="external">CCleaner</a> - 系統淸理
 <a href="https://github.com/bmatzelle/gow/releases" rel="external">Gow</a> - 輕量 CLI 工具包
 <a href="http://conemu.github.io/" rel="external">ConEmu</a> - 美化的 CMD
+<a href="http://www.bluestacks.com/" rel="external">BlueStacks</a> - 簡單的 Android 模擬
+<a href="https://www.genymotion.com/" rel="external">Genymotion</a> - 強大的 Android 模擬
 
 ## 編外名軟
 以及吐槽。
@@ -93,7 +96,7 @@ title: 欽定工具集成
 ### 傳輸
 <a href="http://120.25.123.149/IDM/" rel="external">IDM</a> - 多管閒事的下載器
 ☭<a href="http://www.zdfans.com/502.html" rel="external">QQ 旋風</a> - 博而不精的下載器
-<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4702#p4702" rel="external">Dropbox</a> - 功能型網盤，但我不愛用客戶端
+<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4702#p4702" rel="external">Dropbox</a> - 功能型網盤，但我不愛用其客戶端
 <a href="https://onedrive.com/" rel="external">OneDrive</a> - 微軟監視下的網盤
 ☭<a href="http://115.com" rel="external">115</a> - 空間型網盤，離線下載，善變
 ☭<a href="http://yunpan.360.cn" rel="external">360雲盤</a> - 流氓出的空間型網盤
