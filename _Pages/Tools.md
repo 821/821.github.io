@@ -81,6 +81,11 @@ title: 欽定工具集成
 <a href="http://www.bluestacks.com/" rel="external">BlueStacks</a> - 簡單的 Android 模擬
 <a href="https://www.genymotion.com/" rel="external">Genymotion</a> - 強大的 Android 模擬
 
+## 手機
+微信 - 垃圾體驗，但有些人逼着你用
+支付寶 - 垃圾體驗，但轉帳免費
+百度輸入法 - 垃圾體驗，切換個繁簡還要進特殊的界面
+
 ## 編外名軟
 以及吐槽。
 
@@ -114,6 +119,7 @@ title: 欽定工具集成
 <a href="https://notepad-plus-plus.org/download/" rel="external">Notepad++</a> - 純編程編輯器
 <a href="http://portableapps.com/apps/office/libreoffice_portable" rel="external">LibreOffice</a> - 偶爾用表格
 <a href="http://portableapps.com/apps/office/gnumeric_portable" rel="external">Gnumeric</a> - 單單是表格
+MicroSoft Office - 2003 已經臃腫到無法忍受，然後持續臃腫。
 
 ### 文件
 <a href="http://www.softwareok.com/?seite=Freeware/Q-Dir" rel="external">Q-Dir</a> - 稍微增強一下 explorer
