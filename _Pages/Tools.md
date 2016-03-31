@@ -37,7 +37,7 @@ title: 欽定工具集成
 ## 創造
 →<a href="https://github.com/821/Daily/blob/master/Note-.pyw" rel="external">Note-</a> 自製的創作向筆記瀏覽管理工具
 →<a href="http://rime.im/download/" rel="external">Rime</a> - 輸入法框架
-→<a href="http://120.25.123.149/EmEditor/" rel="external">EmEditor</a> - 寫作型編輯器
+→<a href="http://pan.baidu.com/share/link?shareid=102380187&uk=3328224443" rel="external">EmEditor</a> - 寫作型編輯器
 →<a href="http://www.everedit.net" rel="external">EverEdit</a> - 高速編輯器
 <a href="http://akelpad.sourceforge.net/" rel="external">AkelPad</a> - 編程型編輯器
 <a href="http://www.china-language.gov.cn/tools/MyZiCiFreq.rar" rel="external">MyZiCiFreq</a> 字頻統計
@@ -108,14 +108,16 @@ title: 欽定工具集成
 
 ### 學習
 <a href="http://tutor.ksana.tw/accelon3/" rel="external">Accelon3</a> - 搜索快但有點怪的電子辭典
-<a href="http://120.25.123.149/PDF-XChange/" rel="external">PDF XChange Viewer</a> - 文本 PDF 渲染最佳
+<a href="http://pan.baidu.com/share/link?shareid=2146589279&uk=3328224443" rel="external">PDF XChange Viewer</a> - 文本 PDF 渲染最佳
 <a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4989#p4989" rel="external">Evernote</a> - 又慢又笨的筆記軟件
 <a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4987#p4987" rel="external">Wiz</a> - 較慢的功能型筆記軟件
 <a href="http://app.leanote.com/" rel="external">Leanote</a> - 代碼向筆記軟件
 <a href="http://bauerapps.com/rightnote/" rel="external">RightNote</a> - 同步 Simplenote
 
 ### 創造
-<a href="http://120.25.123.149/SublimeText/" rel="external">Sublime Text</a> - 純編程編輯器
+VIM - 純編程編輯器
+Emacs - 純編程編輯器
+<a href="http://pan.baidu.com/share/link?shareid=4012163396&uk=3328224443" rel="external">Sublime Text</a> - 純編程編輯器
 <a href="https://notepad-plus-plus.org/download/" rel="external">Notepad++</a> - 純編程編輯器
 <a href="http://portableapps.com/apps/office/libreoffice_portable" rel="external">LibreOffice</a> - 偶爾用表格
 <a href="http://portableapps.com/apps/office/gnumeric_portable" rel="external">Gnumeric</a> - 單單是表格
