@@ -2,91 +2,92 @@
 layout: indexed
 title: 欽定工具集成
 ---
-這個頁面主要是提供可以快速找到比較好用的更新源的軟件列表，有的給官方，有的給知名打包方，有的給破解。
+這個軟件列表爲每個軟件提供簡單的介紹式吐槽及比較好用的更新源，有的給官方，有的給知名打包方，有的給破解方。
 
 ## 網絡
-→<a href="http://keepass.info/" rel="external">KeePass</a> + 相應瀏覽器插件 - 密碼管理
-→<a href="http://code.taobao.org/p/MyFirefox/" rel="external">Firefox</a> - 功能型瀏覽器
-<a href="http://code.taobao.org/p/mychrome/" rel="external">Chrome</a> - 日漸臃腫的瀏覽器，棄用中
-→<a href="http://getfoxyproxy.org/" rel="external">Foxyproxy</a> - 代理切換插件
-→Greasemonkey / Tampermonkey - 腳本總管
-→Context Search X / 右鍵搜 - 爲右鍵加上更多搜索引擎
-→uBlock Origin / AdBlock - 去廣告
-<a href="http://portableapps.com/apps/internet/popman_portable" rel="external">PopMan</a> - 郵件提醒、查看、刪除
-→<a href="https://github.com/breakwa11/shadowsocks-rss" rel="external">ShadowSocksR</a> - 加強版 <a href="https://github.com/shadowsocks/shadowsocks-csharp" rel="external">ShadowSocks</a>，而且目前還在更新
-<a href="https://github.com/XX-net/XX-Net" rel="external">XX-Net</a> - 加強版 <a href="https://github.com/goagent/goagent" rel="external">GoAgent</a>
-<a href="http://portableapps.com/apps/internet/skype_portable" rel="external">Skype</a> - 高質量視頻通話
-→☭<a href="http://www.portableappc.com/internet/tencent-tm-portable/" rel="external">TM2009</a> - 沒廣告的輕量級 QQ
+→[KeePass](http://keepass.info/) + 相應瀏覽器插件 - 密碼管理
+→[Firefox](http://code.taobao.org/p/MyFirefox/) - 功能型瀏覽器
+→[Foxyproxy](http://getfoxyproxy.org/) - 代理切換插件
+→[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/?src=search) / Tampermonkey - 腳本總管
+→[Context Search X](https://addons.mozilla.org/en-US/firefox/addon/context-search-x/?src=search) / 右鍵搜 - 爲右鍵加上更多搜索引擎
+→[Omnibar](Omnibar) - 便捷切換搜索引擎
+→[uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock/) / AdBlock - 去廣告
+[PopMan](http://portableapps.com/apps/internet/popman_portable) - 郵件提醒、查看、刪除
+→[ShadowSocksR](https://github.com/breakwa11/shadowsocks-rss) - 加強版 [ShadowSocks](https://github.com/shadowsocks/shadowsocks-csharp)，而且目前還在更新
+[XX-Net](https://github.com/XX-net/XX-Net) - 加強版 [GoAgent](https://github.com/goagent/goagent)
+[Skype](http://portableapps.com/apps/internet/skype_portable) - 高質量視頻通話
+→☭[TM2009](http://www.portableappc.com/internet/tencent-tm-portable/) - 沒廣告的輕量級 QQ
 →☭<a href="" rel="external">阿里旺旺</a> - 淘寶需要，衹好裝了
-<a href="http://bbs.kafan.cn/thread-1133619-1-1.html" rel="external">Ad Muncher</a> - 對付日益猖獗的視頻網站廣告
+[ADM](http://www.admflt.com/) - 對付日益猖獗的視頻網站廣告
 
 ## 傳輸
-→<a href="http://sourceforge.net/projects/aria2/files/stable/" rel="external">Aria2</a> + <a href="http://aria2c.com/usage.html" rel="external">控制臺</a> - 命令行下載器，打配合下批量最佳
-<a href="http://portableapps.com/apps/internet/free-download-manager-portable" rel="external">Free Download Manager</a> - 強大型下載器
-→<a href="http://winscp.net/" rel="external">WinSCP</a> - 命令行 FTP/WebDAV
-<a href="http://apps.memopal.com/r/?7d78687f7b767c" rel="external">Memopal</a> - 全版本備份，支持 WebDAV
-<a href="https://spideroak.com/" rel="external">SpiderOak</a> - 全版本備份，隱私高
-<a href="https://box.com" rel="external">box.com</a> - 功能豐富，支持 WebDAV
-→☭<a href="http://www.zdfans.com/674.html" rel="external">百度網盤</a> - 空間大，有離線下載
-☭<a href="http://www.kuaipan.cn/" rel="external">金山快盤</a> - 空間大
+→[Aria2](http://sourceforge.net/projects/aria2/files/stable/) + [控制臺](http://aria2c.com/usage.html) - 命令行下載器，打配合下批量最佳
+[Free Download Manager](http://portableapps.com/apps/internet/free-download-manager-portable) - 強大型下載器
+→[WinSCP](http://winscp.net/) - 命令行 FTP/WebDAV
+[Memopal](http://apps.memopal.com/r/?7d78687f7b767c) - 全版本備份，支持 WebDAV
+[SpiderOak](https://spideroak.com/) - 全版本備份，隱私高
+[box.com](https://box.com) - 功能豐富，支持 WebDAV
+→☭[百度網盤](http://www.zdfans.com/674.html) - 空間大，有離線下載
+☭[金山快盤](http://www.kuaipan.cn/) - 空間大
 
 ## 學習
-→<a href="http://sourceforge.net/projects/goldendict/files/early%20access%20builds/" rel="external">GoldenDict</a> - 電子辭書工具
-→<a href="http://hanbox.cnblogs.com/" rel="external">漢文博士</a> - 花式查字
-→<a href="http://www.sumatrapdfreader.org/free-pdf-reader.html" rel="external">Sumatra PDF</a> - PDF, DjVu, ePub, Mobi, CHM 等格式，無縫配合 TeX
-→<a href="http://www.readfree.net/bbs/read.php?tid=4851231" rel="external">CxCandy</a> - PDG 下載
+→[GoldenDict](http://sourceforge.net/projects/goldendict/files/early%20access%20builds/) - 電子辭書工具
+→[漢文博士](http://hanbox.cnblogs.com/) - 花式查字
+→[Sumatra PDF](http://www.sumatrapdfreader.org/free-pdf-reader.html) - PDF, DjVu, ePub, Mobi, CHM 等格式，無縫配合 TeX
+→[CxCandy](http://www.readfree.net/bbs/read.php?tid=4851231) - PDG 下載
 →UnicornViewer - PDG 閱讀
-<a href="http://pan.baidu.com/s/1jGrnmsA" rel="external">Pdg2Pic</a> PDG 轉圖像和 PDF
-<a href="http://pan.baidu.com/s/1jGrnmsA" rel="external">DjVuToy</a> 處理中美百萬圖書
+[Pdg2Pic](http://pan.baidu.com/s/1jGrnmsA) PDG 轉圖像和 PDF
+[DjVuToy](http://pan.baidu.com/s/1jGrnmsA) 處理中美百萬圖書
 
 ## 創造
-→<a href="https://github.com/821/Daily/blob/master/Note-.pyw" rel="external">Note-</a> - 自製的創作向筆記瀏覽管理工具
-→<a href="http://rime.im/download/" rel="external">Rime</a> - 輸入法框架
-→<a href="http://pan.baidu.com/share/link?shareid=102380187&uk=3328224443" rel="external">EmEditor</a> - 寫作型編輯器
-→<a href="http://www.everedit.net" rel="external">EverEdit</a> - 高速編輯器
-<a href="http://akelpad.sourceforge.net/" rel="external">AkelPad</a> - 編程型編輯器
-<a href="http://www.china-language.gov.cn/tools/MyZiCiFreq.rar" rel="external">MyZiCiFreq</a> 字頻統計
-→<a href="http://winpython.github.io/" rel="external">WinPython</a> - 便攜版 <a href="https://www.python.org/" rel="external">Python</a>
-→<a href="http://autohotkey.com/" rel="external">AutoHotkey</a> - 鍵鼠腳本
-<a href="http://www.tug.org/texlive/" rel="external">TeX Live</a> - TeX 大全包
-<a href="http://miktex.org/download" rel="external">MiKTeX</a> - 精簡友好的 TeX 發行版
-→<a href="http://pandoc.org/index.html" rel="external">Pandoc</a> - 多種文檔格式轉換
+→[Note-](https://github.com/821/Daily/blob/master/Note-.pyw) - 自製的創作向筆記瀏覽管理工具
+→[Rime](http://rime.im/download/) - 輸入法框架
+→[EmEditor](http://pan.baidu.com/share/link?shareid=102380187&uk=3328224443) - 寫作型編輯器
+→[EverEdit](http://www.everedit.net) - 高速編輯器
+[AkelPad](http://akelpad.sourceforge.net/) - 編程型編輯器
+[MyZiCiFreq](http://www.china-language.gov.cn/tools/MyZiCiFreq.rar) 字頻統計
+→[WinPython](http://winpython.github.io/) - 便攜版 [Python](https://www.python.org/)
+→[AutoHotkey](http://autohotkey.com/) - 鍵鼠腳本
+[TeX Live](http://www.tug.org/texlive/) - TeX 大全包
+[MiKTeX](http://miktex.org/download) - 精簡友好的 TeX 發行版
+→[Pandoc](http://pandoc.org/index.html) - 多種文檔格式轉換
 
 ## 文件
-→<a href="http://www.7-zip.org/" rel="external">7-zip</a> - 多種壓縮解壓
-→<a href="http://www.zdfans.com/778.html" rel="external">WinRAR</a> - 簡易壓縮解壓
-→<a href="http://www.voidtools.com/" rel="external">Everything</a> - 本地文件特高速搜索
-→<a href="https://sourceforge.net/projects/grepwin/files" rel="external">grepWin</a> - 文件內容正則高速搜索替換
-<a href="http://www.bulkrenameutility.co.uk/Download.php" rel="external">Bulk Rename Utility</a> - 最強批量重命名
-<a href="http://sourceforge.net/p/doublecmd/wiki/Download/" rel="external">Double Commander</a> - 免費文件管理器
-<a href="http://ipmsg.org/tools/fastcopy.html" rel="external">FastCopy</a> 快速剪切複製
-<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&start=1185#p6950" rel="external">Clover</a> - 帶 tab 和收藏夾的 explorer
-→<a href="https://git-scm.com/downloads" rel="external">Git</a> - 最強版本控制
-→<a href="http://briian.com/?p=5784" rel="external">Convertz</a> - 功能型繁簡轉換
-<a href="https://github.com/BYVoid/OpenCC" rel="external">OpenCC</a> - 基礎型繁簡轉換
+→[7-zip](http://www.7-zip.org/) - 多種壓縮解壓
+→[WinRAR](http://www.zdfans.com/778.html) - 簡易壓縮解壓
+→[Everything](http://www.voidtools.com/) - 本地文件特高速搜索
+→[grepWin](https://sourceforge.net/projects/grepwin/files) - 文件內容正則高速搜索替換
+[Bulk Rename Utility](http://www.bulkrenameutility.co.uk/Download.php) - 最強批量重命名
+[Double Commander](http://sourceforge.net/p/doublecmd/wiki/Download/) - 免費文件管理器
+[FastCopy](http://ipmsg.org/tools/fastcopy.html) 快速剪切複製
+[Clover](http://forum.portableappc.com/viewtopic.php?f=4&t=386&start=1185#p6950) - 帶 tab 和收藏夾的 explorer
+→[Git](https://git-scm.com/downloads) - 最強版本控制
+→[Convertz](http://briian.com/?p=5784) - 功能型繁簡轉換
+[OpenCC](https://github.com/BYVoid/OpenCC) - 基礎型繁簡轉換
 
 ## 多媒體
-→<a href="http://pan.baidu.com/s/1jGrnmsA" rel="external">ComicEnhancerPro</a> - GUI 型圖像處理
-<a href="http://www.imagemagick.org/" rel="external">ImageMagick</a> - CLI 型圖像處理
-<a href="http://portableapps.com/apps/graphics_pictures/xnview_portable" rel="external">XnView</a> - 多格式圖片查看
-<a href="http://freepiano.tiwb.com/" rel="external">FreePiano</a> - 電腦彈鋼琴
-<a href="http://www.portableappc.com/music-video/ttplayer-portable/" rel="external">TTPlayer</a> - 輕量音樂播放轉換器
-→<a href="http://www.light-alloy.ru/download/" rel="external">Light Alloy</a> - 輕量視頻播放器
+[PDFPatcher](http://pdfpatcher.cnblogs.com/) - PDF 多功能工具箱（中文名現在看好污）
+→[ComicEnhancerPro](http://pan.baidu.com/s/1jGrnmsA) - GUI 型圖像處理
+[ImageMagick](http://www.imagemagick.org/) - CLI 型圖像處理
+[XnView](http://portableapps.com/apps/graphics_pictures/xnview_portable) - 多格式圖片查看
+[FreePiano](http://freepiano.tiwb.com/) - 電腦彈鋼琴
+[TTPlayer](http://www.portableappc.com/music-video/ttplayer-portable/) - 輕量音樂播放轉換器
+→[Light Alloy](http://www.light-alloy.ru/download/) - 輕量視頻播放器
 UltraISO - 偶爾燒個 PE 進 USB 來做啓動
 
 ## 系統
-<a href="http://www.winntsetup.com/" rel="external">WinNTSetup</a> - 重裝系統
-→<a href="http://hp.vector.co.jp/authors/VA018351/" rel="external">CLaunch</a> - GUI 快速啓動
-<a href="https://github.com/chenall/ALMRun/releases" rel="external">ALMRun</a> - CLI 快速啓動
-→<a href="http://www.mympc.org/down/1/2005-11-26_0111998067.html" rel="external">KeybMap</a> - 修改鍵盤
-→<a href="http://portableapps.com/apps/utilities/iobit-unlocker-portable" rel="external">Iobit Unlocker</a> - 文件解鎖
-<a href="http://www.zdfans.com/716.html" rel="external">CCleaner</a> - 系統淸理
-<a href="https://github.com/bmatzelle/gow/releases" rel="external">Gow</a> - 輕量 CLI 工具包
-<a href="http://conemu.github.io/" rel="external">ConEmu</a> - 美化的 CMD
-<a href="http://bbs.kafan.cn/thread-1602968-1-1.html" rel="external">驅動精靈</a> - 檢測驅動安裝情況
-<a href="http://www.xyaz.cn/thread-2259-1-1.html" rel="external">逍遙安卓</a> - 重裝系統也繼續用的模擬器，官方綠色
-<a href="http://www.wepe.com.cn/download.html" rel="external">微PE工具箱</a> - 方便的 PE
-<a href="http://bbs.kafan.cn/thread-1863668-1-1.html" rel="external">Win10PE</a> - 功能齊全的 PE
+[WinNTSetup](http://www.winntsetup.com/) - 重裝系統
+→[CLaunch](http://hp.vector.co.jp/authors/VA018351/) - GUI 快速啓動
+[ALMRun](https://github.com/chenall/ALMRun/releases) - CLI 快速啓動
+→[KeybMap](http://www.mympc.org/down/1/2005-11-26_0111998067.html) - 修改鍵盤
+→[Iobit Unlocker](http://portableapps.com/apps/utilities/iobit-unlocker-portable) - 文件解鎖
+[CCleaner](http://www.zdfans.com/716.html) - 系統淸理
+[Gow](https://github.com/bmatzelle/gow/releases) - 輕量 CLI 工具包
+[ConEmu](http://conemu.github.io/) - 美化的 CMD
+[驅動精靈](http://bbs.kafan.cn/thread-1602968-1-1.html) - 檢測驅動安裝情況
+[逍遙安卓](http://www.xyaz.cn/thread-2259-1-1.html) - 重裝系統也繼續用的模擬器，官方綠色
+[微PE工具箱](http://www.wepe.com.cn/download.html) - 方便的 PE
+[Win10PE](http://bbs.kafan.cn/thread-1863668-1-1.html) - 功能齊全的 PE
 
 ## 手機
 微信 - 垃圾體驗，但有些人逼着你用
@@ -97,62 +98,63 @@ UltraISO - 偶爾燒個 PE 進 USB 來做啓動
 以及吐槽。
 
 ### 網絡
-<a href="http://portableappz.blogspot.com/2015/01/vivaldi-108338-multilingual-tech-preview.html" rel="external">Vivaldi</a> - Opera 的繼承人
-<a href="http://portableappz.blogspot.com/2013/03/mozilla-thunderbird-1704-multilingual.html" rel="external">ThunderBird</a> - 肥碩的郵件管理器
-<a href="http://portableapps.com/apps/internet/opera-mail-portable" rel="external">Opera Mail</a> - 輕便型郵件管理器
-<a href="http://portableapptrash.blogspot.com/2014/10/the-bat-pro-672-multilingual.html" rel="external">The Bat!</a> - 功能型郵件管理器
-<a href="http://portableappz.blogspot.com/2014/01/tor-02420.html" rel="external">Tor</a> - 不存在的軟件
-<a href="http://portableappz.blogspot.com/2014/02/pidgin-2109-multilingual.html" rel="external">Pidgin</a> - 陽春的多協議聊天工具
-<a href="https://desktop.telegram.org/" rel="external">Telegram</a> - 再好的聊天工具也要有人聊
+[Chrome](http://code.taobao.org/p/mychrome/) - 日漸臃腫的瀏覽器，棄用中
+[Vivaldi](http://portableappz.blogspot.com/2015/01/vivaldi-108338-multilingual-tech-preview.html) - Opera 的繼承人
+[ThunderBird](http://portableappz.blogspot.com/2013/03/mozilla-thunderbird-1704-multilingual.html) - 肥碩的郵件管理器
+[Opera Mail](http://portableapps.com/apps/internet/opera-mail-portable) - 輕便型郵件管理器
+[The Bat!](http://portableapptrash.blogspot.com/2014/10/the-bat-pro-672-multilingual.html) - 功能型郵件管理器
+[Tor](http://portableappz.blogspot.com/2014/01/tor-02420.html) - 不存在的軟件
+[Pidgin](http://portableappz.blogspot.com/2014/02/pidgin-2109-multilingual.html) - 陽春的多協議聊天工具
+[Telegram](https://desktop.telegram.org/) - 再好的聊天工具也要有人聊
 
 ### 傳輸
-<a href="http://www.repaik.com/forum.php?mod=viewthread&tid=32105" rel="external">IDM</a> - 多管閒事的下載器
-☭<a href="http://www.zdfans.com/502.html" rel="external">QQ 旋風</a> - 博而不精的下載器
-<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4702#p4702" rel="external">Dropbox</a> - 功能型網盤，但我不愛用其客戶端
-<a href="https://onedrive.com/" rel="external">OneDrive</a> - 微軟監視下的網盤
+[IDM](http://www.repaik.com/forum.php?mod=viewthread&tid=32105) - 多管閒事的下載器
+☭[QQ 旋風](http://www.zdfans.com/502.html) - 博而不精的下載器
+[Dropbox](http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4702#p4702) - 功能型網盤，但我不愛用其客戶端
+[OneDrive](https://onedrive.com/) - 微軟監視下的網盤
 pCloud - 隱私較好的小公司網盤
-<a href="https://disk.yandex.com" rel="external">Yandex</a> - 著名的毛子網盤
-<a href="https://cloud.mail.ru/" rel="external">Mail.ru</a> - 英文版都沒有的毛子網盤
-☭<a href="http://115.com" rel="external">115</a> - 空間型網盤，離線下載，善變
-☭<a href="http://yunpan.360.cn" rel="external">360雲盤</a> - 流氓出的空間型網盤
+[Yandex](https://disk.yandex.com) - 著名的毛子網盤
+[Mail.ru](https://cloud.mail.ru/) - 英文版都沒有的毛子網盤
+☭[115](http://115.com) - 空間型網盤，離線下載，善變
+☭[360雲盤](http://yunpan.360.cn) - 流氓出的空間型網盤
 
 ### 學習
-<a href="http://tutor.ksana.tw/accelon3/" rel="external">Accelon3</a> - 搜索快但有點怪的電子辭典
-<a href="http://mdict.cn" rel="external">MDict</a> - 資源多但軟件難用的電子辭典
-<a href="http://pan.baidu.com/share/link?shareid=2146589279&uk=3328224443" rel="external">PDF XChange Viewer</a> - 文本 PDF 渲染最佳
-<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4989#p4989" rel="external">Evernote</a> - 又慢又笨的筆記軟件
-<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4987#p4987" rel="external">Wiz</a> - 較慢的功能型筆記軟件
-<a href="http://app.leanote.com/" rel="external">Leanote</a> - 代碼向筆記軟件
-<a href="http://bauerapps.com/rightnote/" rel="external">RightNote</a> - 同步 Simplenote
+[Accelon3](http://tutor.ksana.tw/accelon3/) - 搜索快但有點怪的電子辭典
+[MDict](http://mdict.cn) - 資源多但軟件難用的電子辭典
+[PDF XChange Viewer](http://pan.baidu.com/share/link?shareid=2146589279&uk=3328224443) - 文本 PDF 渲染最佳
+[Evernote](http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4989#p4989) - 又慢又笨的筆記軟件
+[Wiz](http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4987#p4987) - 較慢的功能型筆記軟件
+[Leanote](http://app.leanote.com/) - 代碼向筆記軟件
+[RightNote](http://bauerapps.com/rightnote/) - 同步 Simplenote
 
 ### 創造
 VIM - 純編程編輯器
 Emacs - 純編程編輯器
-<a href="http://pan.baidu.com/share/link?shareid=4012163396&uk=3328224443" rel="external">Sublime Text</a> - 純編程編輯器
-<a href="https://notepad-plus-plus.org/download/" rel="external">Notepad++</a> - 純編程編輯器
-<a href="http://portableapps.com/apps/office/libreoffice_portable" rel="external">LibreOffice</a> - 偶爾用表格
-<a href="http://portableapps.com/apps/office/gnumeric_portable" rel="external">Gnumeric</a> - 單單是表格
+[Sublime Text](http://pan.baidu.com/share/link?shareid=4012163396&uk=3328224443) - 純編程編輯器
+[Notepad++](https://notepad-plus-plus.org/download/) - 純編程編輯器
+[LibreOffice](http://portableapps.com/apps/office/libreoffice_portable) - 偶爾用表格
+[Gnumeric](http://portableapps.com/apps/office/gnumeric_portable) - 單單是表格
 MicroSoft Office - 2003 已臃腫到無法忍受
-<a href="http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4511#p4511" rel="external">SoftMaker FreeOffice</a> - 小巧，但 doc 格式錯亂嚴重
-<a href="http://bbs.kafan.cn/thread-1821543-1-1.html" rel="external">WPS</a> - 跟 MSO 兼容較好， THUV2-32HH7-6NMHN-PTX7Y-QQCTH
+[SoftMaker FreeOffice](http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4511#p4511) - 小巧，但 doc 格式錯亂嚴重
+[WPS](http://bbs.kafan.cn/thread-1821543-1-1.html) - 跟 MSO 兼容較好， THUV2-32HH7-6NMHN-PTX7Y-QQCTH
 
 ### 文件
-<a href="http://www.softwareok.com/?seite=Freeware/Q-Dir" rel="external">Q-Dir</a> - 稍微增強一下 explorer
-<a href="http://portableappz.blogspot.com/2014/06/xplorer-2504-32-64-bit-multilingual.html" rel="external">xplorer²</a> - 邪僻的 Office 2007 風格工具欄
-<a href="http://portableappz.blogspot.com/2012/08/total-commander-801-32-64-bit.html" rel="external">Totel Commander</a> - 過度輕視 GUI ，有的人會推其 <a href="http://tcup.pl/" rel="external">Ultima Prime</a>
+[Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir) - 稍微增強一下 explorer
+[xplorer²](http://portableappz.blogspot.com/2014/06/xplorer-2504-32-64-bit-multilingual.html) - 邪僻的 Office 2007 風格工具欄
+[Totel Commander](http://portableappz.blogspot.com/2012/08/total-commander-801-32-64-bit.html) - 過度輕視 GUI ，有的人會推其 [Ultima Prime](http://tcup.pl/)
 Directory Opus - GUI 向，笨重
-<a href="http://portableapps.com/apps/utilities/freecommander_portable" rel="external">FreeCommander</a> - 欠流暢
-<a href="http://hg.io" rel="external">SVN</a> - 日漸過氣但其實比較易學的版本控制
+[FreeCommander](http://portableapps.com/apps/utilities/freecommander_portable) - 欠流暢
+[SVN](http://hg.io) - 日漸過氣但其實比較易學的版本控制
 
 ### 多媒體
-<a href="http://portableapps.com/apps/graphics_pictures/gimp_portable" rel="external">GIMP</a> - 圖片編輯器
-<a href="http://www.zdfans.com/3050.html" rel="external">PotPlayer</a> - 日漸臃腫的播放器
+[GIMP](http://portableapps.com/apps/graphics_pictures/gimp_portable) - 圖片編輯器
+[PotPlayer](http://www.zdfans.com/3050.html) - 日漸臃腫的播放器
 PhotoShop - 一般人可以做點身份證複印件什麼的
-<a href="http://portableapps.com/apps/graphics_pictures/irfanview_portable" rel="external">IrfanView</a> - 圖片查看器
-<a href="http://portableapps.com/apps/music_video/mpc-hc-portable" rel="external">MPC-HC</a> - 不連續播放的視頻播放器
-<a href="https://www.bunkus.org/videotools/mkvtoolnix/" rel="external">MKVToolNix</a> - 視頻處理
+[IrfanView](http://portableapps.com/apps/graphics_pictures/irfanview_portable) - 圖片查看器
+[MPC-HC](http://portableapps.com/apps/music_video/mpc-hc-portable) - 不連續播放的視頻播放器
+[MKVToolNix](https://www.bunkus.org/videotools/mkvtoolnix/) - 視頻處理
 
 ### 系統
-<a href="http://www.chuyu.me/thread-510-1-1.html" rel="external">Dism++</a> - 有 GUI 的 DISM
-<a href="https://www.virtualbox.org/" rel="external">VirtualBox</a> - 虛擬機
-<a href="https://chocolatey.org/" rel="external">Chocolatey</a> - 仿 aptget 不成的玩意
+[Dism++](http://www.chuyu.me/thread-510-1-1.html) - 有 GUI 的 DISM
+[VirtualBox](https://www.virtualbox.org/) - 虛擬機
+[Chocolatey](https://chocolatey.org/) - 仿 aptget 不成的玩意
