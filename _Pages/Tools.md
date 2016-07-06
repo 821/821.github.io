@@ -17,7 +17,7 @@ title: 欽定工具集成
 [XX-Net](https://github.com/XX-net/XX-Net) - 加強版 [GoAgent](https://github.com/goagent/goagent)
 [Skype](http://portableapps.com/apps/internet/skype_portable) - 高質量視頻通話
 →☭[TM2009](http://www.portableappc.com/internet/tencent-tm-portable/) - 沒廣告的輕量級 QQ
-→☭<a href="" rel="external">阿里旺旺</a> - 淘寶需要，衹好裝了
+→☭阿里旺旺 - 淘寶需要，衹好裝了
 [ADM](http://www.admflt.com/) - 對付日益猖獗的視頻網站廣告
 
 ## 傳輸
@@ -28,7 +28,6 @@ title: 欽定工具集成
 [SpiderOak](https://spideroak.com/) - 全版本備份，隱私高
 [box.com](https://box.com) - 功能豐富，支持 WebDAV
 →☭[百度網盤](http://www.zdfans.com/674.html) - 空間大，有離線下載
-☭[金山快盤](http://www.kuaipan.cn/) - 空間大
 
 ## 學習
 →[GoldenDict](http://sourceforge.net/projects/goldendict/files/early%20access%20builds/) - 電子辭書工具
@@ -68,6 +67,7 @@ title: 欽定工具集成
 ## 多媒體
 [PDFPatcher](http://pdfpatcher.cnblogs.com/) - PDF 多功能工具箱（中文名現在看好污）
 →[ComicEnhancerPro](http://pan.baidu.com/s/1jGrnmsA) - GUI 型圖像處理
+☭[可牛影像](http://jinnstools.blogspot.com/2011/05/conew-2621006.html) - 製作證件類所需圖片，多年不更新但還可用
 [ImageMagick](http://www.imagemagick.org/) - CLI 型圖像處理
 [XnView](http://portableapps.com/apps/graphics_pictures/xnview_portable) - 多格式圖片查看
 [FreePiano](http://freepiano.tiwb.com/) - 電腦彈鋼琴
@@ -83,7 +83,6 @@ UltraISO - 偶爾燒個 PE 進 USB 來做啓動
 →[Iobit Unlocker](http://portableapps.com/apps/utilities/iobit-unlocker-portable) - 文件解鎖
 [CCleaner](http://www.zdfans.com/716.html) - 系統淸理
 [Gow](https://github.com/bmatzelle/gow/releases) - 輕量 CLI 工具包
-[ConEmu](http://conemu.github.io/) - 美化的 CMD
 [驅動精靈](http://bbs.kafan.cn/thread-1602968-1-1.html) - 檢測驅動安裝情況
 [逍遙安卓](http://www.xyaz.cn/thread-2259-1-1.html) - 重裝系統也繼續用的模擬器，官方綠色
 [微PE工具箱](http://www.wepe.com.cn/download.html) - 方便的 PE
@@ -132,7 +131,7 @@ VIM - 純編程編輯器
 Emacs - 純編程編輯器
 [Sublime Text](http://pan.baidu.com/share/link?shareid=4012163396&uk=3328224443) - 純編程編輯器
 [Notepad++](https://notepad-plus-plus.org/download/) - 純編程編輯器
-[LibreOffice](http://portableapps.com/apps/office/libreoffice_portable) - 偶爾用表格
+[LibreOffice](http://portableapps.com/apps/office/libreoffice_portable) - 跟微軟兼容不好
 [Gnumeric](http://portableapps.com/apps/office/gnumeric_portable) - 單單是表格
 MicroSoft Office - 2003 已臃腫到無法忍受
 [SoftMaker FreeOffice](http://forum.portableappc.com/viewtopic.php?f=4&t=386&p=4511#p4511) - 小巧，但 doc 格式錯亂嚴重
@@ -149,12 +148,14 @@ Directory Opus - GUI 向，笨重
 ### 多媒體
 [GIMP](http://portableapps.com/apps/graphics_pictures/gimp_portable) - 圖片編輯器
 [PotPlayer](http://www.zdfans.com/3050.html) - 日漸臃腫的播放器
-PhotoShop - 一般人可以做點身份證複印件什麼的
+PhotoShop - 一般人可以做點身份證複印件什麼的，電腦內存要夠大
+美圖秀秀 - 又名「毀圖秀秀」，因爲會降畫質
 [IrfanView](http://portableapps.com/apps/graphics_pictures/irfanview_portable) - 圖片查看器
 [MPC-HC](http://portableapps.com/apps/music_video/mpc-hc-portable) - 不連續播放的視頻播放器
 [MKVToolNix](https://www.bunkus.org/videotools/mkvtoolnix/) - 視頻處理
 
 ### 系統
-[Dism++](http://www.chuyu.me/thread-510-1-1.html) - 有 GUI 的 DISM
+[Dism++](http://cdn2.chuyu.eastal.com/Dism++.zip) - 相當於有 GUI 的 DISM
 [VirtualBox](https://www.virtualbox.org/) - 虛擬機
-[Chocolatey](https://chocolatey.org/) - 仿 aptget 不成的玩意
+[ConEmu](http://conemu.github.io/) - 美化的 CMD
+[MSYS2](https://msys2.github.io/) - 在 Windows 上運行很多 Linux 命令，隨着 Ubuntu on Windows 的出現漸漸走向衰敗

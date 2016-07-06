@@ -153,3 +153,13 @@ title: 假名
 </tr>
 </tbody>
 </table>
+
+剩下的是規律化的演變：
+淸塞音加圈：
+ぱパpa ぴピpi ぷプpu ぺペpe ぽポpo
+
+濁音加兩點：
+がガga ぎギgi ぐグgu げゲge ごゴgo
+ざザza じジji ずズzu ぜゼze ぞゾzo
+だダda ぢヂji づヅzu でデde どドdo
+ばバba びビbi ぶブbu べベbe ぼボbo
